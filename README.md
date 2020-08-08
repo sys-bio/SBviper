@@ -1,2 +1,1 @@
-# km_test
-Unit tests for models in systems biology
+# km_test: Testing Kinetics Models In Systems Biology
