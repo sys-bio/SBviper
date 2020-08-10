@@ -4,7 +4,7 @@ from src import km_test
 from tests import helpers
 
 
-class Usage(km_test.TestCase):
+class Example(km_test.StaticTestCase):
 
     def setUp(self):
         self.SBML = helpers.getSimple()
@@ -14,4 +14,11 @@ class Usage(km_test.TestCase):
         Testing whether all of the parameters have set values
         """
         # calls the method from the super class that checks for initialization
-        return super().assertParameterInit(self.SBML)
+        return self.assertParameterInit(self.SBML)
+
+    def testSpeciesInit(self):
+        """
+        Testing whether all of the species referenced in a kinetics law
+        has been initialized
+        """
+        return self.assertSpeciesInit(self.SBML)
