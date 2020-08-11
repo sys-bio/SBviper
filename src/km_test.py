@@ -5,7 +5,8 @@ import unittest
 
 class StaticTestCase(unittest.TestCase):
 
-    def assertParameterInit(self, sbml):
+    @staticmethod
+    def assertParameterInit(sbml):
         """
         Checks whether the parameter values have been initialized
         Parameter values are considered unset if a model does not contain
@@ -20,7 +21,8 @@ class StaticTestCase(unittest.TestCase):
                 return False
         return True
 
-    def assertParameterValNotZero(self, sbml):
+    @staticmethod
+    def assertParameterValNotZero(sbml):
         """
         Checks whether the parameter value is initialized, and is a non-zero number
         :param sbml: a simple_sbml representation of the model
@@ -36,7 +38,8 @@ class StaticTestCase(unittest.TestCase):
                 return False
         return True
 
-    def assertSpeciesInit(self, sbml):
+    @staticmethod
+    def assertSpeciesInit(sbml):
         """
         Checks whether the values of all chemical species referenced in a
         kinetics law has been initialized
