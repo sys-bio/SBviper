@@ -22,3 +22,9 @@ class Example(km_test.StaticTestCase):
         has been initialized
         """
         return self.assertSpeciesInit(self.SBML)
+
+    def testParameterValNotZero(self):
+        """
+        Testing whether the parameters' values are non-zero
+        """
+        return self.assertParameterValNotZero(self.SBML)

@@ -16,7 +16,25 @@ class StaticTestCase(unittest.TestCase):
         """
         # iterate through all of the parameters
         for parameter in sbml.parameters:
-            self.assertTrue(parameter.isSetValue())
+            if not parameter.isSetValue():
+                return False
+        return True
+
+    def assertParameterValNotZero(self, sbml):
+        """
+        Checks whether the parameter value is initialized, and is a non-zero number
+        :param sbml: a simple_sbml representation of the model
+        :param an_id: string representation of the id
+        :return: True iff the value is initialized, and is a non-zero number
+                 False iff the value is initialized, but is set to zero
+                 None if the value is not initialized
+        """
+        for parameter in sbml.parameters:
+            if not parameter.isSetValue():
+                return None
+            elif parameter.getValue() == 0:
+                return False
+        return True
 
     def assertSpeciesInit(self, sbml):
         """
@@ -35,4 +53,6 @@ class StaticTestCase(unittest.TestCase):
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
-                self.assertTrue(species.isSetInitialConcentration())
+                if not species.isSetInitialConcentration():
+                    return False
+        return True
