@@ -100,3 +100,6 @@ ENV/
 .ropeproject
 
 .DS_Store
+
+# for users of jetbrains IDEs
+.idea

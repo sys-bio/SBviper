@@ -1,0 +1,46 @@
+@startuml
+
+class ClassDiagramHere
+
+note left of ClassDiagramHere
+    This is less well defined at the moment.
+    I suspect that there will be elements
+    that are similar to each of the three subpackages.
+    These should be factored out and put into a
+    set of superclasses to reduce code duplication.
+    Maybe the superclasses can go in the top level
+    km-test package (though unsure what is best).
+    Perhaps a set of abstract base classes that
+    each of the packages can inherit from?
+
+    Think about which design patterns will be
+    effective in which situations. If we can use
+    existing and known patterns then we reduce maintainability
+    costs.
+
+    ----------------------
+    Other notes for steven
+    - use useful commit messages and commit often.
+        - Smaller commits are easier when (if) you need to backtrack.
+        - For instance, I finish a class and its tests, now is a good time to commit.
+    - Use gitflow style as a guideline for good version control practices.
+        - work on develop branch,
+        - merge into master when you have something stable.
+            - Technically your supposed to only merge into master for release.
+              But personally I find it useful to do so more often than that.
+    - Use test driven development
+        - you don't want to have to retroactively
+            write tests.
+        - Write a method/function/class and the test for
+          it at the same time (I sometimes do it before).
+    - Stick to Python styling guidelines.
+        - i.e. snake case not camel case
+            https://www.python.org/dev/peps/pep-0008/
+        - We should stick python conventions whereever possible.
+
+
+
+end note
+
+
+@enduml
