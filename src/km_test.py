@@ -56,6 +56,16 @@ class StaticTestCase(unittest.TestCase):
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
-                if not species.isSetInitialConcentration():
+                if not species.isSetInitialConcentration():  # initial amount
                     return False
         return True
+
+    # kinetics expression
+    # A + B -> C; k1*A*B, mass action
+    # A + B + C -> D; k1*A*B, counter
+    # A + B -> C; k1*C, c starts non-zero, or another action in place
+    # symbols -> also reactants in the reaction and all reactants in the reaction are symbols
+    # could be exceptions
+    # warnings and failures
+
+    # networkx

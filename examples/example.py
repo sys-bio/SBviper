@@ -3,6 +3,9 @@
 from src import km_test
 from tests import helpers
 
+"""
+km_test_runner my.xml —basic_static_tests
+"""
 
 class Example(km_test.StaticTestCase):
 
