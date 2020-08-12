@@ -1,0 +1,43 @@
+@startuml
+package km_test {
+    package km_static
+    package km_validation
+    package km_verification
+}
+
+note left of km_test {
+    km-test has 3 subpackages.
+    We have choices regarding
+    what should go into the
+    parent package itself
+    and its difficult to foresee
+    exactly what is best. This will
+    become clearer as other functionality
+    becomes developed.
+}
+
+note right of km_static {
+    A static analyzer for sbml model.
+    It parses the model and uses libsbml
+    for conducting a bunch of checks that
+    can be conducted. I suggest taking a look
+    at some existing Python static analyzers
+    to see how they structured their work.
+
+}
+
+note bottom of km_validate {
+    These tests are user defined
+    for a specific model. Like
+    species A should be greater
+    than species B at time unit 10.
+    We have:
+
+}
+
+note top of km_verify {
+    These are tests that require simulation
+    and are valid for every model.
+
+}
+@enduml
