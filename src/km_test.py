@@ -1,9 +1,49 @@
-"""Test case implementation"""
+"""
+Static tests for kinetic models
+Arguments:
+    path to an XML file
+    option [Basics, ...]
+"""
 
 import unittest
+import sys
+import src.util as util
+from src.simple_sbml.simple_sbml import SimpleSBML
 
 
 class StaticTestCase(unittest.TestCase):
+
+    @classmethod
+    def init(cls, path_to_xml, option):
+        """
+        Initializes a simple_sbml object for the test and run
+        categories of tests accordingly
+        :param path_to_xml: the path to a XML representation of the model
+        :param option: test categories to run
+                       - [Basic]: basic static tests for the model
+        """
+        abs_path_to_xml = util.getABSPath(path_to_xml)
+        cls.sbml = SimpleSBML(abs_path_to_xml)
+        if option == "Basic":
+            cls.runBasicTests()
+        else:
+            cls.Usage()
+
+    @classmethod
+    def Usage(cls):
+        """
+        Prints the usage and exit
+        """
+        print("usage: km_test.py path_to_XML [option]\n")
+        print("[option]: Basic\n")
+        exit(1)
+
+    @classmethod
+    def runBasicTests(cls):
+        """
+        runs the basic tests and print out errors accordingly
+        :return:
+        """
 
     @staticmethod
     def assertParameterInit(sbml):
@@ -56,7 +96,7 @@ class StaticTestCase(unittest.TestCase):
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
-                if not species.isSetInitialConcentration():  # initial amount
+                if not species.isSetInitialConcentration() and not species.isSetInitialAmount():  # initial amount
                     return False
         return True
 
@@ -69,3 +109,13 @@ class StaticTestCase(unittest.TestCase):
     # warnings and failures
 
     # networkx
+
+
+if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        # set the option to "basic" as default
+        StaticTestCase.init(sys.argv[1], "Basic")
+    elif len(sys.argv) == 3:
+        StaticTestCase.init(sys.argv[1], sys.argv[2])
+    else:
+        StaticTestCase.Usage()
