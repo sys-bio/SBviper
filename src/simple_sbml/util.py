@@ -1,6 +1,6 @@
 """Commonly used utilities."""
 
-from src.simple_sbml import constants as cn
+from simple_sbml import constants as cn
 
 import os
 import zipfile

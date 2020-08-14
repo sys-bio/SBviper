@@ -7,9 +7,8 @@ Arguments:
 
 import unittest
 import sys
-from .simple_sbml.simple_sbml import SimpleSBML
-from .util import getABSPath
-
+from simple_sbml.simple_sbml import SimpleSBML
+from util import getABSPath
 
 def printHeader(header):
     """

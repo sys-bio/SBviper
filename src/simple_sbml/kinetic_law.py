@@ -1,9 +1,9 @@
 '''Provides Information on SBML Kinetics Laws'''
 
 
-from src.simple_sbml import constants as cn
-from src.simple_sbml import util
-from src.simple_sbml import exceptions
+from simple_sbml import constants as cn
+from simple_sbml import util
+from simple_sbml import exceptions
 
 import collections
 import numpy as np
