@@ -15,9 +15,9 @@ def printHeader(header):
     Prints the header in a somewhat non-ungly format
     :param header: the header we're printing out
     """
-    print("==================================================\n")
+    print("==================================================")
     print(header)
-    print("==================================================\n")
+    print("==================================================")
 
 
 class StaticTestCase(unittest.TestCase):
@@ -44,8 +44,8 @@ class StaticTestCase(unittest.TestCase):
         """
         Prints the usage and exit
         """
-        print("usage: km_test.py path_to_XML [option]\n")
-        print("[option]: Basic\n")
+        print("usage: km_test.py path_to_XML [option]")
+        print("[option]: Basic")
         exit(1)
 
     @classmethod
@@ -54,7 +54,7 @@ class StaticTestCase(unittest.TestCase):
         runs the basic tests and print out errors accordingly
         :return:
         """
-        cls.assertSpeciesInit(cls.sbml)
+        cls.assertParameterInit(cls.sbml)
 
     @staticmethod
     def assertParameterInit(sbml):
