@@ -7,11 +7,22 @@ Arguments:
 
 import unittest
 import sys
-import src.util as util
-from src.simple_sbml.simple_sbml import SimpleSBML
+from .simple_sbml.simple_sbml import SimpleSBML
+from .util import getABSPath
+
+
+def printHeader(header):
+    """
+    Prints the header in a somewhat non-ungly format
+    :param header: the header we're printing out
+    """
+    print("==================================================\n")
+    print(header)
+    print("==================================================\n")
 
 
 class StaticTestCase(unittest.TestCase):
+    sbml = None
 
     @classmethod
     def init(cls, path_to_xml, option):
@@ -22,7 +33,7 @@ class StaticTestCase(unittest.TestCase):
         :param option: test categories to run
                        - [Basic]: basic static tests for the model
         """
-        abs_path_to_xml = util.getABSPath(path_to_xml)
+        abs_path_to_xml = getABSPath(path_to_xml)
         cls.sbml = SimpleSBML(abs_path_to_xml)
         if option == "Basic":
             cls.runBasicTests()
@@ -44,6 +55,7 @@ class StaticTestCase(unittest.TestCase):
         runs the basic tests and print out errors accordingly
         :return:
         """
+        cls.assertSpeciesInit(cls.sbml)
 
     @staticmethod
     def assertParameterInit(sbml):
@@ -53,13 +65,15 @@ class StaticTestCase(unittest.TestCase):
         a setting for the "value" attribute of a parameter, nor does it has
         a default value
         :param sbml: a simple_sbml representation of the model
-        :return: True iff all of the parameters have been initialized
         """
         # iterate through all of the parameters
+        printHeader("PARAMETER INITIALIZATION")
+        error = 0
         for parameter in sbml.parameters:
             if not parameter.isSetValue():
-                return False
-        return True
+                error += 1
+                print(parameter.getName() + " is uninitialized!\n")
+        print("TOTAL ERROR FOUND: " + str(error) + "\n")
 
     @staticmethod
     def assertParameterValNotZero(sbml):
