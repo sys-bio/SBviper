@@ -36,6 +36,11 @@ def Usage():
 
 
 def speciesRefToSpecies(reactants):
+    """
+    Converts a list of species references to string representation of species
+    :param reactants: list of species references
+    :return: string representation of the species
+    """
     res = []
     for reactant in reactants:
         res.append(reactant.species)
@@ -156,10 +161,11 @@ class StaticTestCase(unittest.TestCase):
         error = 0
         reactions = self.sbml.reactions
         for reaction in reactions:
-            symbols = reaction.kinetic_law.symbols  # list of str
-            reactants = speciesRefToSpecies(reaction.reactants)  # list of speciesReference -> list of str
+            kn_symbols = set(reaction.kinetic_law.symbols)  # set of str
+            reactants = set(speciesRefToSpecies(reaction.reactants))  # list of speciesReference -> list of str -> set
             react = None
-            for symbol in symbols:
+            # check whether all species references in the kinetics law is a reactant
+            for symbol in kn_symbols:
                 species = self.sbml.getSpecies(symbol)
                 if species is None:  # is not a species
                     continue
@@ -167,8 +173,9 @@ class StaticTestCase(unittest.TestCase):
                     error += 1
                     react = reaction
                     print("WARNING: " + species.getId() + " is found in the kinetics law, but is not a reactant")
+            # check whether all reactants are references in kinetics law
             for reactant in reactants:
-                if reactant not in symbols:
+                if reactant not in kn_symbols:
                     error += 1
                     react = reaction
                     print("WARNING: " + reactant.getId() + " is found as a reactant, but not referenced in the "
@@ -177,14 +184,5 @@ class StaticTestCase(unittest.TestCase):
                 missing.append(react)
         printFooter("WARNINGS FOUND: " + str(error))
         return missing
-
-
-    # kinetics expression
-    # A + B -> C; k1*A*B, mass action
-    # A + B + C -> D; k1*A*B, counter
-    # A + B -> C; k1*C, c starts non-zero, or another action in place
-    # symbols -> also reactants in the reaction and all reactants in the reaction are symbols
-    # could be exceptions
-    # warnings and failures
 
     # networkx
