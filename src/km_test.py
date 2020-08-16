@@ -1,14 +1,12 @@
 """
 Static tests for kinetic models
-Arguments:
-    path to an XML file
-    option [Basics, ...]
 """
 
 import unittest
 import sys
 from simple_sbml.simple_sbml import SimpleSBML
 from util import getABSPath
+
 
 def printHeader(header):
     """
@@ -20,11 +18,18 @@ def printHeader(header):
     print("==================================================")
 
 
-class StaticTestCase(unittest.TestCase):
-    sbml = None
+def Usage():
+    """
+    Prints the usage and exit
+    """
+    print("usage: km_test.py path_to_XML [option]")
+    print("[option]: Basic")
+    exit(1)
 
-    @classmethod
-    def init(cls, path_to_xml, option):
+
+class StaticTestCase(unittest.TestCase):
+
+    def __init__(self, path_to_xml, option):
         """
         Initializes a simple_sbml object for the test and run
         categories of tests accordingly
@@ -32,32 +37,22 @@ class StaticTestCase(unittest.TestCase):
         :param option: test categories to run
                        - [Basic]: basic static tests for the model
         """
+        super().__init__()
         abs_path_to_xml = getABSPath(path_to_xml)
-        cls.sbml = SimpleSBML(abs_path_to_xml)
+        self.sbml = SimpleSBML(abs_path_to_xml)
         if option == "Basic":
-            cls.runBasicTests()
+            self.runBasicTests()
         else:
-            cls.Usage()
+            Usage()
 
-    @classmethod
-    def Usage(cls):
-        """
-        Prints the usage and exit
-        """
-        print("usage: km_test.py path_to_XML [option]")
-        print("[option]: Basic")
-        exit(1)
-
-    @classmethod
-    def runBasicTests(cls):
+    def runBasicTests(self):
         """
         runs the basic tests and print out errors accordingly
         :return:
         """
-        cls.assertParameterInit(cls.sbml)
+        self.assertParameterInit()
 
-    @staticmethod
-    def assertParameterInit(sbml):
+    def assertParameterInit(self):
         """
         Checks whether the parameter values have been initialized
         Parameter values are considered unset if a model does not contain
@@ -68,14 +63,13 @@ class StaticTestCase(unittest.TestCase):
         # iterate through all of the parameters
         printHeader("PARAMETER INITIALIZATION")
         error = 0
-        for parameter in sbml.parameters:
+        for parameter in self.sbml.parameters:
             if not parameter.isSetValue():
                 error += 1
                 print(parameter.getName() + " is uninitialized!\n")
         print("TOTAL ERROR FOUND: " + str(error) + "\n")
 
-    @staticmethod
-    def assertParameterValNotZero(sbml):
+    def assertParameterValNotZero(self):
         """
         Checks whether the parameter value is initialized, and is a non-zero number
         :param sbml: a simple_sbml representation of the model
@@ -84,15 +78,14 @@ class StaticTestCase(unittest.TestCase):
                  False iff the value is initialized, but is set to zero
                  None if the value is not initialized
         """
-        for parameter in sbml.parameters:
+        for parameter in self.sbml.parameters:
             if not parameter.isSetValue():
                 return None
             elif parameter.getValue() == 0:
                 return False
         return True
 
-    @staticmethod
-    def assertSpeciesInit(sbml):
+    def assertSpeciesInit(self):
         """
         Checks whether the values of all chemical species referenced in a
         kinetics law has been initialized
@@ -100,12 +93,12 @@ class StaticTestCase(unittest.TestCase):
         :return: True iff all of the species referenced in the kinetics law
                  has been initialized
         """
-        reactions = sbml.reactions  # get all of the reactions involved
+        reactions = self.sbml.reactions  # get all of the reactions involved
         for reaction in reactions:
             # get all of the parameters' and species' names involved in the reaction
             symbols = reaction.kinetic_law._getSymbols()
             for symbol in symbols:
-                species = sbml.getSpecies(symbol)
+                species = self.sbml.getSpecies(symbol)
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
@@ -122,13 +115,3 @@ class StaticTestCase(unittest.TestCase):
     # warnings and failures
 
     # networkx
-
-
-if __name__ == "__main__":
-    if len(sys.argv) == 2:
-        # set the option to "basic" as default
-        StaticTestCase.init(sys.argv[1], "Basic")
-    elif len(sys.argv) == 3:
-        StaticTestCase.init(sys.argv[1], sys.argv[2])
-    else:
-        StaticTestCase.Usage()
