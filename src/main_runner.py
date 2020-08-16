@@ -1,5 +1,8 @@
 """
 Runner for km_test
+Arguments:
+    path to an XML file
+    option [Basics, ...]
 """
 
 import sys

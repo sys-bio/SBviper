@@ -15,6 +15,13 @@ def printHeader(header):
     """
     print("==================================================")
     print(header)
+    print("--------------------------------------------------")
+
+
+def printFooter():
+    """
+    Prints the footer
+    """
     print("==================================================")
 
 
@@ -66,8 +73,10 @@ class StaticTestCase(unittest.TestCase):
         for parameter in self.sbml.parameters:
             if not parameter.isSetValue():
                 error += 1
-                print(parameter.getName() + " is uninitialized!\n")
-        print("TOTAL ERROR FOUND: " + str(error) + "\n")
+                # TODO: FIx parameter.getName()
+                print("ERROR: " + parameter.getName() + " is uninitialized!")
+        print("TOTAL ERROR FOUND: " + str(error))
+        printFooter()
 
     def assertParameterValNotZero(self):
         """
