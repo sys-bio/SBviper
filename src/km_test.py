@@ -18,10 +18,11 @@ def printHeader(header):
     print("--------------------------------------------------")
 
 
-def printFooter():
+def printFooter(msg):
     """
     Prints the footer
     """
+    print(msg)
     print("==================================================\n")
 
 
@@ -32,6 +33,13 @@ def Usage():
     print("usage: km_test.py path_to_XML [option]")
     print("[option]: Basic")
     exit(1)
+
+
+def speciesRefToSpecies(reactants):
+    res = []
+    for reactant in reactants:
+        res.append(reactant.species)
+    return res
 
 
 class StaticTestCase(unittest.TestCase):
@@ -58,6 +66,7 @@ class StaticTestCase(unittest.TestCase):
         """
         self.basicParamChecks()
         self.basicSpeciesChecks()
+        self.basicReactionChecks()
 
     def basicParamChecks(self):
         self.assertParameterInit()
@@ -65,6 +74,9 @@ class StaticTestCase(unittest.TestCase):
 
     def basicSpeciesChecks(self):
         self.assertSpeciesInit()
+
+    def basicReactionChecks(self):
+        self.assertReactantsInKinetics()
 
     def assertParameterInit(self):
         """
@@ -85,8 +97,7 @@ class StaticTestCase(unittest.TestCase):
                 error += 1
                 missing.append(parameter)
                 print("ERROR: " + parameter.getId() + " is uninitialized!")
-        print("ERRORS FOUND: " + str(error))
-        printFooter()
+        printFooter("ERRORS FOUND: " + str(error))
         return missing
 
     def assertParameterValNotZero(self):
@@ -105,8 +116,7 @@ class StaticTestCase(unittest.TestCase):
                 error += 1
                 missing.append(parameter)
                 print("WARNING: " + parameter.getId() + " is set to ZERO!")
-        print("WARNINGS FOUND: " + str(error))
-        printFooter()
+        printFooter("WARNINGS FOUND: " + str(error))
         return missing
 
     def assertSpeciesInit(self):
@@ -132,9 +142,42 @@ class StaticTestCase(unittest.TestCase):
                     error += 1
                     missing.append(species)
                     print("WARNING: " + species.getId() + " is uninitialized")
-        print("WARNINGS FOUND: " + str(error))
-        printFooter()
+        printFooter("WARNINGS FOUND: " + str(error))
         return missing
+
+    def assertReactantsInKinetics(self):
+        """
+        Checks whether all reactant species are referenced in the kinetics law,
+        and the kinetics law only references reactant species
+        :return: a list of reaction that does not satisfy the above condition
+        """
+        printHeader("REACTANTS IN KINETICS LAW")
+        missing = []
+        error = 0
+        reactions = self.sbml.reactions
+        for reaction in reactions:
+            symbols = reaction.kinetic_law.symbols  # list of str
+            reactants = speciesRefToSpecies(reaction.reactants)  # list of speciesReference -> list of str
+            react = None
+            for symbol in symbols:
+                species = self.sbml.getSpecies(symbol)
+                if species is None:  # is not a species
+                    continue
+                if symbol not in reactants:
+                    error += 1
+                    react = reaction
+                    print("WARNING: " + species.getId() + " is found in the kinetics law, but is not a reactant")
+            for reactant in reactants:
+                if reactant not in symbols:
+                    error += 1
+                    react = reaction
+                    print("WARNING: " + reactant.getId() + " is found as a reactant, but not referenced in the "
+                                                           "Kinetics law")
+            if react is not None:
+                missing.append(react)
+        printFooter("WARNINGS FOUND: " + str(error))
+        return missing
+
 
     # kinetics expression
     # A + B -> C; k1*A*B, mass action
