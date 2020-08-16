@@ -185,4 +185,6 @@ class StaticTestCase(unittest.TestCase):
         printFooter("WARNINGS FOUND: " + str(error))
         return missing
 
-    # networkx
+    def reachAllSpecies(self):
+        # TODO: implement checking for reaching all species
+        pass
