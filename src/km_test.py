@@ -22,7 +22,7 @@ def printFooter():
     """
     Prints the footer
     """
-    print("==================================================")
+    print("==================================================\n")
 
 
 def Usage():
@@ -55,9 +55,12 @@ class StaticTestCase(unittest.TestCase):
     def runBasicTests(self):
         """
         runs the basic tests and print out errors accordingly
-        :return:
         """
+        self.paramChecks()
+
+    def paramChecks(self):
         self.assertParameterInit()
+        self.assertParameterValNotZero()
 
     def assertParameterInit(self):
         """
@@ -66,33 +69,41 @@ class StaticTestCase(unittest.TestCase):
         a setting for the "value" attribute of a parameter, nor does it has
         a default value
         :param sbml: a simple_sbml representation of the model
+        :return a list of uninitialized parameter objects
         """
         # iterate through all of the parameters
         printHeader("PARAMETER INITIALIZATION")
+        missing = []
         error = 0
         for parameter in self.sbml.parameters:
+            # self.assertTrue(parameter.isSetValue, "ERROR: " + parameter.getId() + " is uninitialized!")
             if not parameter.isSetValue():
                 error += 1
-                # TODO: FIx parameter.getName()
-                print("ERROR: " + parameter.getName() + " is uninitialized!")
-        print("TOTAL ERROR FOUND: " + str(error))
+                missing.append(parameter)
+                print("ERROR: " + parameter.getId() + " is uninitialized!")
+        print("ERROR FOUND: " + str(error))
         printFooter()
+        return missing
 
     def assertParameterValNotZero(self):
         """
-        Checks whether the parameter value is initialized, and is a non-zero number
+        Checks whether the initialized parameter value is a non-zero number
+        runs after checking parameter initialization
         :param sbml: a simple_sbml representation of the model
         :param an_id: string representation of the id
-        :return: True iff the value is initialized, and is a non-zero number
-                 False iff the value is initialized, but is set to zero
-                 None if the value is not initialized
+        :return a list of parameter objects with value zero
         """
+        printHeader("PARAMETER VALUE NOT ZERO")
+        missing = []
+        error = 0
         for parameter in self.sbml.parameters:
-            if not parameter.isSetValue():
-                return None
-            elif parameter.getValue() == 0:
-                return False
-        return True
+            if parameter.isSetValue() and parameter.getValue() == 0:
+                error += 1
+                missing.append(parameter)
+                print("WARNING: " + parameter.getId() + " is set to ZERO!")
+        print("WARNING FOUND: " + str(error))
+        printFooter()
+        return missing
 
     def assertSpeciesInit(self):
         """
