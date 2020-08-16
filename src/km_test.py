@@ -56,11 +56,15 @@ class StaticTestCase(unittest.TestCase):
         """
         runs the basic tests and print out errors accordingly
         """
-        self.paramChecks()
+        self.basicParamChecks()
+        self.basicSpeciesChecks()
 
-    def paramChecks(self):
+    def basicParamChecks(self):
         self.assertParameterInit()
         self.assertParameterValNotZero()
+
+    def basicSpeciesChecks(self):
+        self.assertSpeciesInit()
 
     def assertParameterInit(self):
         """
@@ -81,7 +85,7 @@ class StaticTestCase(unittest.TestCase):
                 error += 1
                 missing.append(parameter)
                 print("ERROR: " + parameter.getId() + " is uninitialized!")
-        print("ERROR FOUND: " + str(error))
+        print("ERRORS FOUND: " + str(error))
         printFooter()
         return missing
 
@@ -101,7 +105,7 @@ class StaticTestCase(unittest.TestCase):
                 error += 1
                 missing.append(parameter)
                 print("WARNING: " + parameter.getId() + " is set to ZERO!")
-        print("WARNING FOUND: " + str(error))
+        print("WARNINGS FOUND: " + str(error))
         printFooter()
         return missing
 
@@ -110,9 +114,11 @@ class StaticTestCase(unittest.TestCase):
         Checks whether the values of all chemical species referenced in a
         kinetics law has been initialized
         :param sbml: a simple_sbml representation of the model
-        :return: True iff all of the species referenced in the kinetics law
-                 has been initialized
+        :return: a list of species objects with uninitialized values in kinetics law
         """
+        printHeader("SPECIES INITIALIZATION")
+        missing = []
+        error = 0
         reactions = self.sbml.reactions  # get all of the reactions involved
         for reaction in reactions:
             # get all of the parameters' and species' names involved in the reaction
@@ -123,8 +129,12 @@ class StaticTestCase(unittest.TestCase):
                 if species is None:
                     continue
                 if not species.isSetInitialConcentration() and not species.isSetInitialAmount():  # initial amount
-                    return False
-        return True
+                    error += 1
+                    missing.append(species)
+                    print("WARNING: " + species.getId() + " is uninitialized")
+        print("WARNINGS FOUND: " + str(error))
+        printFooter()
+        return missing
 
     # kinetics expression
     # A + B -> C; k1*A*B, mass action
