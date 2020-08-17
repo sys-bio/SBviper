@@ -2,10 +2,18 @@
 Static tests for kinetic models
 """
 
-import unittest
+"""
+Q:
+1) output printing, HTMLTestRunner
+2) return value
+"""
+
 import sys
+import unittest
+import networkx as nx
 from simple_sbml.simple_sbml import SimpleSBML
 from util import getABSPath
+import matplotlib.pyplot as plt
 
 
 def printHeader(header):
@@ -35,16 +43,43 @@ def Usage():
     exit(1)
 
 
-def speciesRefToSpecies(reactants):
+def speciesRefToSpeciesStr(srs):
     """
-    Converts a list of species references to string representation of species
+    Converts a list of species references to a list of string representation of species
     :param reactants: list of species references
-    :return: string representation of the species
+    :return: list of string representation of the species
     """
     res = []
-    for reactant in reactants:
+    for reactant in srs:
         res.append(reactant.species)
     return res
+
+
+def speciesToSpeciesStr(species):
+    """
+    :return: a list of species in string representation
+    """
+    res = []
+    for specie in species:
+        res.append(specie.getId())
+    return res
+
+
+def speciesRefToConcatenatedStr(srs):
+    """
+    given a list of species reference, concatenate the list to a string representation separated by "-"
+    :param list: target list of species reference
+    :return: concatenated string
+    """
+    if len(srs) == 0:
+        return ""
+    elif len(srs) == 1:
+        return srs[0].species
+    else:
+        res = srs[0].species
+        for i in range(1, len(srs)):
+            res += "-" + srs[i].species
+        return res
 
 
 class StaticTestCase(unittest.TestCase):
@@ -82,6 +117,7 @@ class StaticTestCase(unittest.TestCase):
 
     def basicReactionChecks(self):
         self.assertReactantsInKinetics()
+        self.reachAllSpecies()
 
     def assertParameterInit(self):
         """
@@ -159,10 +195,10 @@ class StaticTestCase(unittest.TestCase):
         printHeader("REACTANTS IN KINETICS LAW")
         missing = []
         error = 0
-        reactions = self.sbml.reactions
-        for reaction in reactions:
+        for reaction in self.sbml.reactions:
             kn_symbols = set(reaction.kinetic_law.symbols)  # set of str
-            reactants = set(speciesRefToSpecies(reaction.reactants))  # list of speciesReference -> list of str -> set
+            reactants = set(
+                speciesRefToSpeciesStr(reaction.reactants))  # list of speciesReference -> list of str -> set
             react = None
             # check whether all species references in the kinetics law is a reactant
             for symbol in kn_symbols:
@@ -186,5 +222,34 @@ class StaticTestCase(unittest.TestCase):
         return missing
 
     def reachAllSpecies(self):
-        # TODO: implement checking for reaching all species
-        pass
+        """
+        Checks whether all species are reachable through the chain of reactions
+        :return: a list of species objects that are unreachable
+        """
+        graph = nx.Graph()
+        for reaction in self.sbml.reactions:
+            reactants = reaction.reactants  # reactants of the reaction
+            products = reaction.products  # products of the reaction
+            reactants_str = speciesRefToConcatenatedStr(reactants)
+            products_str = speciesRefToConcatenatedStr(products)
+            # add the nodes and edges to the graph
+            if len(reactants) > 0 and len(products) > 0:
+                if not graph.__contains__(reactants_str):
+                    graph.add_node(reactants_str)
+                if not graph.__contains__(products_str):
+                    graph.add_node(products_str)
+                graph.add_edge(reactants_str, products_str)
+            elif len(reactants) > 0 and not graph.__contains__(reactants_str) > 0:
+                # if the list of reactants is not empty, and the node has not yet been added
+                graph.add_node(reactants_str)
+            elif len(products) > 0 and not graph.__contains__(products_str) > 0:
+                # if the list of products is not empty, and the node has not yet been added
+                graph.add_node(products_str)
+
+        options = {
+        'node_color': 'black',
+        'node_size': 5,
+        'width': 1,
+        }
+        nx.draw(graph, with_labels=True, **options)
+        plt.show()
