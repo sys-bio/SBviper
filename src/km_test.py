@@ -224,6 +224,8 @@ class StaticTestCase(unittest.TestCase):
     def reachAllSpecies(self):
         """
         Checks whether all species are reachable through the chain of reactions
+        How do we know if a node is the entry to a chain of reactions?
+
         :return: a list of species objects that are unreachable
         """
         graph = nx.Graph()
@@ -246,6 +248,7 @@ class StaticTestCase(unittest.TestCase):
                 # if the list of products is not empty, and the node has not yet been added
                 graph.add_node(products_str)
 
+        # temp, drawing the graph to figure out the relationships
         options = {
         'node_color': 'black',
         'node_size': 5,
