@@ -141,7 +141,7 @@ class StaticTestCase(unittest.TestCase):
         printFooter("ERRORS FOUND: " + str(error))
         return missing
 
-    def assertParameterValNotZero(self):
+    def assertParameterValNotZero(self):  # change to positive
         """
         Checks whether the initialized parameter value is a non-zero number
         runs after checking parameter initialization
@@ -186,7 +186,7 @@ class StaticTestCase(unittest.TestCase):
         printFooter("WARNINGS FOUND: " + str(error))
         return missing
 
-    def assertReactantsInKinetics(self):
+    def assertReactantsInKinetics(self):  # print entire reaction
         """
         Checks whether all reactant species are referenced in the kinetics law,
         and the kinetics law only references reactant species
