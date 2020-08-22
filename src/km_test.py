@@ -11,25 +11,25 @@ from util import get_abs_path
 import matplotlib.pyplot as plt
 
 
-def printHeader(header):
+def print_header(header):
     """
     Prints the header in a somewhat non-ungly format
     :param header: the header we're printing out
     """
-    print("==================================================")
+    print("==========================================================")
     print(header)
-    print("--------------------------------------------------")
+    print("----------------------------------------------------------")
 
 
-def printFooter(msg):
+def print_footer(msg):
     """
     Prints the footer
     """
     print(msg)
-    print("==================================================\n")
+    print("==========================================================\n")
 
 
-def speciesRefToSpeciesStr(srs):
+def speciesref_to_speciesstr(srs):
     """
     Converts a list of species references to a list of string representation of species
     :param srs: list of species references
@@ -41,7 +41,7 @@ def speciesRefToSpeciesStr(srs):
     return res
 
 
-def speciesToSpeciesStr(species):
+def species_to_speciesstr(species):
     """
     :return: a list of species in string representation
     """
@@ -51,7 +51,7 @@ def speciesToSpeciesStr(species):
     return res
 
 
-def speciesRefToConcatenatedStr(srs):
+def speciesref_to_concatenatedstr(srs):
     """
     given a list of species reference, concatenate the list to a string representation separated by "-"
     :param list: target list of species reference
@@ -81,26 +81,26 @@ class StaticTestCase(unittest.TestCase):
         super().__init__()
         self.sbml = sbml
 
-    def runBasicTests(self):
+    def run_basic_tests(self):
         """
         runs the basic tests and print out errors accordingly
         """
-        self.basicParamChecks()
-        self.basicSpeciesChecks()
-        self.basicReactionChecks()
+        self.basic_param_checks()
+        self.basic_species_checks()
+        self.basic_reaction_checks()
 
-    def basicParamChecks(self):
-        self.assertParameterInit()
-        self.assertParameterValNotZero()
+    def basic_param_checks(self):
+        self.assert_parameter_init()
+        self.assert_parameter_val_not_zero()
 
-    def basicSpeciesChecks(self):
-        self.assertSpeciesInit()
+    def basic_species_checks(self):
+        self.assert_species_init()
 
-    def basicReactionChecks(self):
-        self.assertReactantsInKinetics()
-        self.reachAllSpecies()
+    def basic_reaction_checks(self):
+        self.assert_reactants_in_kinetics()
+        self.reach_all_species()
 
-    def assertParameterInit(self):
+    def assert_parameter_init(self):
         """
         Checks whether the parameter values have been initialized
         Parameter values are considered unset if a model does not contain
@@ -110,7 +110,7 @@ class StaticTestCase(unittest.TestCase):
         :return a list of uninitialized parameter objects
         """
         # iterate through all of the parameters
-        printHeader("PARAMETER INITIALIZATION")
+        print_header("All parameters should be initialized")
         missing = []
         error = 0
         for parameter in self.sbml.parameters:
@@ -118,11 +118,11 @@ class StaticTestCase(unittest.TestCase):
             if not parameter.isSetValue():
                 error += 1
                 missing.append(parameter)
-                print("ERROR: " + parameter.getId() + " is uninitialized!")
-        printFooter("ERRORS FOUND: " + str(error))
+                print("ERROR: " + parameter.getId() + " is UNINITIALIZED!")
+        print_footer("ERRORS FOUND: " + str(error))
         return missing
 
-    def assertParameterValNotZero(self):  # change to positive
+    def assert_parameter_val_not_zero(self):
         """
         Checks whether the initialized parameter value is a non-zero number
         runs after checking parameter initialization
@@ -130,7 +130,7 @@ class StaticTestCase(unittest.TestCase):
         :param an_id: string representation of the id
         :return a list of parameter objects with value zero
         """
-        printHeader("PARAMETER VALUE NOT ZERO")
+        print_header("Parameter value should not be set to ZERO")
         missing = []
         error = 0
         for parameter in self.sbml.parameters:
@@ -138,17 +138,17 @@ class StaticTestCase(unittest.TestCase):
                 error += 1
                 missing.append(parameter)
                 print("WARNING: " + parameter.getId() + " is set to ZERO!")
-        printFooter("WARNINGS FOUND: " + str(error))
+        print_footer("WARNINGS FOUND: " + str(error))
         return missing
 
-    def assertSpeciesInit(self):
+    def assert_species_init(self):
         """
         Checks whether the values of all chemical species referenced in a
         kinetics law has been initialized
         :param sbml: a simple_sbml representation of the model
         :return: a list of species objects with uninitialized values in kinetics law
         """
-        printHeader("SPECIES INITIALIZATION")
+        print_header("Species concentration / initial amount should be initialized")
         missing = []
         error = 0
         reactions = self.sbml.reactions  # get all of the reactions involved
@@ -163,23 +163,24 @@ class StaticTestCase(unittest.TestCase):
                 if not species.isSetInitialConcentration() and not species.isSetInitialAmount():  # initial amount
                     error += 1
                     missing.append(species)
-                    print("WARNING: " + species.getId() + " is uninitialized")
-        printFooter("WARNINGS FOUND: " + str(error))
+                    print("WARNING: " + species.getId() + " is UNINITIALIZED")
+        print_footer("WARNINGS FOUND: " + str(error))
         return missing
 
-    def assertReactantsInKinetics(self):  # print entire reaction
+    def assert_reactants_in_kinetics(self):
         """
         Checks whether all reactant species are referenced in the kinetics law,
         and the kinetics law only references reactant species
         :return: a list of reaction that does not satisfy the above condition
         """
-        printHeader("REACTANTS IN KINETICS LAW")
+        print_header("All reactants should be in the kinetics law, \nand all species references in the kinetics law \n"
+                    "should be reactants")  # wtf is this
         missing = []
         error = 0
         for reaction in self.sbml.reactions:
             kn_symbols = set(reaction.kinetic_law.symbols)  # set of str
             reactants = set(
-                speciesRefToSpeciesStr(reaction.reactants))  # list of speciesReference -> list of str -> set
+                speciesref_to_speciesstr(reaction.reactants))  # list of speciesReference -> list of str -> set
             react = None
             # check whether all species references in the kinetics law is a reactant
             for symbol in kn_symbols:
@@ -189,20 +190,22 @@ class StaticTestCase(unittest.TestCase):
                 if symbol not in reactants:
                     error += 1
                     react = reaction
-                    print("WARNING: " + species.getId() + " is found in the kinetics law, but is not a reactant")
+                    print("WARNING: In reaction " + reaction.id + ", " + species.getId() +
+                          " is found in the kinetics law, but is NOT a reactant")
             # check whether all reactants are references in kinetics law
             for reactant in reactants:
+                species = self.sbml.getSpecies(reactant)
                 if reactant not in kn_symbols:
                     error += 1
                     react = reaction
-                    print("WARNING: " + reactant.getId() + " is found as a reactant, but not referenced in the "
-                                                           "Kinetics law")
+                    print("WARNING: In reaction " + reaction.id + ", " + species.getId() +
+                          " is found as a reactant, but NOT referenced in the Kinetics law")
             if react is not None:
                 missing.append(react)
-        printFooter("WARNINGS FOUND: " + str(error))
+        print_footer("WARNINGS FOUND: " + str(error))
         return missing
 
-    def reachAllSpecies(self):
+    def reach_all_species(self):
         """
         Checks whether all species are reachable through the chain of reactions
         How do we know if a node is the entry to a chain of reactions?
@@ -213,8 +216,8 @@ class StaticTestCase(unittest.TestCase):
         for reaction in self.sbml.reactions:
             reactants = reaction.reactants  # reactants of the reaction
             products = reaction.products  # products of the reaction
-            reactants_str = speciesRefToConcatenatedStr(reactants)
-            products_str = speciesRefToConcatenatedStr(products)
+            reactants_str = speciesref_to_concatenatedstr(reactants)
+            products_str = speciesref_to_concatenatedstr(products)
             # add the nodes and edges to the graph
             if len(reactants) > 0 and len(products) > 0:
                 if not graph.__contains__(reactants_str):

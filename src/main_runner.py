@@ -24,7 +24,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Static test for Kinetics Models in System Biology")
     # argument for the filename of the model
     parser.add_argument("F", type=str,
-                        help="The name for the XML file under the current directory")
+                        help="Path to the XML file")
     # argument for the test mode
     # only implemented "Basics" for now
     list_choices = ["basics", "kinetics"]
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     # create the tester
     tester = StaticTestCase(sbml)
     if mode == "basics" or mode == "kinetics":
-        tester.runBasicTests()
+        tester.run_basic_tests()

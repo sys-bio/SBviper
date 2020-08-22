@@ -1,0 +1,13 @@
+% python3 main_runner.py -h
+usage: main_runner.py [-h] [-m [{basics,kinetics}]] F
+
+Static test for Kinetics Models in System Biology
+
+positional arguments:
+  F                     Path to the XML file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m [{basics,kinetics}], --mode [{basics,kinetics}]
+                        Test mode for the model (default: basics)
+
