@@ -3,7 +3,7 @@
 import os
 
 
-def getABSPath(filename):
+def get_abs_path(filename):
     """
     gets the absolute path to the file
     :param: filename: the filename to be parsed

@@ -2,17 +2,12 @@
 Static tests for kinetic models
 """
 
-"""
-Q:
-1) output printing, HTMLTestRunner
-2) return value
-"""
 
 import sys
 import unittest
 import networkx as nx
 from simple_sbml.simple_sbml import SimpleSBML
-from util import getABSPath
+from util import get_abs_path
 import matplotlib.pyplot as plt
 
 
@@ -34,19 +29,10 @@ def printFooter(msg):
     print("==================================================\n")
 
 
-def Usage():
-    """
-    Prints the usage and exit
-    """
-    print("usage: km_test.py path_to_XML [option]")
-    print("[option]: Basic")
-    exit(1)
-
-
 def speciesRefToSpeciesStr(srs):
     """
     Converts a list of species references to a list of string representation of species
-    :param reactants: list of species references
+    :param srs: list of species references
     :return: list of string representation of the species
     """
     res = []
@@ -84,7 +70,7 @@ def speciesRefToConcatenatedStr(srs):
 
 class StaticTestCase(unittest.TestCase):
 
-    def __init__(self, path_to_xml, option):
+    def __init__(self, sbml):
         """
         Initializes a simple_sbml object for the test and run
         categories of tests accordingly
@@ -93,12 +79,7 @@ class StaticTestCase(unittest.TestCase):
                        - [Basic]: basic static tests for the model
         """
         super().__init__()
-        abs_path_to_xml = getABSPath(path_to_xml)
-        self.sbml = SimpleSBML(abs_path_to_xml)
-        if option == "Basic":
-            self.runBasicTests()
-        else:
-            Usage()
+        self.sbml = sbml
 
     def runBasicTests(self):
         """
@@ -249,10 +230,10 @@ class StaticTestCase(unittest.TestCase):
                 graph.add_node(products_str)
 
         # temp, drawing the graph to figure out the relationships
-        options = {
-        'node_color': 'black',
-        'node_size': 5,
-        'width': 1,
-        }
-        nx.draw(graph, with_labels=True, **options)
-        plt.show()
+        # options = {
+        # 'node_color': 'black',
+        # 'node_size': 5,
+        # 'width': 1,
+        # }
+        # nx.draw(graph, with_labels=True, **options)
+        # plt.show()
