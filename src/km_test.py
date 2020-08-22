@@ -231,7 +231,7 @@ class StaticTestCase(unittest.TestCase):
             elif len(products) > 0 and not graph.__contains__(products_str) > 0:
                 # if the list of products is not empty, and the node has not yet been added
                 graph.add_node(products_str)
-
+        # TODO: implement the rest
         # temp, drawing the graph to figure out the relationships
         # options = {
         # 'node_color': 'black',
