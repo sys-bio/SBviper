@@ -169,7 +169,7 @@ class StaticTestCase(unittest.TestCase):
         :return a list of uninitialized parameter objects
         """
         # iterate through all of the parameters
-        print_header("All parameters should be initialized")
+        print_header("All parameters should be initialized.")
         missing = []
         error = 0
         for parameter in self.sbml.parameters:
@@ -189,7 +189,7 @@ class StaticTestCase(unittest.TestCase):
         :param an_id: string representation of the id
         :return a list of parameter objects with value zero
         """
-        print_header("Parameter value should not be set to ZERO")
+        print_header("Parameter value should not be set to ZERO.")
         missing = []
         error = 0
         for parameter in self.sbml.parameters:
@@ -207,7 +207,7 @@ class StaticTestCase(unittest.TestCase):
         :param sbml: a simple_sbml representation of the model
         :return: a list of species objects with uninitialized values in kinetics law
         """
-        print_header("Species concentration / initial amount should be initialized")
+        print_header("Species concentration / initial amount should be initialized.")
         missing = []
         error = 0
         reactions = self.sbml.reactions  # get all of the reactions involved
@@ -233,7 +233,7 @@ class StaticTestCase(unittest.TestCase):
         :return: a list of reaction that does not satisfy the above condition
         """
         print_header("All reactants should be in the kinetics law, \nand all species references in the kinetics law \n"
-                     "should be reactants")  # wtf is this
+                     "should be reactants.")  # wtf is this
         missing = []
         error = 0
         for reaction in self.sbml.reactions:
@@ -273,7 +273,7 @@ class StaticTestCase(unittest.TestCase):
         """
         # TODO: print more helpful messages
         # TODO: add return value
-        print_header("All species should be reachable in the reactions!")
+        print_header("All species should be reachable in the reactions")
         error = 0
         graph = nx.DiGraph()  # a representation of the graph
         all_node = set()  # all of the nodes in the graph, in string format
