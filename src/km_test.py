@@ -2,7 +2,6 @@
 Static tests for kinetic models
 """
 
-
 import sys
 import unittest
 import networkx as nx
@@ -11,6 +10,7 @@ from util import get_abs_path
 import matplotlib.pyplot as plt
 
 
+# TODO: clean up
 def print_header(header):
     """
     Prints the header in a somewhat non-ungly format
@@ -66,6 +66,65 @@ def speciesref_to_concatenatedstr(srs):
         for i in range(1, len(srs)):
             res += "-" + srs[i].species
         return res
+
+
+def print_reaction_graph(sbml):
+    """
+    prints the reaction graph
+    :param sbml: the sbml model in simple_sbml format
+    """
+    graph = nx.DiGraph()
+    for reaction in sbml.reactions:
+        reactants = reaction.reactants  # reactants of the reaction
+        products = reaction.products  # products of the reaction
+        reactants_str = speciesref_to_concatenatedstr(reactants)
+        products_str = speciesref_to_concatenatedstr(products)
+        # add the nodes and edges to the graph
+        if len(reactants) > 0 and len(products) > 0:
+            if not graph.__contains__(reactants_str):
+                graph.add_node(reactants_str)
+            if not graph.__contains__(products_str):
+                graph.add_node(products_str)
+            graph.add_edge(reactants_str, products_str)
+        elif len(reactants) > 0 and not graph.__contains__(reactants_str) > 0:
+            # if the list of reactants is not empty, and the node has not yet been added
+            graph.add_node(reactants_str)
+        elif len(products) > 0 and not graph.__contains__(products_str) > 0:
+            # if the list of products is not empty, and the node has not yet been added
+            graph.add_node(products_str)
+
+    options = {
+        'node_color': 'black',
+        'node_size': 5,
+        'width': 1,
+    }
+    nx.draw(graph, with_labels=True, **options)
+    plt.show()
+
+
+def get_initialized_species(species):
+    """
+    :param species: a list of species in the model
+    :return: return a set of initialized species in string format
+    """
+    res = set()
+    for s in species:
+        if s.isSetInitialAmount() or s.isSetInitialConcentration():
+            res.add(s.getId())
+    return res
+
+
+def is_entry_node(species_list, init_species):
+    """
+    Checks whether the species in the list is initialized
+    :param species_list: list of species references
+    :param init_species: list of initialized species for the reaction
+    :return: true iff all of the species in the list is initialized
+    """
+    for species in species_list:
+        if species.species not in init_species:
+            return False
+    return True
 
 
 class StaticTestCase(unittest.TestCase):
@@ -174,7 +233,7 @@ class StaticTestCase(unittest.TestCase):
         :return: a list of reaction that does not satisfy the above condition
         """
         print_header("All reactants should be in the kinetics law, \nand all species references in the kinetics law \n"
-                    "should be reactants")  # wtf is this
+                     "should be reactants")  # wtf is this
         missing = []
         error = 0
         for reaction in self.sbml.reactions:
@@ -208,11 +267,19 @@ class StaticTestCase(unittest.TestCase):
     def reach_all_species(self):
         """
         Checks whether all species are reachable through the chain of reactions
-        How do we know if a node is the entry to a chain of reactions?
-
+        The entry of the reaction is defined to be:
+        - initialized amount or concentration
         :return: a list of species objects that are unreachable
         """
-        graph = nx.Graph()
+        # TODO: print more helpful messages
+        # TODO: add return value
+        print_header("All species should be reachable in the reactions!")
+        error = 0
+        graph = nx.DiGraph()  # a representation of the graph
+        all_node = set()  # all of the nodes in the graph, in string format
+        entry_node = set()  # all of the entry nodes in the graph
+        init_species = get_initialized_species(self.sbml.species)  # all species that are initialized
+        # create the graph
         for reaction in self.sbml.reactions:
             reactants = reaction.reactants  # reactants of the reaction
             products = reaction.products  # products of the reaction
@@ -221,22 +288,35 @@ class StaticTestCase(unittest.TestCase):
             # add the nodes and edges to the graph
             if len(reactants) > 0 and len(products) > 0:
                 if not graph.__contains__(reactants_str):
+                    if is_entry_node(reactants, init_species):
+                        entry_node.add(reactants_str)
+                    all_node.add(reactants_str)
                     graph.add_node(reactants_str)
                 if not graph.__contains__(products_str):
+                    if is_entry_node(products, init_species):
+                        entry_node.add(products_str)
+                    all_node.add(products_str)
                     graph.add_node(products_str)
                 graph.add_edge(reactants_str, products_str)
             elif len(reactants) > 0 and not graph.__contains__(reactants_str) > 0:
                 # if the list of reactants is not empty, and the node has not yet been added
+                if is_entry_node(reactants, init_species):
+                    entry_node.add(reactants_str)
+                all_node.add(reactants_str)
                 graph.add_node(reactants_str)
             elif len(products) > 0 and not graph.__contains__(products_str) > 0:
                 # if the list of products is not empty, and the node has not yet been added
+                if is_entry_node(products, init_species):
+                    entry_node.add(products_str)
+                all_node.add(products_str)
                 graph.add_node(products_str)
-        # TODO: implement the rest
-        # temp, drawing the graph to figure out the relationships
-        # options = {
-        # 'node_color': 'black',
-        # 'node_size': 5,
-        # 'width': 1,
-        # }
-        # nx.draw(graph, with_labels=True, **options)
-        # plt.show()
+        # traversing the graph through initialized species
+        visited = set()
+        for species in entry_node:
+            visited.update(set(nx.dfs_postorder_nodes(graph, source=species)))
+        # check whether all of the nodes are reached
+        for node in all_node:
+            if node not in visited:
+                print("WARNING: " + node + " is unreachable!")
+                error += 1
+        print_footer("WARNINGS FOUND: " + str(error))
