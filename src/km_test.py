@@ -265,7 +265,6 @@ class StaticTestCase(unittest.TestCase):
         - initialized amount or concentration
         :return: a list of species objects that are unreachable
         """
-        # TODO: add return value
         print_header("All species should be reachable in the reactions")
         missing = []
         error = 0
