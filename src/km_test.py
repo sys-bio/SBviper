@@ -29,7 +29,7 @@ def print_footer(msg):
     print("==========================================================\n")
 
 
-def speciesref_to_speciesstr(srs):
+def speciesrefs_to_strs(srs):
     """
     Converts a list of species references to a list of string representation of species
     :param srs: list of species references
@@ -41,7 +41,7 @@ def speciesref_to_speciesstr(srs):
     return res
 
 
-def species_to_speciesstr(species):
+def species_to_strs(species):
     """
     :return: a list of species in string representation
     """
@@ -51,10 +51,10 @@ def species_to_speciesstr(species):
     return res
 
 
-def speciesref_to_concatenatedstr(srs):
+def speciesrefs_to_concatstr(srs):
     """
     given a list of species reference, concatenate the list to a string representation separated by "-"
-    :param list: target list of species reference
+    :param srs: target list of species reference
     :return: concatenated string
     """
     if len(srs) == 0:
@@ -77,8 +77,8 @@ def print_reaction_graph(sbml):
     for reaction in sbml.reactions:
         reactants = reaction.reactants  # reactants of the reaction
         products = reaction.products  # products of the reaction
-        reactants_str = speciesref_to_concatenatedstr(reactants)
-        products_str = speciesref_to_concatenatedstr(products)
+        reactants_str = speciesrefs_to_concatstr(reactants)
+        products_str = speciesrefs_to_concatstr(products)
         # add the nodes and edges to the graph
         if len(reactants) > 0 and len(products) > 0:
             if not graph.__contains__(reactants_str):
@@ -92,7 +92,7 @@ def print_reaction_graph(sbml):
         elif len(products) > 0 and not graph.__contains__(products_str) > 0:
             # if the list of products is not empty, and the node has not yet been added
             graph.add_node(products_str)
-
+    # output the graph
     options = {
         'node_color': 'black',
         'node_size': 5,
@@ -133,9 +133,7 @@ class StaticTestCase(unittest.TestCase):
         """
         Initializes a simple_sbml object for the test and run
         categories of tests accordingly
-        :param path_to_xml: the path to a XML representation of the model
-        :param option: test categories to run
-                       - [Basic]: basic static tests for the model
+        :param sbml: the sbml model in simple_sbml representation
         """
         super().__init__()
         self.sbml = sbml
@@ -165,7 +163,6 @@ class StaticTestCase(unittest.TestCase):
         Parameter values are considered unset if a model does not contain
         a setting for the "value" attribute of a parameter, nor does it has
         a default value
-        :param sbml: a simple_sbml representation of the model
         :return a list of uninitialized parameter objects
         """
         # iterate through all of the parameters
@@ -185,8 +182,6 @@ class StaticTestCase(unittest.TestCase):
         """
         Checks whether the initialized parameter value is a non-zero number
         runs after checking parameter initialization
-        :param sbml: a simple_sbml representation of the model
-        :param an_id: string representation of the id
         :return a list of parameter objects with value zero
         """
         print_header("Parameter value should not be set to ZERO.")
@@ -204,7 +199,6 @@ class StaticTestCase(unittest.TestCase):
         """
         Checks whether the values of all chemical species referenced in a
         kinetics law has been initialized
-        :param sbml: a simple_sbml representation of the model
         :return: a list of species objects with uninitialized values in kinetics law
         """
         print_header("Species concentration / initial amount should be initialized.")
@@ -215,7 +209,7 @@ class StaticTestCase(unittest.TestCase):
             # get all of the parameters' and species' names involved in the reaction
             symbols = reaction.kinetic_law._getSymbols()
             for symbol in symbols:
-                species = self.sbml.getSpecies(symbol)
+                species = self.sbml.get_species(symbol)
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
@@ -239,11 +233,11 @@ class StaticTestCase(unittest.TestCase):
         for reaction in self.sbml.reactions:
             kn_symbols = set(reaction.kinetic_law.symbols)  # set of str
             reactants = set(
-                speciesref_to_speciesstr(reaction.reactants))  # list of speciesReference -> list of str -> set
+                speciesrefs_to_strs(reaction.reactants))  # list of speciesReference -> list of str -> set
             react = None
             # check whether all species references in the kinetics law is a reactant
             for symbol in kn_symbols:
-                species = self.sbml.getSpecies(symbol)
+                species = self.sbml.get_species(symbol)
                 if species is None:  # is not a species
                     continue
                 if symbol not in reactants:
@@ -253,7 +247,7 @@ class StaticTestCase(unittest.TestCase):
                           " is found in the kinetics law, but is NOT a reactant")
             # check whether all reactants are references in kinetics law
             for reactant in reactants:
-                species = self.sbml.getSpecies(reactant)
+                species = self.sbml.get_species(reactant)
                 if reactant not in kn_symbols:
                     error += 1
                     react = reaction
@@ -271,9 +265,9 @@ class StaticTestCase(unittest.TestCase):
         - initialized amount or concentration
         :return: a list of species objects that are unreachable
         """
-        # TODO: print more helpful messages
         # TODO: add return value
         print_header("All species should be reachable in the reactions")
+        missing = []
         error = 0
         graph = nx.DiGraph()  # a representation of the graph
         all_node = set()  # all of the nodes in the graph, in string format
@@ -283,8 +277,8 @@ class StaticTestCase(unittest.TestCase):
         for reaction in self.sbml.reactions:
             reactants = reaction.reactants  # reactants of the reaction
             products = reaction.products  # products of the reaction
-            reactants_str = speciesref_to_concatenatedstr(reactants)
-            products_str = speciesref_to_concatenatedstr(products)
+            reactants_str = speciesrefs_to_concatstr(reactants)
+            products_str = speciesrefs_to_concatstr(products)
             # add the nodes and edges to the graph
             if len(reactants) > 0 and len(products) > 0:
                 if not graph.__contains__(reactants_str):
@@ -319,4 +313,9 @@ class StaticTestCase(unittest.TestCase):
             if node not in visited:
                 print("WARNING: " + node + " is unreachable!")
                 error += 1
+                # add to return list
+                strings = node.split("-")
+                for string in strings:
+                    missing.append(self.sbml.str_to_species(string))
         print_footer("WARNINGS FOUND: " + str(error))
+        return missing
