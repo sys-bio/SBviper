@@ -1,0 +1,66 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Kdpa_yiya is set to ZERO!
+WARNING: Kdpi_yi is set to ZERO!
+WARNING: Kdpi_yiya is set to ZERO!
+WARNING: Kdpa_ya is set to ZERO!
+WARNING: Kdpa_pi is set to ZERO!
+WARNING: perc_SHP2_bound is set to ZERO!
+WARNING: CD3z_phosphorylated is set to ZERO!
+WARNING: CD28_phosphorylated is set to ZERO!
+WARNING: ZAP70_phos_Y315 is set to ZERO!
+WARNING: ZAP70_phos_Y93 is set to ZERO!
+WARNING: LAT_phosphorylated is set to ZERO!
+WARNING: LCK_switch is set to ZERO!
+WARNING: ModelValue_0 is set to ZERO!
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction LCKyiya_DP_LCKyi, LCKyiya is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LCKya_DP_LCKi, LCKya is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LCKyi_DP_LCKi, LCKyi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LCKyiya_DP_LCKya, LCKyiya is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LCKpi_DP_LCKyi, LCKpi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PD1_P_PD1p1_act, PD1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PD1p1_P_PD1p2_act, PD1p1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PD1p1_Bd_SHP2, CP1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PD1p2_Bd_SHP2, CP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CD28i_P_CD28a, CD28i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD28a_DP_CD28i, CD28a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD28a_Bd_PI3K, PI3Kb is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CD3i_P_CD3a, CD3i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD3a_DP_CD3i, CD3a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD3a_Bd_ZAP70, ZAP70i is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction ZAP70i_P_ZAP70a1, ZAP70i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ZAP70a1_P_ZAP70a2, ZAP70a1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LATi_P_LATa, LATi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction LATa_Bd_GADS, GADSa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction GADSa_Bd_SLP76, SLP76i is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SLP76i_P_SLC76a, SLP76i is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 21
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,162 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNING: ppERKc is UNINITIALIZED
+WARNINGS FOUND: 112
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, x1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, x2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, ppERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, ppERKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, DUSP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_4, ppERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, ppERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, pRSKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, cFOSp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, cFOSm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, cFOSp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, cFOSm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, cFOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, ppERKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, pcFOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, cFOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, ppERKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, pcFOS is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 18
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

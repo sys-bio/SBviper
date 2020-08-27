@@ -1,0 +1,56 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: alphaIRn is UNINITIALIZED!
+ERROR: betaIRn is UNINITIALIZED!
+ERROR: nIRinf is UNINITIALIZED!
+ERROR: tauIRn is UNINITIALIZED!
+ERROR: alphaIRr is UNINITIALIZED!
+ERROR: betaIRr is UNINITIALIZED!
+ERROR: rIRinf is UNINITIALIZED!
+ERROR: tauIRr is UNINITIALIZED!
+ERROR: ica is UNINITIALIZED!
+ERROR: ik is UNINITIALIZED!
+ERROR: ikca is UNINITIALIZED!
+ERROR: ikatp is UNINITIALIZED!
+ERROR: iir is UNINITIALIZED!
+ERROR: minf is UNINITIALIZED!
+ERROR: ninf is UNINITIALIZED!
+ERROR: ainf is UNINITIALIZED!
+ERROR: w is UNINITIALIZED!
+ERROR: jmem is UNINITIALIZED!
+ERROR: jserca is UNINITIALIZED!
+ERROR: jleak is UNINITIALIZED!
+ERROR: jip3 is UNINITIALIZED!
+ERROR: oinf is UNINITIALIZED!
+ERROR: jer is UNINITIALIZED!
+ERRORS FOUND: 23
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: ip3 is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

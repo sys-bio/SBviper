@@ -1,0 +1,71 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: q is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, B_Bfa1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, B_Bfa1P4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, B_Bfa1P5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R4, B_Bfa1_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, B_Bfa1P4_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R6, B_Bfa1P5_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, B_Bfa1_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R8, B_Bfa1P4_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, B_Bfa1P5_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R10, B_Bfa1_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, B_Bfa1P4_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R12, B_Bfa1P5_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, B_Bfa1_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, B_Bfa1P4_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R15, B_Bfa1P5_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R16, Bfa1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R17, Bfa1P4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R17, Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18, Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18, Bfa1P5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, Bfa1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R20, Bfa1P4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R20, Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, Bfa1P5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R22, T_Tem1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, T_Tem1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R24, B_Bfa1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R25, B_Bfa1_Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R26, B_Bfa1_Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R30, Bfa1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R36, Bfa1P5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R37, Bfa1P5_Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R31, Bfa1_Tem1GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R38, Bfa1P5_Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R32, Bfa1_Tem1GDP is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 38
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

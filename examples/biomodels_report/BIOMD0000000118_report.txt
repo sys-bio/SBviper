@@ -1,0 +1,40 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: INa is UNINITIALIZED!
+ERROR: INaP is UNINITIALIZED!
+ERROR: IKdr is UNINITIALIZED!
+ERROR: IA is UNINITIALIZED!
+ERROR: Iz is UNINITIALIZED!
+ERROR: Minfs is UNINITIALIZED!
+ERROR: Pinfs is UNINITIALIZED!
+ERROR: Ainfs is UNINITIALIZED!
+ERRORS FOUND: 8
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

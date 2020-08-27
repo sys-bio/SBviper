@@ -1,0 +1,175 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: DOSE_ml is set to ZERO!
+WARNING: DOSE_zf is set to ZERO!
+WARNING: LOH_aw is set to ZERO!
+WARNING: LOH_b is set to ZERO!
+WARNING: ML_airways is set to ZERO!
+WARNING: ML_ex is set to ZERO!
+WARNING: OL_b_ex is set to ZERO!
+WARNING: naEO_LTCsyn is set to ZERO!
+WARNING: oxoETE_aw is set to ZERO!
+WARNING: oxoETE_b is set to ZERO!
+WARNING: zf_inh is set to ZERO!
+WARNING: ft_zf is set to ZERO!
+WARNING: ft_ml is set to ZERO!
+WARNING: ZF_blood_conc is set to ZERO!
+WARNING: ZF_airways_conc is set to ZERO!
+WARNING: ML_blood_conc is set to ZERO!
+WARNING: ML_airways_conc is set to ZERO!
+WARNING: w_EO is set to ZERO!
+WARNING: V_CB is set to ZERO!
+WARNING: V_aCB is set to ZERO!
+WARNING: V_LTC_CB is set to ZERO!
+WARNING: V_CAW is set to ZERO!
+WARNING: V_aCAW is set to ZERO!
+WARNING: V_LTC_CAW is set to ZERO!
+WARNING: GSSG_b is set to ZERO!
+WARNING: NADPH_b is set to ZERO!
+WARNING: PLA2_D is set to ZERO!
+WARNING: PLA2_Ca is set to ZERO!
+WARNING: Ki_AA_AA is set to ZERO!
+WARNING: K_AA_HETE is set to ZERO!
+WARNING: Ki_HPETE_AA is set to ZERO!
+WARNING: OOH_b is set to ZERO!
+WARNING: OH_b is set to ZERO!
+WARNING: r1 is set to ZERO!
+WARNING: r2 is set to ZERO!
+WARNING: REDOX_b is set to ZERO!
+WARNING: RELFLO5_b is set to ZERO!
+WARNING: DFLOa_b is set to ZERO!
+WARNING: FLO3_b is set to ZERO!
+WARNING: FLO2_b is set to ZERO!
+WARNING: FLO3t_b is set to ZERO!
+WARNING: FLO2t_b is set to ZERO!
+WARNING: FLO5HP_b is set to ZERO!
+WARNING: C_b is set to ZERO!
+WARNING: A_b is set to ZERO!
+WARNING: B_b is set to ZERO!
+WARNING: delta_LTCs_b is set to ZERO!
+WARNING: nom_LTCs_b is set to ZERO!
+WARNING: den_LTCs_b is set to ZERO!
+WARNING: C_hedh_b is set to ZERO!
+WARNING: A_hedh_b is set to ZERO!
+WARNING: B_hedh_b is set to ZERO!
+WARNING: GSSG_aw is set to ZERO!
+WARNING: NADPH_aw is set to ZERO!
+WARNING: OOH_aw is set to ZERO!
+WARNING: OH_aw is set to ZERO!
+WARNING: REDOX_aw is set to ZERO!
+WARNING: RELFLO5_aw is set to ZERO!
+WARNING: DFLOa_aw is set to ZERO!
+WARNING: FLO3_aw is set to ZERO!
+WARNING: FLO2_aw is set to ZERO!
+WARNING: FLO3t_aw is set to ZERO!
+WARNING: FLO2t_aw is set to ZERO!
+WARNING: FLO5HP_aw is set to ZERO!
+WARNING: C_aw is set to ZERO!
+WARNING: A_aw is set to ZERO!
+WARNING: B_aw is set to ZERO!
+WARNING: delta_LTCs_aw is set to ZERO!
+WARNING: nom_LTCs_aw is set to ZERO!
+WARNING: den_LTCs_aw is set to ZERO!
+WARNING: C_hedh_aw is set to ZERO!
+WARNING: A_hedh_aw is set to ZERO!
+WARNING: B_hedh_aw is set to ZERO!
+WARNING: OL_b is set to ZERO!
+WARNING: OL_aw is set to ZERO!
+WARNING: Rec_occup_migr is set to ZERO!
+WARNING: Ca_FEV is set to ZERO!
+WARNING: r_out_FEV is set to ZERO!
+WARNING: r_in_FEV is set to ZERO!
+WARNING: FEV1 is set to ZERO!
+WARNING: TSN is set to ZERO!
+WARNING: TSN_Hn is set to ZERO!
+WARNING: FEV1_percent is set to ZERO!
+WARNING: time_hour is set to ZERO!
+WARNING: time_day is set to ZERO!
+WARNING: N_EO_bm is set to ZERO!
+WARNING: N_EO_b is set to ZERO!
+WARNING: N_EO_i_b is set to ZERO!
+WARNING: N_EO_a_b is set to ZERO!
+WARNING: EO_b_tot is set to ZERO!
+WARNING: N_EO_b_tot is set to ZERO!
+WARNING: N_EO_aw is set to ZERO!
+WARNING: N_EO_i_aw is set to ZERO!
+WARNING: N_EO_a_aw is set to ZERO!
+WARNING: EO_aw_tot is set to ZERO!
+WARNING: N_EO_aw_tot is set to ZERO!
+WARNING: EO_b_tot_per_ss is set to ZERO!
+WARNING: N_EO_aw_tot_perc is set to ZERO!
+WARNING: N_EO_b_tot_perc is set to ZERO!
+WARNING: N_EO is set to ZERO!
+WARNING: N_EO_a is set to ZERO!
+WARNING: LTC4_b_pM is set to ZERO!
+WARNING: LTs_aw_pg is set to ZERO!
+WARNING: LTD4_b_free is set to ZERO!
+WARNING: ML_uM is set to ZERO!
+WARNING: LTD4_aw_pers is set to ZERO!
+WARNING: N_EO_perc is set to ZERO!
+WARNING: Hn_aw_perc is set to ZERO!
+WARNING: N_EO_aw_perc is set to ZERO!
+WARNING: Ca_FEV_LTR1 is set to ZERO!
+WARNING: Ca_FEV_LTR2 is set to ZERO!
+WARNING: OL_ASM is set to ZERO!
+WARNINGS FOUND: 112
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, AA_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, HPETE_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, AA_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, HETE_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5, HPETE_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7, LTA4_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v8, HETE_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v10out, LTC4_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, EO_a_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, EO_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, EO_i_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v26, EO_a_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v28, IL_bm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, AA_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, AA_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, HPETE_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, HETE_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, HPETE_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v37, LTA4_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v38, HETE_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v40out, LTC4_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v43, LTE4_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v44, LTD4_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v45, LTC4_b_out is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v51, EO_i_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v51, EO_a_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v51, EO_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v52, Hn_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v53, EO_a_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v54, IL_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v61, ZF_airways is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 31
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

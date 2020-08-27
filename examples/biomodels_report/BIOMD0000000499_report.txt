@@ -1,0 +1,36 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: parameter_5 is set to ZERO!
+WARNING: parameter_26 is set to ZERO!
+WARNING: parameter_27 is set to ZERO!
+WARNING: parameter_28 is set to ZERO!
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

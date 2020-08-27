@@ -1,0 +1,40 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: pEGFR_total is set to ZERO!
+WARNING: pAkt_total is set to ZERO!
+WARNING: pS6_total is set to ZERO!
+WARNING: EGF_conc_step is set to ZERO!
+WARNING: EGF_conc_impulse is set to ZERO!
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, EGF_EGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, pEGFR_Akt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, pAkt_S6 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

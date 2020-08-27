@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Infection_1, x is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Infection_2, x is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CTL_induced_infected_cell_death_1, y_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CTL_induced_infected_cell_death_2, y_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NK_induced_infected_cell_death_1, y_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NK_induced_infected_cell_death_2, y_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

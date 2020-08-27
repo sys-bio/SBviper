@@ -1,0 +1,70 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re1, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re3, s36 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re5, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re7, s36 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re9, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re11, s36 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re13, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re15, s87 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re17, s119 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re19, s114 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re20, s165 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re21, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re22, s109 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re24, s84 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re25, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re26, s183 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re27, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re42, s114 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re43, s36 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cortisolTransport, s114 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction L2_PXR_binding, PXRprot_Ligand2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CYPmRNA_synt_PXR_L2, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CYPmRNA_PXR_L2_binding, CYPgene_PXRprot_Ligand2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re28, GRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re30, PXRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re32, DEX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re33, CYPgene_PXRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re34, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re35, PXRgene_GRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re36, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re37, GRgene_GRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re38, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re39, TATgene_GRprot_DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re40, s28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re41, DEX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cortisol_CBG, CBG_CortOUT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cort_Alb, Alb_CortOUT is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 38
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

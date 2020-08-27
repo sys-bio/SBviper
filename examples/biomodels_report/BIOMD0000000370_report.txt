@@ -1,0 +1,47 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: PP_1 is UNINITIALIZED!
+ERROR: V2_1 is UNINITIALIZED!
+ERROR: V6_1 is UNINITIALIZED!
+ERROR: Vdsic_1 is UNINITIALIZED!
+ERROR: Vacdh_1 is UNINITIALIZED!
+ERROR: Vicdh_1 is UNINITIALIZED!
+ERROR: Vaswi_1 is UNINITIALIZED!
+ERROR: Viswi_1 is UNINITIALIZED!
+ERROR: Vd_1 is UNINITIALIZED!
+ERROR: Vp_1 is UNINITIALIZED!
+ERROR: Vexp_1 is UNINITIALIZED!
+ERRORS FOUND: 11
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: kimbf_2 is set to ZERO!
+WARNING: kapolo_1 is set to ZERO!
+WARNING: katem_1 is set to ZERO!
+WARNING: Clb2nd_1 is set to ZERO!
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,43 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: sum_R_smad_cyt is set to ZERO!
+WARNING: sum_R_smad_nuc is set to ZERO!
+WARNING: sum_smad4_cyt is set to ZERO!
+WARNING: sum_smad4_nuc is set to ZERO!
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, receptor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, R_smad_cyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_4, smad4_cyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, R_smad_P_smad4_cyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, smad4_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, R_smad_P_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0, receptor is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

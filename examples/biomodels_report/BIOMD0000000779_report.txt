@@ -1,0 +1,51 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: d is set to ZERO!
+WARNING: l is set to ZERO!
+WARNING: s is set to ZERO!
+WARNING: D is set to ZERO!
+WARNING: v_M is set to ZERO!
+WARNING: v_I is set to ZERO!
+WARNING: v_L is set to ZERO!
+WARNING: ModelValue_34_0 is set to ZERO!
+WARNING: ModelValue_35_0 is set to ZERO!
+WARNING: ModelValue_36_0 is set to ZERO!
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction NK_Induced_Tumour_Death, T_Tumour_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Chemotherapy_Induced_Tumour_Death, T_Tumour_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NK_Death_Tumour_Killing, N_Natural_Killer_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NK_Death_Medicine, N_Natural_Killer_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD8_T_Cell_Turnover, L_CD8_T_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD8_T_Cell_Death_Tumour_Killing, L_CD8_T_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD8_Breakdown_Stimulation_IL_2, L_CD8_T_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CD8_T_Cell_Death_Medicine, L_CD8_T_Cells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Lymphocyte_Death_Medicine, C_Lymphocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

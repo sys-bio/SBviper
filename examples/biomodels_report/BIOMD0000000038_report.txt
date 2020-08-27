@@ -1,0 +1,47 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, PyrPI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, Pyr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, EIP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, EIPHPr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, HPrP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, EI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5, HPrPIIA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, EIIAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, HPr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, EIIAPIICB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, EIIA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, EIICBP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9, EIICBPGlc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, EIICB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, GlcP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

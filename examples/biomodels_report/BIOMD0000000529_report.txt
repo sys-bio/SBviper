@@ -1,0 +1,70 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: NS is set to ZERO!
+WARNING: IC1 is set to ZERO!
+WARNING: IC2 is set to ZERO!
+WARNING: IC2ifa is set to ZERO!
+WARNING: TJ is set to ZERO!
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction J1, IFNb_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J1, IRF7Pn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J1, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J2, IFNb_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J3, STATP2n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J3, STAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J3, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J4, STATP2n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J4, SOCS1m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J4, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J5, IRF7Pn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J5, STATP2n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J5, IRF7m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J5, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J6, IRF7m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J7, IFNa_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J7, IRF7Pn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J7, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J8, IFNa_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J8, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J9, TNFenv is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J9, TNFam is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J9, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J10, TNFam is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J10, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J11, STATm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J11, STATP2n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J11, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J12, STATm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J12, STAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J12, w is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,45 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, TF_VII is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, TF_VIIa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R6, TF_VIIa_X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, TF_VIIa_Xa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R8, TF_VIIa_IX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, IXa_VIIIa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R12, IXa_VIIIa_X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, VIIIa1_L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, VIIIa2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, Xa_Va is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R18, Xa_Va_II is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R20, Xa_TFPI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, TF_VIIa_Xa_TFPI is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

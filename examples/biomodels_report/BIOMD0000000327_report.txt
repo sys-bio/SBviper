@@ -1,0 +1,61 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: gcftr is UNINITIALIZED!
+ERROR: eb is UNINITIALIZED!
+ERROR: enbc is UNINITIALIZED!
+ERROR: ec is UNINITIALIZED!
+ERROR: ena is UNINITIALIZED!
+ERROR: kccf is UNINITIALIZED!
+ERROR: kbcf is UNINITIALIZED!
+ERROR: knbc is UNINITIALIZED!
+ERROR: v is UNINITIALIZED!
+ERROR: jnbc is UNINITIALIZED!
+ERROR: jbcftr is UNINITIALIZED!
+ERROR: jccftr is UNINITIALIZED!
+ERROR: japl is UNINITIALIZED!
+ERROR: japbl is UNINITIALIZED!
+ERROR: jlum is UNINITIALIZED!
+ERROR: jnak is UNINITIALIZED!
+ERROR: jnaleak is UNINITIALIZED!
+ERRORS FOUND: 17
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction nbc, nb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction nbc, bb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction bcftr, bl is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ccftr, cl is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction apl, bl is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction apl, ci is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction apbl, ci is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction apbl, bb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction nak, ni is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction naleak, ni is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction buffering, bi is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 11
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNING: cl is unreachable!
+WARNINGS FOUND: 1
+==========================================================
+

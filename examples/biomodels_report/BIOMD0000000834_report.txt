@@ -1,0 +1,136 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r1, r_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r3, CaI_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, g_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, IP3_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r4, IP3_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r7, g_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r10, g_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r12, r_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r14, IP3_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r9, g_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, CaI_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, IP3_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r16, IP3_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r21, r_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r22, g_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r23, IP3_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r19, g_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, CaI_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, IP3_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r27, IP3_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r28, r_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r30, IP3_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r31, g_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r34, g_4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r34, CaI_4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r34, IP3_4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r37, IP3_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r38, r_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r41, g_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r43, IP3_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r40, IP3_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r40, CaI_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r40, g_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r47, IP3_4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r49, g_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r53, r_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r54, IP3_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r50, g_6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r50, CaI_6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r50, IP3_6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r57, IP3_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r62, IP3_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r63, r_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r65, g_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r61, CaI_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r61, IP3_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r61, g_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r67, IP3_6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r68, IP3_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r69, g_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r71, r_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r72, g_8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r72, CaI_8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r72, IP3_8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r77, IP3_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r79, g_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r82, r_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r83, IP3_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r84, CaI_9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r84, IP3_9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r84, g_9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r87, IP3_8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r90, g_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r91, r_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r93, IP3_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r94, CaI_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r94, g_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r94, IP3_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r96, IP3_9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r100, g_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r101, r_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r103, IP3_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r106, g_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r107, r_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r109, IP3_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r112, g_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r113, r_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r115, IP3_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r118, g_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r119, r_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r121, IP3_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r124, g_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r125, r_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r127, IP3_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r128, g_11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r128, CaI_11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r128, IP3_11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r130, CaI_12 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r130, IP3_12 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r130, g_12 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r132, IP3_13 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r132, CaI_13 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r132, g_13 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r134, g_14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r134, CaI_14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r134, IP3_14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r136, CaI_15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r136, g_15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r136, IP3_15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r139, IP3_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r141, IP3_12 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r143, IP3_11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r145, IP3_13 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r147, IP3_14 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 104
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,164 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: D is UNINITIALIZED!
+ERROR: mu is UNINITIALIZED!
+ERROR: Vdb5 is UNINITIALIZED!
+ERROR: Vdb2 is UNINITIALIZED!
+ERROR: Vasbf is UNINITIALIZED!
+ERROR: Visbf is UNINITIALIZED!
+ERROR: Vkpc1 is UNINITIALIZED!
+ERROR: Vkpf6 is UNINITIALIZED!
+ERROR: Vacdh is UNINITIALIZED!
+ERROR: Vicdh is UNINITIALIZED!
+ERROR: Vppnet is UNINITIALIZED!
+ERROR: Vkpnet is UNINITIALIZED!
+ERROR: Vdppx is UNINITIALIZED!
+ERROR: Vdpds is UNINITIALIZED!
+ERROR: Vaiep is UNINITIALIZED!
+ERROR: Vd2c1 is UNINITIALIZED!
+ERROR: Vd2f6 is UNINITIALIZED!
+ERROR: Vppc1 is UNINITIALIZED!
+ERROR: Vppf6 is UNINITIALIZED!
+ERROR: F is UNINITIALIZED!
+ERRORS FOUND: 20
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: ksn2_p is set to ZERO!
+WARNING: kspds_p is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: IE is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: TEM1GDP is UNINITIALIZED
+WARNING: CDC15i is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: SBF is UNINITIALIZED
+WARNING: MCM1 is UNINITIALIZED
+WARNING: PE is UNINITIALIZED
+WARNING: PE is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNING: CLN3 is UNINITIALIZED
+WARNINGS FOUND: 81
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Growth, MASS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLN2, MASS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLN2, SBF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLB2, MCM1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLB2, MASS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLB5, SBF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_CLB5, MASS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_SIC1, SWI5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CDC6_synthesis, SBF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CDC6_synthesis, SWI5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_SWI5, MCM1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Activation_of_SWI5, CDC14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Inactivation_of_SWI5, CLB2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Synthesis_of_inactive_CDC20, MCM1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Activation_of_CDC20, IEP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Inactivation_2, CDC20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TEM1_activation, LTE1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction inactivation_1, BUB2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CDC15_activation, CDC14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CDC15_activation, TEM1GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CDC15_activation, TEM1GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PDS1_synthesis, SBF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PDS1_synthesis, MCM1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction DNA_synthesis, CLB2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction DNA_synthesis, CLB5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Budding, CLN3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Budding, CLB5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Budding, CLN2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Spindle_formation, CLB2 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

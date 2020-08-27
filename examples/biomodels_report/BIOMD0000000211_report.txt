@@ -1,0 +1,62 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction vGT, species_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vHK, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vHK, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPGI, species_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPFK, species_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPFK, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vALD, species_16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vTPI, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGAPDH, species_19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGAPDH, species_18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGPDH, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGPDH, species_20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGPO, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPGK, species_21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPGK, species_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPK, species_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPK, species_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vAU, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGK, species_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vGK, species_22 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPGM, species_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vENO, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vAKc, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vAKc, species_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vAKg, species_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vAKg, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPGT, species_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vANTI, species_17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vANTI, species_9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vGlyT, species_27 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 30
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

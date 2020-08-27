@@ -1,0 +1,89 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Cam_Ca1_total is set to ZERO!
+WARNING: Cam_Ca1_total_ratio is set to ZERO!
+WARNING: Cam_Ca2_total is set to ZERO!
+WARNING: Cam_Ca2_total_ratio is set to ZERO!
+WARNING: Cam_Ca3_total is set to ZERO!
+WARNING: Cam_Ca3_total_ratio is set to ZERO!
+WARNING: Cam_Ca4_total is set to ZERO!
+WARNING: Cam_Ca4_total_ratio is set to ZERO!
+WARNING: CamCaMKII_bar is set to ZERO!
+WARNING: CaMKII_CamR_Ca1_total is set to ZERO!
+WARNING: CaMKII_CamR_Ca2_total is set to ZERO!
+WARNING: CaMKII_CamR_Ca3_total is set to ZERO!
+WARNING: CaMKII_active_ratio is set to ZERO!
+WARNING: CaMKIIp_bar is set to ZERO!
+WARNING: CamPP2B_bar is set to ZERO!
+WARNING: CamR_Ca2_ratio is set to ZERO!
+WARNING: CamR_Ca2_total is set to ZERO!
+WARNING: CamR_Ca3_ratio is set to ZERO!
+WARNING: CamR_Ca3_total is set to ZERO!
+WARNING: CamR_Ca4_ratio is set to ZERO!
+WARNING: CamR_Ca4_total is set to ZERO!
+WARNING: CBP_fast_bar is set to ZERO!
+WARNING: CBP_media_bar is set to ZERO!
+WARNING: CBP_slow_bar is set to ZERO!
+WARNING: CBP_vslow_bar is set to ZERO!
+WARNING: Dp_bar is set to ZERO!
+WARNING: Free_Cam_Ca1_total is set to ZERO!
+WARNING: Free_Cam_Ca2_total is set to ZERO!
+WARNING: Free_Cam_Ca3_total is set to ZERO!
+WARNING: Free_Cam_Ca4_total is set to ZERO!
+WARNING: Free_CamR_Ca1_total is set to ZERO!
+WARNING: Free_CamR_Ca2_total is set to ZERO!
+WARNING: Free_CamR_Ca3_total is set to ZERO!
+WARNING: Free_CamT_Ca1_total is set to ZERO!
+WARNING: Free_CamT_Ca2_total is set to ZERO!
+WARNING: Free_CamT_Ca3_total is set to ZERO!
+WARNING: moles_bound_Ca_per_moles_Cam is set to ZERO!
+WARNING: Dp_0_PP2B_CamR_Ca1 is set to ZERO!
+WARNING: Dp_0_PP2B_CamR_Ca2 is set to ZERO!
+WARNING: Dp_0_PP2B_CamR_Ca3 is set to ZERO!
+WARNING: PP2B_bar is set to ZERO!
+WARNING: CaMKII_bound_total is set to ZERO!
+WARNING: CaMKIIp_total is set to ZERO!
+WARNING: PP2B_bound_total is set to ZERO!
+WARNING: Dp_total is set to ZERO!
+WARNING: y_bar is set to ZERO!
+WARNING: y_bar_div_1_minus_ybar is set to ZERO!
+WARNING: CamR_Ca1_ratio is set to ZERO!
+WARNING: CamR_Ca1_total is set to ZERO!
+WARNING: K_CaMKII_autoPhosphorylation is set to ZERO!
+WARNING: CaMKII_active_total is set to ZERO!
+WARNING: PP2B_non_i is set to ZERO!
+WARNING: parameter_1 is set to ZERO!
+WARNING: parameter_3 is set to ZERO!
+WARNING: parameter_6 is set to ZERO!
+WARNING: parameter_7 is set to ZERO!
+WARNINGS FOUND: 56
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Ca_pump, Ca is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

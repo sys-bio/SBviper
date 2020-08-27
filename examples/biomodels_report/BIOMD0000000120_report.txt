@@ -1,0 +1,36 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: d2 is set to ZERO!
+WARNING: r_l is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v2, phosphatase_active is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, lck_active is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

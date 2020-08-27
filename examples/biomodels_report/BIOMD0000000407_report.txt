@@ -1,0 +1,69 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction J4, RIP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J5, TRADD is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, TRAF2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J7, FADD is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J18, TNF_TNFR_E is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J23, FADD is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J34, TNFRC2_FLIP_pCasp8_RIP_TRAF2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J35, IKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J36, NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J37, FLIP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J38, XIAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J39, A20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J51, TNFRC1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J53, A20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J55, IKKa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J57, NFkB_N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J58, IkBa_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J59, IkBa_N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J62, NFkB_N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J63, A20_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J64, NFkB_N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J65, XIAP_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J66, NFkB_N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J67, FLIP_mRNA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J68, pCasp8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J69, pCasp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J70, pCasp6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J75, BAR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J79, Casp8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J80, Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J81, Casp6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J82, XIAP_Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J83, Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J85, Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J86, Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J87, Casp3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J88, BAR_Casp8 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 37
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

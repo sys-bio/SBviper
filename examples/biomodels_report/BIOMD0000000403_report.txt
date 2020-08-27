@@ -1,0 +1,42 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: y1 is UNINITIALIZED!
+ERROR: y2 is UNINITIALIZED!
+ERROR: C_bar is UNINITIALIZED!
+ERROR: B_bar is UNINITIALIZED!
+ERROR: gamma is UNINITIALIZED!
+ERROR: V1 is UNINITIALIZED!
+ERROR: V2 is UNINITIALIZED!
+ERRORS FOUND: 7
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: g22 is set to ZERO!
+WARNING: r21 is set to ZERO!
+WARNING: r12 is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

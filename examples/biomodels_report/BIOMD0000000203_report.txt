@@ -1,0 +1,48 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction J0, OCT4_SOX2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J0, NANOG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J0, A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J0, OCT4_Gene is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J2, OCT4_SOX2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, p53 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, NANOG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, NANOG_Gene is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J4, OCT4_SOX2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, OCT4_SOX2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, NANOG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, SOX2_Gene is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J8, OCT4_SOX2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J8, NANOG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J8, targetGene is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

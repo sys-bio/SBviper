@@ -1,0 +1,49 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: SB_0 is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, S4_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, S2_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, pS2_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, S24_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, S24_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, S22_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_10, S22_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_13, R_inact is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_16, G_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_17, pG_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, GG_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_19, GG_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_20, G2_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_21, G2_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_22, G4_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_23, G4_n is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

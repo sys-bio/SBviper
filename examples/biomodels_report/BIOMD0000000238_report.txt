@@ -1,0 +1,57 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: E_slow is UNINITIALIZED!
+ERROR: E_fast is UNINITIALIZED!
+ERROR: f_prime is UNINITIALIZED!
+ERROR: M_c is UNINITIALIZED!
+ERROR: tprime is UNINITIALIZED!
+ERROR: k is UNINITIALIZED!
+ERROR: f2_drug is UNINITIALIZED!
+ERROR: T_day is UNINITIALIZED!
+ERROR: T_night is UNINITIALIZED!
+ERROR: kb is UNINITIALIZED!
+ERROR: M_day is UNINITIALIZED!
+ERROR: M_night is UNINITIALIZED!
+ERROR: M_night_baseline is UNINITIALIZED!
+ERROR: gNsTs1 is UNINITIALIZED!
+ERROR: gNsTs2 is UNINITIALIZED!
+ERROR: gNsTs3 is UNINITIALIZED!
+ERROR: gNfTf1 is UNINITIALIZED!
+ERROR: gNfTf2 is UNINITIALIZED!
+ERROR: gNfTf3 is UNINITIALIZED!
+ERROR: X1 is UNINITIALIZED!
+ERROR: X2 is UNINITIALIZED!
+ERROR: X3 is UNINITIALIZED!
+ERROR: Kf is UNINITIALIZED!
+ERROR: Ks is UNINITIALIZED!
+ERRORS FOUND: 24
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: BR is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,43 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, coI_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, H_p is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R5, O2minus_p is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9, O2minus_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9, H_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R11, NADP_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R14, O2_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R15, H2O2_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, MLTH_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, MLT_c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R18, O2minus_c is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 11
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

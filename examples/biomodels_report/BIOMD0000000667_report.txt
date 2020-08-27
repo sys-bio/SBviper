@@ -1,0 +1,131 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: kd36 is set to ZERO!
+WARNING: k127 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, EGFR is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2, _EGF_EGFR_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, EGF_EGFR is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3, _EGF_EGFR__2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, _EGF_EGFR__2_GAP_Grb2_Prot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, EGFRi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, _EGF_EGFRi__2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, _EGF_EGFR__2_GAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, EGF_EGFRi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, _EGF_EGFRi_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, EGF_EGFRi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v12, _EGF_EGFRi__2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, _EGF_EGFRi__2_GAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v16, _EGF_EGFR__2_GAP_Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v17, _EGF_EGFR__2_GAP_Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v18, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v19, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v20, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v21, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v22, _EGF_EGFR__2_GAP_SHC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v23, _EGF_EGFR__2_GAP_SHC_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, _EGF_EGFR__2_GAP_SHC__Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v25, _EGF_EGFR__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v26, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v27, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v28, Raf_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, Raf_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v30, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v32, _EGF_EGFR__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, Shc__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, _EGF_EGFR__2_GAP_Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v36, Shc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v37, _EGF_EGFR__2_GAP_SHC_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v38, Shc__Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v39, _EGF_EGFR__2_GAP_SHC__Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v40, Shc__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v41, _EGF_EGFR__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v42, Raf__phosphatase1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v44, MEK_Raf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v46, MEK_P_Raf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v48, MEK_PP_phosphatase2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v50, MEK_P_phosphatase2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v52, ERK_MEK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v54, ERK_P_MEKPP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v56, ERK_PP_phosphatase3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v58, ERK_P_phosphatase3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v63, _EGF_EGFRi__2_GAP_Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v64, _EGF_EGFRi__2_GAP_Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v65, _EGF_EGFRi__2_GAP_Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v66, _EGF_EGFRi__2_GAP_Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v67, _EGF_EGFRi__2_GAP_Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v68, _EGF_EGFRi__2_GAP_Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v69, _EGF_EGFRi__2_GAP_SHC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v70, _EGF_EGFRi__2_GAP_SHC_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v71, _EGF_EGFRi__2_GAP_SHC__Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v72, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v73, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v74, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_Ras_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v75, Raf_Ras_GTPi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v76, Raf_Ras_GTPi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v77, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v78, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v79, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v80, _EGF_EGFRi__2_GAP_Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v81, _EGF_EGFRi__2_GAP_SHC_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v82, _EGF_EGFRi__2_GAP_SHC__Grb2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v83, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v84, Rafi__phosphatase1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v86, MEK_Rafi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v88, MEK_P_Rafi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v90, MEKi_PP_phosphatase2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v92, MEKi_P_phosphatase2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v94, ERKi_MEKi_PP_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v96, ERKi_P_MEKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v98, ERKi_PP_phosphatase3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v100, ERKi_P_phosphatase3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v106, _EGF_EGFR__2_GAP_Grb2_Sos_Prot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v109, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GDP_Prot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v112, _EGF_EGFR__2_GAP_Grb2_Sos_Ras_GTP_Prot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v115, _EGF_EGFR__2_GAP_SHC__Grb2_Prot_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v118, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Prot_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v121, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GDP_Prot_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v124, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_Ras_GTP_Prot_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v126, _EGF_EGFR__2_GAP_Grb2_Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v127, _EGF_EGFRi__2_GAP_Grb2_Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v128, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v129, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v130, Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v131, Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v143, _EGF_EGFR__2_GAP_Grb2_Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v144, _EGF_EGFR__2_GAP_SHC__Grb2_Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v145, Sos_ERK_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v146, _EGF_EGFRi__2_GAP_Grb2_Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v147, _EGF_EGFRi__2_GAP_SHC__Grb2_Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v148, Sos_ERKi_PP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 97
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

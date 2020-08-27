@@ -1,0 +1,45 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, AC9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9, C9X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, AC9X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13, AC9X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v15, C3_starX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, AC9_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, C9_starX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v12, AC9_starX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, AC9_starX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v16, A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v17, C9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v18, X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v22, C3 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

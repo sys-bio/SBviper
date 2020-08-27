@@ -1,0 +1,35 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction mwdd7079dc_8d70_41b7_a369_3334522cdd13, mwfcfaf604_14d4_47a6_b021_226d1fb5497c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mwdd7079dc_8d70_41b7_a369_3334522cdd13, mwf166ad55_4ff0_49fb_95d2_b657ad7653d5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction mw5194cffd_f75a_4c61_b60e_23d5b0fea120, mw8796c919_9251_4970_8f87_0bca9ecfeb5c is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

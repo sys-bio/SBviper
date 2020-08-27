@@ -1,0 +1,46 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction V_NE, HCOOH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_NE, _5_10_CH2THF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_MS, Hcy is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_MTHFR, NADPH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_FTS, HCOOH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_AICART, AICAR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_PGT, GAR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_TS, dUMP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_DHFR, NADPH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_MTCH, _10fTHF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_SHMT, Ser is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_SHMT, Gly is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_SHMT, _5_10_CH2THF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_MTD, _5_10_CHTHF is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 14
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

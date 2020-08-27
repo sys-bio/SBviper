@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Tot_FRQ is UNINITIALIZED!
+ERRORS FOUND: 1
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: amp is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction FCtrl, MF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FCtrs, FN is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FCptrl, MF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FCptrs, FNp is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

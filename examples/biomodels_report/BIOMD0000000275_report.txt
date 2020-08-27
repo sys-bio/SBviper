@@ -1,0 +1,48 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: vs1 is UNINITIALIZED!
+ERROR: rho is UNINITIALIZED!
+ERROR: alpha2 is UNINITIALIZED!
+ERROR: alpha1 is UNINITIALIZED!
+ERRORS FOUND: 4
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: kd5 is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNING: M_F is UNINITIALIZED
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction RA_deg_by_Cyp26, C is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction C_translation, M_C is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FGF_synthesis, M_F is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

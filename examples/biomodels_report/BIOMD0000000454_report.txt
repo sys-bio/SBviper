@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, x3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v1, x1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, y5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, x2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, y2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, y3 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

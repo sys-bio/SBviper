@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction V_MAT_I, Methionine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_MAT_III, Methionine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_METH, AdoMet is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_GNMT, AdoMet is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_AH, AdoHcy is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_MS, Homocysteine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_MS, _5mTHF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_BHMT, Homocysteine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_CBS, Homocysteine is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

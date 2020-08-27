@@ -1,0 +1,50 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: k_ctak1 is set to ZERO!
+WARNING: k_ctak1_0 is set to ZERO!
+WARNING: k_3 is set to ZERO!
+WARNING: k4 is set to ZERO!
+WARNING: k_Plk1 is set to ZERO!
+WARNING: k8_0 is set to ZERO!
+WARNING: k9_0 is set to ZERO!
+WARNING: k10 is set to ZERO!
+WARNING: k_Plk1_0 is set to ZERO!
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R2_Cdc25_Phosphorylation, Cdc25_active is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R7_Cdc25_Activation, Cdc25_inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18_Cdc25Ps216_activation, Cdc25Ps216_inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R2__Cdc25_Phosphorylation, Cdc25_inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9_MPF_activation, preMPF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9__MPF_inactivation, MPF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R15_MPF_degradation, MPF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R1_Chk1_Phosphorylation, Chk1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R8_Wee1_Phosphorylation, Wee1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

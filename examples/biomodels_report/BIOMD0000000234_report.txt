@@ -1,0 +1,39 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: rem_time is UNINITIALIZED!
+ERROR: Exposure is UNINITIALIZED!
+ERROR: Effect is UNINITIALIZED!
+ERROR: Keq is UNINITIALIZED!
+ERROR: RateIn is UNINITIALIZED!
+ERROR: Kover is UNINITIALIZED!
+ERRORS FOUND: 6
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Dose_Int1 is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,94 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: heparin_infusion is set to ZERO!
+WARNING: heparin_bolus is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r1_, VIII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r2_, VIIIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r3_, IX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r4_, XI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r5_, XI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r6_, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r7_, X is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r8_, X is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r9_, X is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r10, V is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r11, Va is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r12, II is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r13, II is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r14, Fg is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r15, Fg is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r16, F is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r17, F is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r18, XF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r19, XF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r20, XIII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r21, Pg is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r22, Pg is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r23, Pg is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r24, PC is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r25, Va_Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r26, VIIIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r26, IXa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r27, Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r27, Va is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r28, Tmod is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r28, IIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r29, VIIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r29, TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r30, TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r30, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r31, Xa_TFPI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r31, VIIa_TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r32, Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r32, TFPI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r33, VII_TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r34, X is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r35, IX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r36, VII_TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r37, APC is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r37, PS is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r38, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r39, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r40, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r41, XII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r42, XII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r43, Pk is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r44, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r44, IIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r45, Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r45, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r46, IXa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r46, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r47, VK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r48, VKO is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction VK_transport, VK_p is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 60
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

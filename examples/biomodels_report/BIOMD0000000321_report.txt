@@ -1,0 +1,51 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: F_b is UNINITIALIZED!
+ERROR: F_H is UNINITIALIZED!
+ERROR: CL_H is UNINITIALIZED!
+ERROR: CL_dopa is UNINITIALIZED!
+ERROR: f_rest is UNINITIALIZED!
+ERROR: CL_AADC is UNINITIALIZED!
+ERROR: CL_rest is UNINITIALIZED!
+ERROR: CL_COMT is UNINITIALIZED!
+ERRORS FOUND: 8
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNING: A_dopa is UNINITIALIZED
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNING: A_dopa is unreachable!
+WARNINGS FOUND: 1
+==========================================================
+

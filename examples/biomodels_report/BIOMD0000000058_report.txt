@@ -1,0 +1,45 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Phi1_c1 is set to ZERO!
+WARNING: Phi_minus1_c1 is set to ZERO!
+WARNING: Phi2_c1 is set to ZERO!
+WARNING: Phi3_c1 is set to ZERO!
+WARNING: Phi1_c2 is set to ZERO!
+WARNING: Phi_minus1_c2 is set to ZERO!
+WARNING: Phi2_c2 is set to ZERO!
+WARNING: Phi3_c2 is set to ZERO!
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Jpump_Cell1, c1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Inactivated_to_S_Cell1, h1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Jpump_Cell2, c2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Inactivated_to_S_Cell2, h2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction diffusion, c1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

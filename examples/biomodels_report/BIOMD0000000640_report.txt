@@ -1,0 +1,59 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, IRS is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_2, AMPK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_3, mTORC2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, IR_beta is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, IRS is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, IRS_p is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, IRS is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_12, PI3K_PDK1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, PI3K_variant is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_15, AMPK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_17, Akt is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_18, Akt is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_19, Akt_pS473 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_20, Akt_pT308 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_25, TSC1_TSC2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_26, TSC1_TSC2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_29, mTORC1_pS2448 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_30, mTORC1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_31, mTORC2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_33, p70_S6K is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_34, p70_S6K is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_35, p70_S6K_pT389 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_36, p70_S6K_pT229 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_41, PRAS40 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_42, PRAS40 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_43, PRAS40_pS183 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_44, PRAS40_pT246 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 27
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,59 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Ena is UNINITIALIZED!
+ERROR: a11 is UNINITIALIZED!
+ERROR: a12 is UNINITIALIZED!
+ERROR: a13 is UNINITIALIZED!
+ERROR: b11 is UNINITIALIZED!
+ERROR: b12 is UNINITIALIZED!
+ERROR: b13 is UNINITIALIZED!
+ERROR: a2 is UNINITIALIZED!
+ERROR: b2 is UNINITIALIZED!
+ERROR: a3 is UNINITIALIZED!
+ERROR: b3 is UNINITIALIZED!
+ERROR: a4 is UNINITIALIZED!
+ERROR: b4 is UNINITIALIZED!
+ERROR: a5 is UNINITIALIZED!
+ERROR: b5 is UNINITIALIZED!
+ERROR: Ina is UNINITIALIZED!
+ERRORS FOUND: 16
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_0000001, IC2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000002, IF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000003, IM1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000004, IM2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000005, IC3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000006, C3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000007, IC2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000008, C2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000009, IF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000010, O is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000011, C1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 11
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

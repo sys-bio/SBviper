@@ -1,0 +1,44 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: ptp_activity is UNINITIALIZED!
+ERROR: src_activity is UNINITIALIZED!
+ERRORS FOUND: 2
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: PTP_background is set to ZERO!
+WARNING: rho_srco is set to ZERO!
+WARNING: acsk0 is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, Cbp_P_CSK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v1, srco is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, srca is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, Cbp_P_CSK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, srcc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CSK_translocation, Cbp_P_CSK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PTP_phosphorylation, PTP_pY789 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

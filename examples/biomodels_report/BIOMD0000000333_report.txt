@@ -1,0 +1,61 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction LB1, II_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB2, mIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB3, V_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB4, Va_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB5, VII_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB6, VIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB11, X_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB12, Xa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB13, APC_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB14, PS_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB16, Vai_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LB17, PC_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R1, TF_VIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, TF_VII_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R4, TF_VIIa_X_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, TF_VII_Xa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, Xa_Va_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, V_Xa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, V_IIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, Xa_Va_II_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, Xa_Va_mIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, VII_Xa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, APC_PS_Va_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R20, TFPI_Xa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, TFPI_Xa_TF_VIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R25, V_mIIa_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R27, IIa_TM_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R28, IIa_TM_PC_l is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R30, APC_PS_l is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

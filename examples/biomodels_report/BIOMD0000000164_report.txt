@@ -1,0 +1,67 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Vmax_RanGTP_dephosphorylation_FRanGTP_dephosphorylation is UNINITIALIZED!
+ERROR: Vmax_dephosphorylation_dephosphorylationF is UNINITIALIZED!
+ERROR: Vmax_RanGTP_dephosphorylation_RanGTP_dephosphorylation is UNINITIALIZED!
+ERROR: Vmax_dephosphorylation_dephosphorylation is UNINITIALIZED!
+ERRORS FOUND: 4
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: ar_for_Microinj is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Carrier_FRanGTP_binding, FCarrier_RanGTP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FRanGTP_Carrier_binding, FCarrier_RanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_FRanGDP_Unbinding, FNTF2_RanGDP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanBP1_bindingF, FRanBP1_Carrier_RanGTP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_FRanGDP_unbinding, NTF2_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_FRanGDP_unbinding, FRanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FRanGDP_to_FRanGTP, RCC1_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FRanGDP_to_FRanGTP, NTF2_RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanGTP_Carrier_binding, Carrier_RanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RanGDP_Unbinding, NTF2_RanGDP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanGDP_to_RanGTP, RCC1_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanGDP_to_RanGTP, NTF2_RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RAN_Nuc_Exchange, RCC1_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RAN_Nuc_Exchange, RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RanGDP_unbinding, NTF2_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RanGDP_unbinding, RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Carrier_RanGTP_binding, Carrier_RanGTP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_FRAN_Nuc_Exchange, RCC1_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_FRAN_Nuc_Exchange, RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanBP1_binding, RanBP1_Carrier_RanGTP_Cytosol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Carrier_RanGTP_flux, Carrier_RanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_flux, NTF2_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction NTF2_RanGDP_flux, NTF2_RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Carrier_flux, Carrier_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FRanGDP_flux, FRanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Carrier_FRanGTP_flux, FCarrier_RanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FNTF2_RanGDP_flux, FNTF2_RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FRanGTP_flux, FRanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanGDP_flux, RanGDP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RanGTP_flux, RanGTP_Nucleus is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 30
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,46 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: CD95act is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_5, p30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, p43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, DISCp55 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, p30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_11, p30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_12, p43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_14, DISCp55 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_15, p43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_17, p43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_17, p18 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, p43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, p18 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_19, p18 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

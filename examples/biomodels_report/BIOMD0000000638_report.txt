@@ -1,0 +1,75 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: L is set to ZERO!
+WARNING: k_on_L_R is set to ZERO!
+WARNING: k_on_L_RG is set to ZERO!
+WARNING: k_on_L_RGt is set to ZERO!
+WARNING: k_on_L_RGd is set to ZERO!
+WARNING: tot_LR is set to ZERO!
+WARNING: tot_RG is set to ZERO!
+WARNING: tot_Gd is set to ZERO!
+WARNING: tot_Gt is set to ZERO!
+WARNING: tot_Rrgs is set to ZERO!
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction binding_R_G, RG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_R, LR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_R_Gt, RGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_R_Gd, RGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LR_G, LRG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LR_Gt, LRGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LR_Gd, LRGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RG, LRG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RGt, LRGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction association_Gd, G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction association_RGd, RG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction association_LRGd, LRG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RGd, LRGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction association_LRrgsGd, LRrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction association_RrgsGd, RrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRrgs_G, LRrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRrgs_Gd, LRrgsGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRrgs_Gt, LRrgsGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_Rrgs, LRrgs is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RrgsG, LRG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RrgsGd, LRrgsGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_L_RrgsGt, LRrgsGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_Rrgs_G, RrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_Rrgs_Gd, RrgsGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_Rrgs_Gt, RrgsGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_R_rgs, Rrgs is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LR_rgs, LRrgs is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_RG_rgs, RrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRG_rgs, LRrgsG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_RGt_rgs, RrgsGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRGt_rgs, LRrgsGt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_RGd_rgs, RrgsGd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction binding_LRGd_rgs, LRrgsGd is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

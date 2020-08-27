@@ -1,0 +1,47 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Rb_phos is UNINITIALIZED!
+ERRORS FOUND: 1
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction cyclinD_1, E_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cyclinEsynthesis_1, theta_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cyclinEdegradation_1, X_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBsynthesis_1, RS_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBsynthesis_1, X_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBsynthesis_1, R_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBdeplation_1, theta_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction pRBdeplation_1, R_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction _2, D_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction null2_1, E_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction null3_1, theta_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction E2Fdegradationviacellcycleprogression_1, X_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cellcycleprogression_1, theta_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cellcycleprogression_1, E_1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 14
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

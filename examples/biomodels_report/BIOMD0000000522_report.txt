@@ -1,0 +1,52 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: F_AHP6 is set to ZERO!
+WARNING: F_CK is set to ZERO!
+WARNING: F_IAA2 is set to ZERO!
+WARNING: F_ARR5 is set to ZERO!
+WARNING: F_PIN1 is set to ZERO!
+WARNING: F_PIN7 is set to ZERO!
+WARNING: F_PIN3 is set to ZERO!
+WARNING: lambda_PIN1 is set to ZERO!
+WARNING: lambda_PIN3 is set to ZERO!
+WARNING: mu_m_PIN1 is set to ZERO!
+WARNING: mu_m_PIN3 is set to ZERO!
+WARNING: delta_PIN1 is set to ZERO!
+WARNING: delta_PIN3 is set to ZERO!
+WARNING: mu_p_PIN1 is set to ZERO!
+WARNING: mu_p_PIN3 is set to ZERO!
+WARNING: b_pin1 is set to ZERO!
+WARNING: b_pin7 is set to ZERO!
+WARNING: b_ahp6 is set to ZERO!
+WARNING: b_arr5 is set to ZERO!
+WARNING: b_iaa2 is set to ZERO!
+WARNINGS FOUND: 20
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

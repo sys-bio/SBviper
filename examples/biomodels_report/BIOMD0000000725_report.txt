@@ -1,0 +1,88 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, PEP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R1, EP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R2, DAHP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R3, DHQ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R4, NADPH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R4, DHSK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R5, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R5, SK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R6, PEP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R6, SKP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R7, CVPSK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R8, CM is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R8, Gln is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9, ADC is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R10, GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R11, DHNTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R27, DHNTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R12, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R12, AHMDHP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R14, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R14, DHP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R14, Glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R15, NADPH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R15, DHF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R16, THF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R16, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R16, Glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R17, THFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R17, Ser is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18b, DLp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18b, Gly is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, NADPH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, myTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R20, Hcy is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R20, MTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, dUMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, myTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R22, NADP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R22, myTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R25, mtRNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R25, fTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R26, NADP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R26, fTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18c, SAmDLp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18c, THFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18a, Lp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18a, NADH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R13, pABA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R13, AHMDPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R24, Pi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R24, fTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R24, ADP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R23, fTHFGlu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R28, meTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R29, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R29, ffTHFGlu is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 56
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

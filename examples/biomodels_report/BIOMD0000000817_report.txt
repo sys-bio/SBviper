@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: U_V is set to ZERO!
+WARNING: U_D is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Tumour_cell_U_elimination, Uninfected_Tumor_Cell_U is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Tumor_Cell_U_infection, Uninfected_Tumor_Cell_U is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Infected_Tumor_Cell_I_death, Infected_Cancer_Cell_I is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Infected_Tumor_Cell_I_elimination, Infected_Cancer_Cell_I is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Natural_decay_of_virus, Oncolytic_Adenovirus_V is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction natural_death_of_T_cells, Tumor_targeting_T_cells_T is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction natural_decay_of_Dendritic_Cells_D, Dendritic_Cells_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

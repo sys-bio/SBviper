@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: T is UNINITIALIZED!
+ERROR: f0 is UNINITIALIZED!
+ERROR: p00 is UNINITIALIZED!
+ERROR: f1 is UNINITIALIZED!
+ERROR: p11 is UNINITIALIZED!
+ERRORS FOUND: 5
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R01, N0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R00, N0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R12, N1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R11, N1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

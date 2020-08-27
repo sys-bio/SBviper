@@ -1,0 +1,37 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction tumor_death, T is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction immune_inhibition, I is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vasc_decrease, V is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction de_necrotise, N is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction normoxia, H is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

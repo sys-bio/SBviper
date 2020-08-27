@@ -1,0 +1,39 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: V_CRAC is set to ZERO!
+WARNING: i_leak is set to ZERO!
+WARNING: g_leak is set to ZERO!
+WARNING: IP3 is set to ZERO!
+WARNING: b_infinity is set to ZERO!
+WARNING: O is set to ZERO!
+WARNING: J_er_IP3 is set to ZERO!
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

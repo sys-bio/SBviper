@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: HO2star is set to ZERO!
+WARNING: Cu_I_ZnSOD is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_4, species_0000002 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, species_0000017 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_14, species_0000007 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction fast, species_0000001 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

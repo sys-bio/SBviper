@@ -1,0 +1,178 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: I_init is set to ZERO!
+WARNING: Amino_Acids_input is set to ZERO!
+WARNING: IRS1_pY is set to ZERO!
+WARNING: IRS1_pS636 is set to ZERO!
+WARNING: IRS1_pYtot is set to ZERO!
+WARNING: IRS1_PI3K_complex is set to ZERO!
+WARNING: PI3K_variant_p is set to ZERO!
+WARNING: Akt_pT is set to ZERO!
+WARNING: Akt_pS is set to ZERO!
+WARNING: mTORC1_pS2448 is set to ZERO!
+WARNING: p70S6K_pT389 is set to ZERO!
+WARNING: TSC1_TSC2_pS1387 is set to ZERO!
+WARNING: mTORC2_pS2481 is set to ZERO!
+WARNING: PKC_pT410 is set to ZERO!
+WARNING: IR_bound_memb is set to ZERO!
+WARNING: IR_bound1_memb is set to ZERO!
+WARNING: IR_bound2_memb is set to ZERO!
+WARNING: IR_phos_memb is set to ZERO!
+WARNING: AMPK_pT172 is set to ZERO!
+WARNING: Akt_pT309 is set to ZERO!
+WARNING: Akt_pS474 is set to ZERO!
+WARNING: Akt_pp is set to ZERO!
+WARNING: aSrc is set to ZERO!
+WARNING: IRS1_GS_complex is set to ZERO!
+WARNING: RasGTP is set to ZERO!
+WARNING: IR_RasGAP_complex is set to ZERO!
+WARNING: aRaf is set to ZERO!
+WARNING: aaRaf is set to ZERO!
+WARNING: Mek_pS218_S222 is set to ZERO!
+WARNING: Erk_pT202_T185 is set to ZERO!
+WARNING: Erk_ppY204_Y187 is set to ZERO!
+WARNING: iGS is set to ZERO!
+WARNING: IRS1_SHP2_complex is set to ZERO!
+WARNING: f7 is set to ZERO!
+WARNING: f7p is set to ZERO!
+WARNING: f11 is set to ZERO!
+WARNING: f12 is set to ZERO!
+WARNING: fp15 is set to ZERO!
+WARNING: f15 is set to ZERO!
+WARNING: f16 is set to ZERO!
+WARNING: f17 is set to ZERO!
+WARNING: f_18 is set to ZERO!
+WARNING: f19 is set to ZERO!
+WARNING: f20 is set to ZERO!
+WARNING: f_21 is set to ZERO!
+WARNING: f21 is set to ZERO!
+WARNING: f24 is set to ZERO!
+WARNING: f28 is set to ZERO!
+WARNING: f30 is set to ZERO!
+WARNING: f31 is set to ZERO!
+WARNING: f33 is set to ZERO!
+WARNING: f35 is set to ZERO!
+WARNING: f36 is set to ZERO!
+WARNING: f39 is set to ZERO!
+WARNING: f42 is set to ZERO!
+WARNINGS FOUND: 55
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R1, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R2, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R3, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R4, S29 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R5, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R6, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R7, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R8, S7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R9, S8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R10, S9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R11, S8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R12, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R13, S10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R14, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R15, S12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R16, S28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R17, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R18, S6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R20, S14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R22, S19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R23, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R24, S17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R25, S18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R26, S23 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R27, S24 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R28, S25 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R29, S26 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R30, S27 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R31, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R32, S30 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R33, S30 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R34, S32 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R35, S33 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R36, S5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R36, S32 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R37, S38 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R38, S34 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R39, S35 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R40, S36 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R41, S37 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R42, S34 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R43, S38 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R44, S39 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R45, S40 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R46, S41 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R47, S42 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R48, S43 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R49, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R49, S32 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R50, S32 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R50, S22 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R51, S44 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R52, S45 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R53, S46 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R54, S47 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R55, S47 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R56, S48 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R57, S49 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R57, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R58, S49 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R59, S49 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R60, S50 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R61, S51 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R62, S51 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R63, S49 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R63, S21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R64, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R64, S50 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R65, S52 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R66, S53 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R67, S54 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R68, S55 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R69, S52 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R70, S53 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R71, S56 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R72, S56 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R73, S57 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R74, S57 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R75, S56 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R75, S21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R76, S58 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R77, S59 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R78, S59 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R79, S58 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R80, S60 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R81, S60 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R82, S61 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R83, S61 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 91
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

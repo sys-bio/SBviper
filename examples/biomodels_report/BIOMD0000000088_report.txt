@@ -1,0 +1,96 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re1, s174 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re15, s441 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re20, s184 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, s436 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, s214 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, s436 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re26, s233 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re28, s213 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re39, s252 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re43, s435 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re47, s564 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re48, s443 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re51, s564 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re52, s569 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re55, s568 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re56, s567 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re68, s173 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re73, s135 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re73, s173 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re86, s277 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re87, s278 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re88, s280 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re89, s279 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re90, s295 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re91, s294 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re92, s293 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re93, s292 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re94, s310 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re95, s311 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re96, s314 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re97, s566 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re100, s444 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re101, s565 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re102, s324 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re109, s446 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re110, s338 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re111, s335 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re112, s332 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re117, s352 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re118, s355 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re120, s361 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re121, s362 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re125, s456 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re126, s449 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re129, s463 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re131, s496 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re133, s467 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re134, s470 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re135, s477 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re136, s480 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re154, s487 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re155, s491 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re158, s551 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re159, s539 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re160, s520 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re161, s513 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re162, s546 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re163, s526 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re164, s512 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re165, s506 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re174, s556 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re174, s135 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re175, s557 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re175, s135 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 64
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

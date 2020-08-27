@@ -1,0 +1,52 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Treg_origin_fraction_CD4 is UNINITIALIZED!
+ERROR: Treg_origin_fraction_Treg is UNINITIALIZED!
+ERRORS FOUND: 2
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: log_Tumor is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Tumor_Growth, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Tumor_Cell_Killing, Tumorcells is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ul_DC_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Dendritic_Cell_Licensing, ul_DC is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL2_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL2_Degradation, IL2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TGFb_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TGFb_Degradation, TGFb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL10_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL10_Degradation, IL10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction sl_CD8_ETC_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction func_CD8_ETC_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction sl_CD4_HTC_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction func_CD4_HTC_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction sl_TRegs_Production, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction func_TRegs_Production_from_CD4, func_CD4_HTC is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction func_TRegs_Production_from_sl_TRegs, Pool is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 17
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,58 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: phi_S is set to ZERO!
+WARNING: phi_E is set to ZERO!
+WARNING: phi_D is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Cancer_Stem_Cell_S_death, Cancer_Stem_Cell_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Progenitor_Cell_E_differentiation, Progenitor_tumor_cell_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Progenitor_Cell_E_death, Progenitor_tumor_cell_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Differentiated_Cell_D_death, Differentiated_tumor_cell_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_stem_cells, IL_6__L is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_stem_cells, IL_6R_on_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_dissociation_from_stem_cells, IL_6__Cell_bound_IL_6R_complex_on_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_progenitor_cells, IL_6__L is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_progenitor_cells, IL_6R_on_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_dissociation_from_progenitor_cells, IL_6__Cell_bound_IL_6R_complex_on_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_differentiated_cells, IL_6__L is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_binding_to_differentiated_cells, IL_6R_on_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_dissociation_from_differentiated_cells, IL_6__Cell_bound_IL_6R_complex_on_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IL6_natural_decay, IL_6__L is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Recycling_of_Receptors_S, IL_6__Cell_bound_IL_6R_complex_on_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Recycling_of_Receptors_E, IL_6__Cell_bound_IL_6R_complex_on_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Recycling_of_Receptors_D, IL_6__Cell_bound_IL_6R_complex_on_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_Receptors_S__via_cell_death, IL_6R_on_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_Receptors_E_via_cell_death, IL_6R_on_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_Receptors_D_via_cell_death, IL_6R_on_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_C_S_via_cell_death, IL_6__Cell_bound_IL_6R_complex_on_S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_C_E_via_cell_death, IL_6__Cell_bound_IL_6R_complex_on_E is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Loss_of_C_D_via_cell_death, IL_6__Cell_bound_IL_6R_complex_on_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 23
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

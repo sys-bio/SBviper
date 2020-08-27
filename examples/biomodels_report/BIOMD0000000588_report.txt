@@ -1,0 +1,71 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, NGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R18, Shc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, pShc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R20, Grb2_SOS_pShc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, Shc_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R22, pShc_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, Grb2_SOS_pShc_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R24, FRS2_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R25, pFRS2_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R26, FRS2_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R27, pFRS2_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R46, Grb2_SOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R47, Grb2_pSOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R48, Grb2_SOS_pShc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R49, Grb2_SOS_pShc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R50, Grb2_SOS_pShc_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R55, pDok_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R56, Dok is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R65, Crk_C3G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R66, Crk_C3G_pFRS2_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R67, Crk_C3G_pFRS2_pTrkA_endo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R73, c_Raf_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R74, B_Raf_Ras_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R75, B_Raf_Rap1_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R77, dppERKcyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R78, MEKcyt_ERKcyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R79, pMEKcyt_ERKcyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R80, ppMEKcyt_ERKcyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R100, dppERKnuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R101, MEKnuc_ERKnuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R102, pMEKnuc_ERKnuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R103, ppMEKnuc_ERKnuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mwc7ff2b7b_e2c9_4420_87bc_f285d98de30b, mw6782adfa_29ee_41a8_acbb_4c86c6c81596 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mw02775189_5c04_4c2f_a5f4_2f15723e1ece, mw46e8693e_348e_4f1d_8c49_c13485fae7ba is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mwffc6fab3_9f90_4da4_bf71_214b9b723899, mwd4cc05d6_6e19_4e2e_b540_45954f2df4f0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mwf371eb20_7bda_4140_9a43_dfad70900057, L_NGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mw8105f0dc_19ad_4f7a_80df_3f84de216c42, mwe979ec8f_a55c_470c_a554_9fa8013eab74 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mw9da48a51_bbd0_4395_9883_8441d8153b00, mwe009ad7f_90fd_4186_8855_77780724ddb8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mwc467edb6_a255_45d6_8014_33bd0209b36f, mw5afa8250_0cf0_40a2_a97a_f7cf20a9cfbd is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 39
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

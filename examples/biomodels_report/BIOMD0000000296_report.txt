@@ -1,0 +1,44 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: kA2 is UNINITIALIZED!
+ERROR: d1 is UNINITIALIZED!
+ERRORS FOUND: 2
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction J0, C2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J0, C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J0, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J2, C2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J2, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J4, C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J4, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J6, C2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J6, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

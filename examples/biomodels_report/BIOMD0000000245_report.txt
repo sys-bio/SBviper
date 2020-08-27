@@ -1,0 +1,59 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: qO2 is set to ZERO!
+WARNING: qCO2 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r1, s_acetald is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2, s_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, s_pyr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r4, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r5, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r5, s_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r6, s_EtOH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r6, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r6, Red is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r7, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r8, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r8, s_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, s_EtOH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, s_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r10, s_EtOH is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r10, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r10, s_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r10, a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r11, x is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r11, AcDH is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 25
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

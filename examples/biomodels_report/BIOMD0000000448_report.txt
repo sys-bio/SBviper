@@ -1,0 +1,57 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: measuredIRp is set to ZERO!
+WARNING: measuredIRint is set to ZERO!
+WARNING: measuredIRS1p is set to ZERO!
+WARNING: measuredIRS1307 is set to ZERO!
+WARNING: measuredPKB308p is set to ZERO!
+WARNING: measuredPKB473p is set to ZERO!
+WARNING: measuredAS160p is set to ZERO!
+WARNING: measuredmTORC1a is set to ZERO!
+WARNING: measuredS6Kp is set to ZERO!
+WARNING: measuredS6p is set to ZERO!
+WARNING: measuredmTORC2a is set to ZERO!
+WARNING: glucoseuptake is set to ZERO!
+WARNINGS FOUND: 12
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1e, Xp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2a, IRip is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2c, mTORC1a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3a, IRS1p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5a, PKB308p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5a, PKB308p473p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5c, IRip is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4a, IRS1p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4c, mTORC2a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4e, IRS1p307 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6f1, PKB308p473p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7f, AS160p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9f2, S6Kp is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

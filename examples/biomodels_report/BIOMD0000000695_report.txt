@@ -1,0 +1,62 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: apopFBL is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R_1, xFinal_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_2, xFinal_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_3, xFinal_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_4, xFinal_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_5, xFinal_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_6, xFinal_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_7, xFinal_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_8, xFinal_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_9, xFinal_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_10, xFinal_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_11, xFinal_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_12, xFinal_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_13, xFinal_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_14, xFinal_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_16, xFinal_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_17, xFinal_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_18, xFinal_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_19, xFinal_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_20, xFinal_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_21, xFinal_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_22, xFinal_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_23, xFinal_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_24, xFinal_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_25, xFinal_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_26, xFinal_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_29, xFinal_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_30, xFinal_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_31, xFinal_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_35, xFinal_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

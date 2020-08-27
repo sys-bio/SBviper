@@ -1,0 +1,63 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: tau_0 is UNINITIALIZED!
+ERROR: I_Na_post is UNINITIALIZED!
+ERROR: m_inf_post is UNINITIALIZED!
+ERROR: h_post is UNINITIALIZED!
+ERROR: alpha_m_post is UNINITIALIZED!
+ERROR: beta_m_post is UNINITIALIZED!
+ERROR: alpha_h_post is UNINITIALIZED!
+ERROR: beta_h_post is UNINITIALIZED!
+ERROR: I_K_post is UNINITIALIZED!
+ERROR: n_post is UNINITIALIZED!
+ERROR: alpha_n_post is UNINITIALIZED!
+ERROR: beta_n_post is UNINITIALIZED!
+ERROR: I_L_post is UNINITIALIZED!
+ERROR: I_syn is UNINITIALIZED!
+ERROR: s is UNINITIALIZED!
+ERROR: F is UNINITIALIZED!
+ERROR: I_app_pre is UNINITIALIZED!
+ERROR: I_Na_pre is UNINITIALIZED!
+ERROR: m_inf_pre is UNINITIALIZED!
+ERROR: h_pre is UNINITIALIZED!
+ERROR: n_pre is UNINITIALIZED!
+ERROR: alpha_n_pre is UNINITIALIZED!
+ERROR: beta_n_pre is UNINITIALIZED!
+ERROR: alpha_h_pre is UNINITIALIZED!
+ERROR: beta_h_pre is UNINITIALIZED!
+ERROR: alpha_m_pre is UNINITIALIZED!
+ERROR: beta_m_pre is UNINITIALIZED!
+ERROR: I_K_pre is UNINITIALIZED!
+ERROR: I_L_pre is UNINITIALIZED!
+ERRORS FOUND: 29
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: I_app_post is set to ZERO!
+WARNING: theta_syn is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

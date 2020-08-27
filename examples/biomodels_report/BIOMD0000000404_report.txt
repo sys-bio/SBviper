@@ -1,0 +1,65 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction phosphorylation_r1, A is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction phosphorylation_r2, A is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction phosphorylation_r3, A is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction phosphorylation_r6, Y is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction regulatory_r1, Tasp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r2, Tni is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r3, TW is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r4, TA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r5, WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r6, TWA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r7, TWA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r8, TWA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r9, Tasp_W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r10, Tasp_A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r11, Tasp_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r12, Tasp_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r13, Tasp_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r14, Tni_W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r15, Tni_A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r16, Tni_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r17, Tni_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction regulatory_r18, Tni_WA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction motor_r1, Yp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r1, M is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r2, Yp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r2, MYp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r3, Yp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r3, MYpYp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r4, Yp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction motor_r4, MYpYpYp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_1, Tasp_A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, Tasp_W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, Tasp_WA is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

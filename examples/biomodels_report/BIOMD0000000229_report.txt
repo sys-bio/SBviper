@@ -1,0 +1,42 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, CAR1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, PKA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, incAMP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5, CAR1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, PKA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, ERK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9, ACA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, REGA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, ACA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13, excAMP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

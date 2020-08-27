@@ -1,0 +1,61 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Total_IkBbeta is UNINITIALIZED!
+ERROR: Total_IkBeps is UNINITIALIZED!
+ERROR: Total_IkBalpha is UNINITIALIZED!
+ERROR: Total_NFkBn is UNINITIALIZED!
+ERRORS FOUND: 4
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: tr2b is set to ZERO!
+WARNING: tr2e is set to ZERO!
+WARNING: trigger_value is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, IkBalpha_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, IkBbeta_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, IkBeps_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, IKK_IkBalpha_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, IKK_IkBbeta_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, IKK_IkBeps_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13, NFkB_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, IkBalpha_nuc_NFkB_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v15, IkBbeta_nuc_NFkB_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v16, IkBeps_nuc_NFkB_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, IKK_IkBalpha is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v25, IkBalpha_transcript is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v27, IkBalpha_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v28, IKK_IkBbeta is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, IkBbeta_transcript is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, IkBbeta_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v32, IKK_IkBeps is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, IkBeps_transcript is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, IkBeps_nuc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v36, IKK_IkBalpha_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v38, IKK_IkBbeta_NFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v40, IKK_IkBeps_NFkB is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 22
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

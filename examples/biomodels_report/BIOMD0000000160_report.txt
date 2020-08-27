@@ -1,0 +1,58 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re10, clkm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re17, perm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re20, perp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re28, vrip is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re31, vrim is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re35, pdpp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re38, pdpm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re42, prvc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re42, clkp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re42, prpc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re51, timp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re54, timm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re57, CC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re57, prcper is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re60, CC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re60, prcv is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re62, CC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re62, prcpdp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re63, prvc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re63, prpc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re63, VRI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re65, prvc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re65, prpc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re65, PDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re68, prct is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re68, CC is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 26
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,85 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_32, ERK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_6, pERK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re85, pERK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re86, ppERK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re87, pERK_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re88, ppERK_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re106, ERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re107, pERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re108, ppERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_33, DUSP_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_34, pDUSP_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re111, DUSP_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re112, pDUSP_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_12, DUSP_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_13, pDUSP_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_41, RSK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_42, pRSK_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re113, pRSK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_45, CREB_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_46, pCREB_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_57, Elk1_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_58, pElk1_n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_59, c_FOS_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_67, c_FOS_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_60, pc_FOS_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re116, FOSn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re117, FOSn_2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_52, FOSn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_53, FOSn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_54, FOSn_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_25, pDUSP_n_ppERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_27, pDUSP_n_pERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_30, pDUSP_n_ERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_21, DUSP_n_ppERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_23, DUSP_n_pERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_29, DUSP_n_ERK_n is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re119, Fn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re99, Fn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_31, A1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_68, A1_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_69, A2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_70, A2_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_71, RsD is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_72, RsD is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_73, RsT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_74, RsT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_75, A3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_76, A3_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_77, Kin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_78, Kin_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_79, MEK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_80, MEK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_81, pMEK is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 53
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

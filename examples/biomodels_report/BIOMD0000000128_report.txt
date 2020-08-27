@@ -1,0 +1,53 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: ninf is UNINITIALIZED!
+ERROR: minf is UNINITIALIZED!
+ERROR: hinf is UNINITIALIZED!
+ERROR: ica is UNINITIALIZED!
+ERROR: igirk is UNINITIALIZED!
+ERROR: ik is UNINITIALIZED!
+ERROR: ainf is UNINITIALIZED!
+ERROR: hinfer is UNINITIALIZED!
+ERROR: jerp is UNINITIALIZED!
+ERROR: binf is UNINITIALIZED!
+ERROR: o is UNINITIALIZED!
+ERROR: jerleak is UNINITIALIZED!
+ERROR: jerip3 is UNINITIALIZED!
+ERROR: jertot is UNINITIALIZED!
+ERROR: jmemtot is UNINITIALIZED!
+ERROR: perl_inf is UNINITIALIZED!
+ERRORS FOUND: 16
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: IP3 is set to ZERO!
+WARNING: ETswitch is set to ZERO!
+WARNING: h is set to ZERO!
+WARNING: n is set to ZERO!
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_000003, cAMP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

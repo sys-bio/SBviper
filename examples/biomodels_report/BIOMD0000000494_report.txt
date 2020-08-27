@@ -1,0 +1,108 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re2, GnRH_R_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re3, GnRH_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re4, R_GnRH_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re5, R_GnRH_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re6, GnRH_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re8, R_GnRH_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re8, GnRH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re11, R_GnRH_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re15, GnRH_R_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re24, GnRH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re25, s33 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re26, s38 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re28, LH_Pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re29, FSH_pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re35, R_LH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re35, LH_bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re36, LH_R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re37, R_LH_des is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re38, LH_bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re39, FSH_R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re40, R_FSH_des is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re42, AF1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re43, s62 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re44, AF2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re45, AF3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re46, AF4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re49, Sc1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re50, Sc2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re51, Lut1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re52, Lut2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re53, Lut3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re54, s64 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re56, R_Foll is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re57, s66 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re58, s67 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re59, PrF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re60, s69 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re61, OvF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re62, s71 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re64, Lut4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re65, s74 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re66, E2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re67, s76 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re69, s78 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re71, P4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re72, s82 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re73, InhB is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re74, InhA_delay is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re75, s85 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re76, GnRH_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re78, s87 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re82, FSH_bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re83, s93 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re84, s95 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re85, FSH_bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re85, R_FSH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re87, InhA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re90, Ago_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re93, Ago_R_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re94, Ago_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re95, Ago_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re97, Ago_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re97, R_GnRH_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re98, Ago_R_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re99, Ago_R_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re100, Ago_d is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re101, s108 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re102, Ant_d is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re103, s114 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re104, Ant_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re105, Ant_R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re106, Ant_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re106, R_GnRH_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re107, Ant_R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re108, Ant_c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re109, Ant_p is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 76
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

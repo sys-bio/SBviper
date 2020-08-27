@@ -1,0 +1,72 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction ada, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ade, Ade is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction adna, dATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction adrnr, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ampd, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction aprt, Ade is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction aprt, PRPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction arna, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction asuc, IMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction asli, SAMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction dada, dATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction den, PRPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction dgnuc, dGTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction dnaa, DNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction dnag, DNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gdna, dGTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gdrnr, GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gmpr, GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gmps, XMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gnuc, GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gprt, PRPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gprt, Gua is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction grna, GTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction gua, Gua is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction hprt, HX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction hprt, PRPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction hx, HX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction hxd, HX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction impd, IMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction inuc, IMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction mat, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction polyam, SAM is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction prpps, R5P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction pyr, PRPP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction rnaa, RNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction rnag, RNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction trans, SAM is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ua, UA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction x, Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction xd, Xa is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 40
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,97 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: AG2_b is set to ZERO!
+WARNING: b_FAAH_Leucocytes is set to ZERO!
+WARNING: b_NAT_Leucocytes is set to ZERO!
+WARNING: e1 is set to ZERO!
+WARNING: ktr_m_p_L is set to ZERO!
+WARNING: t is set to ZERO!
+WARNING: F_PFM is set to ZERO!
+WARNING: MD is set to ZERO!
+WARNING: PF_p is set to ZERO!
+WARNING: PF_b is set to ZERO!
+WARNING: PF_r is set to ZERO!
+WARNING: PF_m is set to ZERO!
+WARNING: FAAH_D_b is set to ZERO!
+WARNING: slag1_b is set to ZERO!
+WARNING: slag2_b is set to ZERO!
+WARNING: den_b is set to ZERO!
+WARNING: FAAH_D_r is set to ZERO!
+WARNING: c_NAT_ROB is set to ZERO!
+WARNING: slag1_r is set to ZERO!
+WARNING: slag2_r is set to ZERO!
+WARNING: den_r is set to ZERO!
+WARNING: c_FAAH_ROB is set to ZERO!
+WARNING: c_NAAA_ROB is set to ZERO!
+WARNING: FAAH_D_m is set to ZERO!
+WARNING: F_r is set to ZERO!
+WARNING: PFG_p is set to ZERO!
+WARNING: AG_p is set to ZERO!
+WARNING: OG_p is set to ZERO!
+WARNING: PG_p is set to ZERO!
+WARNING: LG_p is set to ZERO!
+WARNING: SG_p is set to ZERO!
+WARNING: CB1_b is set to ZERO!
+WARNING: tid is set to ZERO!
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction vA_degr_b, FAAH_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vO_degr_b, FAAH_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_degr_b, FAAH_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_degr_b, FAAH_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_degr_b, FAAH_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vA_degr_r, FAAH_r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vO_degr_r, FAAH_r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_degr_r, FAAH_r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_degr_r, FAAH_r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_degr_r, FAAH_r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vA_degr_m, FAAH_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vO_degr_m, FAAH_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_degr_m, FAAH_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_degr_m, FAAH_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_degr_m, FAAH_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vA_m_p, A_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vo_m_p, O_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_m_p, P_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_m_p, L_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_m_p, S_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vA_b_m, A_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vO_b_m, O_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_b_m, P_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_b_m, L_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_b_m, S_m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vA_r_p, A_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vO_r_p, O_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vP_r_p, P_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vL_r_p, L_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vS_r_p, S_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction absorp, PFM_gut is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction dist, PFM_r is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 32
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

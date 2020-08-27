@@ -1,0 +1,85 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: TF is UNINITIALIZED!
+ERRORS FOUND: 1
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: Mad is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNING: CycB is UNINITIALIZED
+WARNINGS FOUND: 34
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction CycBdegradationviaCdh1, Cdh1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycBtdegradationviaCdc20a, Cdc20a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdh1synthesis, Cdc20a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdh1synthesis, Cdh1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdh1degradation, CycB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdh1degradation, SK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdh1degradation, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc20activation, IEP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc20activation, Cdc20a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc20activation, Cdc20t is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc20ainhibition, Mad is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IEPsynthesis, IEP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IEPsynthesis, CycB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IEPsynthesis, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction growth, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CKItphosphorilationviaSK, SK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction eq_7, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction eq_7, CycB is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 18
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

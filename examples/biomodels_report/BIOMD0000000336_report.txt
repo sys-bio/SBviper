@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: I is set to ZERO!
+WARNING: IIa_plus_1_2mIIa is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, IX_TF_VIIa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, X_TF_VIIa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, X_VIIIa_IXa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, II_Va_Xa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, VIIIa_IXa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R12, Va_Xa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VIIIa_IXa_degradation, VIIIa_IXa is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

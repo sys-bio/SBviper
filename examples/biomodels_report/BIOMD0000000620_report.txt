@@ -1,0 +1,126 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: placebo_on is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Bcell_replication, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Anakinra_absorption, Anakinrasc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Insulin_dependent_glucose_uptake, Insulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Proinsulin_dependent_glucose_uptake, Proinsulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, f is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: placebo_on is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Bcell_replication, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Anakinra_absorption, Anakinrasc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Insulin_dependent_glucose_uptake, Insulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Proinsulin_dependent_glucose_uptake, Proinsulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, f is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: placebo_on is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Bcell_replication, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Anakinra_absorption, Anakinrasc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Insulin_dependent_glucose_uptake, Insulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Proinsulin_dependent_glucose_uptake, Proinsulin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_insulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, f is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, TigB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Glucose_dependent_proinsulin_secretion, B is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

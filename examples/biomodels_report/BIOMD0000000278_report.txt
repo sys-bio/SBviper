@@ -1,0 +1,42 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Phi_C is UNINITIALIZED!
+ERROR: D_B is UNINITIALIZED!
+ERROR: Phi_L is UNINITIALIZED!
+ERROR: Phi_P is UNINITIALIZED!
+ERROR: Pbar is UNINITIALIZED!
+ERROR: P_O is UNINITIALIZED!
+ERROR: P_S is UNINITIALIZED!
+ERRORS FOUND: 7
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: I_L is set to ZERO!
+WARNING: I_O is set to ZERO!
+WARNING: I_P is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

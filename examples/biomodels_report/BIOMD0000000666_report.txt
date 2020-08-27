@@ -1,0 +1,73 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_0, species_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_3, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, species_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_5, species_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_6, species_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, species_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_11, species_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_13, species_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, species_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_15, species_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_17, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_19, species_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_21, species_20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_23, species_22 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_24, species_21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_27, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_28, species_30 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PIP3_Activation, PIP3Inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PIP3_Feedback_Deactivation_PTEN, PIP3Active is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Activation_PIP3, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PI3K_Activation_IRS1, species_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IRS1_Activation, IRS1Inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PDK1_Activation, PDK1Inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Activation_PDK1, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Activation_HSP90_Cdc37, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Deactivation_PHLPP, species_16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Activation_mTORC2, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Activation_TCL1, species_17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Deactivation_CTMP, species_16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Akt_Feedback_Deactivation_PP2A, species_16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Erk_Feedback_Deactivation_Raf1, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Sos_Feedback_Deactivation_Erk, species_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction mTORC1_Activation_Akt, mTORC1Inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S6K1_Activation_mTORC1, S6K1Inactive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction IRS1_Feedback_Deactivation_S6K1, IRS1Active is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction bRaf_Deactivation_Dabrafenib, bRafMutated is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction bRafMutated_Production, probRafMutated is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 41
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

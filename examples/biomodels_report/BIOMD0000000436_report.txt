@@ -1,0 +1,86 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: t0 is set to ZERO!
+WARNING: timevalue is set to ZERO!
+WARNING: zero is set to ZERO!
+WARNING: LPSactivity is set to ZERO!
+WARNING: LPSslope is set to ZERO!
+WARNING: LPSint is set to ZERO!
+WARNING: LPSslope3 is set to ZERO!
+WARNING: LPSintzero is set to ZERO!
+WARNING: LPSint3 is set to ZERO!
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r3, DG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r1, FA is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: t0 is set to ZERO!
+WARNING: timevalue is set to ZERO!
+WARNING: zero is set to ZERO!
+WARNING: LPSactivity is set to ZERO!
+WARNING: LPSslope is set to ZERO!
+WARNING: LPSint is set to ZERO!
+WARNING: LPSslope3 is set to ZERO!
+WARNING: LPSintzero is set to ZERO!
+WARNING: LPSint3 is set to ZERO!
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r3, DG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r1, FA is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

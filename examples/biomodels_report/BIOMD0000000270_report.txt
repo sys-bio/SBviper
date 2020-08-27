@@ -1,0 +1,62 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: rescaled_pEpoR is UNINITIALIZED!
+ERROR: rescaled_ppMEK1 is UNINITIALIZED!
+ERROR: rescaled_ppMEK2 is UNINITIALIZED!
+ERROR: rescaled_ppERK1 is UNINITIALIZED!
+ERROR: rescaled_ppERK2 is UNINITIALIZED!
+ERROR: rescaled_pJAK2 is UNINITIALIZED!
+ERROR: rescaled_pSOS is UNINITIALIZED!
+ERROR: rescaled_SOS is UNINITIALIZED!
+ERROR: rescaled_mSOS is UNINITIALIZED!
+ERRORS FOUND: 9
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, Epo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, pJAK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, pEpoR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_14, actSHP1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_15, actSHP1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_16, pEpoR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, mSOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_20, pRaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_21, pRaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_22, pRaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_23, pRaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_28, ppMEK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_29, ppMEK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_30, ppMEK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_31, ppMEK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_32, ppMEK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_33, ppMEK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_34, ppMEK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_35, ppMEK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_40, ppERK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_41, ppERK2 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 21
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

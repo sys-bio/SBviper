@@ -1,0 +1,66 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: GLU_0 is UNINITIALIZED!
+ERROR: ENZ_0 is UNINITIALIZED!
+ERROR: ENG_0 is UNINITIALIZED!
+ERROR: TP1_0 is UNINITIALIZED!
+ERROR: ADP_0 is UNINITIALIZED!
+ERROR: GLP_0 is UNINITIALIZED!
+ERROR: ETZ_0 is UNINITIALIZED!
+ERROR: ETG_0 is UNINITIALIZED!
+ERROR: GPP_0 is UNINITIALIZED!
+ERROR: GAP_0 is UNINITIALIZED!
+ERROR: DHA_0 is UNINITIALIZED!
+ERROR: DPN_0 is UNINITIALIZED!
+ERROR: DPH_0 is UNINITIALIZED!
+ERROR: PID_0 is UNINITIALIZED!
+ERROR: DGA_0 is UNINITIALIZED!
+ERROR: PGA_0 is UNINITIALIZED!
+ERROR: PYR_0 is UNINITIALIZED!
+ERROR: LAC_0 is UNINITIALIZED!
+ERROR: DIN_0 is UNINITIALIZED!
+ERROR: DIH_0 is UNINITIALIZED!
+ERROR: XI_0 is UNINITIALIZED!
+ERROR: XSI_0 is UNINITIALIZED!
+ERROR: OXY_0 is UNINITIALIZED!
+ERROR: XSP_0 is UNINITIALIZED!
+ERROR: TP2_0 is UNINITIALIZED!
+ERROR: DBP_0 is UNINITIALIZED!
+ERROR: PUE_0 is UNINITIALIZED!
+ERROR: PPP_0 is UNINITIALIZED!
+ERROR: AGP_0 is UNINITIALIZED!
+ERROR: MOD_0 is UNINITIALIZED!
+ERROR: MOB_0 is UNINITIALIZED!
+ERROR: MOX_0 is UNINITIALIZED!
+ERRORS FOUND: 32
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r_19, DBP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r_20, DBP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

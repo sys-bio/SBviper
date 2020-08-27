@@ -1,0 +1,39 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction kPLC, CaI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction JPump, CaI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction JChannel, g is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction inhibition_parameter1, g is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction mw530793e3_76b2_4483_be11_e94364306712, CaI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction mwfaf5e05a_b642_4ee2_a069_3c2fc783fba4, CaI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ERtoMito, g is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

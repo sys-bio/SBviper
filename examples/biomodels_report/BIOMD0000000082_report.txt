@@ -1,0 +1,37 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Forming, DR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, DRG_GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, DRG is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, GDP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, DRG_GTP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

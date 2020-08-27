@@ -1,0 +1,50 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Curve_Va_Xa is UNINITIALIZED!
+ERRORS FOUND: 1
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: time_minutes is set to ZERO!
+WARNING: Curve_va_i_506 is set to ZERO!
+WARNING: Metabolite_19 is set to ZERO!
+WARNING: Metabolite_13 is set to ZERO!
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R01, APC_Va is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R04, APC_Va_i_506 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R05, APC_Va_i_306 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R10, APC_Va_1_306_Va_LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, Xa_Va is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R12, Xa_Va_i_506 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, Xa_Va_i_306 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, Xa_Va_i_306_506 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, Va_PT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, Xa_Va_PT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R20, Xa_Va_i_506_PT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, Xa_Va_i_306_PT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R22, Xa_Va_i_306_506_PT is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

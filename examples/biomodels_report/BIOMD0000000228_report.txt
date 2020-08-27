@@ -1,0 +1,51 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction pRB_synthesis, pRB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRB_synthesis, E2F1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRB_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRB_phosphorylation, CycDa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction E2F1_synthesis, pRB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction E2F1_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycD_synthesis, pRB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycD_synthesis, E2F1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycD_synthesis, AP1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycD_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycD_activation, CycDa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AP1_synthesis, pRB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AP1_synthesis, E2F1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AP1_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBp_phosphorylation, CycEa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycE_synthesis, pRB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycE_synthesis, E2F1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycE_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CycE_activation, CycEa is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 19
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

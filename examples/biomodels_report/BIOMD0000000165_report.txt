@@ -1,0 +1,63 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Vmax_cAMP_synthesis_GsAC is UNINITIALIZED!
+ERROR: light_cAMP_photolysis is UNINITIALIZED!
+ERROR: Vmax_cAMP_synthesis_FskAC is UNINITIALIZED!
+ERROR: Kf_inhibit_PDE is UNINITIALIZED!
+ERROR: Kr_inhibit_PDE is UNINITIALIZED!
+ERRORS FOUND: 5
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: ton_local_light_cAMP_photolysis is set to ZERO!
+WARNING: toff_local_light_cAMP_photolysis is set to ZERO!
+WARNING: ar_for_add_propranolol is set to ZERO!
+WARNING: ar_for_add_Ligand is set to ZERO!
+WARNING: Ratio_AKARp_AKARtot is set to ZERO!
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction bind_b1AR_propranolol, b1ARinhib_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_Lb1AR_Gs, L_b1AR_Gs_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction desens_bark, L_b1AR_Gs_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_cAMP_ARC, A2RC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_b1AR_Gs, b1AR_Gs_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_PDEcAMP, PDEcAMP_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_FskAC, FskAC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_AKARp_PP, PP_AKARp_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction desens_pka, b1AR_p_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction desens_pka, L_b1AR_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction desens_pka, L_b1AR_Gs_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction desens_pka, PKAC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_L_b1ARGs, L_b1AR_Gs_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_L_b1AR, L_b1AR_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_A2R_PKAC, A2R_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_A2R_PKAC, PKAC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction inhib_PKAC, PKAC_PKI_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_RC_cAMP, ARC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_Gs_AC, GsAC_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bind_PKAC_AKAR, PKAC_AKAR_cell is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction inhibit_PDE, PDE_IBMX_cell is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 21
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

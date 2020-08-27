@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: t_ave is UNINITIALIZED!
+ERROR: kd_mRNA is UNINITIALIZED!
+ERROR: kd_prot is UNINITIALIZED!
+ERROR: k_tl is UNINITIALIZED!
+ERROR: a_tr is UNINITIALIZED!
+ERROR: a0_tr is UNINITIALIZED!
+ERRORS FOUND: 6
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Reaction4, X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Reaction5, Y is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Reaction6, Z is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

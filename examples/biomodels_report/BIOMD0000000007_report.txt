@@ -1,0 +1,53 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: k2 is UNINITIALIZED!
+ERROR: k6 is UNINITIALIZED!
+ERROR: kwee is UNINITIALIZED!
+ERROR: k25 is UNINITIALIZED!
+ERRORS FOUND: 4
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: k6prime is set to ZERO!
+WARNING: Cig1 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Cdc2Phos, PG2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction G2R_Creation, G2R is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PG2R_Creation, PG2R is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction G1R_Binding, G1R is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Rum1_Deg_SPF, SPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IE_Reaction, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IE_Reaction, IE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction UbE_Reaction, IE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction UbE_Reaction, UbE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction UbE2_Reaction, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction UbE2_Reaction, UbE2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Wee1_Reaction, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Wee1_Reaction, Wee1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc25_Reaction, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Cdc25_Reaction, Cdc25 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

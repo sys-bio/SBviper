@@ -1,0 +1,41 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: dose1 is set to ZERO!
+WARNING: dose2 is set to ZERO!
+WARNING: dose3 is set to ZERO!
+WARNING: dose_4 is set to ZERO!
+WARNING: dose_5 is set to ZERO!
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Tumor_Cell_P_early_death, Tumor_Cell_Population_P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Tumor_Cell_P_delayed_death, Tumor_Cell_Population_P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Damaged_Tumor_Cell_D_death, Damaged_Tumor_Cells_D is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Elimination_of_Chemotherapy, Drug_Concentration_C is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

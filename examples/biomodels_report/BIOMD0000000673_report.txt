@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: epsilon is set to ZERO!
+WARNING: CeA_U is set to ZERO!
+WARNING: ICea_U is set to ZERO!
+WARNING: ANT_AGONIST_COMBINATION is set to ZERO!
+WARNING: Model_Inactive is set to ZERO!
+WARNING: Model_active_U_Shaped is set to ZERO!
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

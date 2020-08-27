@@ -1,0 +1,62 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: parameter_5 is set to ZERO!
+WARNING: parameter_7 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re1, LH_Pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re2, FSH_Pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re3, GnRH_Hyp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re4, src_CL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re5, src_GnRH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re6, src_E2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re7, src_P4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re8, src_Inh is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re9, src_OT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re10, src_Enz is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re11, src_PGF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re12, GnRH_Pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re13, LH_Bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re14, FSH_Bld is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re15, P4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re16, E2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re17, Inh is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re18, OT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re19, Enz is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re20, PGF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re21, IOF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re22, Foll is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re23, CL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re24, src_LH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re25, src_FSH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re26, src_GnRH_Pit is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re27, src_Foll is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re28, src_IOF is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 28
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

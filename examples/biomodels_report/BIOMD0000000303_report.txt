@@ -1,0 +1,74 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: mC3 is set to ZERO!
+WARNING: kt04_1 is set to ZERO!
+WARNING: kt04_2 is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction a_01, PC_CRP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction a_02, PC_CRP_C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction a_03, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction a_04, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction c_01, C4b_C2a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction c_03, dC3b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction c_04, dC4b_C2a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_01, PC_CRP_LF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_02, PC_CRP_LF_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_03, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction d_04, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction b_01, GlcNac_LF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction b_02, GlcNac_LF_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction b_03, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction b_04, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction e_01, GlcNac_LF_CRP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction e_02, GlcNac_LF_CRP_C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction e_03, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction e_04, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction f_01, C4BP_PC_CRP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction f_02, C4BP_GlcNac_LF_CRP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction f_04, C4BP_C4b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction f_06, C4b_C2a_C4BP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction f_07, dC4b_C2a_C4BP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_05, PC_CRP_LF_C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_06, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction d_07, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction t_04, C4BP_PC_CRP_LF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction e_05, GlcNac_LF_CRP_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction e_06, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction e_07, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction d_08, PC_CRP_LF_C1_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_09, PC_CRP_LF_C1_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction d_10, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction d_11, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction g_01, GlcNac_HF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction g_02, GlcNac_HF_MASP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction g_03, C4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction g_04, C2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 39
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

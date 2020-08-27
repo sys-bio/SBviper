@@ -1,0 +1,72 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: input is set to ZERO!
+WARNING: quantity is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v10, trehalose_e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, acetate_e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v12, ethanol_e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13a, Fps1r is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13a, glycerol_e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13b, Stl1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13bBatch, glycerol_e is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v14, G6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v16f, Hog1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v1Batch, glucose_e is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2, glucose_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v23f, AOGi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3, G6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v4, G6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v5, F16DP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v6, trioseP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v6b, trioseP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7, trioseP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v8, pyruvate is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v9, pyruvate is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVacetate_i, acetate_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVcin, cin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVethanol_i, ethanol_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVF16DP, F16DP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVG6P, G6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVgluci, glucose_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVGpd1, Gpd1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVgpd1mRNA, gpd1mRNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVHog1, Hog1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVPfk2627a, Pfk2627a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVPfk2627i, Pfk2627i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVpyruvate, pyruvate is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVStl1, Stl1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVstl1mRNA, stl1mRNA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVtrehalose, trehalose is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVtrioseP, trioseP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVglyci, glycerol_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vVHog1PP, Hog1PP is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 38
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

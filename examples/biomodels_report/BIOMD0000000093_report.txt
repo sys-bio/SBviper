@@ -1,0 +1,59 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, RJ is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, IFNRJ is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, IFNRJ2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5, IFNRJ2_star_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, IFNRJ2_star_STAT1c_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, STAT1c_star_STAT1c_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9, IFNRJ2_star_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, STAT1c_star_PPX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v13, STAT1c_star_STAT1c_star_PPX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v15, STAT1c_STAT1c_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v17, STAT1n_star_STAT1n_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v18, STAT1n_star_PPN is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v20, STAT1n_star_STAT1n_star_PPN is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v22, STAT1n_STAT1n_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, STAT1n_star_STAT1n_star is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v26, mRNAc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, IFNRJ2_star_SOCS1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v30, IFNRJ2_star_SOCS1_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, IFNRJ2_star_SHP2_SOCS1_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, IFNRJ2_star_SHP2_SOCS1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, IFNRJ2_star_SHP2_SOCS1_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v36, IFNRJ2_star_SHP2_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v42, IFNRJ2_star_SOCS1_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v43, IFNRJ2_star_SHP2_SOCS1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v44, IFNRJ2_star_SHP2_SOCS1_STAT1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v45, IFNR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v46, IFNRJ is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 27
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

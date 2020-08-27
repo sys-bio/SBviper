@@ -1,0 +1,38 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction T_cell_naive_Activation, T_cell_naive is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction T_cell_effector_Recruitment, Source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction T_cell_effector_Death_by_CML, T_cell_effector is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CML_Growth, Source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction CML_death_by_T_cell_effector, CML is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction T_cell_effector_Production_from_T_cell_Naive_activation, Source is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

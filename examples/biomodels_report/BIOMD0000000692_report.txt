@@ -1,0 +1,39 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Pi_curve is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction GTP_hydrolysis_sbo_1_sbc_, RasGTP_minus_NF1_star_ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction GTP_hydrolysis_sbo_2_sbc_, RasGDP_minus_NF1_Pi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Ras_activation, RasGTP_minus_NF1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction GAP_dissociation, RasGDP_NF1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NF1_binding, NF1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NF1_binding, RasGTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

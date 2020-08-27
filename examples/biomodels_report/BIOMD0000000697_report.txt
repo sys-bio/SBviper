@@ -1,0 +1,45 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Heav is set to ZERO!
+WARNING: pool is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Cdk2_CycE_to_rem, Cdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PCdk2_CycE_to_rem, PCdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_XicPCdk2_CycErem, Xic_PCdk2_CycErem is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_XicCdk2_CycErem, Xic_Cdk2_CycErem is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Phos_Xic_PCdk2_CycE, Xic_Cdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Phos_PCdk2_CycE, Cdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Kinase__regulation, Cdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_Cdk2_CycErem, Cdk2_CycErem is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_PCdk2_CycErem, PCdk2_CycErem is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Xic_PCdk2_CycE_to_rem, Xic_PCdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Xic_Cdk2_CycE_to_rem, Xic_Cdk2_CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 11
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

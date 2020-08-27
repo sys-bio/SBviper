@@ -1,0 +1,37 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: f1 is UNINITIALIZED!
+ERROR: f2 is UNINITIALIZED!
+ERROR: f3 is UNINITIALIZED!
+ERROR: f4 is UNINITIALIZED!
+ERROR: f5 is UNINITIALIZED!
+ERRORS FOUND: 5
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

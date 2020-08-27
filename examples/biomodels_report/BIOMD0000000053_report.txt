@@ -1,0 +1,37 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Fraction_Amadori is set to ZERO!
+WARNING: Fraction_CML is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v3, Glucose is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v6, Schiff is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7c, Schiff is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

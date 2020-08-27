@@ -1,0 +1,62 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: kPhC1 is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Phosphorylation_of_Rb, Rb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Phosphorylation_Rb_in_Rb_E2F_complexes, RbE2f is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Association_dissociation_of_Rb_and_E2F, RbE2f is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Association_dissociation_of_CycE_Cdk2_and_p21, CeP21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Association_dissociation_of_CycA_Cdk2_and_p21, CaP21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Degradation_of_p21_in_CycE_Cdk2_p21_complexes, CeP21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_p21_in_CycA_Cdk2_p21_complexes, CaP21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_CycE_in_CycE_Cdk2_complexes, Ce is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_CycE_in_CycE_Cdk2_p21_complexes, CeP21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_CycA_in_CycA_Cdk2_complexes, Ca is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_CycA_in_CycA_Cdk2_p21_complexes, CaP21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_free_p21, P21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Association_dissociation_of_Emi1_APC_C_Cdh1_complexes, E1C1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Phosphorylation_of_free_APC_C_Cdh1, C1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Phosphorylation_of_APC_C_Cdh1_in_Emi1_APC_C_Cdh1_complexes, E1C1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Association_dissociation_of_PCNA_and_p21, iPcna is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Degradation_of_p21_in_PCNA_p21_complexes, iPcna is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Association_dissociation_of_active_PCNA_and_replication_complexes, aRc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Association_dissociation_of_inactive_PCNA_and_replication_complexes, iRc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Phosphorylation_priming_of_replication_complexes, Rc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Association_dissociation_of_p21_and_replication_complexes, iRc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Degradation_of_p21_in_inactive_replication_complexes, iRc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Dissassembly_of_RC, Rc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Dissassembly_of_pRC, pRc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Dissassembly_of_aRC, aRc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Dissassembly_of_iRC, iRc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_p53, P53 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Degradation_of_APC_C_Cdh1_activity_probe, Pr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Repair_of_DNA_damage, Dam is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

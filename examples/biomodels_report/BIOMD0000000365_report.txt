@@ -1,0 +1,71 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r1, Va_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2, Va3_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, Va5_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r4, Va53_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r5, Va56_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r6, Va36_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r7, Va536_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r17, HC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r17, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, HC5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, HC3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r20, HC56 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r20, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r21, HC53 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r21, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r22, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r22, HC36 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r23, HC536 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r23, LC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r24, LC_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r25, VaA3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r25, VaLCA1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r26, VaLCA1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r26, VaA53 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r27, VaLCA1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r27, VaA36 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r28, VaA536 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r28, VaLCA1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r29, VaA3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r29, VaLCA1_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r30, VaLCA1_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r30, VaA53 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r31, VaLCA1_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r31, VaA36 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r32, VaA536 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r32, VaLCA1_APC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r33, VaLCA1_APC is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 39
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

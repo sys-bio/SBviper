@@ -1,0 +1,66 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: pC3_frac is UNINITIALIZED!
+ERROR: C3_frac is UNINITIALIZED!
+ERROR: C3_UB_frac is UNINITIALIZED!
+ERROR: cPARP_frac is UNINITIALIZED!
+ERROR: C3_tot is UNINITIALIZED!
+ERROR: fC3_fract is UNINITIALIZED!
+ERRORS FOUND: 6
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction re1, L_R is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re3, flip_R_hash is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re4, R_hash_pC8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re6, C6_pC8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re8, BAR_C8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re9, C8_pC3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re11, C8_Bid is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re13, pC3_Apop is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re15, C3_pC6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re17, XIAP_C3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re19, PARP_C3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re21, Apop_XIAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, Smac_XIAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, Bcl2c_tBid is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, Bax_tBid is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re26, Baxm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re27, Baxm_Bcl2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re29, Bax2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re30, Bax4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re31, Bax2_Bcl2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re32, Bax4_Bcl2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re33, Bax4_M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re35, M_hash_Smacm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re37, Smac is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re38, M_hash_CytoCm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re40, CytoC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re41, CytoC_Apaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re43, Apop is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 28
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
