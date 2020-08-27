@@ -1,0 +1,45 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Raplc is set to ZERO!
+WARNING: Rpkc is set to ZERO!
+WARNING: Rgalpha_gtp is set to ZERO!
+WARNING: Rdg is set to ZERO!
+WARNING: Rip3 is set to ZERO!
+WARNING: Rcyt1 is set to ZERO!
+WARNING: Rcyt2 is set to ZERO!
+WARNING: Rer is set to ZERO!
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R2, Galpha_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, PLC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, APLC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, Ca_ER is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R10, Ca_Cyt is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

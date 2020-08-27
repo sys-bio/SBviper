@@ -1,0 +1,90 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: parameter_54 is UNINITIALIZED!
+ERROR: parameter_55 is UNINITIALIZED!
+ERROR: parameter_56 is UNINITIALIZED!
+ERROR: parameter_57 is UNINITIALIZED!
+ERRORS FOUND: 4
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: parameter_19 is set to ZERO!
+WARNING: parameter_20 is set to ZERO!
+WARNING: parameter_21 is set to ZERO!
+WARNING: parameter_22 is set to ZERO!
+WARNING: parameter_23 is set to ZERO!
+WARNING: parameter_24 is set to ZERO!
+WARNING: parameter_25 is set to ZERO!
+WARNING: parameter_26 is set to ZERO!
+WARNING: parameter_28 is set to ZERO!
+WARNING: parameter_29 is set to ZERO!
+WARNING: parameter_30 is set to ZERO!
+WARNING: parameter_31 is set to ZERO!
+WARNING: parameter_32 is set to ZERO!
+WARNING: parameter_34 is set to ZERO!
+WARNING: parameter_39 is set to ZERO!
+WARNING: parameter_40 is set to ZERO!
+WARNING: parameter_41 is set to ZERO!
+WARNING: parameter_42 is set to ZERO!
+WARNING: parameter_43 is set to ZERO!
+WARNING: parameter_44 is set to ZERO!
+WARNING: parameter_45 is set to ZERO!
+WARNING: parameter_48 is set to ZERO!
+WARNING: parameter_59 is set to ZERO!
+WARNING: parameter_60 is set to ZERO!
+WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_129, species_2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_130, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_131, species_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_132, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_133, species_18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_134, species_19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_135, species_20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_136, species_21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_137, species_6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_138, species_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_139, species_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_140, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_141, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_142, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_143, species_22 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_144, species_23 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_145, species_24 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_146, species_25 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_147, species_26 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_148, species_27 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_149, species_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_150, species_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_151, species_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_152, species_15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_153, species_28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_154, species_29 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_155, species_30 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_156, species_31 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_157, species_16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_158, species_32 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 30
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

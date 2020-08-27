@@ -1,0 +1,42 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r1a, E1_KKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2a, E2_P_KKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3a, P_KKK_KK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r4a, KKPase_P_KK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r5a, P_KKK_P_KK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r6a, KKPase_PP_KK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r7a, PP_KK_K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r8a, KPase_P_K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9a, PP_KK_P_K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r10a, KPase_PP_K is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

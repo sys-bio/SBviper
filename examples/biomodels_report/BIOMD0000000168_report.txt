@@ -1,0 +1,85 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: unpho_RB is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: RP_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNING: E2F_1 is UNINITIALIZED
+WARNINGS FOUND: 42
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction cyclinCDK4degradation_1, E_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cyclin_1, E2F_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cycECDK2degradation_1, X_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBpdephosphorylation_1, X_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBpdephosphorylation_1, RP_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBE2Fcomplexassociation_1, E2F_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction pRBE2FcomplexdeassociationviacycDCDK4_1, D_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction _7, E_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cycleprogression_1, E_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction cycleprogression_1, E2F_1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

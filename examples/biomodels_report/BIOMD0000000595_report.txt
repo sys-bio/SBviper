@@ -1,0 +1,312 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Ke1 is UNINITIALIZED!
+ERROR: K45P is UNINITIALIZED!
+ERROR: KcgP is UNINITIALIZED!
+ERROR: ku is UNINITIALIZED!
+ERROR: ko is UNINITIALIZED!
+ERROR: k1b is UNINITIALIZED!
+ERROR: k1o is UNINITIALIZED!
+ERROR: kptp68 is UNINITIALIZED!
+ERROR: kkin68 is UNINITIALIZED!
+ERROR: kb45 is UNINITIALIZED!
+ERROR: ku45M is UNINITIALIZED!
+ERROR: kb45P is UNINITIALIZED!
+ERROR: kb68 is UNINITIALIZED!
+ERROR: ku68 is UNINITIALIZED!
+ERROR: kb68P is UNINITIALIZED!
+ERROR: ku68M is UNINITIALIZED!
+ERROR: kbcg is UNINITIALIZED!
+ERROR: kbcgP is UNINITIALIZED!
+ERROR: kucgM is UNINITIALIZED!
+ERRORS FOUND: 19
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Ltot is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumM is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNING: SumML is UNINITIALIZED
+WARNINGS FOUND: 104
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r971, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r972, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r973, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r974, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r975, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r976, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r977, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r978, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r979, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r980, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r981, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r982, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r983, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r984, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r985, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r986, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r987, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r988, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r989, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r990, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r991, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r992, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r993, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r994, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r995, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r996, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1049, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1050, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1051, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1052, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1053, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1054, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1055, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1056, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1057, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1058, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1059, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1060, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1061, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1062, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1063, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1064, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1065, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1066, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1067, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1068, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1069, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1070, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1071, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1072, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1073, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1074, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1231, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1232, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1233, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1234, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1235, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1236, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1237, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1238, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1239, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1240, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1241, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1242, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1243, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1244, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1245, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1246, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1247, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1248, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1249, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1250, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1251, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1252, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1253, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1254, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1255, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1256, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1257, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1258, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1259, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1260, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1261, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1262, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1263, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1264, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1265, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1266, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1267, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1268, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1269, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1270, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1271, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1272, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1273, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1274, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1275, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1276, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1277, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1278, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1279, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1280, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1281, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1282, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1283, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1284, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1285, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1286, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1287, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1288, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1289, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1290, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1291, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1292, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1293, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1294, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1295, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1296, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1297, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1298, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1299, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1300, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1301, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1302, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1303, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1304, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1305, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1306, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1307, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1308, SumM is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1309, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1310, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1311, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1312, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1313, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1314, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1315, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1316, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1317, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1318, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1319, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1320, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1321, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1322, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1323, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1324, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1325, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1326, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1327, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1328, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1329, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1330, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1331, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1332, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1333, SumML is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1334, SumML is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 156
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,40 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Vn_stim is set to ZERO!
+WARNING: Vn_stim_GLU is set to ZERO!
+WARNING: Vg_gs is set to ZERO!
+WARNING: Veg_GLU is set to ZERO!
+WARNING: v_stim is set to ZERO!
+WARNING: unitpulseSB is set to ZERO!
+WARNING: unitstepSB is set to ZERO!
+WARNING: unitstepSB2 is set to ZERO!
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

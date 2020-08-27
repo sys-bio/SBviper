@@ -1,0 +1,54 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction SosActivationByEGFReaction, boundEGFReceptor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SosActivationByNGFReaction, boundNGFReceptor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SosDeactivationReaction, P90RskActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RasActivationReaction, SosActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RasDeactivationReaction, RasGapActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Raf1ByRasActivationReaction, RasActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction MekbyRaf1ActivationReaction, Raf1Active is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction MekbyBRafActivationReaction, BRafActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction ErkActivationReaction, MekActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction MekDeactivationReaction, PP2AActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction ErkDeactivationReaction, PP2AActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Raf1byPPtaseDeactivationReaction, Raf1PPtase is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction P90RskActivationReaction, ErkActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PI3KbyEGFRActivationReaction, boundEGFReceptor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PI3KbyRasActivationReaction, RasActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AktActivationReaction, PI3KActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Raf1ByAktDeactivationReaction, AktActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction C3GActivationReaction, boundNGFReceptor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Rap1ActivationReaction, C3GActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Rap1DeactivationReaction, RapGapActive is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction BRafByRap1ActivationReaction, Rap1Active is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction BRafbyPPtaseDeactivationReaction, Raf1PPtase is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 22
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

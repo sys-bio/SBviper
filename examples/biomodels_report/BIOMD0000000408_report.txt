@@ -1,0 +1,54 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: densyn is set to ZERO!
+WARNING: tmito is set to ZERO!
+WARNING: vatpnorm is set to ZERO!
+WARNING: jsyn is set to ZERO!
+WARNING: j_ck_mi is set to ZERO!
+WARNING: j_ck_mm is set to ZERO!
+WARNING: j_diff_adp is set to ZERO!
+WARNING: j_diff_cr is set to ZERO!
+WARNING: j_diff_pi is set to ZERO!
+WARNING: phase is set to ZERO!
+WARNING: last_time_fired is set to ZERO!
+WARNING: tmito_factor is set to ZERO!
+WARNINGS FOUND: 12
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction J_CK_Mi, ATPi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_CK_Mi, Cri is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_CK_MM, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_CK_MM, Cr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Jhyd_reaction, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_diff_Pi, P_ii is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_diff_Cr, Cri is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_diff_ADP, ADPi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_diff_PCr, PCri is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J_diff_ATP, ATPi is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,61 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction RuBisCO, RuBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PGA_K, ADP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PGA_K, DPGA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction GAP_DH, GAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction GAP_DH, Pi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction GAP_DH, NADP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TP_I, DHAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FBP_A, FBP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction FBPase, FBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction F6P_TK, X5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction F6P_TK, E4P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SBP_A, SBP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SBPase, SBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S7P_TK, X5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction S7P_TK, R5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5P_I, Ru5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Ru5P_E, Ru5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Ru5P_K, Ru5P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Ru5P_K, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PG_I, G6P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PG_M, G1P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Starch_S, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Starch_S, G1P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Starch_P, Pi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ATP_S, Pi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ATP_S, ADP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TPT_PGA, PGA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TPT_GAP, GAP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TPT_DHAP, DHAP is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,48 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Dummy_variable_inhibitor is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R01a, TF_VIIa_IX is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R02a, TF_VIIa_X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R03a, Xa_VIII is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R04a, IIa_VIII is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R05, VIIIa_IXa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R06a, VIIIa_IXa_X is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R07a, Xa_V is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R08a, IIa_V is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R09, Va_Xa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R10a, Va_Xa_II is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11a, Fibrinogen_IIa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, Xa_Xa_Inhibitor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, Va_Xa_Xa_Inhibitor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R18, Va_Xa_Xa_Inhibitor is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, IIa_IIa_Inhibitor is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

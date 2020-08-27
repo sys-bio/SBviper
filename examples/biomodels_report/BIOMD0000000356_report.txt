@@ -1,0 +1,78 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: vglucoseuptake is set to ZERO!
+WARNING: KD is set to ZERO!
+WARNING: S2 is set to ZERO!
+WARNING: S1 is set to ZERO!
+WARNING: K4 is set to ZERO!
+WARNING: K8 is set to ZERO!
+WARNING: aa is set to ZERO!
+WARNING: cc is set to ZERO!
+WARNING: EGP is set to ZERO!
+WARNING: V_mmax is set to ZERO!
+WARNING: E is set to ZERO!
+WARNING: S is set to ZERO!
+WARNING: I is set to ZERO!
+WARNING: G is set to ZERO!
+WARNING: HE is set to ZERO!
+WARNING: m_3 is set to ZERO!
+WARNING: Q_sto is set to ZERO!
+WARNING: Ra is set to ZERO!
+WARNING: k_empt is set to ZERO!
+WARNING: U_idm is set to ZERO!
+WARNING: U_id is set to ZERO!
+WARNING: U is set to ZERO!
+WARNING: S_po is set to ZERO!
+WARNING: Q_sto2 is set to ZERO!
+WARNING: Q_gut is set to ZERO!
+WARNING: INS is set to ZERO!
+WARNING: Y is set to ZERO!
+WARNINGS FOUND: 27
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R44, X_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R45, X_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, rPbasal is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, r1x22d is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, PKC_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, r11x22 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, r11x2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, mTOR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, rendP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, r1x2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2f, r1x22 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3f, IRSiP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4f, IRSiP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5f, PI3K_ is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6f, PDK1_ is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7f, PDK1_ is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8f, PKB_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9f, PKB_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v9f, PKC_P is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 19
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

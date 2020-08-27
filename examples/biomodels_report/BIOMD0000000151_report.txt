@@ -1,0 +1,90 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, x1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, x5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, x2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, x5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, x3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, x6 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R11, x11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, x12 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, x16 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R15, x30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, x46 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, x8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16a, x45 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16a, x8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, x8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17, x44 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, x14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, x31 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, x13 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, x10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R24, x18 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R25, x19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R28, x32 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R30, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R32, x27 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R33, x28 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R34, x21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R34, x22 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R37, x20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R40, x26 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R43, x45 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R44, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R44, x34 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R45, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R46, x41 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R47, x44 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R48, x42 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R49, x41 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R49, x36 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R50, x41 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R50, x37 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R51, x48 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R52, x41 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R53, x38 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R53, x46 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R54, x43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R56, x49 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R56, x51 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R57, x52 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R58, x54 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R60, x56 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R63, x60 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R65, x58 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R66, x62 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R68, x57 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R68, x63 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R72, x68 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R73, x67 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 58
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

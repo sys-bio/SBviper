@@ -1,0 +1,54 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: Total_IkBalpha is set to ZERO!
+WARNING: Total_IkBbeta is set to ZERO!
+WARNING: Total_IkBeps is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction int_ai, IkBaIKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_an, IkBaNFkB_cytoplasm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_an_n, IkBaNFkB_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2ani, IkBaIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2ain, IkBaIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction loc_a, IkBa_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction loc_b, IkBb_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2bin, IkBbIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2bni, IkBbIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_bn_n, IkBbNFkB_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_bn, IkBbNFkB_cytoplasm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_bi, IkBbIKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction loc_n, NFkB_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_ei, IkBeIKK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_en, IkBeNFkB_cytoplasm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_en_n, IkBeNFkB_nucleus is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2eni, IkBeIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction int_2ein, IkBeIKKNFkB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction loc_e, IkBe_nucleus is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 19
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

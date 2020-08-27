@@ -1,0 +1,69 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: offsetStep1 is set to ZERO!
+WARNING: phaseStep1 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction cL_m_degr, cL_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cL_degr, cL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cLm_degr, cLm is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cP_degr, cP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cP9_m_degr, cP9_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cP9_degr, cP9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cP7_m_degr, cP7_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cP7_degr, cP7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cNI_m_degr, cNI_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cNI_degr, cNI is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cT_m_degr, cT_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cT_degr, cT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE4_m_degr, cE4_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE4_degr, cE4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE3_m_degr, cE3_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE3_degr, cE3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE3n_import, cE3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cE3n_degr, cE3n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cLUX_m_degr, cLUX_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cLUX_degr, cLUX is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cCOP1c_degr, cCOP1c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cCOP1n_import, cCOP1c is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cCOP1n_degr, cCOP1n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cCOP1d_activ, cCOP1n is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cCOP1d_degr, cCOP1d is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_m_degr, cG_m is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_degr, cG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_cZTL_assoc, cG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_cZTL_assoc, cZTL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cZTL_degr, cZTL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cZG_degr, cZG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_cE3_assoc, cG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_cE3_assoc, cE3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cEG_degr, cEG is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cEC_degr, cEC is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 35
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

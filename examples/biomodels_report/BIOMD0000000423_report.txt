@@ -1,0 +1,40 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: measIRS1 is set to ZERO!
+WARNING: measIRp is set to ZERO!
+WARNING: IRmem is set to ZERO!
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1e, Xp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, Xp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, IRiP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, IRp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, IRSiP is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,49 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction r52, s75 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r7, s21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, s21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, s46 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r51, s140 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r53, s48 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, s157 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, s21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, s48 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, s10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r23, s21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r23, s68 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r23, s160 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r54, s158 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r26, s70 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r25, s69 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r25, s161 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 17
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

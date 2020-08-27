@@ -1,0 +1,145 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: k5 is UNINITIALIZED!
+ERROR: C is UNINITIALIZED!
+ERRORS FOUND: 2
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v1, x3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v2, x4 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, x5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4, x7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, x6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v8, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v10, x10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11, x11 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v12, x8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v16, x23 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v17, x25 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v18, x27 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v19, x25 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v19, x28 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v20, x29 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v21, x25 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v21, x26 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v22, x32 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v23, x33 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, x34 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v25, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v26, x36 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v27, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v27, x28 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v28, x42 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, x45 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, x43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v30, x37 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, x26 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v32, x38 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v32, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, x30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, x30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, x22 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v35, x24 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v37, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v37, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v38, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v39, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v39, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v40, x38 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v41, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v42, x46 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v44, x48 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v46, x50 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v48, x52 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v50, x54 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v52, x56 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v54, x58 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v56, x61 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v58, x62 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v63, x18 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v64, x19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v65, x20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v66, x69 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v66, x19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v67, x21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v68, x19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v68, x26 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v69, x63 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v70, x64 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v71, x65 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v72, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v73, x67 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v74, x69 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v74, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v75, x70 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v76, x72 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v76, x71 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v77, x68 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v78, x26 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v78, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v79, x38 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v79, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v80, x30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v80, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v81, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v81, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v82, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v82, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v83, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v84, x73 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v86, x74 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v88, x76 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v90, x78 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v92, x79 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v94, x80 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v96, x82 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v98, x84 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v100, x85 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v102, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v103, x63 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v104, x64 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v105, x19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v106, x88 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v108, x20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v109, x89 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v111, x21 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v112, x90 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v114, x65 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v115, x91 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v117, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v118, x92 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v120, x67 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v121, x93 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v123, x68 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v124, x94 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 111
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

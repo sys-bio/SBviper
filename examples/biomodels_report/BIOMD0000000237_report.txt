@@ -1,0 +1,48 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: alpha is UNINITIALIZED!
+ERROR: beta is UNINITIALIZED!
+ERRORS FOUND: 2
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: alphat is set to ZERO!
+WARNING: betat is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v7, Ste5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v15, Ste11P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v15, Ste11Ubi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v16, Fus3PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v19, Fus3PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v19, Kss1PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v20, Ste12P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v20, s is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v23, Kss1PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, Fus3PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v25, Ste12TeSte5P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v25, s is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 12
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

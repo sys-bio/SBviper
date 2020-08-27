@@ -1,0 +1,51 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: kd1_ERKc is set to ZERO!
+WARNING: kd1_ERKn is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, pERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, ERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, pERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, ERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, ERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_6, pERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, ppERKn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_8, ppERK_DUSPc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_10, pERK_DUSPc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_12, ppERK_DUSPn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_14, pERK_DUSPn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, duspn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_20, ERK_STYXn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_21, pERK_STYXn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_22, ppERK_STYXn is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 17
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,102 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: DAdip_present is set to ZERO!
+WARNING: DApeak_present is set to ZERO!
+WARNING: Adnpeak is set to ZERO!
+WARNING: Adnpeak_present is set to ZERO!
+WARNING: ModelValue_147 is set to ZERO!
+WARNING: ModelValue_124 is set to ZERO!
+WARNING: ModelValue_131 is set to ZERO!
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction revreaction_1, A2ARAdnGolf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_2, A2ARAdnGolf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_3, mw0b46978f_b522_4cde_97f0_574cd7dbbae7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_4, A2ARAdn is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_5, mwd86ce0dc_7329_4b27_9de0_ee6bffee3083 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_6, mwe4e36b8e_18b8_4c76_bd46_13614b71da5c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_7, mwe4e36b8e_18b8_4c76_bd46_13614b71da5c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_8, mw9d5c5c9d_301d_4e43_ba7b_7d21ccbdc2c2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_9, mwfe9ed415_d5af_469c_a549_d8981f1eb01f is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_10, mw7df45520_98cc_4c0b_91a7_c6e7297de98a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_11, mw42919ead_5972_4151_85ac_fcc88ca105a6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_12, mwed1b3928_8d78_44d1_aee7_9d11d6437cfc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_13, mw29ba9e7c_6865_4817_8775_be2dbc29651e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_14, mwd794c746_c826_4ba1_9e09_a9d1e122d925 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_15, mw2badefa3_32e8_4b66_9e69_245d9ec74e33 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_16, mwd794c746_c826_4ba1_9e09_a9d1e122d925 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_17, mw2badefa3_32e8_4b66_9e69_245d9ec74e33 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_18, mw0a10f9cb_3f4b_4bfa_ace9_0ecd2bd74b5e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_19, mw2075d2cf_955e_4150_98b8_847103c53845 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_20, mw166e3335_56c3_41ef_af0f_b583860991c1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_21, mw7086a13a_619e_4069_b163_d8a05fc55f42 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_22, mw619502c3_e319_4e29_a677_b2b5f74fc2cf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_23, mwbae3bd11_0ab4_4587_a931_9c5dc5e777ba is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_24, mw56dff932_134c_4d88_a611_daad00623fd0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_25, mw07c7392b_8d89_4b94_97c5_59f7e256b6f2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_26, mw0a10f9cb_3f4b_4bfa_ace9_0ecd2bd74b5e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_27, mw07c7392b_8d89_4b94_97c5_59f7e256b6f2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_28, mw166e3335_56c3_41ef_af0f_b583860991c1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_29, mwbae3bd11_0ab4_4587_a931_9c5dc5e777ba is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_30, mw619502c3_e319_4e29_a677_b2b5f74fc2cf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_31, mw2075d2cf_955e_4150_98b8_847103c53845 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_32, mw0a10f9cb_3f4b_4bfa_ace9_0ecd2bd74b5e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_33, mw56dff932_134c_4d88_a611_daad00623fd0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_34, mw07c7392b_8d89_4b94_97c5_59f7e256b6f2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_35, mw74e54eed_0d25_4fb0_b677_1192f238c03b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_36, mwffd5a553_8e03_443d_a67e_0cf39d03f89f is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_37, mw68d3f409_9462_4515_8c07_bc105fa0eaf1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_37, mwcfcf2e7f_907a_4d25_812f_6c10a7293859 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_38, mwf46d3666_f0f3_4f05_9603_d7e6bb69005e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_39, mw1041345b_f015_436c_9eff_98211008aa1c is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_39, mw1c97b02d_169a_4eb8_bc84_1be57c51a255 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction revreaction_40, mw6e845d87_603e_4463_874d_866f554303df is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_41, mw1f3b8982_3b8c_42b6_8b0f_49b037cbda43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_42, mw65a14789_ffcf_4bfd_9d53_d2eb2f4d0896 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_43, mw8a4a0733_64dd_4474_9aaf_7d750b27ae5b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_44, mwfaf786e2_00b7_4e0c_b164_5aa1f4ef6356 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_45, mw4855b1cd_d7bc_4072_9736_dca30bbe448d is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_46, mwd1171b65_ed6c_4413_bf47_5ed80038a7bd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_47, mw4855b1cd_d7bc_4072_9736_dca30bbe448d is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_48, mwd1171b65_ed6c_4413_bf47_5ed80038a7bd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_49, mw3fcd1ec2_a459_49d4_89f7_361e276096d6 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_50, mw4179e1ff_9035_4c67_a67c_099e25beb9b0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_51, mwe8cc261d_af39_4e88_8a65_a4994dcea2ff is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_52, mwc57c3c2e_69d5_4336_aff5_d1f429420df2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_53, mw0130a500_18e9_470f_9fac_70af44dc4a9e is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_54, mwb320746f_6a8c_4c8b_ae55_23db454339d8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_55, mw3a3e53fb_bbbf_4433_9f75_a12610dbc312 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_56, mw0459271f_3b39_40a4_948f_aed773482cfc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_57, mw9bfd7713_4c48_492c_8583_006bf1b54a1b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_58, mwcf1bb70c_9d0b_4e82_b58a_6f8e73208af9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_59, mwde741b91_d5bf_44a9_ad45_404d7259d051 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_60, mw8825a609_0983_4fb4_a264_e2f7e43d17b3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction revreaction_61, mwa9e7a93f_2393_4220_9ac8_79a02d068dc3 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 63
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

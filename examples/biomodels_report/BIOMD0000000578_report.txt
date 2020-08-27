@@ -1,0 +1,110 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: flashBG is set to ZERO!
+WARNING: flash0Mag is set to ZERO!
+WARNING: flashDel is set to ZERO!
+WARNING: flashMag is set to ZERO!
+WARNING: otherstimulus is set to ZERO!
+WARNING: kP1_rev is set to ZERO!
+WARNING: background is set to ZERO!
+WARNING: premag is set to ZERO!
+WARNING: mag is set to ZERO!
+WARNING: predur is set to ZERO!
+WARNING: dur is set to ZERO!
+WARNING: del is set to ZERO!
+WARNING: preflash is set to ZERO!
+WARNING: testflash is set to ZERO!
+WARNING: stimulus is set to ZERO!
+WARNING: numConcFactor is set to ZERO!
+WARNING: kRK1_1 is set to ZERO!
+WARNING: kRK1_2 is set to ZERO!
+WARNING: kRK1_3 is set to ZERO!
+WARNING: kRK1_4 is set to ZERO!
+WARNING: kRK1_5 is set to ZERO!
+WARNING: kRK1_6 is set to ZERO!
+WARNING: kA1_1 is set to ZERO!
+WARNING: kA1_2 is set to ZERO!
+WARNING: kA1_3 is set to ZERO!
+WARNING: kA1_4 is set to ZERO!
+WARNING: kA1_5 is set to ZERO!
+WARNING: kA1_6 is set to ZERO!
+WARNING: kGpre1 is set to ZERO!
+WARNING: kGpre2 is set to ZERO!
+WARNING: kG1ops is set to ZERO!
+WARNING: kG2ops is set to ZERO!
+WARNING: kG1_1 is set to ZERO!
+WARNING: kG1_2 is set to ZERO!
+WARNING: kG1_3 is set to ZERO!
+WARNING: kG1_4 is set to ZERO!
+WARNING: kG1_5 is set to ZERO!
+WARNING: kG1_6 is set to ZERO!
+WARNING: E is set to ZERO!
+WARNING: Ca2_frac is set to ZERO!
+WARNING: J is set to ZERO!
+WARNING: deltaJ is set to ZERO!
+WARNINGS FOUND: 42
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction v_r2_0, R0_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_1, R1_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_2, R2_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_3, R3_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_4, R4_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_5, R5_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r2_6, R6_RKpre is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_1, R1_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_2, R2_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_3, R3_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_4, R4_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_5, R5_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r5_6, R6_Arr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r8, Ops_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r9, Ops_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_GtRpre, R_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_0, R0_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_1, R1_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_2, R2_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_3, R3_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_4, R4_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_5, R5_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r13_6, R6_Gt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_0, R0_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_1, R1_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_2, R2_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_3, R3_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_4, R4_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_5, R5_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r14_6, R6_G is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r18, PDE_Ga_GTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r30, RecR_Ca is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r31, RecR_Ca_RK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r_diarr, Arr_di is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r_tetraarr, Arr_tetra is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v_r33, Ca2_buff is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 36
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

@@ -1,0 +1,66 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: Vmax_pde4_p_pde4_p is UNINITIALIZED!
+ERROR: Vmax_PPase_Raf is UNINITIALIZED!
+ERROR: Vmax_PDE4_PDE4 is UNINITIALIZED!
+ERROR: Vmax_MEK_activates_MAPK is UNINITIALIZED!
+ERROR: Vmax_PKA_activates_Raf is UNINITIALIZED!
+ERROR: Vmax_AC_active_AC_active is UNINITIALIZED!
+ERROR: Vmax_highKM_PDE is UNINITIALIZED!
+ERROR: Vmax_PKA_P_PTP is UNINITIALIZED!
+ERROR: Vmax_AC_basal_AC_basal is UNINITIALIZED!
+ERROR: Vmax_grk_GRK is UNINITIALIZED!
+ERROR: Vmax_PKA_P_PDE is UNINITIALIZED!
+ERROR: Vmax_Raf_activates_MEK is UNINITIALIZED!
+ERROR: Vmax_PTP_PKA is UNINITIALIZED!
+ERROR: Vmax_PTP is UNINITIALIZED!
+ERROR: Vmax_PPase_MAPK is UNINITIALIZED!
+ERROR: Vmax_pp2a_4_pp2a_4 is UNINITIALIZED!
+ERROR: Vmax_pp_ptp is UNINITIALIZED!
+ERROR: Vmax_GRK_bg_GRK_bg is UNINITIALIZED!
+ERROR: Vmax_PPase_mek is UNINITIALIZED!
+ERRORS FOUND: 19
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction activate_Gs, iso_BAR_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction activate_Gs, G_a_s_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction activate_Gs, bg_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction iso_binds_BAR, iso_BAR_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction bg_binds_GRK, GRK_bg_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction GTPase, G_GDP_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction trimer, G_protein_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction G_binds_iso_BAR, iso_BAR_G_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction A2, PKA_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AC_activation, AC_active_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction B1, c_R2C2_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction B2, c2_R2C2_cyto is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction iso_binds_BAR_g, iso_BAR_G_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction G_binds_BAR, BAR_G_cyto_mem is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction A1, c3_R2C2_cyto is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

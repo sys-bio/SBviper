@@ -1,0 +1,80 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: mu is set to ZERO!
+WARNING: E3_0 is set to ZERO!
+WARNING: bpV is set to ZERO!
+WARNING: LY is set to ZERO!
+WARNING: PI3K_CY is set to ZERO!
+WARNING: k_9 is set to ZERO!
+WARNING: k_28 is set to ZERO!
+WARNING: k_29 is set to ZERO!
+WARNING: tPTEN is set to ZERO!
+WARNING: sens is set to ZERO!
+WARNING: pAkt is set to ZERO!
+WARNING: tE3P is set to ZERO!
+WARNING: tERKP is set to ZERO!
+WARNING: tPTENP is set to ZERO!
+WARNING: Pool_6_ is set to ZERO!
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction R1, E3H is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, E23H is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, E23HP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, E23HP_Shc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R6, E23HP_ShcP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, E23HP_ShGS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R8, ShGS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R8, E23HP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R9, ShcP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R11, ShGS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, RasGTP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, Akt_PI_PP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R15, Rafa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R17_1, Rafa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R18_1, MEKPP_PP2A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R19, MEKPP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R21, MEKPP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, E23HP_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R24, E23HP_PI3Ka is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R25, PI3Ka is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R25, E23HP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R27_1, PI3Ka_PI is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R28_1, PTEN_PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R28_5, PTENP_PTEN is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R29, Akt_PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R33_1, Akt_PI_PP_PP2A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R35, E2_Per is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R36, E2Per is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R38, E23H is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R40, E23HP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R43, PTEN_bpV is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R44, PI3K_LY is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

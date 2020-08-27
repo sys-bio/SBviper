@@ -1,0 +1,100 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_3, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_6, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_11, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_12, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_15, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_16, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_17, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_18, S5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_19, S10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_20, S13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_21, S13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_22, S12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_22, S10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_23, S12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_23, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_24, S13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_24, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_26, S12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_27, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_28, S12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_29, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_30, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_31, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_32, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_33, S14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_34, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_35, S14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_35, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_36, S14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_36, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_37, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_38, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_39, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_40, S15 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_41, S16 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_42, S17 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_43, S19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_44, S18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_45, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_46, S18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_47, S18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_48, S19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_49, S18 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_49, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_50, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_53, S19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_54, S20 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_55, S21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_56, S21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_57, S21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_58, S22 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_59, S24 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_60, S23 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_61, S24 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_62, S23 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_63, S23 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_64, S24 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_65, S25 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_66, S26 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_67, S26 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_67, S11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_68, S27 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_69, S28 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 68
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

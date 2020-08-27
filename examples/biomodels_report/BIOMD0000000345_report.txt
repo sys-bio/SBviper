@@ -1,0 +1,50 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: r2 is set to ZERO!
+WARNING: r3 is set to ZERO!
+WARNING: r4 is set to ZERO!
+WARNING: r5 is set to ZERO!
+WARNING: r6 is set to ZERO!
+WARNING: r7 is set to ZERO!
+WARNING: i1 is set to ZERO!
+WARNING: i2 is set to ZERO!
+WARNING: i3 is set to ZERO!
+WARNING: i5 is set to ZERO!
+WARNING: i6 is set to ZERO!
+WARNING: f2 is set to ZERO!
+WARNING: f3 is set to ZERO!
+WARNING: f4 is set to ZERO!
+WARNING: f5 is set to ZERO!
+WARNING: f6 is set to ZERO!
+WARNING: parameter_11 is set to ZERO!
+WARNING: parameter_12 is set to ZERO!
+WARNINGS FOUND: 18
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

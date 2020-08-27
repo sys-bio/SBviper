@@ -1,0 +1,173 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERROR: k_1 is UNINITIALIZED!
+ERROR: k_2 is UNINITIALIZED!
+ERROR: k_4 is UNINITIALIZED!
+ERROR: k_5 is UNINITIALIZED!
+ERROR: k_7 is UNINITIALIZED!
+ERROR: k_9 is UNINITIALIZED!
+ERROR: k_10 is UNINITIALIZED!
+ERROR: k_11 is UNINITIALIZED!
+ERROR: k_12 is UNINITIALIZED!
+ERROR: k_13 is UNINITIALIZED!
+ERROR: k_24 is UNINITIALIZED!
+ERROR: k_26 is UNINITIALIZED!
+ERROR: k_27 is UNINITIALIZED!
+ERROR: k_28 is UNINITIALIZED!
+ERROR: k_30 is UNINITIALIZED!
+ERROR: k_42 is UNINITIALIZED!
+ERROR: k_45 is UNINITIALIZED!
+ERROR: k_46 is UNINITIALIZED!
+ERROR: k_47 is UNINITIALIZED!
+ERROR: k_49 is UNINITIALIZED!
+ERROR: k_52 is UNINITIALIZED!
+ERROR: k_53 is UNINITIALIZED!
+ERROR: k_54 is UNINITIALIZED!
+ERROR: k_55 is UNINITIALIZED!
+ERROR: k_59 is UNINITIALIZED!
+ERROR: k_74 is UNINITIALIZED!
+ERRORS FOUND: 26
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: k11 is set to ZERO!
+WARNING: k64 is set to ZERO!
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction reaction_1, RE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_2, Rd is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_4, Rp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, Rp_Shc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, pShc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, Rp_pShc_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_10, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_10, pShc_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_11, pShc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_11, GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_12, Rp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_13, Rp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_24, IRL is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_26, IRp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_27, IRp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_28, IRp_IRS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_30, IRp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_30, IRSp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_40, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_40, IRp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_42, mIRS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_43, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_43, IRp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_45, mIRSp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_46, mIRSp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_47, mIRSp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_49, mGAB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_50, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_50, aSrc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_52, mGABp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_53, mGABp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_54, mGABp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_55, mGABp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_57, Rp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_57, aSrc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_59, mGABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_60, IRp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_60, Rp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_60, mIRSp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_60, tRas_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_60, mGABp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_62, Rp_pShc_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_62, Rp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_62, mGABp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_62, mGABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_62, mIRSp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_63, mGABp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_63, bRasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_63, Rp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_63, IRp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_64, tRas_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_65, tRas is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_66, aSrc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_67, PKA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_67, ppAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_67, pAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_68, aaRaf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_70, pErk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_70, ppMek is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_71, Erk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_71, ppMek is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_72, pErk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_73, ppErk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_74, mPDK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_75, mPDK1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_77, ppAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_77, amTOR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_77, pAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_78, ppAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_78, amTOR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_79, iGS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_79, ppErk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_80, imGAB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_80, ppErk is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_81, amTOR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_81, imIRS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_88, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_88, IRSp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_89, IRSp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_89, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_90, IRSp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_90, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_91, IRSp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_91, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_92, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_92, GABp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_93, GABp_PI3K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_93, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_94, GABp_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_94, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_95, GABp_RasGAP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_95, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_96, GABp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_96, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_97, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_97, GABp_pSHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_98, GABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_98, PIP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_111, mGABp_pSHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_111, mGABp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_111, mGABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_111, mIRSp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_112, mGABp_pSHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_112, mGABp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_112, mGABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_113, mGABp_pSHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_113, mGABp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_113, mGABp_pSHP2_GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_114, mIRSp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_115, mIRSp_SHP2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_117, imGABp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_117, ppErk is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 113
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

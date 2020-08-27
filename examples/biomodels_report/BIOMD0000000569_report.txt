@@ -1,0 +1,80 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction B0____B1, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B0____B1, B0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B1____B0, B1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B1____B2, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B1____B2, B1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B2____B1, B2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B2____B3, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B2____B3, B2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B3____B2, B3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B3____B4, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B3____B4, B3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction B4____B3, B4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S0____S1, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S0____S1, S0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S1____S0, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S1____S2, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S1____S2, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S2____S1, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S2____S3, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S2____S3, S2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S3____S2, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S3____S4, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S3____S4, S3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S4____S3, S4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M0____M1, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M0____M1, M0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M1____M0, M1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M1____M2, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M1____M2, M1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M2____M1, M2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M2____M3, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M2____M3, M2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M3____M2, M3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M3____M4, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M3____M4, M3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M4____M3, M4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L0____L1, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L0____L1, L0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L1____L0, L1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L1____L2, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L1____L2, L1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L2____L1, L2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L2____L3, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L2____L3, L2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L3____L2, L3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L3____L4, glu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L3____L4, L3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction L4____L3, L4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 48
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+

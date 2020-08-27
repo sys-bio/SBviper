@@ -1,0 +1,43 @@
+==========================================================
+All parameters should be initialized.
+----------------------------------------------------------
+ERRORS FOUND: 0
+==========================================================
+
+==========================================================
+Parameter value should not be set to ZERO.
+----------------------------------------------------------
+WARNING: H is set to ZERO!
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Species concentration / initial amount should be initialized.
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+All reactants should be in the kinetics law, 
+and all species references in the kinetics law 
+should be reactants.
+----------------------------------------------------------
+WARNING: In reaction Uninfected_tumour_cell_infection, UnInfected_Tumour_Cells_Xu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Uninfected_tumour_cell_elimination_1, UnInfected_Tumour_Cells_Xu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Uninfected_tumour_cell_elimination_2, UnInfected_Tumour_Cells_Xu is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Infected_tumour_cell_elimination_1, Infected_Tumour_Cells_Xi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Infected_tumour_cell_elimination_2, Infected_Tumour_Cells_Xi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction virus_clearance_1, Virus_Xv is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction virus_clearance_2, Virus_Xv is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M1_to_M2_repolarisation, M1_Macrophage_Xm1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction M2_to_M1_repolarisation, M2_Macrophage_Xm2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction T_cells_inactivation, Effector_Cytotoxic_CD8_TCells__Xe is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+All species should be reachable in the reactions
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
