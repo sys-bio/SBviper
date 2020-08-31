@@ -21,10 +21,10 @@ class KineticLaw(object):
     self.libsbml_kinetics = libsbml_kinetics
     # String version of chemical formula
     self.formula = self.libsbml_kinetics.getFormula()
-    # Reaction for the kinetics law
-    self.reaction = reaction
     # Parameters and chemical species
     self.symbols = self._getSymbols()
+    # Reaction for the kinetics law
+    self.reaction = reaction
 
   def __repr__(self):
     return self.formula

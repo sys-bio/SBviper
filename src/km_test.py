@@ -154,7 +154,8 @@ class StaticTestCase(unittest.TestCase):
         self.assert_species_init()
 
     def basic_reaction_checks(self):
-        self.assert_reactants_in_kinetics()
+        self.assert_klspecies_are_reactants()
+        self.assert_reactants_in_kl()
         self.reach_all_species()
 
     def assert_parameter_init(self):
@@ -220,14 +221,12 @@ class StaticTestCase(unittest.TestCase):
         print_footer("WARNINGS FOUND: " + str(error))
         return missing
 
-    def assert_reactants_in_kinetics(self):
+    def assert_klspecies_are_reactants(self):
         """
-        Checks whether all reactant species are referenced in the kinetics law,
-        and the kinetics law only references reactant species
+        Checks whether all species referenced in the Kinetics law is a reactant
         :return: a list of reaction that does not satisfy the above condition
         """
-        print_header("All reactants should be in the kinetics law, \nand all species references in the kinetics law \n"
-                     "should be reactants.")  # wtf is this
+        print_header("All species referenced in the Kinetics law should be reactants")  # wtf is this
         missing = []
         error = 0
         for reaction in self.sbml.reactions:
@@ -245,6 +244,24 @@ class StaticTestCase(unittest.TestCase):
                     react = reaction
                     print("WARNING: In reaction " + reaction.id + ", " + species.getId() +
                           " is found in the kinetics law, but is NOT a reactant")
+            if react is not None:
+                missing.append(react)
+        print_footer("WARNINGS FOUND: " + str(error))
+        return missing
+
+    def assert_reactants_in_kl(self):
+        """
+        Checks whether all reactants are referenced in the kinetics law
+        :return: a list of reaction that does not satisfy the above condition
+        """
+        print_header("Reactants should be referenced in the Kinetics Law")
+        missing = []
+        error = 0
+        for reaction in self.sbml.reactions:
+            kn_symbols = set(reaction.kinetic_law.symbols)  # set of str
+            reactants = set(
+                speciesrefs_to_strs(reaction.reactants))  # list of speciesReference -> list of str -> set
+            react = None
             # check whether all reactants are references in kinetics law
             for reactant in reactants:
                 species = self.sbml.get_species(reactant)
@@ -253,8 +270,8 @@ class StaticTestCase(unittest.TestCase):
                     react = reaction
                     print("WARNING: In reaction " + reaction.id + ", " + species.getId() +
                           " is found as a reactant, but NOT referenced in the Kinetics law")
-            if react is not None:
-                missing.append(react)
+                if react is not None:
+                    missing.append(react)
         print_footer("WARNINGS FOUND: " + str(error))
         return missing
 
