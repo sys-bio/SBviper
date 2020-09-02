@@ -1,4 +1,5 @@
 python-libsbml
+docstring_expander
 nose
 pandas
 numpy
@@ -6,3 +7,6 @@ urllib3
 pip>20
 matplotlib
 coverage
+jupyterlab
+SBMLLint
+teUtils
