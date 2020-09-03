@@ -173,9 +173,16 @@ class StaticTestCase(unittest.TestCase):
         for parameter in self.sbml.parameters:
             # self.assertTrue(parameter.isSetValue, "ERROR: " + parameter.getId() + " is uninitialized!")
             if not parameter.isSetValue():
-                error += 1
-                missing.append(parameter)
-                print("ERROR: " + parameter.getId() + " is UNINITIALIZED!")
+                # check if the parameter is in an assignment rule
+                found = False
+                for assignment_rule in self.sbml.assignment_rules:
+                    if parameter.getId() == assignment_rule.variable:
+                        found = True
+                        break
+                if not found:
+                    error += 1
+                    missing.append(parameter)
+                    print("ERROR: " + parameter.getId() + " is UNINITIALIZED!")
         print_footer("ERRORS FOUND: " + str(error))
         return missing
 
