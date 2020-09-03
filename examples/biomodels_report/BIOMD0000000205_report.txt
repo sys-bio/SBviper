@@ -17,16 +17,14 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_0, species_2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_1, species_3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, species_6 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_5, species_8 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_7, species_4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_7, species_10 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_7, species_4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_8, species_11 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_10, species_13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_11, species_15 is found in the kinetics law, but is NOT a reactant
@@ -55,8 +53,8 @@ WARNING: In reaction reaction_51, species_54 is found in the kinetics law, but i
 WARNING: In reaction reaction_53, species_56 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_55, species_59 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_56, species_61 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_58, species_57 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_58, species_63 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_58, species_57 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_59, species_65 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_61, species_66 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_64, species_70 is found in the kinetics law, but is NOT a reactant
@@ -81,11 +79,11 @@ WARNING: In reaction reaction_101, species_103 is found in the kinetics law, but
 WARNING: In reaction reaction_103, species_104 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_105, species_106 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_107, species_108 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_109, species_110 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_109, species_101 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_109, species_110 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_110, species_112 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_112, species_107 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_112, species_111 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_112, species_107 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_113, species_115 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_114, species_116 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_115, species_118 is found in the kinetics law, but is NOT a reactant
@@ -101,24 +99,24 @@ WARNING: In reaction reaction_131, species_134 is found in the kinetics law, but
 WARNING: In reaction reaction_134, species_132 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_134, species_30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_135, species_137 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_138, species_133 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_138, species_30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_138, species_133 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_139, species_140 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_140, species_141 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_143, species_140 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_143, species_30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_143, species_140 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_144, species_144 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_145, species_145 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_148, species_144 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_148, species_30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_148, species_144 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_149, species_148 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_150, species_149 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_153, species_30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_153, species_148 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_154, species_152 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_155, species_153 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_158, species_30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_158, species_152 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_158, species_30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_159, species_156 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_163, species_159 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_167, species_162 is found in the kinetics law, but is NOT a reactant
@@ -142,6 +140,12 @@ WARNING: In reaction reaction_199, species_191 is found in the kinetics law, but
 WARNING: In reaction reaction_201, species_192 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_203, species_193 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 120
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

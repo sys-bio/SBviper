@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, MpY is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v1, MEK is found in the kinetics law, but is NOT a reactant
@@ -33,19 +31,25 @@ WARNING: In reaction v3, MpT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4, MpY is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4, MEK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4, M is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v5, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v5, MpY is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v5, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v5, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v5, MpT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v6, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v6, MpY is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v6, M is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v6, Mpp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v7, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v7, M is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v7, MpT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v6, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v7, Mpp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, MKP3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v7, MpT is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

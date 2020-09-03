@@ -19,15 +19,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction reaction_1, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_1, pERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_1, ERK_ppMEKc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_3, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, pERK_ppMEKc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_3, ppMEKc_tot is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, ERK_ppMEKc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_5, ERKn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_6, pERKn is found in the kinetics law, but is NOT a reactant
@@ -41,6 +39,12 @@ WARNING: In reaction reaction_20, ERK_STYXn is found in the kinetics law, but is
 WARNING: In reaction reaction_21, pERK_STYXn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_22, ppERK_STYXn is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 17
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

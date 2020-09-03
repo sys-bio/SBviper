@@ -1,16 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: vk is UNINITIALIZED!
-ERROR: Gk is UNINITIALIZED!
-ERROR: a is UNINITIALIZED!
-ERROR: b is UNINITIALIZED!
-ERROR: aa is UNINITIALIZED!
-ERROR: bb is UNINITIALIZED!
-ERROR: ai is UNINITIALIZED!
-ERROR: bi is UNINITIALIZED!
-ERROR: u is UNINITIALIZED!
-ERRORS FOUND: 9
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -27,9 +18,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_0000001, c2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000002, c1 is found in the kinetics law, but is NOT a reactant
@@ -37,6 +26,12 @@ WARNING: In reaction reaction_0000003, o is found in the kinetics law, but is NO
 WARNING: In reaction reaction_0000004, i is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000005, i is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

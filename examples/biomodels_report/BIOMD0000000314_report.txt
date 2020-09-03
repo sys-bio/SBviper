@@ -13,17 +13,11 @@ WARNINGS FOUND: 0
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: IL13 is UNINITIALIZED
-WARNING: IL13 is UNINITIALIZED
-WARNING: IL13 is UNINITIALIZED
-WARNING: IL13 is UNINITIALIZED
-WARNINGS FOUND: 4
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_1, IL13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_4, pJAK2 is found in the kinetics law, but is NOT a reactant
@@ -34,6 +28,12 @@ WARNING: In reaction reaction_10, pJAK2 is found in the kinetics law, but is NOT
 WARNING: In reaction reaction_11, SHP1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_12, pSTAT5 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

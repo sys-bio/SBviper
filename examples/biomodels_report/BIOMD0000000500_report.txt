@@ -18,9 +18,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction DNA1, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA1, DNA_000 is found as a reactant, but NOT referenced in the Kinetics law
@@ -32,20 +36,20 @@ WARNING: In reaction DNA4, S1 is found as a reactant, but NOT referenced in the 
 WARNING: In reaction DNA4, DNA_100 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA5, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA5, DNA_100 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction DNA6, DNA_010 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA6, S1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction DNA7, DNA_010 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction DNA6, DNA_010 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA7, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction DNA7, DNA_010 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA8, DNA_001 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA8, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA9, DNA_001 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA9, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA10, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA10, DNA_110 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction DNA11, DNA_101 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA11, S1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction DNA12, S1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction DNA11, DNA_101 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA12, DNA_011 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction DNA12, S1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA49, DNA_110 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA50, DNA_011 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction DNA51, DNA_111 is found as a reactant, but NOT referenced in the Kinetics law

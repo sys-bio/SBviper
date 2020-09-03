@@ -17,18 +17,22 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction v1, Dsh_i is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v3, APC_axin_GSK3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v6, APC_axin_GSK3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v7, APC_axin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v8, B_catenin_APC__axin__GSK3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v16, B_catenin_TCF is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v17, B_catenin_APC is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 7
+WARNINGS FOUND: 5
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v1, Dsh_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3, APC_axin_GSK3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 2
 ==========================================================
 
 ==========================================================

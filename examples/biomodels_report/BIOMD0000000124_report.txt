@@ -1,30 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: alphaIRn is UNINITIALIZED!
-ERROR: betaIRn is UNINITIALIZED!
-ERROR: nIRinf is UNINITIALIZED!
-ERROR: tauIRn is UNINITIALIZED!
-ERROR: alphaIRr is UNINITIALIZED!
-ERROR: betaIRr is UNINITIALIZED!
-ERROR: rIRinf is UNINITIALIZED!
-ERROR: tauIRr is UNINITIALIZED!
-ERROR: ica is UNINITIALIZED!
-ERROR: ik is UNINITIALIZED!
-ERROR: ikca is UNINITIALIZED!
-ERROR: ikatp is UNINITIALIZED!
-ERROR: iir is UNINITIALIZED!
-ERROR: minf is UNINITIALIZED!
-ERROR: ninf is UNINITIALIZED!
-ERROR: ainf is UNINITIALIZED!
-ERROR: w is UNINITIALIZED!
-ERROR: jmem is UNINITIALIZED!
-ERROR: jserca is UNINITIALIZED!
-ERROR: jleak is UNINITIALIZED!
-ERROR: jip3 is UNINITIALIZED!
-ERROR: oinf is UNINITIALIZED!
-ERROR: jer is UNINITIALIZED!
-ERRORS FOUND: 23
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -41,9 +18,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================

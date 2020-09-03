@@ -17,28 +17,32 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction R_1, G is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_2, G is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_2, HRP1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_2, G is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_3, G is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_3, HR is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_4, PIP2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_4, G_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_4, PIP2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_5, DAG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_5, PKC is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_6, ERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_6, PKC_a is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_6, ERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_7, G_a is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_8, DAG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_9, PKC_a is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_10, GpERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_11, HR is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_12, barr1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_12, HRP1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_12, barr1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_13, Hbarr1RP1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_14, barr2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_14, HRP1 is found as a reactant, but NOT referenced in the Kinetics law
@@ -50,13 +54,13 @@ WARNING: In reaction R_19, HRP2 is found as a reactant, but NOT referenced in th
 WARNING: In reaction R_20, barr2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_20, HR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_21, HRbarr2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_22, barr2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_22, HRP2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_22, barr2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_23, Hbarr2RP2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_24, ERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_24, HRbarr2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R_25, ERK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_24, ERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_25, Hbarr2RP2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R_25, ERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R_26, bpERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 37
 ==========================================================

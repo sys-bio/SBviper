@@ -1,76 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: ins is UNINITIALIZED!
-ERROR: glucagon is UNINITIALIZED!
-ERROR: gamma is UNINITIALIZED!
-ERROR: gamma_fbp1 is UNINITIALIZED!
-ERROR: gamma_gp is UNINITIALIZED!
-ERROR: gamma_gs is UNINITIALIZED!
-ERROR: gamma_pfk2 is UNINITIALIZED!
-ERROR: gamma_fbp2 is UNINITIALIZED!
-ERROR: gamma_pk is UNINITIALIZED!
-ERROR: v_ALD is UNINITIALIZED!
-ERROR: v_EN is UNINITIALIZED!
-ERROR: v_fbp1_native is UNINITIALIZED!
-ERROR: v_fbp1_phospho is UNINITIALIZED!
-ERROR: v_FBP1 is UNINITIALIZED!
-ERROR: v_GAPDH is UNINITIALIZED!
-ERROR: vmax_gk is UNINITIALIZED!
-ERROR: v_GK is UNINITIALIZED!
-ERROR: v_GLUT2 is UNINITIALIZED!
-ERROR: v_GLCT_ER is UNINITIALIZED!
-ERROR: vmax_gp is UNINITIALIZED!
-ERROR: vmax_gp_native is UNINITIALIZED!
-ERROR: km_glc1p_gp_native is UNINITIALIZED!
-ERROR: vmax_gp_phospho is UNINITIALIZED!
-ERROR: v_gp_native is UNINITIALIZED!
-ERROR: v_gp_phospho is UNINITIALIZED!
-ERROR: v_GP is UNINITIALIZED!
-ERROR: v_G6P_ER is UNINITIALIZED!
-ERROR: v_GPI is UNINITIALIZED!
-ERROR: v_G1PI is UNINITIALIZED!
-ERROR: v_G6PT_ER is UNINITIALIZED!
-ERROR: vmax_gs is UNINITIALIZED!
-ERROR: km_udpglc_gs_native is UNINITIALIZED!
-ERROR: km_udpglc_gs_phospho is UNINITIALIZED!
-ERROR: v_gs_native is UNINITIALIZED!
-ERROR: v_gs_phospho is UNINITIALIZED!
-ERROR: v_GS is UNINITIALIZED!
-ERROR: v_LACT is UNINITIALIZED!
-ERROR: v_LDH is UNINITIALIZED!
-ERROR: v_MALT is UNINITIALIZED!
-ERROR: v_MDH is UNINITIALIZED!
-ERROR: v_MDH_mito is UNINITIALIZED!
-ERROR: v_NDK_GTP is UNINITIALIZED!
-ERROR: v_NDK_UTP is UNINITIALIZED!
-ERROR: v_NDK_GTP_mito is UNINITIALIZED!
-ERROR: v_PC is UNINITIALIZED!
-ERROR: v_PEPCK is UNINITIALIZED!
-ERROR: v_PEPCK_mito is UNINITIALIZED!
-ERROR: keq_pept is UNINITIALIZED!
-ERROR: v_PEPT is UNINITIALIZED!
-ERROR: km_atp_pfk1 is UNINITIALIZED!
-ERROR: ki_atp_pfk1 is UNINITIALIZED!
-ERROR: km_fru6p_pfk1 is UNINITIALIZED!
-ERROR: n_fru6p_pfk1 is UNINITIALIZED!
-ERROR: v_PFK1 is UNINITIALIZED!
-ERROR: v_pfk2_native is UNINITIALIZED!
-ERROR: v_pfk2_phospho is UNINITIALIZED!
-ERROR: v_PFK2 is UNINITIALIZED!
-ERROR: v_fbp2_native is UNINITIALIZED!
-ERROR: v_fbp2_phospho is UNINITIALIZED!
-ERROR: v_FBP2 is UNINITIALIZED!
-ERROR: v_PGK is UNINITIALIZED!
-ERROR: v_PGM is UNINITIALIZED!
-ERROR: v_pk_native is UNINITIALIZED!
-ERROR: v_pk_phospho is UNINITIALIZED!
-ERROR: v_PK is UNINITIALIZED!
-ERROR: v_PyrMalT is UNINITIALIZED!
-ERROR: v_PyrT is UNINITIALIZED!
-ERROR: v_TPI is UNINITIALIZED!
-ERROR: v_UGT is UNINITIALIZED!
-ERRORS FOUND: 69
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -86,9 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction ALD, fru16bp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction EN, pg2 is found as a reactant, but NOT referenced in the Kinetics law
@@ -112,8 +47,8 @@ WARNING: In reaction NDK_GTP_mito, gdp_mito is found as a reactant, but NOT refe
 WARNING: In reaction PC, pyr_mito is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PEPCK, gtp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PEPCK, oa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PEPCK_mito, gtp_mito is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PEPCK_mito, oa_mito is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PEPCK_mito, gtp_mito is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PEPT, pep_mito is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PFK1, fru6p is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PFK2, fru6p is found as a reactant, but NOT referenced in the Kinetics law
@@ -125,8 +60,8 @@ WARNING: In reaction PyrMalT, pyr is found as a reactant, but NOT referenced in 
 WARNING: In reaction PyrMalT, mal_mito is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PyrT, pyr is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TPI, dhap is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction UGT, utp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction UGT, glc1p is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction UGT, utp is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 37
 ==========================================================
 

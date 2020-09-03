@@ -17,21 +17,25 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction R4, R1Bubd is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R5, Z is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R6, Z is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R7, Zub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R8, R1Buba is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R8, Bmi1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction R4, R1Bubd is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R6, Z is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R7, Zub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R9, R1B is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R10, R1Bub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R11, R1Buba is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R12, H2A is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 10
+WARNINGS FOUND: 7
 ==========================================================
 
 ==========================================================

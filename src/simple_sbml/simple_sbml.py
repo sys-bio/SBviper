@@ -41,6 +41,8 @@ class SimpleSBML(object):
         self.model = None  # libsbml object
         self.reactions = []  # Python wrapper for Reaction
         self.species = []  # libsbml Species
+        self.assignment_rules = []  # rules for defining the values of variables
+        self.initial_assignments = []  # list of initial assignments
         # Read the model
         if util.isSBMLModel(model_reference):
             self.model = model_reference
@@ -57,6 +59,13 @@ class SimpleSBML(object):
                         for nn in range(self.model.getNumSpecies())]
         self.parameters = [self.model.getParameter(nn)
                            for nn in range(self.model.getNumParameters())]
+        for nn in range(self.model.getNumRules()):
+            rule = self.model.getRule(nn)
+            if rule.isAssignment():
+                self.assignment_rules.append(rule)
+        for nn in range(self.model.getNumInitialAssignments()):
+            initial_assignment = self.model.getInitialAssignment(nn)
+            self.initial_assignments.append(initial_assignment)
         # map for species -> species ref
         self.str_species = {}
         self.str_speciesref = {}

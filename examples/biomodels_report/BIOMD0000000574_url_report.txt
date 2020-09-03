@@ -1,13 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: ybar_rbp is UNINITIALIZED!
-ERROR: ybar_tbp is UNINITIALIZED!
-ERROR: ybarN_rbp is UNINITIALIZED!
-ERROR: ybarC_rbp is UNINITIALIZED!
-ERROR: ybarN_tbp is UNINITIALIZED!
-ERROR: ybarC_tbp is UNINITIALIZED!
-ERRORS FOUND: 6
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -33,9 +27,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction rbp_binding_to_cam_RR_0_0, cam_RR_0_rbp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction tbp_binding_to_cam_RR_0_0, cam_RR_0_tbp is found in the kinetics law, but is NOT a reactant
@@ -614,6 +606,12 @@ WARNING: In reaction Transition_from_cam_TT_BCD_0_to_cam_TR_BCD_0, cam_TR_BCD_0 
 WARNING: In reaction Transition_from_cam_TT_ABCD_0_to_cam_RT_ABCD_0, cam_RT_ABCD_0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Transition_from_cam_TT_ABCD_0_to_cam_TR_ABCD_0, cam_TR_ABCD_0 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 576
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

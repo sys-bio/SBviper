@@ -17,11 +17,17 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction IRS__activation_deactivation, aIRS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Akt_inhibition, iAkt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction MEK_inhibition, iMEK is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 3
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction PI3K_activation_deactivation, PI3K is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Akt_activation_deactivation, Akt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction mTOC1_acivation_deactivation, mTORC1 is found as a reactant, but NOT referenced in the Kinetics law
@@ -35,9 +41,7 @@ WARNING: In reaction ERK_activation_deactivation, ERK is found as a reactant, bu
 WARNING: In reaction Raf_inhibition, Raf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RTK_inhibition, RTK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction FOXO_inhibition, FOXO is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction Akt_inhibition, iAkt is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction MEK_inhibition, iMEK is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 16
+WARNINGS FOUND: 13
 ==========================================================
 
 ==========================================================

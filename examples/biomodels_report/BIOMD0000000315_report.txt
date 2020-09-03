@@ -1,12 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Bp_concentration is UNINITIALIZED!
-ERROR: fluorescence is UNINITIALIZED!
-ERROR: Inh_total is UNINITIALIZED!
-ERROR: beta_total is UNINITIALIZED!
-ERROR: alpha_total is UNINITIALIZED!
-ERRORS FOUND: 5
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -22,27 +17,25 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction ass_aa_l, alpha_T1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_aa_lr, alpha is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_aa_lr, alpha_T1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_aa_r, T1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_aa_r, alpha is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_aa_rl, T1_alpha is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_aa_r, T1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_aa_rl, alpha is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_aa_rl, T1_alpha is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ass_ab_l, alpha_T2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_ab_lr, alpha_T2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_ab_lr, beta is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_ab_r, T2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_ab_lr, alpha_T2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_ab_r, beta is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_ab_rl, T2_beta is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_ab_r, T2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_ab_rl, alpha is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_ab_rl, T2_beta is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ass_bc_l, beta_T3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction m_ass_bc_lr, beta_T3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_ass_bc_lr, Inh is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction m_ass_bc_lr, beta_T3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ass_bc_r, T3_Inh is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ass_bc_rl, beta_T3_Inh is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction inh_ac, Inh_T1 is found in the kinetics law, but is NOT a reactant
@@ -51,6 +44,12 @@ WARNING: In reaction inh_displ_ac, Inh_T1 is found in the kinetics law, but is N
 WARNING: In reaction m_inh_displ_ca, alpha_T1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction m_inh_displ_ca, Inh is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

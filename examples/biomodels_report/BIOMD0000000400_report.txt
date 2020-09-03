@@ -1,31 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: L is UNINITIALIZED!
-ERROR: J1 is UNINITIALIZED!
-ERROR: kr1 is UNINITIALIZED!
-ERROR: J2 is UNINITIALIZED!
-ERROR: kr2 is UNINITIALIZED!
-ERROR: J3 is UNINITIALIZED!
-ERROR: J4 is UNINITIALIZED!
-ERROR: kr4 is UNINITIALIZED!
-ERROR: J5 is UNINITIALIZED!
-ERROR: J6 is UNINITIALIZED!
-ERROR: J7 is UNINITIALIZED!
-ERROR: J8 is UNINITIALIZED!
-ERROR: J9 is UNINITIALIZED!
-ERROR: J10 is UNINITIALIZED!
-ERROR: J11 is UNINITIALIZED!
-ERROR: kr11 is UNINITIALIZED!
-ERROR: J12 is UNINITIALIZED!
-ERROR: J13 is UNINITIALIZED!
-ERROR: J14 is UNINITIALIZED!
-ERROR: J15 is UNINITIALIZED!
-ERROR: J16 is UNINITIALIZED!
-ERROR: Cpc is UNINITIALIZED!
-ERROR: Cc is UNINITIALIZED!
-ERROR: Cp is UNINITIALIZED!
-ERRORS FOUND: 24
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -41,9 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================

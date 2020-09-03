@@ -17,12 +17,8 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction binding_CRP_cAMP, CRP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction binding_CRP_cAMP, cAMP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction binding_CRP_cAMP_CRPsite_cyaA, CRP_cAMP_CRPsite_cyaA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction binding_CRP_cAMP_CRPsiteI_crp, CRP_cAMP_CRPsiteI_crp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction binding_CRP_cAMP_CRPsiteII_crp, CRP_cAMP_CRPsiteII_crp is found in the kinetics law, but is NOT a reactant
@@ -43,37 +39,36 @@ WARNING: In reaction binding_Mlc_Mlcsite_mlcp1, Mlc_Mlcsite_mlcp1 is found in th
 WARNING: In reaction binding_Mlc_Mlcsite_mlcp2, Mlc_Mlcsite_mlcp2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction binding_IICB_Mlc, IICB_Mlc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction binding_IIA_P_CYA, IIA_P_CYA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction binding_IIA_P_CYA, IIA_P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_cyaA_cyaA, CRP_cAMP_CRPsite_cyaA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_cyaA_cyaA, cyaA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_cyaA_basal, cyaA_basal is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsiteI_crp_CRP_cAMP_CRPsiteII_crp_crp, CRP_cAMP_CRPsiteI_crp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsiteI_crp_CRP_cAMP_CRPsiteII_crp_crp, crp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsiteI_crp_CRP_cAMP_CRPsiteII_crp_crp, CRP_cAMP_CRPsiteII_crp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsiteI_crp_CRP_cAMP_CRPsiteII_crp_crp, crp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsiteI_crp_CRP_cAMP_CRPsiteII_crp_crp, CRP_cAMP_CRPsiteI_crp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_crp_basal, crp_basal is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp1_Mlc_Mlcsite_ptsGp1_ptsGp1, CRP_cAMP_CRPsite_ptsGp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp1_Mlc_Mlcsite_ptsGp1_ptsGp1, Mlc_Mlcsite_ptsGp1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp1_Mlc_Mlcsite_ptsGp1_ptsGp1, CRP_cAMP_CRPsite_ptsGp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp1_Mlc_Mlcsite_ptsGp1_ptsGp1, ptsGp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp2_Mlc_Mlcsite_ptsGp2_ptsGp2, CRP_cAMP_CRPsite_ptsGp2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp2_Mlc_Mlcsite_ptsGp2_ptsGp2, Mlc_Mlcsite_ptsGp2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp2_Mlc_Mlcsite_ptsGp2_ptsGp2, ptsGp2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp2_Mlc_Mlcsite_ptsGp2_ptsGp2, Mlc_Mlcsite_ptsGp2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsGp2_Mlc_Mlcsite_ptsGp2_ptsGp2, CRP_cAMP_CRPsite_ptsGp2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp0_Mlc_Mlcsite_ptsHp0_ptsHp0, ptsHp0 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp0_Mlc_Mlcsite_ptsHp0_ptsHp0, CRP_cAMP_CRPsite_ptsHp0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp0_Mlc_Mlcsite_ptsHp0_ptsHp0, Mlc_Mlcsite_ptsHp0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp0_Mlc_Mlcsite_ptsHp0_ptsHp0, CRP_cAMP_CRPsite_ptsHp0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp1_ptsHp1, ptsHp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsHp1_ptsHp1, CRP_cAMP_CRPsite_ptsHp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp0_Mlc_Mlcsite_ptsIp0_ptsIp0, CRP_cAMP_CRPsite_ptsIp0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp0_Mlc_Mlcsite_ptsIp0_ptsIp0, ptsIp0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp0_Mlc_Mlcsite_ptsIp0_ptsIp0, Mlc_Mlcsite_ptsIp0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp0_Mlc_Mlcsite_ptsIp0_ptsIp0, CRP_cAMP_CRPsite_ptsIp0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp1_ptsIp1, CRP_cAMP_CRPsite_ptsIp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_ptsIp1_ptsIp1, ptsIp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_crr, crr is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp1_Mlc_Mlcsite_mlcp1_mlcp1, mlcp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp1_Mlc_Mlcsite_mlcp1_mlcp1, CRP_cAMP_CRPsite_mlcp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp1_Mlc_Mlcsite_mlcp1_mlcp1, Mlc_Mlcsite_mlcp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp1_Mlc_Mlcsite_mlcp1_mlcp1, mlcp1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp2_Mlc_Mlcsite_mlcp2_mlcp2, mlcp2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp2_Mlc_Mlcsite_mlcp2_mlcp2, CRP_cAMP_CRPsite_mlcp2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp2_Mlc_Mlcsite_mlcp2_mlcp2, Mlc_Mlcsite_mlcp2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction transcription_CRP_cAMP_CRPsite_mlcp2_Mlc_Mlcsite_mlcp2_mlcp2, CRP_cAMP_CRPsite_mlcp2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction translation_mRNA_cyaA, mRNA_cyaA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction translation_mRNA_crp, mRNA_crp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction translation_mRNA_ptsG, mRNA_ptsG is found in the kinetics law, but is NOT a reactant
@@ -83,9 +78,18 @@ WARNING: In reaction translation_mRNA_crr, mRNA_crr is found in the kinetics law
 WARNING: In reaction translation_mlc, mRNA_mlc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_CYA_ATP, CYA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_IIA_P_CYA_ATP, IIA_P_CYA is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 59
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction binding_CRP_cAMP, cAMP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction binding_CRP_cAMP, CRP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction binding_IIA_P_CYA, IIA_P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_EI_PEP, PEP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_EIP_Pyr, Pyr is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 64
+WARNINGS FOUND: 5
 ==========================================================
 
 ==========================================================

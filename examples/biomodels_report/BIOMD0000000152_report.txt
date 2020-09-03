@@ -17,75 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
-----------------------------------------------------------
-WARNING: In reaction v57, Empty is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 1
-==========================================================
-
-==========================================================
-All species should be reachable in the reactions
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All parameters should be initialized.
-----------------------------------------------------------
-ERRORS FOUND: 0
-==========================================================
-
-==========================================================
-Parameter value should not be set to ZERO.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-Species concentration / initial amount should be initialized.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
-----------------------------------------------------------
-WARNING: In reaction v57, Empty is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 1
-==========================================================
-
-==========================================================
-All species should be reachable in the reactions
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All parameters should be initialized.
-----------------------------------------------------------
-ERRORS FOUND: 0
-==========================================================
-
-==========================================================
-Parameter value should not be set to ZERO.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-Species concentration / initial amount should be initialized.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction v57, Empty is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 1

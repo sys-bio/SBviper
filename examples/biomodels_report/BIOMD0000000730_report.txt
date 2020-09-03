@@ -18,21 +18,25 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction AP1_decay, AP1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction pRB_and_E2F_complex_formation, pRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRB_and_E2F_complex_formation, E2F is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction pRB_and_E2F_complex_formation, pRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRB_and_E2f_complex_dissociation, pRBc1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRB_phosphorylation_through_cyclin_D, pRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBp_dephosphorylation, pRBp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRB_decay, pRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBp_phosphorylation, pRBp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBpp_dephosphorylation, pRBpp is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction pRBp_and_E2F_complex_formation, pRBp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBp_and_E2F_complex_formation, E2F is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction pRBp_and_E2F_complex_formation, pRBp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PRBp_and_E2F_complex_dissociation, pRBc2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBp_decay, pRBp is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction pRBpp_decay, pRBpp is found as a reactant, but NOT referenced in the Kinetics law
@@ -55,8 +59,8 @@ WARNING: In reaction Ce_degradation_through_Skp2, Ce is found as a reactant, but
 WARNING: In reaction Ce_decay, Ce is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Me_complex_deactivation, Me is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Me_complex_activation, Mei is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction Me_p27_complex_formation, p27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Me_p27_complex_formation, Me is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Me_p27_complex_formation, p27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Me_p27_complex_dissociation, Mep27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Skp2_degradation_through_Cdh1, Skp2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Skp2_decay, Skp2 is found as a reactant, but NOT referenced in the Kinetics law
@@ -70,11 +74,11 @@ WARNING: In reaction Ca_degradation, Ca is found as a reactant, but NOT referenc
 WARNING: In reaction Ca_decay, Ca is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ma_inactivation, Ma is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ma_activation, Mai is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction Ma_p27_complex_formation, Ma is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ma_p27_complex_formation, p27 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Ma_p27_complex_formation, Ma is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ma_p27_complex_dissociation, Map27 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction Mb_p27_complex_formation, p27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Mb_p27_complex_formation, Mb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction Mb_p27_complex_formation, p27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Mb_p26_complex_dissociation, Mbp27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction p27_phosphorylation, p27 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction p27_dephosphorylation, p27p is found as a reactant, but NOT referenced in the Kinetics law

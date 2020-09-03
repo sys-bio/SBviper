@@ -31,16 +31,14 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R2, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R2, Cln is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R3, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R3, Cdc20a is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R7, Cdh1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R3, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R7, Cdc20a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R9, mass is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R9, Mcm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R11, Clb is found in the kinetics law, but is NOT a reactant
@@ -54,20 +52,26 @@ WARNING: In reaction R20, Cdc20a is found in the kinetics law, but is NOT a reac
 WARNING: In reaction R23, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R24, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R30, SBF is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R34, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R34, Cdc20a is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R35, Clb is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R34, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R35, Cln is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R35, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R38, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R40, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R42, Cln is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R43, Clb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R43, Cln is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R46, SBF is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R51, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R51, Cdc20a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R51, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R52, mass is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 32
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

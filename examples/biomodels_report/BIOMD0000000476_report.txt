@@ -19,34 +19,38 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_1, cPn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0, cLm is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_2, cLm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, cLn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_4, cLc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_5, cLn is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_7, cTm is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_9, cYn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_10, cYn is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_11, cYm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_12, cYc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_13, cXn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_14, cXc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_15, cXm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_16, cXn is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_17, cAm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_18, cAn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_19, cAc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_20, cAn is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_25, cPn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_30, cTm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_31, cTn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_39, cPn is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 23
+WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction reaction_0, cLm is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, cLc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_5, cLn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, cTm is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, cYn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_12, cYc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, cXc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_16, cXn is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_19, cAc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_20, cAn is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 10
 ==========================================================
 
 ==========================================================

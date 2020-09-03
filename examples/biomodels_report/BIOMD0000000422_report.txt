@@ -18,29 +18,33 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction re21, s40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, s39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, s41 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, s42 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re27, s16 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re28, s16 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re29, s16 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re30, s16 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction re6, s3 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re21, s40 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re21, s7 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re22, s39 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re22, s6 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re23, s41 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re23, s5 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re24, s42 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re24, s33 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re27, s16 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re27, s11 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re28, s16 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re28, s15 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re29, s16 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re29, s34 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re30, s16 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re30, s35 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re41, s66 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 18
+WARNINGS FOUND: 10
 ==========================================================
 
 ==========================================================

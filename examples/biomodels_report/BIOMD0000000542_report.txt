@@ -17,102 +17,106 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction r2, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction r2, Tau03R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r2, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r3, TauN3R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r4, TauN3R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r4, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r4, TauN3R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r5, TauH3R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r8, MT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r8, Tau0_3R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r12, TauN_3R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r8, MT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r12, MT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r12, TauN_3R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r16, MT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r16, TauH_3R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r18, _20S is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r18, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r18, Tau03R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r19, TauN3R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r18, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r19, _20S is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r19, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r19, TauN3R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r20, _20S is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r20, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r20, TauH3R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r21, Tau03RMT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r20, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r21, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r21, Tau03RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r22, TauN3RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r23, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r23, TauN3RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r24, TauH3RMT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r25, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r25, TauH3R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r27, TauH3R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r25, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r27, Hsp90 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r27, TauH3R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r28, TauH3R_Hsp90 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r30, TauH3R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r30, CHIP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r32, TauH3R_CHIP_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r32, Bag2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r34, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r34, _26S is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r34, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r34, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r36, Tau04R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r36, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r37, TauN4R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r38, TauN4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r38, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r38, TauN4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r39, TauH4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r42, Tau0_4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r42, MT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r46, TauN_4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r46, MT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r50, MT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r46, TauN_4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r50, TauH_4R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r52, Tau04R is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r50, MT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r52, _20S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r52, Tau04R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r52, ATP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r53, TauN4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r53, _20S is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r53, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r53, TauN4R is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r54, _20S is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r54, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r54, TauH4R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r55, Tau04RMT is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r54, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r55, ATP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r55, Tau04RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r56, TauN4RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r57, TauN4RMT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r57, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r58, TauH4RMT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r59, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r59, TauH4R is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r61, TauH4R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r59, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r61, Hsp90 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r61, TauH4R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r62, TauH4R_Hsp90 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r64, CHIP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r64, TauH4R_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r64, CHIP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r66, TauH4R_CHIP_Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r66, Bag2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r68, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r68, _26S is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r68, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r68, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r71, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r73, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r75, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r75, Nucleus3 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r77, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r75, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r77, Agg33 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r78, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r77, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r78, Ap is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r78, TauH3RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r80, Nucleus4 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r80, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r82, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r82, Agg43 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r83, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r83, Bp is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r83, TauH4RUb is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 92
 ==========================================================
 

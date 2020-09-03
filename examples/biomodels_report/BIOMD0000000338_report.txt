@@ -19,9 +19,14 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction VK_transport, VK_p is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction r1_, VIII is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r2_, VIIIa is found as a reactant, but NOT referenced in the Kinetics law
@@ -48,16 +53,16 @@ WARNING: In reaction r22, Pg is found as a reactant, but NOT referenced in the K
 WARNING: In reaction r23, Pg is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r24, PC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r25, Va_Xa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r26, VIIIa is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r26, IXa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r27, Va is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r26, VIIIa is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r27, Xa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r28, Tmod is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r27, Va is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r28, IIa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r29, VIIa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r28, Tmod is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r29, TF is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r30, VII is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r29, VIIa is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r30, TF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r30, VII is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r31, VIIa_TF is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r31, Xa_TFPI is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r32, TFPI is found as a reactant, but NOT referenced in the Kinetics law
@@ -78,12 +83,11 @@ WARNING: In reaction r44, ATIII_Heparin is found as a reactant, but NOT referenc
 WARNING: In reaction r44, IIa is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r45, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r45, Xa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction r46, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r46, IXa is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction r46, ATIII_Heparin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r47, VK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r48, VKO is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VK_transport, VK_p is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 60
+WARNINGS FOUND: 59
 ==========================================================
 
 ==========================================================

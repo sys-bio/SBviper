@@ -20,40 +20,44 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction reaction_1, Epo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_1, SOCS3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_1, Epo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_2, SHP1Act is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, SOCS3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_4, EpoRJAK2_CIS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_4, SOCS3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_5, EpoRJAK2_CIS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_4, EpoRJAK2_CIS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_5, SOCS3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_5, EpoRJAK2_CIS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_6, SOCS3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_7, SHP1Act is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_8, SHP1Act is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_9, SHP1Act is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_10, p1EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_10, p12EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_10, p1EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_11, p12EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_11, p1EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_11, p2EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_11, p12EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_11, EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_13, p12EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_13, p1EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_13, p2EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_13, p12EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_13, EpoRpJAK2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_13, SOCS3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_14, SOCS3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_14, CIS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_14, SOCS3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_17, npSTAT5 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_24, CISRNA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_27, npSTAT5 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_34, SOCS3RNA is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

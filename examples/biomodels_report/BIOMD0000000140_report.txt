@@ -1,11 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Total_IkBbeta is UNINITIALIZED!
-ERROR: Total_IkBeps is UNINITIALIZED!
-ERROR: Total_IkBalpha is UNINITIALIZED!
-ERROR: Total_NFkBn is UNINITIALIZED!
-ERRORS FOUND: 4
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -22,9 +18,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, IkBalpha_NFkB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, IkBbeta_NFkB is found in the kinetics law, but is NOT a reactant
@@ -49,6 +43,12 @@ WARNING: In reaction v36, IKK_IkBalpha_NFkB is found in the kinetics law, but is
 WARNING: In reaction v38, IKK_IkBbeta_NFkB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v40, IKK_IkBeps_NFkB is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 22
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

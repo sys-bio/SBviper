@@ -17,54 +17,58 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction re12, Pint is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re12, PYR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re12, G6P is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re12, FBP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re12, PYR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re13, ATP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re14, Pint is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re12, Pint is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re14, ADP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re14, Pint is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, Lactate is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, NAD is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, FBP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re22, Pint is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, Formate is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, AcetCoA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re23, G3P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, ATP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, Ethanol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, CoA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re24, NAD is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re25, ATP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re25, CoA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re25, Acetate is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re27, Butanediol is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re27, NAD is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re30, PYR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re30, Mannitol1Phosphate is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re31, Acetoin_Ext is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction re32, Mannitol_Ext is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 26
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction re13, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re15, G6P is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re16, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re16, F6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re16, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re17, FBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re18, G3P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re18, NAD is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re18, Pint is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re18, G3P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re20, BPG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re20, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re21, PEP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re21, ADP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re22, Lactate is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re22, NAD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re22, Pint is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re22, FBP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re23, AcetCoA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re23, Formate is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re23, G3P is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re24, ATP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re24, Ethanol is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re24, NAD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re24, CoA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re25, ATP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re25, Acetate is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re25, CoA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re26, PYR is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re27, NAD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re27, Butanediol is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re28, NADH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re28, F6P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re28, NADH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re29, Mannitol1Phosphate is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re30, Mannitol1Phosphate is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re30, PYR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re31, Acetoin_Ext is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re32, Mannitol_Ext is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re33, FBP is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 43
+WARNINGS FOUND: 17
 ==========================================================
 
 ==========================================================

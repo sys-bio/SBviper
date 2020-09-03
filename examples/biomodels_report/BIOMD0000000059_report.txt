@@ -52,21 +52,25 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction ATP_production, ADP_cyt is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction ATP_Ca_dependent_consumption, Ca_cyt is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction Calcium_cyt_Icapump, Ca_cyt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Calcium_cyt_Jerp, Ca_cyt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Calcium_cyt_Jout, Ca_er is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Na_Inaca, Na_cyt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Na_Inak, Na_cyt is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction ATP_production, ADP_cyt is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ATP_NaKATPase, ATP_cyt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ATP_Capump, ATP_cyt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ATP_Jerp, ATP_cyt is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction ATP_Ca_dependent_consumption, Ca_cyt is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 10
+WARNINGS FOUND: 8
 ==========================================================
 
 ==========================================================

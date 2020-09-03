@@ -20,9 +20,27 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction V_b_GLU_c, c_glu is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_b_GLY_c, c_gly is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_b_SER_c, c_ser is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_b_MET_c, met is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VmNE, m_2cf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VmSERc, c_ser is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VmHCOOHc, c_coo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VmGLYc, c_gly is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VcNE, c_2cf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_BHMT, sam is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_BHMT, H2O2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_BHMT, sah is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_GNMT, c_5mf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction V_GNMT, sah is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 14
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction b_gsh_decomp, b_gsh is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction b_gsg_decomp, b_gsg is found as a reactant, but NOT referenced in the Kinetics law
@@ -32,23 +50,15 @@ WARNING: In reaction b_glu_loss, b_glu is found as a reactant, but NOT reference
 WARNING: In reaction b_gly_loss, b_gly is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction b_gsh_loss, b_gsh is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction b_gsg_loss, b_gsg is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction V_b_GLU_c, c_glu is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_b_GLY_c, c_gly is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_b_SER_c, c_ser is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_b_MET_c, met is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction VmFTD, m_10f is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VmSHMT, m_thf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VmSHMT, m_ser is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VmFTS, m_coo is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VmFTS, m_thf is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VmNE, m_2cf is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction VmFTS, m_coo is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GDC, m_thf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GDC, m_gly is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VmMTD, m_2cf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VmMTCH, m_1cf is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VmSERc, c_ser is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction VmHCOOHc, c_coo is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction VmGLYc, c_gly is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction V_MS, hcy is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_MS, c_5mf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_DHFR, c_dhf is found as a reactant, but NOT referenced in the Kinetics law
@@ -56,11 +66,10 @@ WARNING: In reaction V_DHFR, NADPH is found as a reactant, but NOT referenced in
 WARNING: In reaction VcFTD, c_10f is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_PGT, c_10f is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_PGT, GAR is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VcFTS, c_thf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VcFTS, c_coo is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction VcFTS, c_thf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VcSHMT, c_thf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VcSHMT, c_ser is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction VcNE, c_2cf is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction V_TS, c_2cf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_TS, DUMP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_MTHFR, c_2cf is found as a reactant, but NOT referenced in the Kinetics law
@@ -69,45 +78,40 @@ WARNING: In reaction VcMTD, c_2cf is found as a reactant, but NOT referenced in 
 WARNING: In reaction VcMTCH, c_1cf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_ART, c_10f is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_ART, aic is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction V_BHMT, H2O2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_BHMT, sah is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_BHMT, sam is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction V_MATI, met is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_MATIII, met is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction V_GNMT, sah is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction V_GNMT, c_5mf is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction V_DNMT, sam is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_SAHH, sah is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction gluconeogenesis_ser, c_ser is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_CBS, c_ser is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_CBS, hcy is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_CTGL, cyt is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction V_GCS, c_glu is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GCS, c_cys is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_GCS, c_glu is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cys_usage, c_cys is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction c_glu_usage, c_glu is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GS, c_gly is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GS, glc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GPX, H2O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GPX, c_gsh is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction V_GR, c_gsg is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction V_GR, NADPH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction V_GR, c_gsg is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction c_gsh_degr, c_gsh is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction c_gsg_degr, c_gsg is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_1, species_7 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_2, sam is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_3, species_3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_3, species_8 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_4, species_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_3, species_3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_4, species_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, species_4 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_5, species_6 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_6, species_5 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_7, species_1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_7, species_2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_8, species_4 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_8, species_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, species_4 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_13, met is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 83
+WARNINGS FOUND: 69
 ==========================================================
 
 ==========================================================

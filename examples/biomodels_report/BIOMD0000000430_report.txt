@@ -18,31 +18,35 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_1, species_3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_3, species_5 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_5, species_21 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_7, species_22 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_9, species_13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_9, species_1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_9, species_13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_10, species_9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_12, species_11 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_14, species_12 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_16, species_14 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_18, species_13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_18, species_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_18, species_13 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_19, species_17 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_21, species_19 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_23, species_24 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_26, species_25 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_28, species_20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_28, species_7 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_28, species_20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_24, species_20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_24, species_16 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 20
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

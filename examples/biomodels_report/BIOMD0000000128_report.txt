@@ -1,23 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: ninf is UNINITIALIZED!
-ERROR: minf is UNINITIALIZED!
-ERROR: hinf is UNINITIALIZED!
-ERROR: ica is UNINITIALIZED!
-ERROR: igirk is UNINITIALIZED!
-ERROR: ik is UNINITIALIZED!
-ERROR: ainf is UNINITIALIZED!
-ERROR: hinfer is UNINITIALIZED!
-ERROR: jerp is UNINITIALIZED!
-ERROR: binf is UNINITIALIZED!
-ERROR: o is UNINITIALIZED!
-ERROR: jerleak is UNINITIALIZED!
-ERROR: jerip3 is UNINITIALIZED!
-ERROR: jertot is UNINITIALIZED!
-ERROR: jmemtot is UNINITIALIZED!
-ERROR: perl_inf is UNINITIALIZED!
-ERRORS FOUND: 16
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -37,12 +21,16 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_000003, cAMP is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

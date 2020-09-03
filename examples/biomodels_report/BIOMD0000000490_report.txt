@@ -129,42 +129,46 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, AA_b is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v3, HPETE_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v3, AA_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v3, HPETE_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4, HETE_b is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v5, HPETE_b is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v7, LTA4_b is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v8, HETE_b is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v10out, LTC4_b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v24, EO_i_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v24, EO_a_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v24, EO_b is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v24, EO_i_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v26, EO_a_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v28, IL_bm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v31, AA_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v33, AA_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v33, HPETE_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v34, HETE_aw is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v35, HPETE_aw is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v37, LTA4_aw is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v38, HETE_aw is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v40out, LTC4_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v43, LTE4_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v44, LTD4_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v45, LTC4_b_out is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v51, EO_i_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v51, EO_a_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v51, EO_aw is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v51, EO_i_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v52, Hn_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v53, EO_a_aw is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v54, IL_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v61, ZF_airways is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 31
+WARNINGS FOUND: 25
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v5, HPETE_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7, LTA4_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v8, HETE_b is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v35, HPETE_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v37, LTA4_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v38, HETE_aw is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 6
 ==========================================================
 
 ==========================================================

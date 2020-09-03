@@ -21,9 +21,46 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction R20f, AS160_P is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R365, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R366, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R367, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R368, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R369, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R370, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R371, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R372, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R373, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R374, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R375, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R376, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R377, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R378, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R379, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R380, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R381, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R382, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R383, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R384, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R385, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R386, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R387, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R388, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R389, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R390, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R391, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R392, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R393, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R394, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R395, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R396, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 33
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction R2, Ins_InR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R4, Ins_InR_P is found as a reactant, but NOT referenced in the Kinetics law
@@ -37,11 +74,10 @@ WARNING: In reaction R16a_f, AS160 is found as a reactant, but NOT referenced in
 WARNING: In reaction R16a_r, AS160_P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R17f, PKC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R17r, PKC_P is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R20f, AS160_P is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R30f, ROS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R30f, PTP1B is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R30r, PTP1B_ox is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R30r, GSH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R30r, PTP1B_ox is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R31f, PTEN is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R31f, ROS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R31r, GSH is found as a reactant, but NOT referenced in the Kinetics law
@@ -61,8 +97,8 @@ WARNING: In reaction R12_a_f, IRS1 is found as a reactant, but NOT referenced in
 WARNING: In reaction R12_a_r, IRS1_PolySerP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R12_b_f, IRS1_TyrP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R12_b_r, IRS1_TyrP_PolySerP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R13f, IRS1_TyrP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R13f, PI3K is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R13f, IRS1_TyrP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R13r, IRS1_TyrP_PI3K is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R50f, NULL is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R50r1, IRS1 is found as a reactant, but NOT referenced in the Kinetics law
@@ -75,8 +111,8 @@ WARNING: In reaction R42f, JNK is found as a reactant, but NOT referenced in the
 WARNING: In reaction R42r, JNK_P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R43f, IKK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R43r, IKK_P is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R32f, ROS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R32f, DUSP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R32f, ROS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R32r, DUSP_ox is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R32r, GSH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R100, null is found as a reactant, but NOT referenced in the Kinetics law
@@ -280,69 +316,37 @@ WARNING: In reaction R361, cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 is found as a reacta
 WARNING: In reaction R362, cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R363, cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R364, cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R365, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R365, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R366, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R366, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R367, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R367, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R368, dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R368, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R369, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R369, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R370, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R370, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R371, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R371, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R372, dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R372, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R373, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R373, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R374, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R374, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R375, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R375, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R376, dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R376, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R377, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R377, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R378, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R378, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R379, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R379, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R380, dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R380, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R381, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R381, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R382, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R382, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R383, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R383, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R384, dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R384, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R385, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R385, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R386, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R386, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R387, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R387, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R388, dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R388, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R389, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R389, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R390, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R390, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R391, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R391, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R392, dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R392, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R393, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R393, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R394, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R394, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R395, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R395, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R396, dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R396, null is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R397, null is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R399, cytoplasm_RNA_InR is found as a reactant, but NOT referenced in the Kinetics law
@@ -352,7 +356,7 @@ WARNING: In reaction R402, null is found as a reactant, but NOT referenced in th
 WARNING: In reaction R404, cytoplasm_RNA_SOD2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R405, null is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R406, cytoplasm_SOD2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 327
+WARNINGS FOUND: 294
 ==========================================================
 
 ==========================================================

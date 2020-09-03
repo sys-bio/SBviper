@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: vsFK is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -15,54 +14,16 @@ WARNINGS FOUND: 1
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: AK is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: Rasi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: ERKi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNING: Xi is UNINITIALIZED
-WARNINGS FOUND: 36
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction Na_transport, Nan is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction F_translation, MF is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction AK_dissoc, A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction AK_dissoc, K is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AK_dissoc, A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction B_phosphorylation, AK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction B_phosphorylation, D is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction B_phosphorylation, Kt is found in the kinetics law, but is NOT a reactant
@@ -70,14 +31,20 @@ WARNING: In reaction B_shuttling, B is found in the kinetics law, but is NOT a r
 WARNING: In reaction A_translation, MAx is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Ras_activation, Rasi is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Erk_activation, ERKi is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Erk_activation, Rast is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Erk_activation, Rasa is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Erk_activation, Rast is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Erk_inactivation, Dusp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction X_activation, ERKa is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction X_activation, Xi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction X_activation, ERKa is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction X_activation, ERKt is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Dusp_translation, MDusp is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 18
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction LB1, II_l is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction LB2, mIIa_l is found in the kinetics law, but is NOT a reactant
@@ -51,6 +49,12 @@ WARNING: In reaction R27, IIa_TM_l is found in the kinetics law, but is NOT a re
 WARNING: In reaction R28, IIa_TM_PC_l is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R30, APC_PS_l is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

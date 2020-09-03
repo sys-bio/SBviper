@@ -22,54 +22,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
-----------------------------------------------------------
-WARNING: In reaction reaction_2, acc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_4, toc1_2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_6, toc1_1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_12, cca1_c is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_13, cca1_n is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_21, toc1luc_1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_22, toc1luc_2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_30, cca1luc is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 8
-==========================================================
-
-==========================================================
-All species should be reachable in the reactions
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All parameters should be initialized.
-----------------------------------------------------------
-ERRORS FOUND: 0
-==========================================================
-
-==========================================================
-Parameter value should not be set to ZERO.
-----------------------------------------------------------
-WARNING: toc1luc is set to ZERO!
-WARNING: parameter_2 is set to ZERO!
-WARNING: parameter_3 is set to ZERO!
-WARNING: parameter_4 is set to ZERO!
-WARNING: parameter_5 is set to ZERO!
-WARNINGS FOUND: 5
-==========================================================
-
-==========================================================
-Species concentration / initial amount should be initialized.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction reaction_2, acc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_4, toc1_2 is found as a reactant, but NOT referenced in the Kinetics law

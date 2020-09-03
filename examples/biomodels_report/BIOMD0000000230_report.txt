@@ -17,19 +17,23 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v26, NFkBn is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v26, source is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v35, IkBat is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v35, source is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v45, IkBbt is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v45, source is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v55, IkBet is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v26, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v35, source is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v45, source is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v55, source is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 8
+WARNINGS FOUND: 4
 ==========================================================
 
 ==========================================================

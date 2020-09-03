@@ -17,21 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_1, species_5 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_2, species_9 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_2, species_10 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_3, species_13 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_4, species_14 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_6, species_52 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_7, species_19 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_9, species_21 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_10, species_21 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_13, species_28 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_14, species_14 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_15, species_30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_16, species_32 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_17, species_34 is found in the kinetics law, but is NOT a reactant
@@ -42,7 +34,6 @@ WARNING: In reaction reaction_27, species_39 is found in the kinetics law, but i
 WARNING: In reaction reaction_28, species_41 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_29, species_43 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_30, species_45 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_32, species_39 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_38, species_49 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_41, species_40 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_42, species_50 is found in the kinetics law, but is NOT a reactant
@@ -52,8 +43,21 @@ WARNING: In reaction reaction_49, species_44 is found in the kinetics law, but i
 WARNING: In reaction reaction_50, species_32 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_52, species_35 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_54, species_38 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction reaction_2, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_2, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_4, species_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, species_19 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, species_21 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, species_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_32, species_39 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_59, species_39 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 32
+WARNINGS FOUND: 8
 ==========================================================
 
 ==========================================================

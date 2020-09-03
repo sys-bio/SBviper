@@ -18,26 +18,30 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction v1, pEGFR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v10a, pRaf1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v10a, RafPPtase is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v10b, pAkt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v10b, pRaf1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v11a, pBRaf is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v10b, pAkt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11a, MEK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v11a, pBRaf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11b, MEK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11b, pRaf1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11b, pRKIP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v12, pMEK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v12, PP2A is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v12, pMEK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v13, pMEK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v13, ERK is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v14, PP2A is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v14, pERK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v14, PP2A is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v15a, pERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v15a, RKIP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v15b, pRKIP is found as a reactant, but NOT referenced in the Kinetics law
@@ -53,10 +57,10 @@ WARNING: In reaction v19a, bEGFR is found as a reactant, but NOT referenced in t
 WARNING: In reaction v19a, PI3K is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v19b, PI3K is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v19c, pPI3K is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v2, fEGFR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v2, EGF is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v20, pPI3K is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2, fEGFR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v20, PIP2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v20, pPI3K is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v21, PTEN is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v21, PIP3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v22a, Akt is found as a reactant, but NOT referenced in the Kinetics law
@@ -73,8 +77,8 @@ WARNING: In reaction v26a, GSK3B is found as a reactant, but NOT referenced in t
 WARNING: In reaction v26b, PKCD is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27a, GSK3B is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27a, pERK is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v27b, pAkt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27b, GSK3B is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v27b, pAkt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27c, RKIP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27d, pGSK3B is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v28, Dshi is found as a reactant, but NOT referenced in the Kinetics law
@@ -85,42 +89,42 @@ WARNING: In reaction v31, GSK3B is found as a reactant, but NOT referenced in th
 WARNING: In reaction v31, APCAxin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v32a, APCAxinGSK3B is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v32b, pAPCpAxinGSK3B is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v33a, APC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v33a, Axin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v33a, APC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v33b, Axin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v33c, TCFBCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v33c, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v33c, TCFBCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v34, pAPCpAxinGSK3B is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v34, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v35, pAPCpAxinGSK3BBCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v36, pAPCpAxinGSK3BpBCatenin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v37a, APC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v37a, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v37a, APC is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v37b, null is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v37c, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v38, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v38, TCF is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v38, BCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v39, TCFBCatenin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v40, X is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v41, pBCatenin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v5, PKCD is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v5, pERK is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v5, bEGFR is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v5, pERK is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v5, PKCD is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v5, SOS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v6a, pSOS is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v6b, pSOS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v6b, pP90Rsk is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v7, pSOS is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v6b, pSOS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v7, Ras is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7, pSOS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v8a, null is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v8b, pRas is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v8b, RasGap is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v9a, pRas is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v8b, pRas is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v9a, Raf1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v9a, pRas is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v9b, X is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v9b, Raf1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction bRaf_dephosphorylation__RafPPtase_modifier, pBRaf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction bRaf_dephosphorylation__RafPPtase_modifier, RafPPtase is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction bRaf_dephosphorylation__RafPPtase_modifier, pBRaf is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction bRaf_dephosphorylation__pAkt_modifier, pAkt is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction bRaf_dephosphorylation__pAkt_modifier, pBRaf is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 101

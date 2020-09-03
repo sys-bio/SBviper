@@ -17,28 +17,26 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction r1, F1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r1, IAAm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r1, F3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r1, F2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1, F3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r1, IAAm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, AuxTIR1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2, AuxTIAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, IAAp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, ARFIAA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r2, IAAm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, ARF is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r2, AuxTIAA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r2, IAAm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r3, AuxTIR1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r3, Aux is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r3, IAAp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r3, TIR1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r3, AuxTIAA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, IAAp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, Aux is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r3, TIR1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r4, AuxTIR1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r4, IAAp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r4, AuxTIAA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r4, IAAp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r5, AuxTIAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r5, IAAs is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r6, IAAp is found in the kinetics law, but is NOT a reactant
@@ -48,42 +46,48 @@ WARNING: In reaction r7, ARF2 is found in the kinetics law, but is NOT a reactan
 WARNING: In reaction r8, AuxTIR1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r8, Aux is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r8, TIR1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r9, F5a is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r9, PINm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r9, F5b is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r10, PINp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, PINm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r9, F5a is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r10, PINm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r11, F5a is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r10, PINp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r11, ARm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r11, F5b is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r11, F5a is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r12, ARm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r12, ARp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r13, F4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r13, CRm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r14, CRm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r13, F4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r14, CRp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r15, AHKph is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, CRm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r15, CkAHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r15, Ck is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r16, AHKph is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, AHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r16, CkAHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r16, Ck is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r17, CkAHK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r16, AHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r17, ARRBph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r17, CkAHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r17, ARRBp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r18, CkAHK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r18, ARRAp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r18, ARRAph is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r17, CkAHK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r18, CkAHKph is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, ARRAp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, CkAHK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, ARRAph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r19, ARRAm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r19, F6 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r20, CkAHK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r20, CkAHKph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r20, ARRAp is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r20, CkAHK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r20, ARRAph is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r20, ARRAm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r20, CkAHKph is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 62
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

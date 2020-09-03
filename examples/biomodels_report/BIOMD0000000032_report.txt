@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, Bar1aex is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, alpha is found in the kinetics law, but is NOT a reactant
@@ -28,8 +26,14 @@ WARNING: In reaction v8, Sst2 is found in the kinetics law, but is NOT a reactan
 WARNING: In reaction v36, Ste12a is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v39, Fus3PP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v41, Cdc28 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 7
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction v46, p is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 8
+WARNINGS FOUND: 1
 ==========================================================
 
 ==========================================================

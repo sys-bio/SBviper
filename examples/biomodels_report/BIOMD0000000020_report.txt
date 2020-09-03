@@ -1,18 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: V_neg is UNINITIALIZED!
-ERROR: E is UNINITIALIZED!
-ERROR: i_Na is UNINITIALIZED!
-ERROR: i_K is UNINITIALIZED!
-ERROR: i_L is UNINITIALIZED!
-ERROR: alpha_m is UNINITIALIZED!
-ERROR: beta_m is UNINITIALIZED!
-ERROR: alpha_h is UNINITIALIZED!
-ERROR: beta_h is UNINITIALIZED!
-ERROR: alpha_n is UNINITIALIZED!
-ERROR: beta_n is UNINITIALIZED!
-ERRORS FOUND: 11
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -30,9 +19,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================

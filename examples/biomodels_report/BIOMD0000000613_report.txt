@@ -1,166 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Da is UNINITIALIZED!
-ERROR: GFR is UNINITIALIZED!
-ERROR: OralPhos is UNINITIALIZED!
-ERROR: OralCa is UNINITIALIZED!
-ERROR: Q0 is UNINITIALIZED!
-ERROR: OC0 is UNINITIALIZED!
-ERROR: RNK0 is UNINITIALIZED!
-ERROR: RANKL0 is UNINITIALIZED!
-ERROR: RNKL0 is UNINITIALIZED!
-ERROR: OB0 is UNINITIALIZED!
-ERROR: ROB0 is UNINITIALIZED!
-ERROR: QboneInit is UNINITIALIZED!
-ERROR: OPG0 is UNINITIALIZED!
-ERROR: RX20 is UNINITIALIZED!
-ERROR: CREB0 is UNINITIALIZED!
-ERROR: M0 is UNINITIALIZED!
-ERROR: TGFBact0 is UNINITIALIZED!
-ERROR: TGFB0 is UNINITIALIZED!
-ERROR: T13 is UNINITIALIZED!
-ERROR: T15 is UNINITIALIZED!
-ERROR: T17 is UNINITIALIZED!
-ERROR: Osteoclast is UNINITIALIZED!
-ERROR: J14OC50 is UNINITIALIZED!
-ERROR: OCeqn is UNINITIALIZED!
-ERROR: kinRNK is UNINITIALIZED!
-ERROR: MOCratio is UNINITIALIZED!
-ERROR: MOCratio0 is UNINITIALIZED!
-ERROR: MOCratioEff is UNINITIALIZED!
-ERROR: J14OCdepend is UNINITIALIZED!
-ERROR: J14 is UNINITIALIZED!
-ERROR: J41 is UNINITIALIZED!
-ERROR: PicOCkin is UNINITIALIZED!
-ERROR: bigDb is UNINITIALIZED!
-ERROR: kinTGF is UNINITIALIZED!
-ERROR: koutTGF is UNINITIALIZED!
-ERROR: koutTGFact is UNINITIALIZED!
-ERROR: koutTGFeqn is UNINITIALIZED!
-ERROR: E0PicROB is UNINITIALIZED!
-ERROR: EC50PicROBparen is UNINITIALIZED!
-ERROR: EC50PicROB is UNINITIALIZED!
-ERROR: Dr is UNINITIALIZED!
-ERROR: PicROB is UNINITIALIZED!
-ERROR: ROBin2 is UNINITIALIZED!
-ERROR: ROBin is UNINITIALIZED!
-ERROR: E0PicOB is UNINITIALIZED!
-ERROR: EC50PicOBparen is UNINITIALIZED!
-ERROR: EC50PicOB is UNINITIALIZED!
-ERROR: PicOB is UNINITIALIZED!
-ERROR: KPT is UNINITIALIZED!
-ERROR: D is UNINITIALIZED!
-ERROR: EC50MeffOC is UNINITIALIZED!
-ERROR: MeffOC is UNINITIALIZED!
-ERROR: kinOC2 is UNINITIALIZED!
-ERROR: E0PicOC is UNINITIALIZED!
-ERROR: EC50PicOCparen is UNINITIALIZED!
-ERROR: EC50PicOC is UNINITIALIZED!
-ERROR: PicOC is UNINITIALIZED!
-ERROR: PiL0 is UNINITIALIZED!
-ERROR: PiL is UNINITIALIZED!
-ERROR: EC50survInPar is UNINITIALIZED!
-ERROR: EC50surv is UNINITIALIZED!
-ERROR: LsurvOC is UNINITIALIZED!
-ERROR: KLSoc is UNINITIALIZED!
-ERROR: C4 is UNINITIALIZED!
-ERROR: T66 is UNINITIALIZED!
-ERROR: k15a is UNINITIALIZED!
-ERROR: J14a is UNINITIALIZED!
-ERROR: J15a is UNINITIALIZED!
-ERROR: kLShap is UNINITIALIZED!
-ERROR: kHApIn is UNINITIALIZED!
-ERROR: J15 is UNINITIALIZED!
-ERROR: J42 is UNINITIALIZED!
-ERROR: OBfast0 is UNINITIALIZED!
-ERROR: Osteoblast is UNINITIALIZED!
-ERROR: kinLbase is UNINITIALIZED!
-ERROR: OsteoEffect is UNINITIALIZED!
-ERROR: PTH50 is UNINITIALIZED!
-ERROR: PTHconc is UNINITIALIZED!
-ERROR: LpthEff is UNINITIALIZED!
-ERROR: kinL is UNINITIALIZED!
-ERROR: pObase is UNINITIALIZED!
-ERROR: pO is UNINITIALIZED!
-ERROR: RX2Kin is UNINITIALIZED!
-ERROR: EC50PTHRX2x is UNINITIALIZED!
-ERROR: RX2Kout is UNINITIALIZED!
-ERROR: EC50PTHcreb is UNINITIALIZED!
-ERROR: crebKin0 is UNINITIALIZED!
-ERROR: crebKin is UNINITIALIZED!
-ERROR: bcl2Kin is UNINITIALIZED!
-ERROR: CaConc is UNINITIALIZED!
-ERROR: C2 is UNINITIALIZED!
-ERROR: PO4inhPTH is UNINITIALIZED!
-ERROR: PhosEffTop is UNINITIALIZED!
-ERROR: PhosEffBot is UNINITIALIZED!
-ERROR: PhosEffMax is UNINITIALIZED!
-ERROR: PhosEff is UNINITIALIZED!
-ERROR: PhosEffect is UNINITIALIZED!
-ERROR: T68 is UNINITIALIZED!
-ERROR: SE is UNINITIALIZED!
-ERROR: C8 is UNINITIALIZED!
-ERROR: C1 is UNINITIALIZED!
-ERROR: T36 is UNINITIALIZED!
-ERROR: T37 is UNINITIALIZED!
-ERROR: CaFilt is UNINITIALIZED!
-ERROR: ReabsMax is UNINITIALIZED!
-ERROR: ReabsPTHeff is UNINITIALIZED!
-ERROR: CaReabsActive is UNINITIALIZED!
-ERROR: T20 is UNINITIALIZED!
-ERROR: T10 is UNINITIALIZED!
-ERROR: J27a is UNINITIALIZED!
-ERROR: J27 is UNINITIALIZED!
-ERROR: ScaEff is UNINITIALIZED!
-ERROR: T72 is UNINITIALIZED!
-ERROR: T73 is UNINITIALIZED!
-ERROR: T74 is UNINITIALIZED!
-ERROR: T75 is UNINITIALIZED!
-ERROR: T76 is UNINITIALIZED!
-ERROR: T47 is UNINITIALIZED!
-ERROR: J48a is UNINITIALIZED!
-ERROR: J48 is UNINITIALIZED!
-ERROR: J53 is UNINITIALIZED!
-ERROR: J54 is UNINITIALIZED!
-ERROR: J56 is UNINITIALIZED!
-ERROR: E0PicOBkb is UNINITIALIZED!
-ERROR: EmaxPicOBkb is UNINITIALIZED!
-ERROR: EC50PicOBparenKb is UNINITIALIZED!
-ERROR: EC50PicOBkb is UNINITIALIZED!
-ERROR: PicOBkb is UNINITIALIZED!
-ERROR: PicOBkbEff is UNINITIALIZED!
-ERROR: E0RUNX2kbEff is UNINITIALIZED!
-ERROR: RUNX2 is UNINITIALIZED!
-ERROR: RUNkbMax is UNINITIALIZED!
-ERROR: INparen is UNINITIALIZED!
-ERROR: RUNkb50 is UNINITIALIZED!
-ERROR: RUNX2kbPrimeEff is UNINITIALIZED!
-ERROR: kbprime is UNINITIALIZED!
-ERROR: kbslow is UNINITIALIZED!
-ERROR: kbfast is UNINITIALIZED!
-ERROR: Frackb2 is UNINITIALIZED!
-ERROR: T29 is UNINITIALIZED!
-ERROR: T31 is UNINITIALIZED!
-ERROR: T83 is UNINITIALIZED!
-ERROR: J40 is UNINITIALIZED!
-ERROR: T85Rpart is UNINITIALIZED!
-ERROR: T85 is UNINITIALIZED!
-ERROR: F11 is UNINITIALIZED!
-ERROR: INparenCtriol is UNINITIALIZED!
-ERROR: Ctriol50 is UNINITIALIZED!
-ERROR: CtriolPTeff is UNINITIALIZED!
-ERROR: PTin is UNINITIALIZED!
-ERROR: INparenCa is UNINITIALIZED!
-ERROR: T60 is UNINITIALIZED!
-ERROR: FCTD is UNINITIALIZED!
-ERROR: T63 is UNINITIALIZED!
-ERROR: EPTH is UNINITIALIZED!
-ERROR: IPTH is UNINITIALIZED!
-ERROR: SPTH is UNINITIALIZED!
-ERROR: kout is UNINITIALIZED!
-ERROR: TERIPK is UNINITIALIZED!
-ERRORS FOUND: 159
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -177,22 +18,23 @@ WARNINGS FOUND: 5
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: A is UNINITIALIZED
-WARNING: OBfast is UNINITIALIZED
-WARNING: OBslow is UNINITIALIZED
-WARNING: TGFBact is UNINITIALIZED
-WARNING: M is UNINITIALIZED
-WARNING: N is UNINITIALIZED
-WARNINGS FOUND: 6
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction PTH_gland_pool_production, S is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Intestinal_calcium_in, R is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction OPGRANKL_association, L is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction OPGRANKL_association, O is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction PTH_administration, TERISC is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PTH_gland_pool_production, S is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Ca_flux_from_Bone, Q is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ca_absorption, T is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ca_flux_to_Bone, P is found as a reactant, but NOT referenced in the Kinetics law
@@ -202,24 +44,21 @@ WARNING: In reaction PO4_flux_from_intracellular, IntraPO is found as a reactant
 WARNING: In reaction PO4_transfer_to_bone, ECCPhos is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PO4_filtration, ECCPhos is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PO4_flux_to_intracellular, ECCPhos is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction Intestinal_calcium_in, R is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction TGFB_activation, TGFB is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction OPGRANKL_association, L is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction OPGRANKL_association, O is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Ca_to_intracellular_transfer, Qbone is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ca_to_extracellular_transfer, Q is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 17
+WARNINGS FOUND: 13
 ==========================================================
 
 ==========================================================
 All species should be reachable in the reactions
 ----------------------------------------------------------
 WARNING: OBfast is unreachable!
-WARNING: A is unreachable!
-WARNING: OBslow is unreachable!
-WARNING: N is unreachable!
 WARNING: TGFBact is unreachable!
+WARNING: N is unreachable!
+WARNING: A is unreachable!
 WARNING: TGFB is unreachable!
+WARNING: OBslow is unreachable!
 WARNINGS FOUND: 6
 ==========================================================
 

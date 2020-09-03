@@ -1,31 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: apo_lim is UNINITIALIZED!
-ERROR: SMAC_norm is UNINITIALIZED!
-ERROR: XIAP_ini is UNINITIALIZED!
-ERROR: XIAP_2SMAC_norm is UNINITIALIZED!
-ERROR: C9norm is UNINITIALIZED!
-ERROR: C9_tot is UNINITIALIZED!
-ERROR: C9Pnorm is UNINITIALIZED!
-ERROR: C3norm is UNINITIALIZED!
-ERROR: C3_tot is UNINITIALIZED!
-ERROR: PC3norm is UNINITIALIZED!
-ERROR: SMAC_rel is UNINITIALIZED!
-ERROR: SMAC_tot is UNINITIALIZED!
-ERROR: Apoform is UNINITIALIZED!
-ERROR: XIAP_norm is UNINITIALIZED!
-ERROR: XIAP_C3_norm is UNINITIALIZED!
-ERROR: XIAP_C9_norm is UNINITIALIZED!
-ERROR: XIAP_p2frag_norm is UNINITIALIZED!
-ERROR: BIR12_norm is UNINITIALIZED!
-ERROR: BIR3R_norm is UNINITIALIZED!
-ERROR: BIR12_C3_norm is UNINITIALIZED!
-ERROR: BIR3R_C9_norm is UNINITIALIZED!
-ERROR: BIR3R_p2frag_norm is UNINITIALIZED!
-ERROR: CytC_tot is UNINITIALIZED!
-ERROR: APAF1_tot is UNINITIALIZED!
-ERRORS FOUND: 24
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -43,9 +19,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction1, PC3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction2, XIAP is found in the kinetics law, but is NOT a reactant
@@ -57,12 +31,12 @@ WARNING: In reaction reaction21, XIAP_C9 is found in the kinetics law, but is NO
 WARNING: In reaction reaction22, XIAP_C9_C3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction23, BIR3R_C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction26, XIAP_2SMAC is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction27, C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction27, XIAP_2SMAC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction27, C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction28, XIAP_2SMAC is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction28, C3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction29, C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction29, XIAP_2SMAC is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction29, C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction29, C3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction30, BIR12_SMAC is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction31, BIR3R_SMAC is found in the kinetics law, but is NOT a reactant
@@ -71,9 +45,15 @@ WARNING: In reaction reaction32, C3 is found in the kinetics law, but is NOT a r
 WARNING: In reaction reaction33, C9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction33, BIR3R_SMAC is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction34, XIAP_p2frag_2SMAC is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction Apo_formation, PC9 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Apo_formation, APAF1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 26
+WARNINGS FOUND: 2
 ==========================================================
 
 ==========================================================

@@ -17,23 +17,27 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction v11a, oxy is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11a2, N2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11b, N2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v11b, oxy is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction v1, sul_ex is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v13, eth_ex is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v10, oxy_ex is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v11a, oxy is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v11a, C1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11a, Hm is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v11a2, N2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v11a2, C2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v11b, oxy is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v11b, N2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v11b, Ho is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vLEAK, Ho is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 12
+WARNINGS FOUND: 8
 ==========================================================
 
 ==========================================================

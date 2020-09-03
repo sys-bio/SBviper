@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, Ra is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, R2 is found in the kinetics law, but is NOT a reactant
@@ -32,25 +30,31 @@ WARNING: In reaction v9, RG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v10, RGS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v11, GS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v11, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v12, Grb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v12, SOS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v12, Grb is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v13, RSh is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v14, RShP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v15, ShP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v15, RP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v17, RShG is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v18, ShG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v18, RP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v18, ShG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v19, RShGS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v20, RP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v20, ShGS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v21, ShG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v22, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v23, GS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v23, ShP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v23, GS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v24, RShGS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v25, PLCgl is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 29
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -17,16 +17,20 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction PGA_prod_Vc, RuBP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PGA_prod_Vc, CO2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction PGA_prod_Vc, NADPH is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PGA_prod_Vo, O2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PGA_prod_Vo, RuBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PGA_prod_Vc, CO2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PGA_prod_Vc, RuBP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PGA_prod_Vo, NADPH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PGA_prod_Vo, RuBP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction PGA_prod_Vo, O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PGA_cons, PGA is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction NADPH_prod, NADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 8

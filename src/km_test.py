@@ -127,6 +127,32 @@ def is_entry_node(species_list, init_species):
     return True
 
 
+def in_rules(rules, string):
+    """
+    Checks whether the string is an variable in the list of rules
+    :param rules:  list of rules
+    :param string: target string
+    :return: true iff the variable is in the list of rules
+    """
+    for rule in rules:
+        if string == rule.variable:
+            return True
+    return False
+
+
+def in_initial_assignments(initial_assignments, string):
+    """
+    Checks whether the string is a symbol in the list of initial assignments
+    :param initial_assignments: list of initial assignments
+    :param string: target string
+    :return: true iff the symbol is in the list of initial assignments
+    """
+    for initial_assignment in initial_assignments:
+        if string == initial_assignment.getSymbol():
+            return True
+    return False
+
+
 class StaticTestCase(unittest.TestCase):
 
     def __init__(self, sbml):
@@ -172,7 +198,8 @@ class StaticTestCase(unittest.TestCase):
         error = 0
         for parameter in self.sbml.parameters:
             # self.assertTrue(parameter.isSetValue, "ERROR: " + parameter.getId() + " is uninitialized!")
-            if not parameter.isSetValue():
+            if not parameter.isSetValue() and not in_rules(self.sbml.assignment_rules, parameter.getId()) \
+                    and not in_initial_assignments(self.sbml.initial_assignments, parameter.getId()):
                 error += 1
                 missing.append(parameter)
                 print("ERROR: " + parameter.getId() + " is UNINITIALIZED!")
@@ -214,7 +241,9 @@ class StaticTestCase(unittest.TestCase):
                 # skip all of the parameters, see assertParameterInit for parameter testing
                 if species is None:
                     continue
-                if not species.isSetInitialConcentration() and not species.isSetInitialAmount():  # initial amount
+                if not species.isSetInitialConcentration() and not species.isSetInitialAmount()\
+                        and not in_rules(self.sbml.assignment_rules, species.getId())\
+                        and not in_initial_assignments(self.sbml.initial_assignments, species.getId()):
                     error += 1
                     missing.append(species)
                     print("WARNING: " + species.getId() + " is UNINITIALIZED")

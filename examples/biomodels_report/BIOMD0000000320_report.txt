@@ -1,17 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: F_c is UNINITIALIZED!
-ERROR: F_H is UNINITIALIZED!
-ERROR: CL_H is UNINITIALIZED!
-ERROR: CL_dopa is UNINITIALIZED!
-ERROR: f_rest is UNINITIALIZED!
-ERROR: CL_AADC is UNINITIALIZED!
-ERROR: CL_rest is UNINITIALIZED!
-ERROR: CL_COMT is UNINITIALIZED!
-ERROR: CL_AADC0 is UNINITIALIZED!
-ERROR: A_bens_tot is UNINITIALIZED!
-ERRORS FOUND: 10
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -23,38 +13,21 @@ WARNINGS FOUND: 0
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_dopa is UNINITIALIZED
-WARNING: A_M is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNING: A_B is UNINITIALIZED
-WARNINGS FOUND: 21
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction bens_distribution, C2_B is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ro_distribution, C2_M is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

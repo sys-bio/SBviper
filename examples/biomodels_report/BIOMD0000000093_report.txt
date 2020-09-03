@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, RJ is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, IFNRJ is found in the kinetics law, but is NOT a reactant
@@ -49,6 +47,12 @@ WARNING: In reaction v44, IFNRJ2_star_SHP2_SOCS1_STAT1c is found in the kinetics
 WARNING: In reaction v45, IFNR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v46, IFNRJ is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 27
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

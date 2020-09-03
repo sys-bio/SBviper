@@ -28,20 +28,18 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction Duo_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Duo_NTBI, FeDuo_0 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Spleen_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Duo_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Spleen_NTBI, FeSpleen_0 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Spleen_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Liver_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Liver_NTBI, FeLiver_0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Rest_NTBI, FeRest_0 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Rest_NTBI, Hepcidin is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Duo_NTBI_0, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Duo_NTBI_0, FeDuo is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Duo_NTBI_0, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Spleen_NTBI_0, FeSpleen is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Spleen_NTBI_0, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Liver_NTBI_0, Hepcidin is found in the kinetics law, but is NOT a reactant
@@ -49,6 +47,12 @@ WARNING: In reaction Liver_NTBI_0, FeLiver is found in the kinetics law, but is 
 WARNING: In reaction Rest_NTBI_0, FeRest is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Rest_NTBI_0, Hepcidin is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

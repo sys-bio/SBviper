@@ -17,12 +17,8 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction re102, s95 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re103, s94 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re104, s110 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re105, s112 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re105, s92 is found in the kinetics law, but is NOT a reactant
@@ -31,19 +27,27 @@ WARNING: In reaction re107, s114 is found in the kinetics law, but is NOT a reac
 WARNING: In reaction re107, s93 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re111, s49 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re111, s107 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re111, s108 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re112, s114 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re114, s102 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re116, s101 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re118, s43 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re121, s106 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction re121, s37 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction re122, s38 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re124, s101 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re126, s43 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re127, s44 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction re102, s95 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re103, s94 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re111, s108 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re121, s37 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction re122, s38 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re129, s105 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 22
+WARNINGS FOUND: 6
 ==========================================================
 
 ==========================================================

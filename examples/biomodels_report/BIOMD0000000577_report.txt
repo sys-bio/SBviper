@@ -23,9 +23,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction cL_m_degr, cL_m is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cL_degr, cL is found as a reactant, but NOT referenced in the Kinetics law
@@ -54,8 +58,8 @@ WARNING: In reaction cCOP1d_activ, cCOP1n is found as a reactant, but NOT refere
 WARNING: In reaction cCOP1d_degr, cCOP1d is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cG_m_degr, cG_m is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cG_degr, cG is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction cG_cZTL_assoc, cG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cG_cZTL_assoc, cZTL is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction cG_cZTL_assoc, cG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cZTL_degr, cZTL is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cZG_degr, cZG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction cG_cE3_assoc, cG is found as a reactant, but NOT referenced in the Kinetics law

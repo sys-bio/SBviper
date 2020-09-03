@@ -1,13 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: pC3_frac is UNINITIALIZED!
-ERROR: C3_frac is UNINITIALIZED!
-ERROR: C3_UB_frac is UNINITIALIZED!
-ERROR: cPARP_frac is UNINITIALIZED!
-ERROR: C3_tot is UNINITIALIZED!
-ERROR: fC3_fract is UNINITIALIZED!
-ERRORS FOUND: 6
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -23,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction re1, L_R is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re3, flip_R_hash is found in the kinetics law, but is NOT a reactant
@@ -56,6 +48,12 @@ WARNING: In reaction re40, CytoC is found in the kinetics law, but is NOT a reac
 WARNING: In reaction re41, CytoC_Apaf is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re43, Apop is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 28
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

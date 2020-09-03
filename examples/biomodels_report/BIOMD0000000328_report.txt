@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction CYP3A4_ASpOH, ASL_c is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction CYP3A4_ASoOH, ASL_c is found in the kinetics law, but is NOT a reactant
@@ -32,6 +30,12 @@ WARNING: In reaction ASLoOH_Prot, ASLoOH_b is found in the kinetics law, but is 
 WARNING: In reaction AS_Prot, AS_b is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction ASL_Prot, ASL_b is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 10
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
