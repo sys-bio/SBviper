@@ -1,12 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: ERB_B1_P_tot is UNINITIALIZED!
-ERROR: ERB_B1_P_dimer is UNINITIALIZED!
-ERROR: ERB_B1_4_P is UNINITIALIZED!
-ERROR: ERB_B1_3_P is UNINITIALIZED!
-ERROR: ERB_B1_2_P is UNINITIALIZED!
-ERRORS FOUND: 5
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -65,9 +60,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, c3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, c335 is found in the kinetics law, but is NOT a reactant
@@ -897,6 +890,12 @@ WARNING: In reaction v860, c556 is found in the kinetics law, but is NOT a react
 WARNING: In reaction v861, c557 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v862, c558 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 827
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

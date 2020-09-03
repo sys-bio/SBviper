@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_0000001, M_MAPKK_Y is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000003, MpY_MAPKK is found in the kinetics law, but is NOT a reactant
@@ -29,15 +27,21 @@ WARNING: In reaction reaction_0000009, Mpp_MKP_Y is found in the kinetics law, b
 WARNING: In reaction reaction_0000011, MpT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000011, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000013, MpT_MKP_T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000015, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000015, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000017, MpY_MKP_Y is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000019, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000019, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000019, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000020, Mpp_MKP_T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000022, MKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000022, MpY is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000022, MKP is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -1,14 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: RP_percent is UNINITIALIZED!
-ERROR: AktPP_percent is UNINITIALIZED!
-ERROR: MEKPP_percent is UNINITIALIZED!
-ERROR: ERKPP_percent is UNINITIALIZED!
-ERROR: Rafstar_percent is UNINITIALIZED!
-ERROR: ShP_percent is UNINITIALIZED!
-ERROR: PI3Kstar_percent is UNINITIALIZED!
-ERRORS FOUND: 7
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -26,42 +19,39 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_0000001, RHRG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000002, RHRG2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000002, RHRG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_0000003, RP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000005, RShc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000006, RShP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000007, RShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000008, RP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000008, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000009, ShP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000008, RP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000009, GS is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000009, ShP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000011, ShGS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000013, RasGTP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000014, E is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000014, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, Rafstar is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000014, E is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000015, MEKP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000015, Rafstar is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000016, AktPIPP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000016, AktPIP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000016, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000016, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000017, MEK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000017, Rafstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000018, AktPIPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000018, MEKP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000018, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000019, ERKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000019, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000020, ERKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000020, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000021, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000021, ERK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000021, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000022, ERKP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000022, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000023, RPI3K is found in the kinetics law, but is NOT a reactant
@@ -71,201 +61,24 @@ WARNING: In reaction reaction_0000025, PI3Kstar is found in the kinetics law, bu
 WARNING: In reaction reaction_0000029, AktPIP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000027, PI3Kstar is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000030, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000031, AktPIPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000031, MEKP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000031, PP2A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000031, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000032, AktPIP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000033, AktPIP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000033, MEKP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000033, PP2A is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction reaction_0000033, MEKPP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000034, internalization is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 51
+WARNINGS FOUND: 50
 ==========================================================
 
 ==========================================================
-All species should be reachable in the reactions
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All parameters should be initialized.
-----------------------------------------------------------
-ERROR: RP_percent is UNINITIALIZED!
-ERROR: AktPP_percent is UNINITIALIZED!
-ERROR: MEKPP_percent is UNINITIALIZED!
-ERROR: ERKPP_percent is UNINITIALIZED!
-ERROR: Rafstar_percent is UNINITIALIZED!
-ERROR: ShP_percent is UNINITIALIZED!
-ERROR: PI3Kstar_percent is UNINITIALIZED!
-ERRORS FOUND: 7
-==========================================================
-
-==========================================================
-Parameter value should not be set to ZERO.
-----------------------------------------------------------
-WARNING: k_9 is set to ZERO!
-WARNING: k_34 is set to ZERO!
-WARNINGS FOUND: 2
-==========================================================
-
-==========================================================
-Species concentration / initial amount should be initialized.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
-----------------------------------------------------------
-WARNING: In reaction reaction_0000001, RHRG is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000002, RHRG2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_0000002, RHRG is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_0000003, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000005, RShc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000006, RShP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000007, RShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000008, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000008, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000009, GS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000009, ShP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000011, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000013, RasGTP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000014, E is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000014, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, Rafstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000017, Rafstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000017, MEK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000019, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000019, ERKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000020, ERKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000020, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000021, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000021, ERK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000022, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000022, ERKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000023, RPI3K is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000024, RPI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000025, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000025, PI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000029, AktPIP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000027, PI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000030, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000032, AktPIP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000034, internalization is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 51
-==========================================================
-
-==========================================================
-All species should be reachable in the reactions
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All parameters should be initialized.
-----------------------------------------------------------
-ERROR: RP_percent is UNINITIALIZED!
-ERROR: AktPP_percent is UNINITIALIZED!
-ERROR: MEKPP_percent is UNINITIALIZED!
-ERROR: ERKPP_percent is UNINITIALIZED!
-ERROR: Rafstar_percent is UNINITIALIZED!
-ERROR: ShP_percent is UNINITIALIZED!
-ERROR: PI3Kstar_percent is UNINITIALIZED!
-ERRORS FOUND: 7
-==========================================================
-
-==========================================================
-Parameter value should not be set to ZERO.
-----------------------------------------------------------
-WARNING: k_9 is set to ZERO!
-WARNING: k_34 is set to ZERO!
-WARNINGS FOUND: 2
-==========================================================
-
-==========================================================
-Species concentration / initial amount should be initialized.
-----------------------------------------------------------
-WARNINGS FOUND: 0
-==========================================================
-
-==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
-----------------------------------------------------------
-WARNING: In reaction reaction_0000001, RHRG is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000002, RHRG2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000002, RHRG is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_0000003, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000005, RShc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000006, RShP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000007, RShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000008, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000008, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000009, GS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000009, ShP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000011, ShGS is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000013, RasGTP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000014, E is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000014, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, Rafstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000015, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000016, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000017, Rafstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000017, MEK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000018, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000019, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000019, ERKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000020, ERKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000020, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000021, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000021, ERK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000022, ERKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000022, MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000023, RPI3K is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000024, RPI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000025, RP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000025, PI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000029, AktPIP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000027, PI3Kstar is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000030, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, AktPIPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000031, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000032, AktPIP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, AktPIP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, MEKPP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000033, MEKP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_0000034, internalization is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 51
+WARNINGS FOUND: 1
 ==========================================================
 
 ==========================================================

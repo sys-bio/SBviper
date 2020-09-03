@@ -17,47 +17,52 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction J15, VMAT2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J36, Lysosome_0 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction J1, Alpha_synuclein is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J2, Protofibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J3, Fibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J3, Parkin_synphilin_1_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J4, Parkin_sub_ub4 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J6, Ubiquitin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J6, E1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J7, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J6, Ubiquitin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J7, UbcH8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J7, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J8, Parkin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J8, Substrate is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J9, Synphilin_1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J9, Parkin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J10, UbcH13_Uev1a_ub is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J9, Synphilin_1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J10, Parkin_synphilin_1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J11, Parkin_sub is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J10, UbcH13_Uev1a_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J11, UbcH8ub4 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J13, L_Tyr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J11, Parkin_sub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J13, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J13, L_Tyr is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J14, L_Dopa is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J15, VMAT2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J18, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J18, Dopamine is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J19, H2O is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J19, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J18, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J19, Dopamine is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J20, Fe2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J19, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J19, H2O is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J20, H2O2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J20, Fe2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J21, Fe3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J22, H2O2 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J23, GSH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J23, H2O2 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J23, GSH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J24, GSSG is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J25, NAD is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J25, DOPAL is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J26f, UbcH8_Ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J26f, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J26f, UbcH8_Ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J26r, UbcH8ub2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J27f, UbcH8ub2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J27f, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
@@ -65,54 +70,53 @@ WARNING: In reaction J27r, UbcH8ub3 is found as a reactant, but NOT referenced i
 WARNING: In reaction J28f, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J28f, UbcH8ub3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J28r, UbcH8ub4 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J29, UbcH13_Uev1a is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J29, Ub_E1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J30, UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J29, UbcH13_Uev1a is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J30, Alpha_synuclein is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J30, UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J31, UbcH13_Uev1a_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J31, asyn_UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J32, Alpha_synuclein is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J32, asyn_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J33, UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J33, Protofibril is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J34, UbcH13_Uev1a_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J34, Protofibril_UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J34, UbcH13_Uev1a_ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J35, Protofibril_Ub is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J35, Protofibril is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J36, Lysosome_0 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J37, asyn_UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J37, UbcH8ub4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J37, asyn_UCH_L1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J38, UCH_L1_asyn_ub4 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J43, Alpha_synuclein is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J43, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J44, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J44, Protofibril is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J45, Fibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J45, Hsc70 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J45, Fibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J46, Hsc70_asyn is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J47, Hsc70_Protofibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J48, Hsc70_fibril is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J54, Parkin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J54, DA_quinone is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J55, O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J55, Dopamine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J55, O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J56, O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J57, GSH is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J57, DA_quinone is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J100, Cysteine is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J100, L_Dopa is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J100, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J101, Cysteine is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J101, L_Tyr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J100, Cysteine is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J101, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J101, L_Tyr is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J101, Cysteine is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction J102, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J102, Cysteine is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J102, DA_quinone is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction J102, O2_0 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J115, Fe3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J115, Neuromelanin is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J116, Neurotoxins is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction J116, Neuromelanin is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 91
+WARNINGS FOUND: 89
 ==========================================================
 
 ==========================================================

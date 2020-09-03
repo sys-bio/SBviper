@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction pRB_synthesis, pRB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction pRB_synthesis, E2F1 is found in the kinetics law, but is NOT a reactant
@@ -41,6 +39,12 @@ WARNING: In reaction CycE_synthesis, E2F1 is found in the kinetics law, but is N
 WARNING: In reaction CycE_synthesis, pRBp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction CycE_activation, CycEa is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 19
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

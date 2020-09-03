@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R1, NGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R18, Shc_pTrkA is found in the kinetics law, but is NOT a reactant
@@ -61,6 +59,12 @@ WARNING: In reaction mw8105f0dc_19ad_4f7a_80df_3f84de216c42, mwe979ec8f_a55c_470
 WARNING: In reaction mw9da48a51_bbd0_4395_9883_8441d8153b00, mwe009ad7f_90fd_4186_8855_77780724ddb8 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction mwc467edb6_a255_45d6_8014_33bd0209b36f, mw5afa8250_0cf0_40a2_a97a_f7cf20a9cfbd is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 39
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

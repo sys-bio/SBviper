@@ -18,19 +18,23 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction r1, S is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, Rp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r3, X is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r3, Yp is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r3, Y is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r5, Yp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r5, Rp is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction r3, Y is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction r5, R is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 8
+WARNINGS FOUND: 2
 ==========================================================
 
 ==========================================================

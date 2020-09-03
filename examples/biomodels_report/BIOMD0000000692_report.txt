@@ -18,16 +18,20 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction GTP_hydrolysis_sbo_1_sbc_, RasGTP_minus_NF1_star_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction GTP_hydrolysis_sbo_2_sbc_, RasGDP_minus_NF1_Pi is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ras_activation, RasGTP_minus_NF1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction GAP_dissociation, RasGDP_NF1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction NF1_binding, NF1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction NF1_binding, RasGTP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction NF1_binding, NF1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 6
 ==========================================================
 

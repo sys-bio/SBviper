@@ -17,11 +17,8 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction re57, s22 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re58, s20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re59, s18 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re60, s28 is found in the kinetics law, but is NOT a reactant
@@ -31,8 +28,15 @@ WARNING: In reaction re63, s15 is found in the kinetics law, but is NOT a reacta
 WARNING: In reaction re64, s15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re65, s15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re66, s17 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction re57, s22 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction re68, s21 is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 11
+WARNINGS FOUND: 2
 ==========================================================
 
 ==========================================================

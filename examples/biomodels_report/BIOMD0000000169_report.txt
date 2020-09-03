@@ -18,13 +18,11 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
+WARNING: In reaction _1, Y1_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _1, Y9_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _1, Y6_1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction _1, Y1_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction cycECDK2activation_1, Y1_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction cycECDK2synthesis_1, Y4_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction p27degradationviacycECDK2_1, Y1_1 is found in the kinetics law, but is NOT a reactant
@@ -32,6 +30,12 @@ WARNING: In reaction E2Fautostimulation_1, Y4_1 is found in the kinetics law, bu
 WARNING: In reaction p16synthesisinhibitedbypRB_1, Y5_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction pRBpdephosphorilation_1, Y10_1 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 9
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -17,9 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction reaction_5, E2FRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_6, pE2FRB is found as a reactant, but NOT referenced in the Kinetics law
@@ -33,8 +37,8 @@ WARNING: In reaction reaction_12, Rb is found as a reactant, but NOT referenced 
 WARNING: In reaction reaction_14, E2F is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_15, E2F is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_16, pE2FRB is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_17, Rb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_17, pE2F is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_17, Rb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_18, pE2F is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_19, pE2F is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_20, pE2FRB is found as a reactant, but NOT referenced in the Kinetics law

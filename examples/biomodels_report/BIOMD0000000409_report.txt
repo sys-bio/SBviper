@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Cdk is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -18,287 +17,62 @@ WARNINGS FOUND: 4
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: separase is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: separase is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: separase is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: securin is UNINITIALIZED
-WARNING: separase is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Net1P is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: Cdc14 is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNING: PP2A is UNINITIALIZED
-WARNINGS FOUND: 229
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction v1, AA is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v2, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, Cdc20 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v3, AA is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v4, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v5, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v5, Cdc14 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v5, Cdh1_i is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v7, AA is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v8, Cdc20 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v8, securin is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v9, AA is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v10, separase is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11, securinseparase is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction securinseparase_securindegradation, Cdc20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v13, Cdc14 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v13, PP2A is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v14, MEN is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v14, Net1Cdc14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, MEN is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v15, Cdc14 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v17, MEN is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v17, Net1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v18, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v17, MEN is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v19, Cdh1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v19, Polo_i is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v20, Polo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v20, PoloT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v20, Polo_i is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v22, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v23, Polo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v23, Tem1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v23, Tem1_i is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v24, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v25, Cdc15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v25, Cdc14 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v25, Cdc15_i is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v27, MEN is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v27, Tem1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v27, Cdc15 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v27, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v27, Tem1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, Tem1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v30, Cdc15 is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 43
+WARNINGS FOUND: 30
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v1, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v5, Cdh1_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v7, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v8, securin is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v9, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v10, separase is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v18, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v19, Polo_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v20, Polo_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v23, Tem1_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v25, Cdc15_i is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v27, AA is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 13
 ==========================================================
 
 ==========================================================

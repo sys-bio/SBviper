@@ -1,16 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: PP1A is UNINITIALIZED!
-ERROR: V2 is UNINITIALIZED!
-ERROR: V4 is UNINITIALIZED!
-ERROR: V6 is UNINITIALIZED!
-ERROR: V8 is UNINITIALIZED!
-ERROR: CYCET is UNINITIALIZED!
-ERROR: CYCDT is UNINITIALIZED!
-ERROR: CYCAT is UNINITIALIZED!
-ERROR: P27T is UNINITIALIZED!
-ERRORS FOUND: 9
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -27,48 +18,52 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v9, CDc20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v10, CDc20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v20, CDc20 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v20, CDh1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v23, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v23, IEP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v23, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v24, PPX is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v26, CDc20T is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v26, CDc20 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v26, CDc20T is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v26, IEP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v29, CYCD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v29, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, CD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, CYCE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, CYCD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, CYCA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v30, CYCD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v30, CYCB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v30, CD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v30, CYCE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v30, CYCD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v30, CYCA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v30, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v31, MASS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v33, GM is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v35, CYCB is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v36, MASS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v36, var2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v36, MASS is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v38, var2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v39, DRG is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v41, ERG is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v43, CYCD is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v43, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v43, CD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v43, CYCE is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v43, CYCD is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v43, CYCA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v46, CYCB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v43, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v46, CYCA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v52, CYCB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v46, CYCB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v52, CYCA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v52, CYCB is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 37
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

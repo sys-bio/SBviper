@@ -18,22 +18,26 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction v1_cell_1, A3__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v1_cell_1, S1__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v1_cell_2, S1__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v1_cell_2, A3__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v2_cell_1, N1__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v1_cell_2, S1__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v2_cell_1, S2__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v2_cell_2, S2__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2_cell_1, N1__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v2_cell_2, N1__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2_cell_2, S2__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v3_cell_1, S3__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v3_cell_1, A2__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v3_cell_2, A2__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v3_cell_2, S3__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3_cell_2, A2__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction S4_cell_1_export, S4__Cell_1_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction S4_cell_2_export, S4__Cell_2_ is found as a reactant, but NOT referenced in the Kinetics law
 WARNINGS FOUND: 14

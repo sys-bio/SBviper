@@ -20,16 +20,14 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R3, X2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R6, X4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R7, X6 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R8, X8 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R14, X11 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R14, X14 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R14, X11 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R16, X14 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R17, X15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R18, X23 is found in the kinetics law, but is NOT a reactant
@@ -41,6 +39,12 @@ WARNING: In reaction R27, X24 is found in the kinetics law, but is NOT a reactan
 WARNING: In reaction R31, X27 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R32, X23 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 16
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

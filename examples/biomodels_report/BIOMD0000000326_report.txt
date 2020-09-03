@@ -56,9 +56,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v_r2_0, R0_RKpre is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v_r2_1, R1_RKpre is found in the kinetics law, but is NOT a reactant
@@ -93,6 +91,12 @@ WARNING: In reaction v_r18, PDE_Ga_GTP is found in the kinetics law, but is NOT 
 WARNING: In reaction v_r30, Rec_wCa2_RK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v_r31, Ca2_buff is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 32
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

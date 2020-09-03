@@ -21,30 +21,10 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction reaction_2, species_4 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_2, species_5 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_5, species_3 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_5, species_7 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_6, species_8 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_6, species_5 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_7, species_9 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_7, NAD_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_7, ADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_8, species_10 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_8, NAD_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_8, ADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_9, ADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_9, species_12 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_10, ADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_10, species_14 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_13, species_3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_13, species_11 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_14, species_5 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction reaction_14, species_13 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_17, species_1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_18, species_4 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction_19, species_27 is found in the kinetics law, but is NOT a reactant
@@ -59,61 +39,85 @@ WARNING: In reaction Blood_flow_contribution_to_capillary_O2, species_23 is foun
 WARNING: In reaction Blood_flow_contribution_to_capillary_GLC, species_25 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Blood_flow_contribution_to_capillary_LAC, LAC_artery is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Flow_of_CO2_between_capillary_and_vessel__artery_, CO2_artery is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vPUMP_neurons, Na__neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction vPUMP_neurons, species_3 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction vPUMP_astrocytes, Na__astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction vPUMP_astrocytes, species_5 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vLEAK_Na_neurons, Na__neurons is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vLEAK_Na_astrocytes, Na__astrocytes is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AK_neurons, AMP_neurons is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AK_neurons, species_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AK_astrocytes, species_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction AK_astrocytes, AMP_astrocytes is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CK_astrocytes_forward__R01881, species_5 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CK_astrocytes_forward__R01881, Cr_astrocytes is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CK_neurons_forward__R01881, Cr_neurons is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction CK_neurons_forward__R01881, species_3 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LDH_astrocytes_forward__R00703, NAD_astrocytes is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LDH_astrocytes_forward__R00703, species_19 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LDH_neurons_forward__R00703, species_18 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LDH_neurons_forward__R00703, NAD_neurons is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PGI_astrocytes__R02740___HS, species_8 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction PGI_neurons__R02740___HS, species_7 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 32
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction reaction_2, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_2, species_4 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_5, species_7 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_5, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_6, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_6, species_8 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, species_9 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, NAD_neurons is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_7, ADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, ADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, NAD_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, species_10 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, species_12 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, ADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, ADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, species_14 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_13, species_11 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_14, species_13 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPUMP_neurons, Na__neurons is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPUMP_neurons, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPUMP_astrocytes, species_5 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vPUMP_astrocytes, Na__astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vSTIM, Na__extracellular_space is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction outflow_of_dHb, dHb is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ATPase_neurons, species_3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ATPase_astrocytes, species_5 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction AK_neurons, species_3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction AK_neurons, AMP_neurons is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction AK_neurons, ADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction AK_astrocytes, species_5 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction AK_astrocytes, AMP_astrocytes is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction AK_astrocytes, ADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction CK_astrocytes_forward__R01881, species_5 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction CK_astrocytes_forward__R01881, Cr_astrocytes is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction CK_neurons_forward__R01881, species_3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction CK_neurons_forward__R01881, Cr_neurons is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LDH_astrocytes_forward__R00703, NAD_astrocytes is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LDH_astrocytes_forward__R00703, species_19 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LDH_neurons_forward__R00703, NAD_neurons is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LDH_neurons_forward__R00703, species_18 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction ZWF_astrocytes__R02736, species_6 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ZWF_astrocytes__R02736, NADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ZWF_astrocytes__R02736, species_6 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ZWF_neurons__R02736, species_2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ZWF_neurons__R02736, NADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SOL_neurons__R02035, G6L_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SOL_astrocytes__R02035, G6L_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction GND_neurons___R01528, NADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction GND_neurons___R01528, P6G_neurons is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction GND_neurons___R01528, NADP_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction GND_astrocytes__R01528, P6G_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction GND_astrocytes__R01528, NADP_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RPE_neurons__R01529, Ru5P_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RPE_astrocytes__R01529, Ru5P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RKI_astrocytes__R01056, Ru5P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RKI_neurons__R01056, Ru5P_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction TKL_1_astrocytes__R01641, R5P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_1_astrocytes__R01641, X5P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TKL_1_astrocytes__R01641, R5P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_1_neurons__R01641, R5P_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_1_neurons__R01641, X5P_neurons is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction TAL_astrocytes__R01827, species_10 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TAL_astrocytes__R01827, S7P_astrocytes is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TAL_astrocytes__R01827, species_10 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TAL_neurons__R01827, species_9 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TAL_neurons__R01827, S7P_neurons is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_2_astrocytes__R01830, species_10 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_2_astrocytes__R01830, species_8 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction TKL_2_neurons__R01830, species_9 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction TKL_2_neurons__R01830, species_7 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PGI_astrocytes__R02740___HS, species_8 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction HK_neurons__R01786___HeinrichSchuster, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction TKL_2_neurons__R01830, species_9 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction HK_neurons__R01786___HeinrichSchuster, species_1 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction PGI_neurons__R02740___HS, species_7 is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 88
+WARNING: In reaction HK_neurons__R01786___HeinrichSchuster, species_3 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 56
 ==========================================================
 
 ==========================================================

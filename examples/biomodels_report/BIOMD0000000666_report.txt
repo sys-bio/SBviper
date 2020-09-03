@@ -17,11 +17,15 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction_0, species_0 is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 1
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction reaction_1, species_3 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_3, species_5 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_4, species_4 is found as a reactant, but NOT referenced in the Kinetics law
@@ -62,7 +66,7 @@ WARNING: In reaction S6K1_Activation_mTORC1, S6K1Inactive is found as a reactant
 WARNING: In reaction IRS1_Feedback_Deactivation_S6K1, IRS1Active is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction bRaf_Deactivation_Dabrafenib, bRafMutated is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction bRafMutated_Production, probRafMutated is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 41
+WARNINGS FOUND: 40
 ==========================================================
 
 ==========================================================

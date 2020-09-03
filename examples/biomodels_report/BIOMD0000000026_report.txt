@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1a, M_MAPKK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2a, Mp_MAPKK is found in the kinetics law, but is NOT a reactant
@@ -27,9 +25,15 @@ WARNING: In reaction v3a, Mpp_MKP3 is found in the kinetics law, but is NOT a re
 WARNING: In reaction v3c, Mp is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v3c, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4a, Mp_MKP3 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v4c, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v4c, M is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v4c, MKP3 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

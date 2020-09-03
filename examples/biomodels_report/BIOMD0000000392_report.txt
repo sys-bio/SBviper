@@ -17,15 +17,29 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction RuBisCO_1, ER is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction RuBisCO_4, PGA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction RuBisCO_4, EP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction RuBisCO_5_EP, PGA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RuBisCO_4, PGA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction RuBisCO_5_EP, E is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction RuBisCO_5_EP, PGA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_TP, TPc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_TP, Pi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_TP, Pic is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_TP, PGAc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_TP, PGA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_PGA, TPc is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_PGA, TP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_PGA, Pi is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_PGA, Pic is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction TPT_PGA, PGAc is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction RuBisCO_5_EOP, EOP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction RuBisCO_6_O2, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction PGA_K, PGA is found as a reactant, but NOT referenced in the Kinetics law
@@ -34,38 +48,28 @@ WARNING: In reaction FBP_A, TP is found as a reactant, but NOT referenced in the
 WARNING: In reaction FBPase, FBP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction F6P_TK, HeP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction F6P_TK, TP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction SBP_A, TP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SBP_A, E4P is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction SBP_A, TP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SBPase, SBP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction S7P_TK, S7P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction S7P_TK, TP is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction S7P_TK, S7P is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ru5P_K, PeP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Ru5P_K, ATP is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction ATP_S, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction ATP_S, Pi is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction ATP_S, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction AGPase, HeP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction AGPase, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction StS, ADPG is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction TPT_TP, PGA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_TP, PGAc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_TP, Pic is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_TP, Pi is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_TP, TPc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_PGA, TP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_PGA, PGAc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_PGA, Pic is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_PGA, Pi is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction TPT_PGA, TPc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction FBPc_A, TPc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction FBPcase, FBPc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction UGPase, UTPc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction UGPase, HePc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction SucPc_S, UDPGc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction UGPase, UTPc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SucPc_S, HePc is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction SucPc_S, UDPGc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction SucPc_P, SucPc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction F6Pc_K, HePc is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction F26BPc_P, F26BPc is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 44
+WARNINGS FOUND: 29
 ==========================================================
 
 ==========================================================

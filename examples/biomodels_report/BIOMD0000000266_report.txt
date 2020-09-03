@@ -1,35 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: X8 is UNINITIALIZED!
-ERROR: X9 is UNINITIALIZED!
-ERROR: X10 is UNINITIALIZED!
-ERROR: X11 is UNINITIALIZED!
-ERROR: X12r is UNINITIALIZED!
-ERROR: X12f is UNINITIALIZED!
-ERROR: X13 is UNINITIALIZED!
-ERROR: X14 is UNINITIALIZED!
-ERROR: X15r is UNINITIALIZED!
-ERROR: X15f is UNINITIALIZED!
-ERROR: X16 is UNINITIALIZED!
-ERROR: X17 is UNINITIALIZED!
-ERROR: X18 is UNINITIALIZED!
-ERROR: X19 is UNINITIALIZED!
-ERROR: flux_X1_in is UNINITIALIZED!
-ERROR: flux_X1_out is UNINITIALIZED!
-ERROR: flux_X2_in is UNINITIALIZED!
-ERROR: flux_X2_out is UNINITIALIZED!
-ERROR: flux_X3_in is UNINITIALIZED!
-ERROR: flux_X3_out is UNINITIALIZED!
-ERROR: flux_X4_in is UNINITIALIZED!
-ERROR: flux_X4_out is UNINITIALIZED!
-ERROR: flux_X5_in is UNINITIALIZED!
-ERROR: flux_X5_out is UNINITIALIZED!
-ERROR: flux_X6_in is UNINITIALIZED!
-ERROR: flux_X6_out is UNINITIALIZED!
-ERROR: flux_X7_in is UNINITIALIZED!
-ERROR: flux_X7_out is UNINITIALIZED!
-ERRORS FOUND: 28
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -46,9 +18,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNINGS FOUND: 0
 ==========================================================

@@ -1,14 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: ATPcrit is UNINITIALIZED!
-ERROR: DeltaGtransport is UNINITIALIZED!
-ERROR: DeltaPsi is UNINITIALIZED!
-ERROR: JANT is UNINITIALIZED!
-ERROR: JATP is UNINITIALIZED!
-ERROR: Jleak is UNINITIALIZED!
-ERROR: Jresp is UNINITIALIZED!
-ERRORS FOUND: 7
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -24,31 +17,35 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v5, ATP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v5, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v6, KG is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vresp, H is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v5, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vresp, NADH is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction vresp, H is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vresp, O2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vATP, ADP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vATP, iP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vATP, He is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vANT, ATP is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vleak, He is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 11
+WARNINGS FOUND: 9
 ==========================================================
 
 ==========================================================
 All species should be reachable in the reactions
 ----------------------------------------------------------
-WARNING: NADH-O2-H is unreachable!
-WARNING: OAA-ATP-NADH is unreachable!
-WARNING: KG-ADP-NAD is unreachable!
 WARNING: ADP-iP-He is unreachable!
+WARNING: OAA-ATP-NADH is unreachable!
+WARNING: NADH-O2-H is unreachable!
+WARNING: KG-ADP-NAD is unreachable!
 WARNINGS FOUND: 4
 ==========================================================
 

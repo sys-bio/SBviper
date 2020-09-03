@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: CycBT is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -23,9 +22,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R_2, StgPc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R_3, Wee1c is found in the kinetics law, but is NOT a reactant
@@ -37,8 +34,8 @@ WARNING: In reaction R_19, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction importofMPFintocytoplasm_1, MPFn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction importofMPFintocytoplasm_1, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _16, MPFc is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction importofpreMPFintocytoplaslm_1, preMPFn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction importofpreMPFintocytoplaslm_1, N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction importofpreMPFintocytoplaslm_1, preMPFn is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R_20, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _18, preMPFc is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _182_1, Wee1Pn is found in the kinetics law, but is NOT a reactant
@@ -70,6 +67,12 @@ WARNING: In reaction R_43, MPFn is found in the kinetics law, but is NOT a react
 WARNING: In reaction _50, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction _51, Xm is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 42
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -1,19 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: mu is UNINITIALIZED!
-ERROR: beta is UNINITIALIZED!
-ERROR: gamma is UNINITIALIZED!
-ERROR: sigma is UNINITIALIZED!
-ERROR: sigmaV is UNINITIALIZED!
-ERROR: strain1_frac is UNINITIALIZED!
-ERROR: strain2_frac is UNINITIALIZED!
-ERROR: S_frac is UNINITIALIZED!
-ERROR: V_frac is UNINITIALIZED!
-ERROR: R_1_frac is UNINITIALIZED!
-ERROR: R_2_frac is UNINITIALIZED!
-ERROR: R_frac is UNINITIALIZED!
-ERRORS FOUND: 12
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -29,31 +17,35 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction r1, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r2, N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r13, I1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r13, J1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r13, N is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r14, Iv2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r14, N is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r14, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r13, J1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r14, I2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r15, Iv2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r15, N is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r15, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r14, Iv2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r15, I2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r15, Iv2 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r18, I1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r18, J1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r18, N is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r19, Iv2 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r19, N is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r19, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r18, J1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r19, I2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, J2 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, N is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r19, Iv2 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 20
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

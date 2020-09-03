@@ -243,7 +243,7 @@ class StaticTestCase(unittest.TestCase):
                     continue
                 if not species.isSetInitialConcentration() and not species.isSetInitialAmount()\
                         and not in_rules(self.sbml.assignment_rules, species.getId())\
-                        and not in_initial_assignments(self.sbml.initial_assignments, species.getId()):  # initial amount
+                        and not in_initial_assignments(self.sbml.initial_assignments, species.getId()):
                     error += 1
                     missing.append(species)
                     print("WARNING: " + species.getId() + " is UNINITIALIZED")

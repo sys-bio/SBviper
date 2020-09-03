@@ -17,9 +17,13 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction Cyclin_B1_Cdk1_unphosphorylated_degradation, Cyclin_B1_Cdk1_complex_unphosphorylated is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Cyclin_B1_Cdk1_phosphorylated_degradation, Cyclin_B1_Cdk1_complex_phosphorylated is found as a reactant, but NOT referenced in the Kinetics law

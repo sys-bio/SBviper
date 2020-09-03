@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Curve_Va_Xa is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -22,9 +21,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R01, APC_Va is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R04, APC_Va_i_506 is found in the kinetics law, but is NOT a reactant
@@ -40,6 +37,12 @@ WARNING: In reaction R20, Xa_Va_i_506_PT is found in the kinetics law, but is NO
 WARNING: In reaction R21, Xa_Va_i_306_PT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R22, Xa_Va_i_306_506_PT is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 13
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

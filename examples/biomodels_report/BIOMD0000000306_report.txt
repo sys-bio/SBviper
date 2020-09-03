@@ -1,9 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Km3 is UNINITIALIZED!
-ERROR: Km4 is UNINITIALIZED!
-ERRORS FOUND: 2
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -15,26 +13,11 @@ WARNINGS FOUND: 0
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: Ep is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: E is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNING: Ep is UNINITIALIZED
-WARNINGS FOUND: 13
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction r0, Ep is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r1, S is found in the kinetics law, but is NOT a reactant
@@ -45,10 +28,16 @@ WARNINGS FOUND: 5
 ==========================================================
 
 ==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
 All species should be reachable in the reactions
 ----------------------------------------------------------
-WARNING: E is unreachable!
 WARNING: Ep is unreachable!
+WARNING: E is unreachable!
 WARNINGS FOUND: 2
 ==========================================================
 

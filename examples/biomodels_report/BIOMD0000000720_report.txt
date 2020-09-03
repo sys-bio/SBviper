@@ -17,18 +17,22 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNINGS FOUND: 0
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction reaction_2, RE is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_3, RE is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_8, miR449 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_8, Myc is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_9, miR449 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_8, miR449 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_9, CycD is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_10, miR449 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_9, miR449 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_10, CycE is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_10, miR449 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_19, PRB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_21, RB is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_22, RB is found as a reactant, but NOT referenced in the Kinetics law

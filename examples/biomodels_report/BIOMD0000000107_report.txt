@@ -22,23 +22,27 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R17, cdc25_p is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R17, dimer_p is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R17, cdc25 is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R19, dimer_p is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R19, wee1_p is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R19, wee1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, dimer_p is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R21, IE_p is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R21, dimer_p is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R21, IE is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction R23, UbE_star is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R23, IE_p is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R23, UbE_star is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 8
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction R17, cdc25 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R19, wee1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction R21, IE is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction R23, UbE is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 12
+WARNINGS FOUND: 4
 ==========================================================
 
 ==========================================================

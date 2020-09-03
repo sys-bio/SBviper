@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction r1, s16 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r5, s27 is found in the kinetics law, but is NOT a reactant
@@ -36,8 +34,8 @@ WARNING: In reaction r91, s267 is found in the kinetics law, but is NOT a reacta
 WARNING: In reaction r92, s61 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r92, s260 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r96, s275 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r98, s101 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r98, s278 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r98, s101 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r99, s164 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r99, s270 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r102, s288 is found in the kinetics law, but is NOT a reactant
@@ -45,20 +43,26 @@ WARNING: In reaction r103, s292 is found in the kinetics law, but is NOT a react
 WARNING: In reaction r105, s37 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r106, s30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r107, s5 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r104, s33 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r104, s30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r104, s286 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r85, s33 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r104, s33 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r85, s30 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r85, s245 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r85, s33 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r65, s183 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r64, s179 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r67, s305 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r86, s33 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction r86, s37 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r86, s252 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r86, s33 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction r86, s304 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction r86, s37 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 37
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -17,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction re1, EGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction re2, L_EGFR is found in the kinetics law, but is NOT a reactant
@@ -38,19 +36,19 @@ WARNING: In reaction J23, Grb2_SOS_pShc_dpEGFR is found in the kinetics law, but
 WARNING: In reaction J24, Grb2_SOS_pShc_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J25, Grb2_SOS_pShc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J27, Grb2_SOS_pShc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, Crk_C3G_pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, FRS2_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, Shc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, Crk_C3G_pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, Shc_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, FRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, Crk_C3G_pFRS2_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, Grb2_SOS_pShc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, Crk_C3G_pFRS2_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, Grb2_SOS_pShc_dpEGFR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, pShc_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, pShc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J31, L_dpEGFR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J31, pShc_dpEGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, FRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J31, Shc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J34, Crk_C3G is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J35, FRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J36, pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
@@ -70,8 +68,8 @@ WARNING: In reaction J61, PP2A is found in the kinetics law, but is NOT a reacta
 WARNING: In reaction J62, PP2A is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J63, dppERK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J68, Crk_C3G_pFRS2_dpEGFR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J68, Crk_C3G_pFRS2_pTrkA_endo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J68, Crk_C3G_pFRS2_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J68, Crk_C3G_pFRS2_pTrkA_endo is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J69, Grb2_SOS_pShc_pTrkA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J69, Grb2_SOS_pShc_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J69, Grb2_SOS_pShc_dpEGFR is found in the kinetics law, but is NOT a reactant
@@ -99,13 +97,13 @@ WARNING: In reaction J118, FRS2_dpEGFR_c_Cbl is found in the kinetics law, but i
 WARNING: In reaction J120, pFRS2_dpEGFR_c_Cbl is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J121, pDok_RasGAP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J122, Rap1GAP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J123, Crk_C3G_pFRS2_pTrkA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J123, pTrkA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J123, Grb2_SOS_pShc_pTrkA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J123, FRS2_pTrkA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction J123, pShc_pTrkA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J123, pFRS2_pTrkA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J123, Shc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J123, pShc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J123, Grb2_SOS_pShc_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J123, pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J123, FRS2_pTrkA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction J123, Crk_C3G_pFRS2_pTrkA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J124, dppERK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J133, MEK_ERK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J134, pMEK_ERK is found in the kinetics law, but is NOT a reactant
@@ -128,6 +126,12 @@ WARNING: In reaction J151, B_Raf_Rap1_GTP_pMEK_ERK is found in the kinetics law,
 WARNING: In reaction J165, dppERK_MKP3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J166, ppERK_MKP3 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 106
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

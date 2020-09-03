@@ -17,31 +17,35 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction vcactC16, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC16, C16AcylCarMAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vcactC16, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC16, CarMAT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vcactC14, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC14, C14AcylCarMAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vcactC14, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC14, CarMAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vcactC12, C12AcylCarMAT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC12, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC12, CarMAT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vcactC12, C12AcylCarMAT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC10, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC10, C10AcylCarMAT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC10, CarMAT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vcactC8, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC8, C8AcylCarMAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vcactC8, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC8, CarMAT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction vcactC6, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC6, C6AcylCarMAT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction vcactC6, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC6, CarMAT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC4, CarCYT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC4, C4AcylCarMAT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction vcactC4, CarMAT is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 21
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction vcpt2C16, C16AcylCarMAT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vcpt2C14, C14AcylCarMAT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vcpt2C12, C12AcylCarMAT is found as a reactant, but NOT referenced in the Kinetics law
@@ -69,11 +73,11 @@ WARNING: In reaction vmtpC12, C12EnoylCoAMAT is found as a reactant, but NOT ref
 WARNING: In reaction vmtpC10, C10EnoylCoAMAT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vmtpC8, C8EnoylCoAMAT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction vacesink, AcetylCoAMAT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_1, species_1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_1, C6EnoylCoAMAT is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction reaction_2, species_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction reaction_1, species_1 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction reaction_2, C4EnoylCoAMAT is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 52
+WARNING: In reaction reaction_2, species_1 is found as a reactant, but NOT referenced in the Kinetics law
+WARNINGS FOUND: 31
 ==========================================================
 
 ==========================================================

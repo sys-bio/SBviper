@@ -1,9 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: k5 is UNINITIALIZED!
-ERROR: C is UNINITIALIZED!
-ERRORS FOUND: 2
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -19,9 +17,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction v1, x3 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v2, x4 is found in the kinetics law, but is NOT a reactant
@@ -46,27 +42,27 @@ WARNING: In reaction v23, x33 is found in the kinetics law, but is NOT a reactan
 WARNING: In reaction v24, x34 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v25, x35 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v26, x36 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v27, x28 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v27, x35 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v27, x28 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v28, x42 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v29, x45 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v29, x43 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v29, x45 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v30, x37 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v31, x26 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v31, x35 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v32, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v31, x26 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v32, x38 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v33, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v32, x15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v33, x30 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v34, x15 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v33, x40 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v34, x30 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v34, x15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v35, x24 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v35, x22 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v37, x40 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v37, x15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v38, x39 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v39, x15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v39, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v39, x15 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v40, x38 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v41, x35 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v42, x46 is found in the kinetics law, but is NOT a reactant
@@ -97,16 +93,16 @@ WARNING: In reaction v75, x70 is found in the kinetics law, but is NOT a reactan
 WARNING: In reaction v76, x72 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v76, x71 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v77, x68 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v78, x26 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v78, x66 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v78, x26 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v79, x38 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v79, x17 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v80, x17 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v80, x30 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v81, x40 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v80, x17 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v81, x17 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v82, x39 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v81, x40 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v82, x17 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v82, x39 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v83, x66 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v84, x73 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v86, x74 is found in the kinetics law, but is NOT a reactant
@@ -135,6 +131,12 @@ WARNING: In reaction v121, x93 is found in the kinetics law, but is NOT a reacta
 WARNING: In reaction v123, x68 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v124, x94 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 111
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -19,9 +19,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R1, IX_TF_VIIa is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R2, X_TF_VIIa is found in the kinetics law, but is NOT a reactant
@@ -29,8 +27,14 @@ WARNING: In reaction R3, X_VIIIa_IXa is found in the kinetics law, but is NOT a 
 WARNING: In reaction R9, II_Va_Xa is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R11, VIIIa_IXa is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R12, Va_Xa is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 6
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction VIIIa_IXa_degradation, VIIIa_IXa is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 7
+WARNINGS FOUND: 1
 ==========================================================
 
 ==========================================================

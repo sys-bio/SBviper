@@ -1,41 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: V1_P is UNINITIALIZED!
-ERROR: V1_PC is UNINITIALIZED!
-ERROR: V3_PC is UNINITIALIZED!
-ERROR: v_K is UNINITIALIZED!
-ERROR: f_r is UNINITIALIZED!
-ERROR: beta is UNINITIALIZED!
-ERROR: v_sPc is UNINITIALIZED!
-ERROR: E_Na is UNINITIALIZED!
-ERROR: E_K is UNINITIALIZED!
-ERROR: E_L is UNINITIALIZED!
-ERROR: E_Ca is UNINITIALIZED!
-ERROR: Cl_in is UNINITIALIZED!
-ERROR: E_inhib is UNINITIALIZED!
-ERROR: P_K is UNINITIALIZED!
-ERROR: theta_Na is UNINITIALIZED!
-ERROR: theta_K is UNINITIALIZED!
-ERROR: alpha is UNINITIALIZED!
-ERROR: beta_a is UNINITIALIZED!
-ERROR: c is UNINITIALIZED!
-ERROR: psi is UNINITIALIZED!
-ERROR: V_rest is UNINITIALIZED!
-ERROR: theta is UNINITIALIZED!
-ERROR: V_reset is UNINITIALIZED!
-ERROR: R is UNINITIALIZED!
-ERROR: I_Na is UNINITIALIZED!
-ERROR: g_K is UNINITIALIZED!
-ERROR: I_Na_abs is UNINITIALIZED!
-ERROR: g_ex is UNINITIALIZED!
-ERROR: g_L is UNINITIALIZED!
-ERROR: g_Ca is UNINITIALIZED!
-ERROR: gK_Ca is UNINITIALIZED!
-ERROR: I_star is UNINITIALIZED!
-ERROR: R_star is UNINITIALIZED!
-ERROR: tau_m is UNINITIALIZED!
-ERRORS FOUND: 34
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -52,13 +18,8 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction v_ca_out, Ca_in is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v2, Ca_in is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v3, Ca_store is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction MP_transcription, CB is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction PC_translation, M_P is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction PC_phosphorylation, P_CP is found in the kinetics law, but is NOT a reactant
@@ -74,8 +35,17 @@ WARNING: In reaction BC_phosphorylation, B_CP is found in the kinetics law, but 
 WARNING: In reaction BC_shuttling, B_N is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction BN_phosphorylation, B_NP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction CB_activation, CB is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 15
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNING: In reaction v_ca_out, Ca_in is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v2, Ca_in is found as a reactant, but NOT referenced in the Kinetics law
+WARNING: In reaction v3, Ca_store is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction VIP_depletion, VIP is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 19
+WARNINGS FOUND: 4
 ==========================================================
 
 ==========================================================

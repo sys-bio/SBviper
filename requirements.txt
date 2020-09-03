@@ -10,3 +10,4 @@ coverage
 jupyterlab
 SBMLLint
 teUtils
+networkx

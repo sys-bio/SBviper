@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: Bias is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -18,35 +17,39 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction complex_r1, TT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r1, W is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r2, AA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r1, TT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r2, W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r2, AA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r3, WAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r3, TT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r4, WAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r4, TTW is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r5, TTWW is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r4, WAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r5, AA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r6, TT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r5, TTWW is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r6, WWAA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r6, TT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r7, AA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r7, TT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r8, AA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r8, TTW is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r9, W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r8, AA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r9, TTWAA is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r10, W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r9, W is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r10, TTW is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction complex_r11, WAA is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r10, W is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r11, W is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction complex_r11, WAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r12, TTAA is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction complex_r12, W is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 24
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

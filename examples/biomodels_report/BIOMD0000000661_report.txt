@@ -17,35 +17,39 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
-WARNING: In reaction T_cell_degradation, RT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction T_cell_degradation, m is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction T_cell_degradation, Lm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Tumour_cell_degradation, LT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction T_cell_degradation, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction T_cell_degradation, RT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Tumour_cell_degradation, Rm is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Tumour_cell_degradation, T is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Tumour_cell_degradation, LT is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction RT_degradation__SL_modifier, SL is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Rm_degradation__SL_modifier, SL is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, Rm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, T is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, RT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, T is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_synthesis, Lm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_synthesis, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_synthesis, T is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_synthesis, LT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, Rm is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, m is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, RT is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, T is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 22
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
 WARNING: In reaction LT_degradation, LT is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction Lm_degradation, Lm is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, m is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, Rm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction LT_degradation__m__T_and_Rm_modifiers, T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, RT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, m is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction Lm_degradation__m__T_and_RT_modifiers, T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_synthesis, m is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_synthesis, LT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_synthesis, Lm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_synthesis, T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, RT is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, m is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, Rm is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction SL_degradation__Rm__m__RT__T_and_SL_modifiers, T is found in the kinetics law, but is NOT a reactant
-WARNINGS FOUND: 24
+WARNINGS FOUND: 2
 ==========================================================
 
 ==========================================================

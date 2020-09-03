@@ -18,9 +18,7 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R1, TF_VII is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R2, TF_VIIa is found in the kinetics law, but is NOT a reactant
@@ -49,6 +47,12 @@ WARNING: In reaction mw33aec61d_aae4_41f1_8f35_2e2e4bb56597, mwa4fcfa0c_6944_42f
 WARNING: In reaction mw5619c52c_ce60_4357_8d45_2c512348ecc2, mwe0bb059d_deaa_45fa_b7dc_ec1c4409c4ca is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction mw4c020206_4593_4480_b410_d33a9df3298a, mw7a1594c9_f04f_478c_9f5f_ccbe0b95a820 is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 26
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

@@ -23,30 +23,34 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction R1, M is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R2, ste9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R2, slp1 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R2, ste9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R3, preMPF is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R3, cdc13T is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R5, ste9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R5, slp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R6, ste9 is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R5, ste9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R6, slp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R7, SK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R6, ste9 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R7, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R7, SK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R10, IEP is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R10, slp1T is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R10, slp1 is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R13, IEP is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R10, slp1T is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R13, MPF is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction R16, SK is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R13, IEP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R16, MPF is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction R16, SK is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction R19, M is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 19
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

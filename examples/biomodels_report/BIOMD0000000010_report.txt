@@ -17,15 +17,19 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction J2, MKKK_P is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J3, MKKK_P is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J6, MKK_PP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction J7, MKK_PP is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 4
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================

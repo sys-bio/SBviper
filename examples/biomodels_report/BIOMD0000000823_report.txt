@@ -19,9 +19,15 @@ WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
+----------------------------------------------------------
+WARNING: In reaction v13, mTORC1_DEPTOR is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction v14, mTORC2_DEPTOR is found in the kinetics law, but is NOT a reactant
+WARNINGS FOUND: 2
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
 ----------------------------------------------------------
 WARNING: In reaction v1, IR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v2, pIR is found as a reactant, but NOT referenced in the Kinetics law
@@ -35,11 +41,9 @@ WARNING: In reaction v9, mTORC2 is found as a reactant, but NOT referenced in th
 WARNING: In reaction v10, pmTORC2 is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v11, DEPTOR is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v12, pDEPTOR is found as a reactant, but NOT referenced in the Kinetics law
-WARNING: In reaction v13, mTORC1_DEPTOR is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction v14, mTORC2_DEPTOR is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction v15, IRS is found as a reactant, but NOT referenced in the Kinetics law
 WARNING: In reaction v16, iIRS is found as a reactant, but NOT referenced in the Kinetics law
-WARNINGS FOUND: 16
+WARNINGS FOUND: 14
 ==========================================================
 
 ==========================================================

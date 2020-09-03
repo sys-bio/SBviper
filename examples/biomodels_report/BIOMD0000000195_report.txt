@@ -1,8 +1,7 @@
 ==========================================================
 All parameters should be initialized.
 ----------------------------------------------------------
-ERROR: TF is UNINITIALIZED!
-ERRORS FOUND: 1
+ERRORS FOUND: 0
 ==========================================================
 
 ==========================================================
@@ -14,47 +13,11 @@ WARNINGS FOUND: 0
 ==========================================================
 Species concentration / initial amount should be initialized.
 ----------------------------------------------------------
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: Mad is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNING: CycB is UNINITIALIZED
-WARNINGS FOUND: 34
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
-All reactants should be in the kinetics law, 
-and all species references in the kinetics law 
-should be reactants.
+All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction CycBdegradationviaCdh1, Cdh1 is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction CycBtdegradationviaCdc20a, Cdc20a is found in the kinetics law, but is NOT a reactant
@@ -67,14 +30,20 @@ WARNING: In reaction Cdc20activation, IEP is found in the kinetics law, but is N
 WARNING: In reaction Cdc20activation, Cdc20a is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Cdc20activation, Cdc20t is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction Cdc20ainhibition, Mad is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction IEPsynthesis, IEP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction IEPsynthesis, CycB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction IEPsynthesis, IEP is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction IEPsynthesis, m is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction growth, m is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction CKItphosphorilationviaSK, SK is found in the kinetics law, but is NOT a reactant
-WARNING: In reaction eq_7, m is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction eq_7, CycB is found in the kinetics law, but is NOT a reactant
+WARNING: In reaction eq_7, m is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 18
+==========================================================
+
+==========================================================
+Reactants should be referenced in the Kinetics Law
+----------------------------------------------------------
+WARNINGS FOUND: 0
 ==========================================================
 
 ==========================================================
