@@ -42,14 +42,14 @@ end
 mass_action_irrev is "mass_action_irrev"
 
 
-model *MODEL1401310001()
+model *MODEL1401070001()
 
   // Compartments and Species:
   compartment cytosol, glycosome, default;
-  species _2PGA_c in cytosol, DHAP_c in cytosol, ATP_g in glycosome, DHAP_g in glycosome;
-  species ADP_g in glycosome, Glc6P_g in glycosome, ADP_c in cytosol, _3PGA_c in cytosol;
-  species Fru6P_g in glycosome, $Pi_g in glycosome, $O2_c in default, NADP_c in cytosol;
-  species ATP_c in cytosol, NADP_g in glycosome, _6PG_g in glycosome, $CO2_c in cytosol;
+  species _2PGA_c in cytosol, ATP_c in cytosol, DHAP_c in cytosol, ATP_g in glycosome;
+  species DHAP_g in glycosome, ADP_g in glycosome, Glc6P_g in glycosome, ADP_c in cytosol;
+  species _3PGA_c in cytosol, Fru6P_g in glycosome, $Pi_g in glycosome, $O2_c in default;
+  species NADP_c in cytosol, NADP_g in glycosome, _6PG_g in glycosome, $CO2_c in cytosol;
   species Rul5P_c in cytosol, _6PG_c in cytosol, Rul5P_g in glycosome, Glc6P_c in cytosol;
   species $Rib5P_c in cytosol, _13BPGA_g in glycosome, Glc_c in cytosol, $Rib5P_g in glycosome;
   species Glc_g in glycosome, $Glc_e in default, NADPH_g in glycosome, NADPH_c in cytosol;
@@ -80,6 +80,7 @@ model *MODEL1401310001()
   AK_g: 2 ADP_g -> AMP_g + ATP_g; vAK(ADP_g, AMP_g, ATP_g, AK_g_AK_g_k1, AK_g_AK_g_k2);
   TOX_c: TSH2_c => TS2_c; mass_action_irrev(TOX_c_TOX_c_k, TSH2_c);
   GDA_g: Gly3P_g + DHAP_c -> Gly3P_c + DHAP_g; Gly3P_g*GDA_g_GDA_g_k*DHAP_c - Gly3P_c*GDA_g_GDA_g_k*DHAP_g;
+  ATPT_g: ADP_g + ATP_c -> ATP_g + ADP_c; v2sub2prod(ATPT_g_ATPT_g_Vmax, ATPT_g_ATPT_g_Keq, ADP_g, ATPT_g_ATPT_g_KmADP, ATP_c, ATPT_g_ATPT_g_KmATP, ADP_c, ATPT_g_ATPT_g_KmADP, ATP_g, ATPT_g_ATPT_g_KmATP);
   PGL_c: _6PGL_c -> _6PG_c; PGL_c_PGL_c_k*cytosol*(_6PGL_c - _6PG_c/PGL_c_PGL_c_Keq) + v1sub1prod(PGL_c_PGL_c_Vmax, PGL_c_PGL_c_Keq, _6PGL_c, PGL_c_PGL_c_Km6PGL, _6PG_c, PGL_c_PGL_c_Km6PG);
   _6PGDH_c: NADP_c + _6PG_c -> $CO2_c + NADPH_c + Rul5P_c; v2sub2prod(_6PGDH_c__6PGDH_c_Vmax, _6PGDH_c__6PGDH_c_Keq, _6PG_c, _6PGDH_c__6PGDH_c_Km6PG, NADP_c, _6PGDH_c__6PGDH_c_KmNADP, Rul5P_c, _6PGDH_c__6PGDH_c_KmRul5P, NADPH_c, _6PGDH_c__6PGDH_c_KmNADPH);
   PPI_c: Rul5P_c -> $Rib5P_c; v1sub1prod(PPI_c_PPI_c_Vmax, PPI_c_PPI_c_Keq, Rul5P_c, PPI_c_PPI_c_KmRul5P, Rib5P_c, PPI_c_PPI_c_KmRib5P);
@@ -98,6 +99,7 @@ model *MODEL1401310001()
 
   // Species initializations:
   _2PGA_c = 0.1;
+  ATP_c = 0.3417;
   DHAP_c = 2.23132912;
   ATP_g = 0.2405;
   DHAP_g = 8.483130623;
@@ -109,7 +111,6 @@ model *MODEL1401310001()
   Pi_g = 0;
   O2_c = 1;
   NADP_c = 0.1;
-  ATP_c = 0.3417;
   NADP_g = 0.1;
   _6PG_g = 0.0841958;
   CO2_c = 0;
@@ -229,6 +230,10 @@ model *MODEL1401310001()
   AK_g_AK_g_k2 = 1000;
   TOX_c_TOX_c_k = 2;
   GDA_g_GDA_g_k = 600;
+  ATPT_g_ATPT_g_Vmax = 1.5;
+  ATPT_g_ATPT_g_Keq = 1;
+  ATPT_g_ATPT_g_KmADP = 0.02;
+  ATPT_g_ATPT_g_KmATP = 0.02;
   PGL_c_PGL_c_Vmax = 28;
   PGL_c_PGL_c_Keq = 20000;
   PGL_c_PGL_c_Km6PGL = 0.05;
@@ -320,9 +325,10 @@ model *MODEL1401310001()
   glycosome hypernym "http://identifiers.org/go/GO:0020015"
   default hypernym "http://identifiers.org/go/GO:0005623"
   _2PGA_c hypernym "http://identifiers.org/pubchem.compound/59"
+  ATP_c hypernym "http://identifiers.org/chebi/CHEBI:15422"
   DHAP_c hypernym "http://identifiers.org/chebi/CHEBI:57642"
   ATP_g hypernym "http://identifiers.org/chebi/CHEBI:15422"
-  DHAP_g hypernym "http://identifiers.org/chebi/CHEBI:57642"
+  DHAP_g hypernym "http://identifiers.org/chebi/CHEBI:57622"
   ADP_g hypernym "http://identifiers.org/chebi/CHEBI:16761"
   Glc6P_g hypernym "http://identifiers.org/chebi/CHEBI:4170"
   ADP_c hypernym "http://identifiers.org/chebi/CHEBI:16761"
@@ -331,7 +337,6 @@ model *MODEL1401310001()
   Pi_g hypernym "http://identifiers.org/chebi/CHEBI:28874"
   O2_c hypernym "http://identifiers.org/chebi/CHEBI:15379"
   NADP_c hypernym "http://identifiers.org/chebi/CHEBI:18009"
-  ATP_c hypernym "http://identifiers.org/chebi/CHEBI:15422"
   NADP_g hypernym "http://identifiers.org/chebi/CHEBI:18009"
   _6PG_g hypernym "http://identifiers.org/chebi/CHEBI:48928"
   CO2_c hypernym "http://identifiers.org/chebi/CHEBI:16526"
@@ -367,13 +372,13 @@ model *MODEL1401310001()
   NADH_g hypernym "http://identifiers.org/chebi/CHEBI:16908"
 end
 
-MODEL1401310001 is "Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL B"
+MODEL1401070001 is "Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL D (with ATP:ADP antiporter)"
 
-MODEL1401310001 model_entity_is "http://identifiers.org/biomodels.db/MODEL1401310001"
-MODEL1401310001 model_entity_is "http://identifiers.org/biomodels.db/BIOMD0000000514"
-MODEL1401310001 description "http://identifiers.org/pubmed/24339766"
-MODEL1401310001 origin "http://identifiers.org/biomodels.db/BIOMD0000000513"
-MODEL1401310001 property "http://identifiers.org/mamo/MAMO_0000046"
-MODEL1401310001 part "http://identifiers.org/go/GO:0006098",
+MODEL1401070001 model_entity_is "http://identifiers.org/biomodels.db/MODEL1401070001"
+MODEL1401070001 model_entity_is "http://identifiers.org/biomodels.db/BIOMD0000000511"
+MODEL1401070001 description "http://identifiers.org/pubmed/24339766"
+MODEL1401070001 origin "http://identifiers.org/biomodels.db/BIOMD0000000514"
+MODEL1401070001 part "http://identifiers.org/go/GO:0006098",
                      "http://identifiers.org/go/GO:0006096"
-MODEL1401310001 taxon "http://identifiers.org/taxonomy/5691"
+MODEL1401070001 property "http://identifiers.org/mamo/MAMO_0000046"
+MODEL1401070001 taxon "http://identifiers.org/taxonomy/5691"
