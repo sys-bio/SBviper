@@ -1,41 +1,40 @@
 @startuml
-package km_test {
-    package km_static
-    package km_validation
-    package km_verification
+package SBviper {
+    package viper_static
+    package viper_dynamic
+    package viper_helpers
 }
 
-note left of km_test {
-    km-test has 3 subpackages.
-    We have choices regarding
-    what should go into the
-    parent package itself
-    and its difficult to foresee
-    exactly what is best. This will
-    become clearer as other functionality
-    becomes developed.
-}
-
-note right of km_static {
-    A static analyzer for sbml model.
+note right of viper_static {
+    A static analyzer for sbml models.
     It parses the model and uses libsbml
-    for conducting a bunch of checks that
-    can be conducted. I suggest taking a look
-    at some existing Python static analyzers
-    to see how they structured their work.
+    for conducting a bunch of checks such
+    as checking for uninitialized parameters.
 
 }
 
-note bottom of km_validate {
+note bottom of viper_dynamic {
     These tests are user defined
-    for a specific model. Like
-    species A should be greater
-    than species B at time unit 10.
-    We have:
+    for a specific model. Like the
+    steady-state concentration of
+    species A should be 10 times
+    larger than the steady-state
+    concentration of species B.
 
 }
 
-note top of km_verify {
+note top of viper_helpers {
+    These are helper functions developed for
+    implementing the static tester and dynamic
+    tester. User can use functions from this
+    library to develop their own tests. Each
+    helper method will return helpful information
+    such as a list of uninitialized libsbml parameter
+    object.
+
+}
+
+note top of not_sure_yet {
     These are tests that require simulation
     and are valid for every model.
 

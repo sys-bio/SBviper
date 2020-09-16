@@ -16,14 +16,14 @@ Species concentration / initial amount should be initialized.
 WARNINGS FOUND: 0
 ==========================================================
 
-==========================================================
+====================================================================================================================
 All species referenced in the Kinetics law should be reactants
 ----------------------------------------------------------
 WARNING: In reaction reaction2, X is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction4, M is found in the kinetics law, but is NOT a reactant
 WARNING: In reaction reaction6, X is found in the kinetics law, but is NOT a reactant
 WARNINGS FOUND: 3
-==========================================================
+====================================================================================================================
 
 ==========================================================
 Reactants should be referenced in the Kinetics Law
