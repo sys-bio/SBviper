@@ -6,6 +6,7 @@ TimeSeries *-- SteadyState
 
 class TimeSeriesCollection {
     +time_series_dict : dict of species_str to TimeSeries object
+    +add_time_series(TimeSeries ts) : void
     +get_time_series(string species) : TimeSeries
     +get_all_time_series() : list of TimeSeries
     +get_number_of_time_series() : int
@@ -16,6 +17,10 @@ class TimeSeries {
     +time : list
     +concentration : list
     +steady_states : list of SteadyState
+    +get_species() : string
+    +get_time() : list
+    +get_concentration() : list
+    +get_concentration_at_time(int time_point) : int
     +replace_concentration(list time_points, list new_concentration) : void
 }
 
@@ -61,7 +66,7 @@ note right of SteadyState::equal {
 
 note left of SteadyState::compare_to_time {
     returns true iff the steady-state of this species
-    is reached at time that is [low, high] times later
+    is reached at time that is [low, high] time points later
     than the input species
 }
 
