@@ -1,23 +1,74 @@
 @startuml
-class viper_dynamic {
-    ~get_steady_state_time(time_series_a)
-    ~get_steady_state_concentration(time_series_a)
-    +is_match_steady_state(time_series_a, time_series_b, tolerance)
-    +steady_state_greater_range(time_series_a, time_series_b, low, high)
+
+TimeSeriesCollection o-- TimeSeries
+
+TimeSeries *-- SteadyState
+
+class TimeSeriesCollection {
+    +time_series_dict : dict of species_str to TimeSeries object
+    +get_time_series(string species) : TimeSeries
+    +get_all_time_series() : list of TimeSeries
+    +get_number_of_time_series() : int
 }
 
-note right of viper_dynamic::is_match_steady_state
-  checks whether the steady-state of species A matches the steady-state of
-  species B.
+class TimeSeries {
+    +species : string
+    +time : list
+    +concentration : list
+    +steady_states : list of SteadyState
+    +replace_concentration(list time_points, list new_concentration) : void
+}
 
-  tolerance indicates the relative error of fitting the steady-states.
-end note
+class SteadyState {
+    +time : int
+    +concentration : int
+    +get_time() : int
+    +get_concentration() : int
+    +equal(SteadyState other, time_tol, concentration_tol) : boolean
+    +compare_to_time(SteadyState other, int low, int high) : boolean
+    +compare_to_time(SteadyState other, int tol) : boolean
+    +compare_to_concentration(SteadyState other, int low, int high) : boolean
+    +compare_to_concentration(SteadyState other, int tol) : boolean
+}
 
-note right of viper_dynamic::steady_state_greater_range
-  checks whether the steady state-concentration of species A is [low, high]
-  times greater than the steady-state concentration of species B.
+note left of TimeSeriesCollection::get_time_series {
+    returns the TimeSeries object of the input species
+}
 
-  low and high indicates the range of multiplication
-end note
+note right of TimeSeries::time {
+    len(time) = number_of_points
+    time[0] = time_start
+    time[len(time) - 1] = time_end
+}
+
+note right of TimeSeries::steady_state {
+    the steady-state representation of this time series
+}
+
+note left of SteadyState::time {
+    time point when steady-state is reached
+}
+
+note right of SteadyState::concentration {
+    concentration when steady-state is reached
+}
+
+note right of SteadyState::equal {
+    returns true iff the steady-state of both species
+    is reached at the concentration and time within
+    the tolerance range
+}
+
+note left of SteadyState::compare_to_time {
+    returns true iff the steady-state of this species
+    is reached at time that is [low, high] times later
+    than the input species
+}
+
+note right of SteadyState::compare_to_concentration {
+    returns true iff the steady-state of this species
+    is reached at concentration that is [low, high] times greater
+    than the input species
+}
 
 @enduml
