@@ -1,6 +1,6 @@
 import os
 from simple_sbml.simple_sbml import SimpleSBML
-from ViperStatic.km_test import StaticTestCase
+from ViperStatic.ViperStatic import StaticTestCase
 
 directory = "/Users/mabochen/Desktop/Research/SBViper/examples/biomodels"
 

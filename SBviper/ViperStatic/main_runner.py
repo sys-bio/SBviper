@@ -9,7 +9,7 @@ import argparse
 import os.path
 import util as ut
 from simple_sbml.simple_sbml import SimpleSBML
-from km_test import StaticTestCase
+from ViperStatic import StaticTestCase
 
 
 def check_valid_file(file):
