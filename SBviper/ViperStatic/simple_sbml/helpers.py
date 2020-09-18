@@ -1,8 +1,7 @@
 """ Helpers for Tests. """
 
-from SBviper.simple_sbml import constants as cn
+import constants as cn
 
-import os.path
 import pandas as pd
 
 DEBUG = False

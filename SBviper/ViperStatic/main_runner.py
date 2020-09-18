@@ -9,7 +9,6 @@ import argparse
 import os.path
 import util as ut
 from simple_sbml.simple_sbml import SimpleSBML
-import logging
 from km_test import StaticTestCase
 
 
