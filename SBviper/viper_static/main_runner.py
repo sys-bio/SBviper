@@ -9,7 +9,7 @@ import argparse
 import os.path
 import util as ut
 from simple_sbml.simple_sbml import SimpleSBML
-from ViperStatic import StaticTestCase
+from viper_static import ViperStatic
 
 
 def check_valid_file(file):
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     except (ValueError, IOError) as e:
         parser.error("Error encountered: %s" % str(e))
     # create the tester
-    tester = StaticTestCase(sbml)
+    tester = ViperStatic(sbml)
     if mode == "basics" or mode == "kinetics":
         tester.run_basic_tests()

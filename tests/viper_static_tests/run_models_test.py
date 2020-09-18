@@ -1,6 +1,6 @@
 import os
 from simple_sbml.simple_sbml import SimpleSBML
-from viper_static.ViperStatic import StaticTestCase
+from viper_static.viper_static import ViperStatic
 
 directory = "/Users/mabochen/Desktop/Research/SBViper/examples/biomodels"
 
@@ -17,7 +17,7 @@ for filename in os.listdir(directory):
             sbml = SimpleSBML(abs_path_file)
         except (ValueError, IOError, AttributeError) as e:
             continue
-        tester = StaticTestCase(sbml)
+        tester = ViperStatic(sbml)
         missing = tester.assert_parameter_init()
         total += 1
         if len(missing) > 0:

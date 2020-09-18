@@ -153,7 +153,7 @@ def in_initial_assignments(initial_assignments, string):
     return False
 
 
-class StaticTestCase(unittest.TestCase):
+class ViperStatic(unittest.TestCase):
 
     def __init__(self, sbml):
         """
