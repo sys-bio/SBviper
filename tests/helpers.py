@@ -1,5 +1,5 @@
-from src.simple_sbml import constants as cn
-from src.simple_sbml.simple_sbml import SimpleSBML
+from SBviper.simple_sbml import constants as cn
+from SBviper.simple_sbml.simple_sbml import SimpleSBML
 
 import libsbml
 import os

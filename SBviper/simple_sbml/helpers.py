@@ -1,6 +1,6 @@
 """ Helpers for Tests. """
 
-from src.simple_sbml import constants as cn
+from SBviper.simple_sbml import constants as cn
 
 import os.path
 import pandas as pd

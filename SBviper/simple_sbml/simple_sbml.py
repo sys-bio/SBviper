@@ -1,9 +1,9 @@
 '''Python representation of an SBML model.'''
 
-# from src.simple_sbml import constants as cn
-# from src.simple_sbml.kinetic_law import KineticLaw
-# from src.simple_sbml.reaction import Reaction
-# from src.simple_sbml import util
+# from SBviper.simple_sbml import constants as cn
+# from SBviper.simple_sbml.kinetic_law import KineticLaw
+# from SBviper.simple_sbml.reaction import Reaction
+# from SBviper.simple_sbml import util
 
 from simple_sbml import constants as cn
 from simple_sbml.reaction import Reaction

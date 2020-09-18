@@ -1,11 +1,11 @@
 @startuml
 package SBviper {
-    package viper_static
-    package viper_dynamic
-    package viper_helpers
+    package ViperStatic
+    package ViperDynamic
+    package ViperHelpers
 }
 
-note right of viper_static {
+note right of ViperStatic {
     A static analyzer for sbml models.
     It parses the model and uses libsbml
     for conducting a bunch of checks such
@@ -13,7 +13,7 @@ note right of viper_static {
 
 }
 
-note bottom of viper_dynamic {
+note bottom of ViperDynamic {
     These tests are user defined
     for a specific model. Like the
     steady-state concentration of
@@ -23,7 +23,7 @@ note bottom of viper_dynamic {
 
 }
 
-note top of viper_helpers {
+note top of ViperHelpers {
     These are helper functions developed for
     implementing the static tester and dynamic
     tester. User can use functions from this
