@@ -14,26 +14,26 @@ class TimeSeriesCollection {
 
 class TimeSeries {
     +species : string
-    +time : list
-    +concentration : list
+    +time_points : list
+    +values : list
     +steady_states : list of SteadyState
     +get_species() : string
-    +get_time() : list
-    +get_concentration() : list
-    +get_concentration_at_time(int time_point) : int
-    +replace_concentration(list time_points, list new_concentration) : void
+    +get_time_points() : list
+    +get_values() : list
+    +get_value_at_time(int time_point) : int
+    +replace_values_at(list time_points, list new_concentration) : void
 }
 
 class SteadyState {
-    +time : int
-    +concentration : int
+    +time_point : int
+    +value : int
     +get_time() : int
-    +get_concentration() : int
-    +equal(SteadyState other, time_tol, concentration_tol) : boolean
-    +compare_to_time(SteadyState other, int low, int high) : boolean
-    +compare_to_time(SteadyState other, int tol) : boolean
-    +compare_to_concentration(SteadyState other, int low, int high) : boolean
-    +compare_to_concentration(SteadyState other, int tol) : boolean
+    +get_value() : int
+    +equal(SteadyState target, int time_tol=TTOL, int value_tol=VTOL) : boolean
+    +compare_to_time(SteadyState target, int low, int high) : boolean
+    +compare_to_time(SteadyState target, int time_tol=TTOL) : boolean
+    +compare_to_value(SteadyState target, int low, int high) : boolean
+    +compare_to_value(SteadyState target, int value_tol=VTOL) : boolean
 }
 
 note left of TimeSeriesCollection::get_time_series {
@@ -67,13 +67,13 @@ note right of SteadyState::equal {
 note left of SteadyState::compare_to_time {
     returns true iff the steady-state of this species
     is reached at time that is [low, high] time points later
-    than the input species
+    than the input steady state
 }
 
 note right of SteadyState::compare_to_concentration {
     returns true iff the steady-state of this species
     is reached at concentration that is [low, high] times greater
-    than the input species
+    than the input steady state
 }
 
 @enduml

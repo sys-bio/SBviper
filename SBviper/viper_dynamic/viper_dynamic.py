@@ -1,6 +1,6 @@
 class TimeSeriesCollection:
     """
-    Representation of a collection of TimeSeries objects
+    Representation of a collection of time series
 
     Attributes
     ----------
@@ -30,13 +30,13 @@ class TimeSeriesCollection:
 
 class TimeSeries:
     """
-    Representation of a TimeSeries object
+    Representation of a time series
 
     Attributes
     ----------
     species : string
         the name of the species for this TimeSeries instance
-    time : list
+    time_points : list
         a list of time points
         time[0] = time_start
         time[len(time) - 1] = time_end
@@ -50,7 +50,7 @@ class TimeSeries:
     -------
     get_species()
         gets the name of the species for this TimeSeries instance
-    get_time()
+    get_time_points()
         gets a list of time points for this TimeSeries
     get_values()
         gets a list of values for this TimeSeries
@@ -58,4 +58,42 @@ class TimeSeries:
         gets the value at the specified time_point
     replace_values_at(time_points, new_values)
         replaces the value at time points in time_points with values in new_values
+    """
+
+    def __init__(self, species, time_points, values):
+        self.species = species
+        self.time_points = time_points
+        self.values = values
+
+
+class SteadyState:
+    """
+    Representation of a steady state for a time series
+
+    Attributes
+    ----------
+    time_point : int  # TODO: should this be list instead?
+    value: int
+
+    Methods
+    -------
+    get_time()
+        gets the time point where the steady state occurred
+    get_value()
+        gets the value where the steady state occurred
+    equal(target, time_tol=TTOL, value_tol=VTOL)
+        checks if both steady states are reached at the equivalent
+        value and time point within the tolerance range
+    compare_to_time(target, low, high)
+        checks if this steady state is reached at time that is [low, high]
+        time points later than the target steady state
+    compare_to_time(target, time_tol=TTOL)
+        checks if both steady states are reached at the equivalent
+        time point within the tolerance range
+    compare_to_value(target, low, high)
+        checks if this steady state is reached at a value that is [low, high]
+        times greater than the target steady state
+    compare_to_value(target, value_tol=VTOL)
+        checks if both steady states are reached at the equivalent
+        value within the tolerance range
     """
