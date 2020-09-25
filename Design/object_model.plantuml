@@ -13,15 +13,15 @@ class TimeSeriesCollection {
 }
 
 class TimeSeries {
-    +species : string
+    +specie : string
     +time_points : list
     +values : list
     +steady_states : list of SteadyState
-    +get_species() : string
+    +get_specie() : string
     +get_time_points() : list
     +get_values() : list
     +get_value_at_time(int time_point) : int
-    +replace_values_at(list time_points, list new_concentration) : void
+    +replace_values_at(list time_points, list new_values) : void
 }
 
 class SteadyState {
@@ -37,7 +37,7 @@ class SteadyState {
 }
 
 note left of TimeSeriesCollection::get_time_series {
-    returns the TimeSeries object of the input species
+    returns the TimeSeries object of the input specie
 }
 
 note right of TimeSeries::time {
@@ -54,13 +54,13 @@ note left of SteadyState::time {
     time point when steady-state is reached
 }
 
-note right of SteadyState::concentration {
-    concentration when steady-state is reached
+note right of SteadyState::value {
+    value when steady-state is reached
 }
 
 note right of SteadyState::equal {
     returns true iff the steady-state of both species
-    is reached at the concentration and time within
+    is reached at the value and time within
     the tolerance range
 }
 
@@ -70,9 +70,9 @@ note left of SteadyState::compare_to_time {
     than the input steady state
 }
 
-note right of SteadyState::compare_to_concentration {
+note right of SteadyState::compare_to_value {
     returns true iff the steady-state of this species
-    is reached at concentration that is [low, high] times greater
+    is reached at value that is [low, high] times greater
     than the input steady state
 }
 
