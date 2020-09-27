@@ -11,7 +11,7 @@ class TimeSeries:
         time[0] = time_start
         time[len(time) - 1] = time_end
     values : list
-        a list of values corresponding to the list of time
+        a list of values for the simulation corresponding to time_points
         values[0] represents the value of the specie at time[0]
     steady_states : list
         a list of SteadyState objects for this TimeSeries
@@ -31,6 +31,13 @@ class TimeSeries:
     """
 
     def __init__(self, specie, time_points, values):
-        self.specie = specie
-        self.time_points = time_points
-        self.values = values
+        """
+        Parameters
+        ----------
+        specie: str
+            the name of the specie for this TimeSeries
+        time_points: numpy.ndarray
+            a list of time points for the simulation
+        values: numpy.ndarray
+            a list of values for the simulation corresponding to time_points
+        """
