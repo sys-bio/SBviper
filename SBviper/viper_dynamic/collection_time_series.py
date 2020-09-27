@@ -61,4 +61,4 @@ class TimeSeriesCollection:
 
     @classmethod
     def from_csv(cls, path):
-        pass
+
