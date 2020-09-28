@@ -42,6 +42,9 @@ class TestTimeSeriesCollection(unittest.TestCase):
         except:
             self.fail()
 
+    def test_add_time_series(self):
+        pass
+
 
 if __name__ == '__main__':
     unittest.main()

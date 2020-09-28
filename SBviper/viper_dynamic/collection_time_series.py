@@ -128,12 +128,14 @@ class TimeSeriesCollection:
                 raise ValueError("Input must be the simulation result from roadrunner")
         return time_series_dict
 
-    def add_time_series(self, time_series):
+    def add_time_series(self, species, time_series):
         """
         Add a new TimeSeries object of a species to this TimeSeriesCollection
 
         Parameters
         ----------
+        species: str
+            the name of the species to be added
         time_series : TimeSeries
             the TimeSeries object to be added to this collection
 
@@ -142,4 +144,7 @@ class TimeSeriesCollection:
         ValueError:
             if the input is not a valid TimeSeries object
         """
-
+        if isinstance(time_series, TimeSeries):
+            self._time_series_dict[species] = time_series
+        else:
+            raise ValueError("Input must be a valid TimeSeries object")
