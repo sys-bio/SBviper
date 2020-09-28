@@ -31,12 +31,16 @@ class TestTimeSeriesCollection(unittest.TestCase):
         r = te.loada(ant_str)
         result = r.simulate(0, 10, 25)
         try:
-            ts = TimeSeriesCollection.from_named_array(result)
+            tsc = TimeSeriesCollection.from_named_array(result)
         except:
             self.fail()
         
     def test_from_csv_correct(self):
-        
+        path = "examples/csv_output/foo.csv"
+        try:
+            tsc = TimeSeriesCollection.from_csv(path)
+        except:
+            self.fail()
 
 
 if __name__ == '__main__':

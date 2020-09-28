@@ -36,6 +36,8 @@ class TimeSeriesCollection:
     @classmethod
     def from_named_array(cls, simulation_result):
         """
+        Create a TimeSeriesCollection object from the roadrunner's simulation result
+
         Parameters
         ----------
         simulation_result : NamedArray
@@ -43,11 +45,68 @@ class TimeSeriesCollection:
 
         Raises
         ------
-        RuntimeError:
+        ValueError:
+            if the input is not a valid simulation result from roadrunner
+        """
+        time_series_dict = cls._create_dict_from_array(simulation_result, simulation_result.colnames)
+        return cls(time_series_dict)
+
+    @classmethod
+    def from_csv(cls, path):
+        """
+        Create a TImeSeriesCollection object from csv file
+
+        Parameters
+        ----------
+        path: str
+            the path to the csv file in the current working directory
+
+        Raises
+        ------
+        FileNotFoundError:
+            if the csv file is not found
+        ValueError:
+            if the input is not a valid simulation result from roadrunner
+        """
+        try:
+            simulation_result = numpy.genfromtxt(path, delimiter=',', names=True)
+        except OSError:
+            raise FileNotFoundError("File not found, check the path to the CSV file")
+        time_series_dict = cls._create_dict_from_array(simulation_result, simulation_result.dtype.names)
+        return cls(time_series_dict)
+
+    @classmethod
+    def from_bio_model(cls, model):
+        """
+        Create a TimeSeriesCollection object from a model in the BioModels repository
+
+        Parameters
+        ----------
+        model : str
+            the BioModel ID
+
+        Raises
+        ------
+        """
+        pass
+
+    @staticmethod
+    def _create_dict_from_array(simulation_result, col_names):
+        """
+        Parameters
+        ----------
+        simulation_result : numpy.ndarray
+            the output of the simulation
+        col_names: list or tuple
+            the column names of the simulation result
+
+        Raises
+        ------
+        ValueError:
             if the input is not a valid simulation result from roadrunner
         """
         time_series_dict = {}
-        for col in simulation_result.colnames:
+        for col in col_names:
             if col == "time":
                 continue
             col_name = col.strip("[]")
@@ -56,9 +115,5 @@ class TimeSeriesCollection:
                     TimeSeries(col_name, simulation_result["time"], simulation_result[col])
             # input simulation result must match expected format
             except IndexError:
-                raise RuntimeError("Input must be the simulation result from roadrunner, try CSV file input instead")
-        return cls(time_series_dict)
-
-    @classmethod
-    def from_csv(cls, path):
-
+                raise ValueError("Input must be the simulation result from roadrunner")
+        return time_series_dict
