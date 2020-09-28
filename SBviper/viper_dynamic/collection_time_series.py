@@ -14,14 +14,16 @@ class TimeSeriesCollection:
 
     Methods
     -------
-    add_time_series(species, ts)
-        adds a new TimeSeries of a species to the collection
+    add_time_series(species, time_series)
+        Add a new TimeSeries object of a species to this TimeSeriesCollection
     get_time_series(species)
-        gets the corresponding TimeSeries object of the species
+        Get the corresponding TimeSeries object of the species
+    get_all_species()
+        Return a list of all species in the collection
     get_all_time_series()
-        returns a list of all of the TimeSeries objects in the collection
+        Return a list of all TimeSeries objects in the collection
     get_number_of_time_series()
-        returns the number of TimeSeries objects in the collection
+        Return the number of TimeSeries objects in the collection
     """
 
     def __init__(self, time_series_dict):
@@ -93,17 +95,25 @@ class TimeSeriesCollection:
     @staticmethod
     def _create_dict_from_array(simulation_result, col_names):
         """
+        Helper function for creating a dict of species name (str) to the corresponding
+        TimeSeries object
+
         Parameters
         ----------
         simulation_result : numpy.ndarray
             the output of the simulation
-        col_names: list or tuple
+        col_names : list or tuple
             the column names of the simulation result
 
         Raises
         ------
         ValueError:
             if the input is not a valid simulation result from roadrunner
+
+        Returns
+        -------
+        dict:
+            a dict from species name (str) to the corresponding TimeSeries object
         """
         time_series_dict = {}
         for col in col_names:
@@ -117,3 +127,19 @@ class TimeSeriesCollection:
             except IndexError:
                 raise ValueError("Input must be the simulation result from roadrunner")
         return time_series_dict
+
+    def add_time_series(self, time_series):
+        """
+        Add a new TimeSeries object of a species to this TimeSeriesCollection
+
+        Parameters
+        ----------
+        time_series : TimeSeries
+            the TimeSeries object to be added to this collection
+
+        Raises
+        ------
+        ValueError:
+            if the input is not a valid TimeSeries object
+        """
+
