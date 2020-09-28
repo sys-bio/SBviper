@@ -11,7 +11,7 @@ from SBviper.viper_dynamic.collection_time_series import TimeSeriesCollection
 class TestTimeSeriesCollection(unittest.TestCase):
 
     # Constructor Testing
-    def test_from_named_array_correct(self):
+    def test_from_nd_array_correct(self):
         ant_str = """
         model test               # name the model
             compartment C1;      # specify compartments

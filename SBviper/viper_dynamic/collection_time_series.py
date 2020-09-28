@@ -34,13 +34,13 @@ class TimeSeriesCollection:
         self._time_series_dict = time_series_dict
 
     @classmethod
-    def from_named_array(cls, simulation_result):
+    def from_nd_array(cls, simulation_result):
         """
         Create a TimeSeriesCollection object from the roadrunner's simulation result
 
         Parameters
         ----------
-        simulation_result : NamedArray
+        simulation_result : numpy.ndarray
             the output from simulating the model in roadrunner
 
         Raises
