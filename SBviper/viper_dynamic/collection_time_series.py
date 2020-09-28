@@ -19,9 +19,9 @@ class TimeSeriesCollection:
     get_time_series(species)
         Get the corresponding TimeSeries object of the species
     get_all_species()
-        Return a list of all species in the collection
+        Return an array of all species in the collection
     get_all_time_series()
-        Return a list of all TimeSeries objects in the collection
+        Return an array of all TimeSeries objects in the collection
     get_number_of_time_series()
         Return the number of TimeSeries objects in the collection
     """
@@ -134,7 +134,7 @@ class TimeSeriesCollection:
 
         Parameters
         ----------
-        species: str
+        species : str
             the name of the species to be added
         time_series : TimeSeries
             the TimeSeries object to be added to this collection
@@ -148,3 +148,55 @@ class TimeSeriesCollection:
             self._time_series_dict[species] = time_series
         else:
             raise ValueError("Input must be a valid TimeSeries object")
+
+    def get_time_series(self, species):
+        """
+        Get the corresponding TimeSeries object of the species
+
+        Parameters
+        ----------
+        species : str
+            the name of the species to get
+
+        Returns
+        -------
+        TimeSeries:
+            the corresponding TimeSeries, None if not found
+        """
+        try:
+            return self._time_series_dict[species]
+        except KeyError:
+            return None
+
+    def get_all_species(self):
+        """
+        Return an array of all species in the collection
+
+        Returns
+        -------
+        numpy.ndarray (str):
+            all species in the collection
+        """
+        return numpy.array(list(self._time_series_dict.keys()))
+
+    def get_all_time_series(self):
+        """
+        Return an array of all TimeSeries objects in the collection
+
+        Returns
+        -------
+        numpy.ndarray:
+            all TimeSeries objects in the collection
+        """
+        return numpy.array(list(self._time_series_dict.values()))
+
+    def get_number_of_time_series(self):
+        """
+        Return the number of (species, TimeSeries) paris in the collection
+
+        Returns
+        -------
+        int:
+            the number of (species, TimeSeries) paris in the collection
+        """
+        return len(self._time_series_dict)
