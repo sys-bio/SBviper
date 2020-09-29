@@ -1,43 +1,115 @@
+import numpy
+import copy
+
+
 class TimeSeries:
     """
     Representation of a time series
 
     Attributes
     ----------
-    specie : string
+    _species : string
         the name of the specie for this TimeSeries instance
-    time_points : list
-        a list of time points
+    _time_points : numpy.ndarray
+        an array of time points
         time[0] = time_start
         time[len(time) - 1] = time_end
-    values : list
-        a list of values for the simulation corresponding to time_points
+    _values : numpy.ndarray
+        an array of values for the simulation corresponding to time_points
         values[0] represents the value of the specie at time[0]
-    steady_states : list
-        a list of SteadyState objects for this TimeSeries
 
     Methods
     -------
-    get_specie()
-        gets the name of the specie for this TimeSeries instance
+    get_species()
+        Get the name of the species for this TimeSeries instance
     get_time_points()
-        gets a list of time points for this TimeSeries
+        Get an array of *the current* time points for this TimeSeries
     get_values()
-        gets a list of values for this TimeSeries
+        Get an array of *the current* values for this TimeSeries
     get_value_at_time(time_point)
-        gets the value at the specified time_point
+        Get the value at the specified time_point
     replace_values_at(time_points, new_values)
-        replaces the value at time points in time_points with values in new_values
+        Replace the value at time points in time_points with values in new_values
     """
 
-    def __init__(self, specie, time_points, values):
+    def __init__(self, species, time_points, values):
         """
         Parameters
         ----------
-        specie: str
+        species : str
             the name of the specie for this TimeSeries
-        time_points: numpy.ndarray
-            a list of time points for the simulation
-        values: numpy.ndarray
-            a list of values for the simulation corresponding to time_points
+        time_points : numpy.ndarray
+            an array of time points for the simulation
+        values : numpy.ndarray
+            an array of values for the simulation corresponding to time_points
         """
+        self._species = species
+        self._time_points = copy.deepcopy(time_points)
+        self._values = copy.deepcopy(values)
+
+    def get_species(self):
+        """
+        Get the name of the species for this TimeSeries instance
+
+        Returns
+        -------
+        str:
+            the name of the specie for this TimeSeries instance
+        """
+        return self._species
+
+    def get_time_points(self):
+        """
+        Get an array of *the current* time points for this TimeSeries
+
+        Returns
+        -------
+        numpy.ndarray:
+            a deep copy of the array of time points
+        """
+        return copy.deepcopy(self._time_points)
+
+    def get_values(self):
+        """
+        Get an array of *the current* values for this TimeSeries
+
+        Returns
+        -------
+        numpy.ndarray:
+            a deep copy of the array of values for the simulation corresponding to time_points
+        """
+        return copy.deepcopy(self._values)
+
+    def get_value_at_time(self, time_point):
+        """
+        Get the value at the specified time_point
+
+        Raises
+        ------
+        ValueError:
+            if the input time_point does not exist in the simulation data
+
+        Returns
+        -------
+        numpy.float64:
+            the value at the specified time_point, or None if not exist
+        """
+        pass
+
+    def replace_values_at(self, time_points, new_values):
+        """
+        Replace the value at time points in time_points with values in new_values
+
+        Parameters
+        ----------
+        time_points : numpy.ndarray
+            an array of time_points corresponding to the values being replaced
+        new_values : numpy.ndarray
+            an array of values to replace the values in the current array
+
+        Raises
+        ------
+        ValueError:
+            if the input time_points does not exist in the simulation data
+        """
+        pass

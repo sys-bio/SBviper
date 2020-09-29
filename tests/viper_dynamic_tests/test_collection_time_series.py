@@ -31,7 +31,7 @@ class TestTimeSeriesCollection(unittest.TestCase):
         r = te.loada(ant_str)
         result = r.simulate(0, 10, 25)
         try:
-            tsc = TimeSeriesCollection.from_named_array(result)
+            tsc = TimeSeriesCollection.from_nd_array(result)
         except:
             self.fail()
         
