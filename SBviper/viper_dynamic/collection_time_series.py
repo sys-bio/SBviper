@@ -10,19 +10,19 @@ class TimeSeriesCollection:
     Attributes
     ----------
     _time_series_dict : dict
-        dictionary of species_str to the corresponding TimeSeries object
+        dictionary of variables_str to the corresponding TimeSeries object
 
     Methods
     -------
-    add_time_series(species, time_series)
-        Add a new TimeSeries object of a species to this TimeSeriesCollection
-    get_time_series(species)
-        Get the corresponding TimeSeries object of the species
-    get_all_species()
-        Return an array of all species in the collection
-    get_all_time_series()
+    add_time_series(variables, time_series)
+        Add a new TimeSeries object of a variables to this TimeSeriesCollection
+    get_time_series(variables)
+        Get the corresponding TimeSeries object of the variables
+    variables()
+        Return an array of all variables in the collection
+    time_series()
         Return an array of all TimeSeries objects in the collection
-    get_number_of_time_series()
+    __len__()
         Return the number of TimeSeries objects in the collection
     """
 
@@ -31,7 +31,7 @@ class TimeSeriesCollection:
         Parameters
         ----------
         time_series_dict : dict
-            dictionary of species_str to the corresponding TimeSeries object
+            dictionary of variables_str to the corresponding TimeSeries object
         """
         self._time_series_dict = time_series_dict
 
@@ -95,7 +95,7 @@ class TimeSeriesCollection:
     @staticmethod
     def _create_dict_from_array(simulation_result, col_names):
         """
-        Helper function for creating a dict of species name (str) to the corresponding
+        Helper function for creating a dict of variables name (str) to the corresponding
         TimeSeries object
 
         Parameters
@@ -113,7 +113,7 @@ class TimeSeriesCollection:
         Returns
         -------
         dict:
-            a dict from species name (str) to the corresponding TimeSeries object
+            a dict from variables name (str) to the corresponding TimeSeries object
         """
         time_series_dict = {}
         for col in col_names:
@@ -128,58 +128,20 @@ class TimeSeriesCollection:
                 raise ValueError("Input must be the simulation result from roadrunner")
         return time_series_dict
 
-    def add_time_series(self, species, time_series):
+    @property
+    def variables(self):
         """
-        Add a new TimeSeries object of a species to this TimeSeriesCollection
-
-        Parameters
-        ----------
-        species : str
-            the name of the species to be added
-        time_series : TimeSeries
-            the TimeSeries object to be added to this collection
-
-        Raises
-        ------
-        ValueError:
-            if the input is not a valid TimeSeries object
-        """
-        if isinstance(time_series, TimeSeries):
-            self._time_series_dict[species] = time_series
-        else:
-            raise ValueError("Input must be a valid TimeSeries object")
-
-    def get_time_series(self, species):
-        """
-        Get the corresponding TimeSeries object of the species
-
-        Parameters
-        ----------
-        species : str
-            the name of the species to get
-
-        Returns
-        -------
-        TimeSeries:
-            the corresponding TimeSeries, None if not found
-        """
-        try:
-            return self._time_series_dict[species]
-        except KeyError:
-            return None
-
-    def get_all_species(self):
-        """
-        Return an array of all species in the collection
+        Return an array of all variables in the collection
 
         Returns
         -------
         numpy.ndarray (str):
-            all species in the collection
+            all variables in the collection
         """
         return numpy.array(list(self._time_series_dict.keys()))
 
-    def get_all_time_series(self):
+    @property
+    def time_series(self):
         """
         Return an array of all TimeSeries objects in the collection
 
@@ -190,13 +152,53 @@ class TimeSeriesCollection:
         """
         return numpy.array(list(self._time_series_dict.values()))
 
-    def get_number_of_time_series(self):
+    def __len__(self):
         """
-        Return the number of (species, TimeSeries) paris in the collection
+        Return the number of (variables, TimeSeries) paris in the collection
 
         Returns
         -------
         int:
-            the number of (species, TimeSeries) paris in the collection
+            the number of (variables, TimeSeries) paris in the collection
         """
         return len(self._time_series_dict)
+
+    def add_time_series(self, variables, time_series):
+        """
+        Add a new TimeSeries object of a variables to this TimeSeriesCollection
+
+        Parameters
+        ----------
+        variables : str
+            the name of the variables to be added
+        time_series : TimeSeries
+            the TimeSeries object to be added to this collection
+
+        Raises
+        ------
+        ValueError:
+            if the input is not a valid TimeSeries object
+        """
+        if isinstance(time_series, TimeSeries):
+            self._time_series_dict[variables] = time_series
+        else:
+            raise ValueError("Input must be a valid TimeSeries object")
+
+    def get_time_series(self, variables):
+        """
+        Get the corresponding TimeSeries object of the variables
+
+        Parameters
+        ----------
+        variables : str
+            the name of the variables to get
+
+        Returns
+        -------
+        TimeSeries:
+            the corresponding TimeSeries, None if not found
+        """
+        try:
+            return self._time_series_dict[variables]
+        except KeyError:
+            return None

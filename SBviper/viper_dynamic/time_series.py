@@ -8,7 +8,7 @@ class TimeSeries:
 
     Attributes
     ----------
-    _species : string
+    _variables : string
         the name of the specie for this TimeSeries instance
     _time_points : numpy.ndarray
         an array of time points
@@ -20,8 +20,8 @@ class TimeSeries:
 
     Methods
     -------
-    get_species()
-        Get the name of the species for this TimeSeries instance
+    get_variables()
+        Get the name of the variables for this TimeSeries instance
     get_time_points()
         Get an array of *the current* time points for this TimeSeries
     get_values()
@@ -32,31 +32,31 @@ class TimeSeries:
         Replace the value at time points in time_points with values in new_values
     """
 
-    def __init__(self, species, time_points, values):
+    def __init__(self, variables, time_points, values):
         """
         Parameters
         ----------
-        species : str
+        variables : str
             the name of the specie for this TimeSeries
         time_points : numpy.ndarray
             an array of time points for the simulation
         values : numpy.ndarray
             an array of values for the simulation corresponding to time_points
         """
-        self._species = species
+        self._variables = variables
         self._time_points = copy.deepcopy(time_points)
         self._values = copy.deepcopy(values)
 
-    def get_species(self):
+    def get_variables(self):
         """
-        Get the name of the species for this TimeSeries instance
+        Get the name of the variables for this TimeSeries instance
 
         Returns
         -------
         str:
             the name of the specie for this TimeSeries instance
         """
-        return self._species
+        return self._variables
 
     def get_time_points(self):
         """
