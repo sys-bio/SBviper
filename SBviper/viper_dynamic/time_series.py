@@ -1,5 +1,6 @@
 import numpy
 import copy
+import math
 
 
 class TimeSeries:
@@ -8,7 +9,7 @@ class TimeSeries:
 
     Attributes
     ----------
-    _variables : string
+    _variable : string
         the name of the specie for this TimeSeries instance
     _time_points : numpy.ndarray
         an array of time points
@@ -20,45 +21,81 @@ class TimeSeries:
 
     Methods
     -------
-    get_variables()
-        Get the name of the variables for this TimeSeries instance
-    get_time_points()
+    variable()
+        Get the name of the variable for this TimeSeries instance
+    time_points()
         Get an array of *the current* time points for this TimeSeries
-    get_values()
+    values()
         Get an array of *the current* values for this TimeSeries
     get_value_at_time(time_point)
         Get the value at the specified time_point
-    replace_values_at(time_points, new_values)
+    replace_values_at_times(time_points, new_values)
         Replace the value at time points in time_points with values in new_values
     """
 
-    def __init__(self, variables, time_points, values):
+    def __init__(self, variable, time_points, values):
         """
         Parameters
         ----------
-        variables : str
+        variable : str
             the name of the specie for this TimeSeries
         time_points : numpy.ndarray
             an array of time points for the simulation
         values : numpy.ndarray
             an array of values for the simulation corresponding to time_points
         """
-        self._variables = variables
+        self._variable = variable
         self._time_points = copy.deepcopy(time_points)
         self._values = copy.deepcopy(values)
 
-    def get_variables(self):
+    @staticmethod
+    def _binary_search(array, target):
         """
-        Get the name of the variables for this TimeSeries instance
+        Get the index of the target in the input array
+
+        Parameters
+        ----------
+        array : 1-D array (numpy.ndarray)
+            a sorted 1-D array, the result is undefined if not sorted
+        target : int
+            the target value to find in the array
+
+        Returns
+        -------
+        int:
+            the index of the target value in the input array
+            if duplicates exists, any could be returned
+            if no such value exists in the array, -1 is returned
+            if the input array is not sorted, the return value is undefined
+        """
+        left = 0
+        right = len(array) - 1
+        while left <= right:
+            mid = int(left + (right - left) / 2)
+            # value is compared with an absolute tolerance
+            # TODO: confirm abs_tol
+            if math.isclose(array[mid], target, abs_tol=0.00003):
+                return mid
+            elif array[mid] > target:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return -1
+
+    @property
+    def variable(self):
+        """
+        Get the name of the variable for this TimeSeries instance
 
         Returns
         -------
         str:
-            the name of the specie for this TimeSeries instance
+            the name of the variable for this TimeSeries instance
         """
-        return self._variables
+        return self._variable
 
-    def get_time_points(self):
+    @property
+    def time_points(self):
         """
         Get an array of *the current* time points for this TimeSeries
 
@@ -69,7 +106,8 @@ class TimeSeries:
         """
         return copy.deepcopy(self._time_points)
 
-    def get_values(self):
+    @property
+    def values(self):
         """
         Get an array of *the current* values for this TimeSeries
 
@@ -94,9 +132,12 @@ class TimeSeries:
         numpy.float64:
             the value at the specified time_point, or None if not exist
         """
-        pass
+        index = self._binary_search(self._time_points, time_point)
+        if index == -1:
+            raise ValueError("Input time_point does not exist in the simulation data")
+        return self._values[index]
 
-    def replace_values_at(self, time_points, new_values):
+    def replace_values_at_times(self, time_points, new_values):
         """
         Replace the value at time points in time_points with values in new_values
 
@@ -112,4 +153,16 @@ class TimeSeries:
         ValueError:
             if the input time_points does not exist in the simulation data
         """
-        pass
+        if len(time_points) < 0 or len(new_values) < 0:
+            raise ValueError("Input data cannot be empty")
+        original_index = self._binary_search(self._time_points, time_points[0])
+        if original_index == -1:
+            raise ValueError("Input time_point does not exist in the simulation data")
+        for i in range(len(time_points)):
+            # value is compared with an absolute tolerance
+            # TODO: confirm abs_tol
+            if original_index >= len(self._time_points) or not math.isclose(self._time_points[original_index],
+                                                                            time_points[i], abs_tol=0.00003):
+                raise ValueError("Input time_point does not exist in the simulation data")
+            self._values[original_index] = new_values[i]
+            original_index += 1

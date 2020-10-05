@@ -184,13 +184,13 @@ class TimeSeriesCollection:
         else:
             raise ValueError("Input must be a valid TimeSeries object")
 
-    def get_time_series(self, variables):
+    def get_time_series(self, variable):
         """
-        Get the corresponding TimeSeries object of the variables
+        Get the corresponding TimeSeries object of the variable
 
         Parameters
         ----------
-        variables : str
+        variable : str
             the name of the variables to get
 
         Returns
@@ -199,6 +199,6 @@ class TimeSeriesCollection:
             the corresponding TimeSeries, None if not found
         """
         try:
-            return self._time_series_dict[variables]
+            return self._time_series_dict[variable]
         except KeyError:
             return None

@@ -6,6 +6,7 @@ import matplotlib.pylab as plt
 import unittest
 
 from SBviper.viper_dynamic.collection_time_series import TimeSeriesCollection
+from SBviper.viper_dynamic.collection_time_series import TimeSeries
 
 ant_str = """
 model test               # name the model
@@ -26,4 +27,7 @@ end
 r = te.loada(ant_str)
 result = r.simulate(0, 10, 25)
 tsc = TimeSeriesCollection.from_nd_array(result)
-
+s1ts = tsc.get_time_series("S1")
+print(s1ts.values)
+print(s1ts.time_points)
+print(s1ts.get_value_at_time(0.41666667))
