@@ -1,0 +1,76 @@
+@startuml
+allow_mixing
+
+'old simulation
+file simulation_result_old
+class "TimeSeriesCollection" as tsc1 {
+}
+class "TimeSeriesCollection.TimeSeries" as ts1 {
+}
+simulation_result_old -right-> tsc1
+tsc1 +-- ts1
+
+'matcher
+class TimeSeriesMatcher {
+    +time_series_collection_a : TimeSeries
+    +time_series_collection_b : TimeSeries
+    +match(TimeSeries ts1, TimeSeries ts2, tol=TOL, string match_type) : boolean
+}
+class MatchResultCollection {
+}
+class MatchResult {
+    +time_series_old : TimeSeries
+    +time_series_new : TimeSeries
+    +match_score : int
+}
+MatchResultCollection +-- MatchResult
+
+'new simulation
+file simulation_result_new
+class "TimeSeriesCollection" as tsc2 {
+}
+class "TimeSeriesCollection.TimeSeries" as ts2 {
+}
+simulation_result_new -right-> tsc2
+tsc2 +-- ts2
+
+'formating
+simulation_result_old -[hidden]down- simulation_result_new
+tsc2 -[hidden]up- ts1
+ts1 -[hidden]right- TimeSeriesMatcher
+tsc1 -right-> TimeSeriesMatcher
+tsc2 -up-> TimeSeriesMatcher
+TimeSeriesMatcher -right-> MatchResultCollection
+
+
+'simulation_result_old -right-> v1
+'v1 -right-> c1
+'
+''file simulation_result_revised
+''cloud viper_constructors as v2
+''file TimeSeriesCollection as c2 {
+''    file TimeSeries as t2
+''}
+''simulation_result_revised -right-> v2
+''v2 -right-> c2
+'
+'simulation_result_old -[hidden]down- simulation_result_revised
+'v1 -[hidden]down- v2
+'c1 -[hidden]down- c2
+
+'file unmatched as d1 {
+'    file TimeSeriesCollection
+'    file Plot
+'}
+'
+'cloud time_series_matching as tsm {
+'    cloud cc1 as "Exact match (scale dependent)"
+'    cloud cc2 as "Exact match (scale independent)"
+'    cloud cc3 as "Pattern match"
+'    cloud cc4 as "Category match"
+'}
+'
+'c1 -right-> tsm
+'c2 -right-> tsm
+'tsm -down-> d1
+@enduml
