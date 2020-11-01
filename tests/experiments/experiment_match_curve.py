@@ -1,3 +1,5 @@
+# Testing how the changes in the model changes the behavior of the concentration of oxygen
+
 import tellurium as te # Python-based modeling environment for kinetic models
 import tkinter
 import roadrunner as rr # High-performance simulation and analysis library
@@ -25,7 +27,7 @@ original_ts_oxy_val = original_ts_oxy.values
 # revised import
 revised_result = revised_model.simulate(0, 100, 1000, ["time", "oxy"])
 revised_tsc = TimeSeriesCollection.from_nd_array(revised_result)
-revised_ts_oxy = original_tsc.get_time_series("oxy")
+revised_ts_oxy = revised_tsc.get_time_series("oxy")
 revised_ts_oxy_timep = revised_ts_oxy.time_points
 revised_ts_oxy_val = revised_ts_oxy.values
 
