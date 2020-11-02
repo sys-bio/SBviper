@@ -8,7 +8,7 @@ class TimeSeries:
     Representation of a time series
 
     Attributes
-    ----------
+    -------
     _variable : string
         the name of the specie for this TimeSeries instance
     _time_points : numpy.ndarray
@@ -36,7 +36,7 @@ class TimeSeries:
     def __init__(self, variable, time_points, values):
         """
         Parameters
-        ----------
+        -------
         variable : str
             the name of the specie for this TimeSeries
         time_points : numpy.ndarray
@@ -54,7 +54,7 @@ class TimeSeries:
         Get the index of the target in the input array
 
         Parameters
-        ----------
+        -------
         array : 1-D array (numpy.ndarray)
             a sorted 1-D array, the result is undefined if not sorted
         target : int
@@ -142,7 +142,7 @@ class TimeSeries:
         Replace the value at time points in time_points with values in new_values
 
         Parameters
-        ----------
+        -------
         time_points : numpy.ndarray
             an array of time_points corresponding to the values being replaced
         new_values : numpy.ndarray
