@@ -19,7 +19,7 @@ model *Wolf2001_Respiratory_Oscillations()
   v1: $sul_ex => sul; c0*k_v0/(1 + (cys/Kc)^n);
   v13: $eth_ex => eth; c0*k_v13;
   v2: sul + A3c => aps + $PPi; c1*k2*sul*A3c;
-  v10: $oxy_ex => oxy; c0*k_v10*xxx;
+  v10: $oxy_ex => oxy; c0*k_v10*xxx * 1;
   // change to * 2 for shift in y-aixs
   // v14: oxy => $oxy_ex; c2*k14*oxy;
   v14: oxy => $oxy_ex; c2*k14*oxy*xxx;
@@ -115,10 +115,10 @@ model *Wolf2001_Respiratory_Oscillations()
   Kc = 0.1;
   a = 0.1;
   Kh = 0.5;
-  xxx = 0;
+  xxx = 1;
 
   // Events
-  E1: at (time > 5): xxx = 1;
+  // E1: at (time > 5): xxx = 1;
 
   // Other declarations:
   const c0, c1, c2, Ac, N, S, Am, k_v0, k2, k3, k4, k5, k6, k7, k8, k9, k_v10;
