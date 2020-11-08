@@ -27,6 +27,8 @@ class TimeSeries:
         Get an array of *the current* time points for this TimeSeries
     values()
         Get an array of *the current* values for this TimeSeries
+    size()
+        The size of the current TimeSeries
     get_value_at_time(time_point)
         Get the value at the specified time_point
     replace_values_at_times(time_points, new_values)
@@ -117,6 +119,18 @@ class TimeSeries:
             a deep copy of the array of values for the simulation corresponding to time_points
         """
         return copy.deepcopy(self._values)
+
+    @property
+    def size(self):
+        """
+        Get the size of the TimeSeries
+
+        Returns
+        -------
+        int:
+            the size of the current time series
+        """
+        return self._values.shape[0]
 
     def get_value_at_time(self, time_point):
         """
