@@ -11,6 +11,7 @@ matplotlib.use('TkAgg')
 import matplotlib.pylab as plt # Additional Python plotting utilities
 from SBviper.viper_dynamic.collection_time_series import TimeSeriesCollection
 from SBviper.viper_dynamic.time_series import TimeSeries
+from SBviper.viper_helpers.derivative_dtw import DerivativeDTW
 
 original_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_original.txt")
 revised_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_revised.txt")
@@ -29,11 +30,6 @@ revised_ts_oxy = revised_tsc.get_time_series("oxy")
 revised_ts_oxy_timep = revised_ts_oxy.time_points
 revised_ts_oxy_val = revised_ts_oxy.values
 
-# test fast dtw
-distance, path = fastdtw(original_ts_oxy_val, revised_ts_oxy_val, dist=euclidean)
-print(distance)
-
-distance, path = fastdtw([1,2,3,4,5], [0,0,1,2,3,4,5], dist=euclidean)
-print(distance)
-
 # test derivative dtw
+dtw_calculator = DerivativeDTW(original_ts_oxy, revised_ts_oxy)
+print(dtw_calculator.compute())

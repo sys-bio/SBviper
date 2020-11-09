@@ -151,6 +151,12 @@ class TimeSeries:
             raise ValueError("Input time_point does not exist in the simulation data")
         return self._values[index]
 
+    def __getitem__(self, key):
+        return self._values[key]
+
+    def __setitem__(self, key, value):
+        self._values[key] = value
+
     def replace_values_at_times(self, time_points, new_values):
         """
         Replace the value at time points in time_points with values in new_values

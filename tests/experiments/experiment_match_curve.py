@@ -32,9 +32,9 @@ revised_ts_oxy_timep = revised_ts_oxy.time_points
 revised_ts_oxy_val = revised_ts_oxy.values
 
 #plot
-# plt.plot(original_ts_oxy_timep, original_ts_oxy_val, label="original")
-# plt.plot(revised_ts_oxy_timep, revised_ts_oxy_val, label="revised")
-# plt.xlabel("Time")
-# plt.ylabel("Concentration")
-# plt.legend()
-# plt.show()
+plt.plot(original_ts_oxy_timep, original_ts_oxy_val, label="original")
+plt.plot(revised_ts_oxy_timep, revised_ts_oxy_val, label="revised")
+plt.xlabel("Time")
+plt.ylabel("Concentration")
+plt.legend()
+plt.show()
