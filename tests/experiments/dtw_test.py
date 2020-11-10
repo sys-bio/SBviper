@@ -33,3 +33,15 @@ revised_ts_oxy_val = revised_ts_oxy.values
 # test derivative dtw
 dtw_calculator = DerivativeDTW(original_ts_oxy, revised_ts_oxy)
 print(dtw_calculator.compute())
+dtw_calculator.plot_derivative()
+
+# testing own sbml
+
+# random testing
+# ts1 = TimeSeries("one", np.array([1, 2, 3, 4]), np.array([1, 2, 3, 4]))
+# ts2 = TimeSeries("two", np.array([2, 4, 6, 8]), np.array([1, 2, 3, 4]))
+# plt.plot(ts1.values, ts1.time_points)
+# plt.plot(ts2.values, ts2.time_points)
+# plt.show()
+# dtw_calculator = DerivativeDTW(ts1, ts2)
+# print(dtw_calculator.compute())

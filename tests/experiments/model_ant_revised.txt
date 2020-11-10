@@ -115,7 +115,7 @@ model *Wolf2001_Respiratory_Oscillations()
   Kc = 0.1;
   a = 0.1;
   Kh = 0.5;
-  xxx = 1
+  xxx = 2.5
   // xxx = 0;
 
   // Events

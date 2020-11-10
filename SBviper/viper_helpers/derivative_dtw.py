@@ -1,6 +1,7 @@
 import numpy as np
 import math
 from SBviper.viper_dynamic.time_series import TimeSeries
+import matplotlib.pyplot as plt
 
 class DerivativeDTW:
     """
@@ -43,6 +44,8 @@ class DerivativeDTW:
         """
         self._derivative_matrix_a = self.__get_derivative_matrix(self._time_series_a)
         self._derivative_matrix_b = self.__get_derivative_matrix(self._time_series_b)
+        print(self._derivative_matrix_a)
+        print(self._derivative_matrix_b)
 
     @staticmethod
     def __get_derivative_matrix(ts):
@@ -72,4 +75,10 @@ class DerivativeDTW:
             for j in range(m):
                 dtw_matrix[i + 1, j + 1] = abs(self._derivative_matrix_a[i] - self._derivative_matrix_b[j]) + \
                                            min(dtw_matrix[i, j], dtw_matrix[i, j + 1], dtw_matrix[i + 1, j])
+        print(dtw_matrix)
         return dtw_matrix[n, m]
+
+    def plot_derivative(self):
+        plt.plot(self._derivative_matrix_a)
+        plt.plot(self._derivative_matrix_b)
+        plt.show()
