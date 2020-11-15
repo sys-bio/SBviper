@@ -104,4 +104,19 @@ class Filter:
         return res
 
     def run_filter(self, ts_a, ts_b):
-        return self._filter_function(ts_a, ts_b)
+        """
+        Parameters
+        ----------
+        ts_a : TimeSeries / array like
+        ts_b : TimeSeries / array like
+
+        Returns
+        -------
+        double
+            the output of the filter function
+        boolean
+            true if and only if the time series is captured by
+            the filter
+        """
+        val = self._filter_function(ts_a, ts_b)
+        return val, val > self._tol
