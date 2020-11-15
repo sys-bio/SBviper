@@ -9,11 +9,7 @@ class TimeSeriesMatcher:
         The TimeSeriesCollection representing the original model
     _tsc_revised : TimeSeriesCollection
         The TimeSeriesCollection representing the revised model
-    _filters : list of functions
-        Contains a list of functions for the filter
-    _tol_vals : list of tolerance values
-        Contains the tolerance values for the filters specified by the user
-        _tol_vals[i] represents the tolerance value for the output of the filtering function _filters[i]
+    _filters : list of Filter
 
     Methods
     -------
@@ -33,10 +29,7 @@ class TimeSeriesMatcher:
         """
         self._tsc_original = tsc_original
         self._tsc_revised = tsc_revised
-        # Set default filer
-        self._exact_match = False
         self._filters = []
-        self._tol_vals = []
 
     def add_filter(self, function, tol):
         """
@@ -54,7 +47,6 @@ class TimeSeriesMatcher:
             a numerical value that represents the tolerance value of the filter function
         """
         self._filters.append(function)
-        self._tol_vals.append(tol)
 
     def run(self):
         """
