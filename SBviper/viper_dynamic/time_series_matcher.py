@@ -31,22 +31,16 @@ class TimeSeriesMatcher:
         self._tsc_revised = tsc_revised
         self._filters = []
 
-    def add_filter(self, function, tol):
+    def add_filter(self, filter):
         """
         Add a new filter to the matcher
 
         Parameters
         ----------
-        function: a python function(original_ts, revised_ts)
-            the function should take in two arguments, either in the form of numpy.ndarray or TimeSeries,
-            the first argument represents time-value pairs in the original simulation, while the second
-            argument represents time-value pairs in the revised simulation. The function should output
-            a quantified numerical value that represents the similarity, to some extend, of the time-value
-            pairs, which is then compared with the tolerance value.
-        tol : double
-            a numerical value that represents the tolerance value of the filter function
+        filter : Filter
+            a Filer object that represents a filter
         """
-        self._filters.append(function)
+        self._filters.append(filter)
 
     def run(self):
         """
@@ -62,5 +56,5 @@ class TimeSeriesMatcher:
         MatchResultCollection
             containing time series data that wasn't filtered out by the filters
         """
-        for i in range(len(self._filters)):
+        pass
 
