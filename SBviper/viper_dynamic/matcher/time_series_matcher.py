@@ -13,8 +13,12 @@ class TimeSeriesMatcher:
 
     Methods
     -------
-    add_filter(function, tol)
-        Add a new filter to the matcher
+    add_filter(ts_filter)
+        Add a new filter object to the matcher
+    run()
+        Run all of the filters
+    run_filter(ts_filter)
+        Run a specific filter
     """
 
     def __init__(self, tsc_original, tsc_revised):
@@ -31,20 +35,20 @@ class TimeSeriesMatcher:
         self._tsc_revised = tsc_revised
         self._filters = []
 
-    def add_filter(self, filter):
+    def add_filter(self, ts_filter):
         """
         Add a new filter to the matcher
 
         Parameters
         ----------
-        filter : Filter
+        ts_filter : Filter
             a Filer object that represents a filter
         """
-        self._filters.append(filter)
+        self._filters.append(ts_filter)
 
     def run(self):
         """
-        Run the filter, iteratively, on both TimeSeriesCollection
+        Run all of the filters, iteratively, on both TimeSeriesCollection
 
         Raises
         ------
@@ -55,7 +59,27 @@ class TimeSeriesMatcher:
         -------
         MatchResultCollection
             containing time series data that wasn't filtered out by the filters
+        MatchResultCollection
+            containing time series data that was filtered out by the filters
         """
         # TODO: implement run
         pass
 
+    def run_filter(self, ts_filter):
+        """
+        Run a specific filter on both TimeSeriesCollection
+
+        Raises
+        ------
+        ValueError:
+            if an invalid function was added
+
+        Returns
+        -------
+        MatchResultCollection
+            containing time series data that wasn't filtered out by the filters
+        MatchResultCollection
+            containing time series data that was filtered out by the filters
+        """
+        # TODO: implement run_filter
+        pass
