@@ -44,13 +44,13 @@ class MatchResultCollection:
         return np.array(list(self._match_result_dict.keys()))
 
     @property
-    def match_result(self):
+    def match_results(self):
         """
         Return an array of all MatchResult objects in the collection
 
         Returns
         -------
-        numpy.ndarray(str):
+        numpy.ndarray:
             all MatchResult in the collection
         """
         return np.array(list(self._match_result_dict.values()))

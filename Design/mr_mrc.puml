@@ -6,9 +6,11 @@ MatchResultCollection o-- MatchResult
 
 class MatchResultCollection {
     +_match_result_dict : dict of variable_str to MarchResult
+    +variables() :  numpy.ndarray
+    +match_results() : numpy.ndarray
+    +size() : int
     +add_match_result(variable, match_result) : void
     +get_match_result(variable) : MatchResult
-
 }
 
 class MatchResult {
