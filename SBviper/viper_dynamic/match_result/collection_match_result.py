@@ -10,7 +10,7 @@ class MatchResultCollection:
     Attributes
     -------
     _match_result_dict : dict
-        dictionary of variables_str to the corresponding MatchResult object
+        dictionary of variable_str to the corresponding MatchResult object
 
     Methods
     -------
@@ -55,6 +55,18 @@ class MatchResultCollection:
         """
         return np.array(list(self._match_result_dict.values()))
 
+    @property
+    def size(self):
+        """
+        Return the number of (variable, MatchResult) pairs in the collection
+
+        Returns
+        -------
+        int:
+            the number of (variable, MatchResult) paris in the collection
+        """
+        return len(self._match_result_dict)
+
     def add_match_result(self, variable, match_result):
         """
         Add a new MatchResult object of a variable to this MatchResultCollection
@@ -96,15 +108,7 @@ class MatchResultCollection:
             return None
 
     def __len__(self):
-        """
-        Return the number of (variable, MatchResult) pairs in the collection
-
-        Returns
-        -------
-        int:
-            the number of (variable, MatchResult) paris in the collection
-        """
-        return len(self._match_result_dict)
+        return self.size
 
     def __getitem__(self, variable):
         return self.get_match_result(variable)
