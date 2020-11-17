@@ -26,8 +26,8 @@ class MatchResultCollection:
         Get the corresponding MatchResult object of the variable
     __len__()
         Return the number of MatchResult objects in this collection
-    __getitem__(variable)
     __setitem__(variable, march_result)
+    __getitem__(variable)
     """
 
     def __init__(self):
@@ -112,8 +112,8 @@ class MatchResultCollection:
     def __len__(self):
         return self.size
 
-    def __getitem__(self, variable):
-        return self.get_match_result(variable)
-
     def __setitem__(self, variable, march_result):
         self.add_match_result(variable, march_result)
+
+    def __getitem__(self, variable):
+        return self.get_match_result(variable)

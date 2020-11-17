@@ -17,6 +17,9 @@ class MatchResultCollection {
 class MatchResult {
     +_original_ts : TimeSeries
     +_revised_ts : TimeSeries
+    +_filter_results : FilterResultCollection
+    +filter_results() : FilterResultCollection
+
     +original_ts() : TimeSeries
     +revised_ts() : TimeSeries
 }

@@ -1,0 +1,30 @@
+@startuml
+
+FilterResultCollection o-- FilterResult
+
+'TimeSeries *-- SteadyState
+
+class FilterResultCollection {
+    +_filter_results_dict : dict of Filter to FilterResult
+    +filters() : numpy.ndarray
+    +filter_results : numpy.ndarray
+    +size() : int
+
+    +add_filter_result(filter, filter_results) : void
+    +get_filter_result(filter) : FilterResult
+}
+
+class FilterResult {
+    +score : double
+    +tol : double
+    +filtered_or_not : boolean
+}
+
+class Filter {
+    +_filter_function : Function
+    +get_filter_function() : Function
+    +set_filter_function(new_filter_function) : Function
+    +run() : double, boolean
+}
+
+@enduml
