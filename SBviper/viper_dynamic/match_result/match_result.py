@@ -11,9 +11,9 @@ class MatchResult:
 
     Methods
     -------
-    get_original_ts()
+    original_ts()
         Get the time series from the original model in this matching pair
-    get_revised_ts()
+    revised_ts()
         Get the time series from the revised model in this matching pair
     """
 
@@ -31,7 +31,8 @@ class MatchResult:
         self._original_ts = original_ts
         self._revised_ts = revised_ts
 
-    def get_original_ts(self):
+    @property
+    def original_ts(self):
         """
         Get the time series from the original model in this matching pair
 
@@ -43,7 +44,8 @@ class MatchResult:
         """
         return self._original_ts
 
-    def get_revised_ts(self):
+    @property
+    def revised_ts(self):
         """
         Get the time series from the revised model in this matching pair
 

@@ -9,6 +9,7 @@ class MatchResultCollection {
     +variables() :  numpy.ndarray
     +match_results() : numpy.ndarray
     +size() : int
+
     +add_match_result(variable, match_result) : void
     +get_match_result(variable) : MatchResult
 }
@@ -16,8 +17,8 @@ class MatchResultCollection {
 class MatchResult {
     +_original_ts : TimeSeries
     +_revised_ts : TimeSeries
-    +get_original_ts() : TimeSeries
-    +get_revised_ts() : TimeSeries
+    +original_ts() : TimeSeries
+    +revised_ts() : TimeSeries
 }
 
 @enduml

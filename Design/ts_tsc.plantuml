@@ -9,6 +9,7 @@ class TimeSeriesCollection {
     +variables() : numpy.ndarray
     +time_series() : numpy.ndarray
     +size() : int
+
     +add_time_series(variable, time_series) : void
     +get_time_series(variable) : TimeSeries
 }
@@ -21,6 +22,7 @@ class TimeSeries {
     +time_points() : ndarray
     +values() : numpy.ndarray
     +size() : int
+
     +get_value_at_time(int time_point) : numpy.float64
     +replace_values_at(list time_points, list new_values) : void
 }
