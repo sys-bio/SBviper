@@ -6,10 +6,11 @@ TimeSeriesCollection o-- TimeSeries
 
 class TimeSeriesCollection {
     +time_series_dict : dict of species_str to TimeSeries object
-    +add_time_series(TimeSeries ts) : void
-    +get_time_series(string species) : TimeSeries
     +variables() : numpy.ndarray
     +time_series() : numpy.ndarray
+    +size() : int
+    +add_time_series(variable, time_series) : void
+    +get_time_series(variable) : TimeSeries
 }
 
 class TimeSeries {
@@ -24,18 +25,6 @@ class TimeSeries {
     +replace_values_at(list time_points, list new_values) : void
 }
 
-'class SteadyState {
-'    +time_point : int
-'    +value : int
-'    +get_time() : int
-'    +get_value() : int
-'    +equal(SteadyState target, int time_tol=TTOL, int value_tol=VTOL) : boolean
-'    +compare_to_time(SteadyState target, int low, int high) : boolean
-'    +compare_to_time(SteadyState target, int time_tol=TTOL) : boolean
-'    +compare_to_value(SteadyState target, int low, int high) : boolean
-'    +compare_to_value(SteadyState target, int value_tol=VTOL) : boolean
-'}
-
 note left of TimeSeriesCollection::get_time_series {
     returns the TimeSeries object of the input specie
 }
@@ -44,36 +33,6 @@ note right of TimeSeries::time {
     len(time) = number_of_points
     time[0] = time_start
     time[len(time) - 1] = time_end
-}
-
-note right of TimeSeries::steady_state {
-    the steady-state representation of this time series
-}
-
-note left of SteadyState::time {
-    time point when steady-state is reached
-}
-
-note right of SteadyState::value {
-    value when steady-state is reached
-}
-
-note right of SteadyState::equal {
-    returns true iff the steady-state of both species
-    is reached at the value and time within
-    the tolerance range
-}
-
-note left of SteadyState::compare_to_time {
-    returns true iff the steady-state of this species
-    is reached at time that is [low, high] time points later
-    than the input steady state
-}
-
-note right of SteadyState::compare_to_value {
-    returns true iff the steady-state of this species
-    is reached at value that is [low, high] times greater
-    than the input steady state
 }
 
 @enduml
