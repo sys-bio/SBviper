@@ -5,7 +5,7 @@ TimeSeriesCollection o-- TimeSeries
 'TimeSeries *-- SteadyState
 
 class TimeSeriesCollection {
-    +time_series_dict : dict of species_str to TimeSeries object
+    +_time_series_dict : dict of species_str to TimeSeries object
     +variables() : numpy.ndarray
     +time_series() : numpy.ndarray
     +size() : int
@@ -14,9 +14,9 @@ class TimeSeriesCollection {
 }
 
 class TimeSeries {
-    +variable : string
-    +time_points : numpy.ndarray
-    +variable() : string
+    +_variable : string
+    +_time_points : numpy.ndarray
+    +_values() : string
     +time_points() : ndarray
     +values : numpy.ndarray
     +values() : list
