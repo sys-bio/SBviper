@@ -1,6 +1,5 @@
 import numpy as np
-import math
-from SBviper.viper_dynamic.time_series import TimeSeries
+from viper_dynamic.time_series.time_series import TimeSeries
 import matplotlib.pyplot as plt
 
 class DerivativeDTW:

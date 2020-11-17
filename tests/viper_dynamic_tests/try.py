@@ -1,12 +1,6 @@
 import tellurium as te
-import roadrunner as rr
-import numpy as np
-import random
-import matplotlib.pylab as plt
-import unittest
 
-from SBviper.viper_dynamic.collection_time_series import TimeSeriesCollection
-from SBviper.viper_dynamic.collection_time_series import TimeSeries
+from viper_dynamic.time_series.collection_time_series import TimeSeriesCollection
 
 ant_str = """
 model test               # name the model

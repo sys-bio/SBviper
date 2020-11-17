@@ -1,16 +1,7 @@
-import numpy as np
-from scipy.spatial.distance import euclidean
-from fastdtw import fastdtw
 import tellurium as te # Python-based modeling environment for kinetic models
-import tkinter
-import roadrunner as rr # High-performance simulation and analysis library
-import numpy as np # Scientific computing package
-import random # Generate random numbers
 import matplotlib
 matplotlib.use('TkAgg')
-import matplotlib.pylab as plt # Additional Python plotting utilities
-from SBviper.viper_dynamic.collection_time_series import TimeSeriesCollection
-from SBviper.viper_dynamic.time_series import TimeSeries
+from viper_dynamic.time_series.collection_time_series import TimeSeriesCollection
 from SBviper.viper_helpers.derivative_dtw import DerivativeDTW
 
 original_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_original.txt")
