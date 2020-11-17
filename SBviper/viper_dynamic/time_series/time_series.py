@@ -35,6 +35,7 @@ class TimeSeries:
         Replace the value at time points in time_points with values in new_values
     __getitem__(time_point)
     __setitem__(time_point, new_value)
+    __len__()
     """
 
     def __init__(self, variable, time_points, values):

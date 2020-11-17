@@ -16,10 +16,10 @@ class TimeSeriesCollection {
 class TimeSeries {
     +_variable : string
     +_time_points : numpy.ndarray
-    +_values() : string
+    +_values : numpy.ndarray
+    +variable() : string
     +time_points() : ndarray
-    +values : numpy.ndarray
-    +values() : list
+    +values() : numpy.ndarray
     +size() : int
     +get_value_at_time(int time_point) : numpy.float64
     +replace_values_at(list time_points, list new_values) : void

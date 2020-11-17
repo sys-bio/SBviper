@@ -14,6 +14,9 @@ class MatchResultCollection:
 
     Methods
     -------
+    variables()
+    match_results()
+    size()
     add_match_result(variable, match_result)
         Add a new MatchResult object of a variable to this MatchResultCollection
     get_match_result(variable)

@@ -14,18 +14,19 @@ class TimeSeriesCollection:
 
     Methods
     -------
-    add_time_series(variable, time_series)
-        Add a new TimeSeries object of a variable to this TimeSeriesCollection
-    get_time_series(variable)
-        Get the corresponding TimeSeries object of the variable
     variables()
         Return an array of all variables in the collection
     time_series()
         Return an array of all TimeSeries objects in the collection
-    __len__()
-        Return the number of TimeSeries objects in the collection
+    size()
+        Return the size of the collection
+    add_time_series(variable, time_series)
+        Add a new TimeSeries object of a variable to this TimeSeriesCollection
+    get_time_series(variable)
+        Get the corresponding TimeSeries object of the variable
     __getitem__(variable)
     __setitem__(variable, time_series)
+    __len__()
     """
 
     def __init__(self, time_series_dict):

@@ -14,7 +14,10 @@ class MatchResultCollection {
 }
 
 class MatchResult {
-
+    +_original_ts : TimeSeries
+    +_revised_ts : TimeSeries
+    +get_original_ts() : TimeSeries
+    +get_revised_ts() : TimeSeries
 }
 
 @enduml
