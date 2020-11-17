@@ -9,6 +9,15 @@ class MatchResult:
     _revised_ts : TimeSeries
         the revised time series
 
+    # TODO: how should value be defined?
+    # 1: dict that stores filter-value pairs
+    #    filter needs to be run every time even if the ts pair has already been
+    #    filtered out
+    # 2: double that stores the value of the filter output that filters
+    #    out this ts pair
+    #    would this be helpful?
+
+
     Methods
     -------
     get_original_ts()

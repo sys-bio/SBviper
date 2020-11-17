@@ -14,10 +14,10 @@ class TimeSeriesCollection:
 
     Methods
     -------
-    add_time_series(variables, time_series)
-        Add a new TimeSeries object of a variables to this TimeSeriesCollection
-    get_time_series(variables)
-        Get the corresponding TimeSeries object of the variables
+    add_time_series(variable, time_series)
+        Add a new TimeSeries object of a variable to this TimeSeriesCollection
+    get_time_series(variable)
+        Get the corresponding TimeSeries object of the variable
     variables()
         Return an array of all variables in the collection
     time_series()
@@ -163,14 +163,14 @@ class TimeSeriesCollection:
         """
         return len(self._time_series_dict)
 
-    def add_time_series(self, variables, time_series):
+    def add_time_series(self, variable, time_series):
         """
-        Add a new TimeSeries object of a variables to this TimeSeriesCollection
+        Add a new TimeSeries object of a variable to this TimeSeriesCollection
 
         Parameters
         ----------
-        variables : str
-            the name of the variables to be added
+        variable : str
+            the name of the variable to be added
         time_series : TimeSeries
             the TimeSeries object to be added to this collection
 
@@ -180,7 +180,7 @@ class TimeSeriesCollection:
             if the input is not a valid TimeSeries object
         """
         if isinstance(time_series, TimeSeries):
-            self._time_series_dict[variables] = time_series
+            self._time_series_dict[variable] = time_series
         else:
             raise ValueError("Input must be a valid TimeSeries object")
 
@@ -191,7 +191,7 @@ class TimeSeriesCollection:
         Parameters
         ----------
         variable : str
-            the name of the variables to get
+            the name of the variable to get
 
         Returns
         -------
