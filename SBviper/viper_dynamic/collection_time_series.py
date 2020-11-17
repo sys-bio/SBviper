@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 
 from SBviper.viper_dynamic.time_series import TimeSeries
 
@@ -73,7 +73,7 @@ class TimeSeriesCollection:
             if the input is not a valid simulation result from roadrunner
         """
         try:
-            simulation_result = numpy.genfromtxt(path, delimiter=',', names=True)
+            simulation_result = np.genfromtxt(path, delimiter=',', names=True)
         except OSError:
             raise FileNotFoundError("File not found, check the path to the CSV file")
         time_series_dict = cls._create_dict_from_array(simulation_result, simulation_result.dtype.names)
@@ -137,10 +137,10 @@ class TimeSeriesCollection:
 
         Returns
         -------
-        numpy.ndarray (str):
+        numpy.ndarray(str):
             all variables in the collection
         """
-        return numpy.array(list(self._time_series_dict.keys()))
+        return np.array(list(self._time_series_dict.keys()))
 
     @property
     def time_series(self):
@@ -152,25 +152,14 @@ class TimeSeriesCollection:
         numpy.ndarray:
             all TimeSeries objects in the collection
         """
-        return numpy.array(list(self._time_series_dict.values()))
-
-    def __len__(self):
-        """
-        Return the number of (variables, TimeSeries) paris in the collection
-
-        Returns
-        -------
-        int:
-            the number of (variables, TimeSeries) paris in the collection
-        """
-        return len(self._time_series_dict)
+        return np.array(list(self._time_series_dict.values()))
 
     def add_time_series(self, variable, time_series):
         """
         Add a new TimeSeries object of a variable to this TimeSeriesCollection
 
         Parameters
-        ----------
+        ------
         variable : str
             the name of the variable to be added
         time_series : TimeSeries
@@ -191,7 +180,7 @@ class TimeSeriesCollection:
         Get the corresponding TimeSeries object of the variable
 
         Parameters
-        ----------
+        ------
         variable : str
             the name of the variable to get
 
@@ -204,6 +193,17 @@ class TimeSeriesCollection:
             return self._time_series_dict[variable]
         except KeyError:
             return None
+
+    def __len__(self):
+        """
+        Return the number of (variable, TimeSeries) paris in the collection
+
+        Returns
+        -------
+        int:
+            the number of (variable, TimeSeries) paris in the collection
+        """
+        return len(self._time_series_dict)
 
     def __getitem__(self, variable):
         return self.get_time_series(variable)
