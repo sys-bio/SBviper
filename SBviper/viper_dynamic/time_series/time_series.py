@@ -176,7 +176,6 @@ class TimeSeries:
             raise ValueError("Input time_point does not exist in the simulation data")
         for i in range(len(time_points)):
             # value is compared with an absolute tolerance
-            # TODO: confirm abs_tol
             if original_index >= len(self._time_points) or not math.isclose(self._time_points[original_index],
                                                                             time_points[i], abs_tol=0.00003):
                 raise ValueError("Input time_point does not exist in the simulation data")
@@ -188,3 +187,6 @@ class TimeSeries:
 
     def __setitem__(self, time_point, new_value):
         self._values[time_point] = new_value
+
+    def __len__(self):
+        return self.size

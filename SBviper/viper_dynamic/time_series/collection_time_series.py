@@ -154,6 +154,18 @@ class TimeSeriesCollection:
         """
         return np.array(list(self._time_series_dict.values()))
 
+    @property
+    def size(self):
+        """
+        Return the number of (variable, TimeSeries) paris in the collection
+
+        Returns
+        -------
+        int:
+            the number of (variable, TimeSeries) paris in the collection
+        """
+        return len(self._time_series_dict)
+
     def add_time_series(self, variable, time_series):
         """
         Add a new TimeSeries object of a variable to this TimeSeriesCollection
@@ -194,19 +206,11 @@ class TimeSeriesCollection:
         except KeyError:
             return None
 
-    def __len__(self):
-        """
-        Return the number of (variable, TimeSeries) paris in the collection
-
-        Returns
-        -------
-        int:
-            the number of (variable, TimeSeries) paris in the collection
-        """
-        return len(self._time_series_dict)
-
     def __getitem__(self, variable):
         return self.get_time_series(variable)
 
     def __setitem__(self, variable, time_series):
         self.add_time_series(variable, time_series)
+
+    def __len__(self):
+        return self.size
