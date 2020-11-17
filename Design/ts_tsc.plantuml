@@ -2,7 +2,7 @@
 
 TimeSeriesCollection o-- TimeSeries
 
-TimeSeries *-- SteadyState
+'TimeSeries *-- SteadyState
 
 class TimeSeriesCollection {
     +time_series_dict : dict of species_str to TimeSeries object
@@ -24,17 +24,17 @@ class TimeSeries {
     +replace_values_at(list time_points, list new_values) : void
 }
 
-class SteadyState {
-    +time_point : int
-    +value : int
-    +get_time() : int
-    +get_value() : int
-    +equal(SteadyState target, int time_tol=TTOL, int value_tol=VTOL) : boolean
-    +compare_to_time(SteadyState target, int low, int high) : boolean
-    +compare_to_time(SteadyState target, int time_tol=TTOL) : boolean
-    +compare_to_value(SteadyState target, int low, int high) : boolean
-    +compare_to_value(SteadyState target, int value_tol=VTOL) : boolean
-}
+'class SteadyState {
+'    +time_point : int
+'    +value : int
+'    +get_time() : int
+'    +get_value() : int
+'    +equal(SteadyState target, int time_tol=TTOL, int value_tol=VTOL) : boolean
+'    +compare_to_time(SteadyState target, int low, int high) : boolean
+'    +compare_to_time(SteadyState target, int time_tol=TTOL) : boolean
+'    +compare_to_value(SteadyState target, int low, int high) : boolean
+'    +compare_to_value(SteadyState target, int value_tol=VTOL) : boolean
+'}
 
 note left of TimeSeriesCollection::get_time_series {
     returns the TimeSeries object of the input specie

@@ -1,0 +1,27 @@
+@startuml
+
+MatchResultCollection o-- MatchResult
+
+'TimeSeries *-- SteadyState
+
+class MatchResultCollection {
+    +time_series_dict : dict of species_str to TimeSeries object
+    +add_time_series(TimeSeries ts) : void
+    +get_time_series(string species) : TimeSeries
+    +get_all_time_series() : list of TimeSeries
+    +get_number_of_time_series() : int
+}
+
+class MatchResult {
+    +specie : string
+    +time_points : list
+    +values : list
+    +steady_states : list of SteadyState
+    +get_specie() : string
+    +get_time_points() : list
+    +get_values() : list
+    +get_value_at_time(int time_point) : int
+    +replace_values_at(list time_points, list new_values) : void
+}
+
+@enduml
