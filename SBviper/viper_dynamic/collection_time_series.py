@@ -24,7 +24,8 @@ class TimeSeriesCollection:
         Return an array of all TimeSeries objects in the collection
     __len__()
         Return the number of TimeSeries objects in the collection
-    __getitem__(
+    __getitem__(variable)
+    __setitem__(variable, time_series)
     """
 
     def __init__(self, time_series_dict):
@@ -203,3 +204,9 @@ class TimeSeriesCollection:
             return self._time_series_dict[variable]
         except KeyError:
             return None
+
+    def __getitem__(self, variable):
+        return self.get_time_series(variable)
+
+    def __setitem__(self, variable, time_series):
+        self.add_time_series(variable, time_series)
