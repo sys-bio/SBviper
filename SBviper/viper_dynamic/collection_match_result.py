@@ -9,5 +9,14 @@ class MatchResultCollection:
 
     Methods
     -------
-    add_match_result(variables,
+    add_match_result(variable, match_result)
+        Add a new MatchResult object of a variable to this MatchResultCollection
+    get_match_result(variable)
+        Get the corresponding MatchResult object of the variable
+    variables()
+        Return an array of all variables in the collection
+    match_result()
+        Return an array of all MatchResult objects in the collection
+    __len__()
+        Return the number of MatchResult objects in this collection
     """

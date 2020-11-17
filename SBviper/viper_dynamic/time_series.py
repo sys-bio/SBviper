@@ -33,6 +33,8 @@ class TimeSeries:
         Get the value at the specified time_point
     replace_values_at_times(time_points, new_values)
         Replace the value at time points in time_points with values in new_values
+    __getitem__(time_point)
+    __setitem__(time_point, new_value)
     """
 
     def __init__(self, variable, time_points, values):
@@ -151,11 +153,11 @@ class TimeSeries:
             raise ValueError("Input time_point does not exist in the simulation data")
         return self._values[index]
 
-    def __getitem__(self, key):
+    def __getitem__(self, time_point):
         return self._values[key]
 
-    def __setitem__(self, key, value):
-        self._values[key] = value
+    def __setitem__(self, time_point, new_value):
+        self._values[time_point] = new_value
 
     def replace_values_at_times(self, time_points, new_values):
         """
