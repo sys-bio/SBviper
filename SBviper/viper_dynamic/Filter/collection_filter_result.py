@@ -4,7 +4,7 @@ class FilterResultCollection:
 
     Attributes
     ----------
-    _filter_results_dict : dict
+    _filter_result_dict : dict
 
     Methods
     -------
@@ -20,5 +20,9 @@ class FilterResultCollection:
         Get the corresponding FilterResult object of the variable
     __getitem__(filter)
     __setitem__(filter, filter_result)
-
+    __len__()
+    __contains__(filter)
     """
+
+    def __init__(self):
+        self._filter_result_dict = {}

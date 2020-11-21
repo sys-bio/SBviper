@@ -5,7 +5,7 @@ FilterResultCollection o-- FilterResult
 'TimeSeries *-- SteadyState
 
 class FilterResultCollection {
-    +_filter_results_dict : dict of Filter to FilterResult
+    +_filter_result_dict : dict of Filter to FilterResult
     +filters() : numpy.ndarray
     +filter_results() : numpy.ndarray
     +size() : int

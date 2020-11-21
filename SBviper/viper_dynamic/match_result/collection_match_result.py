@@ -28,6 +28,7 @@ class MatchResultCollection:
         Return the number of MatchResult objects in this collection
     __setitem__(variable, march_result)
     __getitem__(variable)
+    __contains__(variable)
     """
 
     def __init__(self):
@@ -117,3 +118,6 @@ class MatchResultCollection:
 
     def __getitem__(self, variable):
         return self.get_match_result(variable)
+
+    def __contains__(self, variable):
+        return variable in self._match_result_dict
