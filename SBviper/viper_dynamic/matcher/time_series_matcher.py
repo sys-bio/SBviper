@@ -1,3 +1,6 @@
+from SBviper.viper_dynamic.match_result.collection_match_result import MatchResultCollection
+
+
 class TimeSeriesMatcher:
     """
     Representation of a time series matcher
@@ -62,8 +65,17 @@ class TimeSeriesMatcher:
         MatchResultCollection
             containing time series data that was filtered out by the filters
         """
-        # TODO: implement run
-        pass
+        filtered = MatchResultCollection()
+        non_filtered = MatchResultCollection()
+        visited = set()
+        # iterate through time series in original
+        for original_ts in self._tsc_original.time_series:
+            visited.add(original_ts.variable)
+            # check if this variable ts exists in revised
+            if original_ts not in self._tsc_revised:
+
+            # iterate through filters
+            for filter in self._filters:
 
     def run_filter(self, ts_filter):
         """

@@ -8,6 +8,7 @@ class MatchResult:
         the original time series
     _revised_ts : TimeSeries
         the revised time series
+    _filter_results : FilterResultCollection
 
     Methods
     -------

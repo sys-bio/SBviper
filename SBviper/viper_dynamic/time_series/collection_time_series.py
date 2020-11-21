@@ -27,6 +27,7 @@ class TimeSeriesCollection:
     __getitem__(variable)
     __setitem__(variable, time_series)
     __len__()
+    __contains__(variable)
     """
 
     def __init__(self, time_series_dict):
@@ -215,3 +216,6 @@ class TimeSeriesCollection:
 
     def __len__(self):
         return self.size
+
+    def __contains__(self, variable):
+        return variable in self._time_series_dict
