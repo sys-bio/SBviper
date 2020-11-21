@@ -25,6 +25,20 @@ class MatchResult {
 }
 MatchResultCollection +-- MatchResult
 
+class FilterResultCollection {
+
+}
+
+MatchResult +-- FilterResultCollection
+
+class FilterResult {
+    +score : double
+    +tol : double
+    +filtered_or_not : boolean
+}
+
+FilterResultCollection +-- FilterResult
+
 'new simulation
 file simulation_result_new
 class "TimeSeriesCollection" as tsc2 {

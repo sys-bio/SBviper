@@ -2,6 +2,8 @@
 
 ![Package Model](https://github.com/sys-bio/SBviper/blob/master/package_model.png)
 
+![Component Model](https://github.com/sys-bio/SBviper/blob/master/component_diagram.png)
+
 ![ts_tsc](https://github.com/sys-bio/SBviper/blob/master/ts_tsc.png)
 
 ![mr_mrc](https://github.com/sys-bio/SBviper/blob/master/mr_mrc.png)
