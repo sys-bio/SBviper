@@ -10,7 +10,7 @@ class FilterResultCollection {
     +filter_results() : numpy.ndarray
     +size() : int
 
-    +add_filter_result(filter, filter_results) : void
+    +add_filter_result(filter, filter_result) : void
     +get_filter_result(filter) : FilterResult
 }
 
