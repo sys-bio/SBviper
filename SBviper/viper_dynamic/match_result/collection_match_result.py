@@ -75,7 +75,7 @@ class MatchResultCollection:
         Add a new MatchResult object of a variable to this MatchResultCollection
 
         Parameters
-        ------
+        ----------
         variable : str
             the name of the variable to be added
         match_result : MatchResult
@@ -96,7 +96,7 @@ class MatchResultCollection:
         Get the corresponding MatchResult object of the variable
 
         Parameters
-        ------
+        ----------
         variable : str
             the name of the variable to get
 
