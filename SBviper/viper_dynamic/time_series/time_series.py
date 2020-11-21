@@ -41,7 +41,7 @@ class TimeSeries:
     def __init__(self, variable, time_points, values):
         """
         Parameters
-        -------
+        ----------
         variable : str
             the name of the specie for this TimeSeries
         time_points : numpy.ndarray

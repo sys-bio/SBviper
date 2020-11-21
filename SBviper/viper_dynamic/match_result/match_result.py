@@ -3,7 +3,7 @@ class MatchResult:
     Representation of a match result from time series matcher
 
     Attributes
-    -------
+    ----------
     _original_ts : TimeSeries
         the original time series
     _revised_ts : TimeSeries
@@ -21,7 +21,7 @@ class MatchResult:
     def __init__(self, original_ts, revised_ts):
         """
         Parameters
-        -------
+        ----------
         original_ts : TimeSeries
             the time series in the original model in this matching pair
             None if the paired time series does not exist in the original model
