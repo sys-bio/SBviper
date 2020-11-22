@@ -115,7 +115,7 @@ class TimeSeriesMatcher:
         '''
         visited = set()
         # iterate through the original ts collection
-        for variable in self._tsc_original.variables():
+        for variable in self._tsc_original.variables:
             # add to a set of visited variables
             visited.add(variable)
             # if the variable does not exist in the revised ts collection
@@ -137,9 +137,9 @@ class TimeSeriesMatcher:
             for filter in filters:
                 # create FilterResult based on the run result of the filter
                 score, tol, result = \
-                    filter.run_filter(self._tsc_original[variable,
-                                                         self._tsc_revised[
-                                                             variable]])
+                    filter.run_filter(self._tsc_original[variable],
+                                      self._tsc_revised[
+                                          variable])
                 if result:
                     filtered = True
                 filter_result = FilterResult(score, tol, result)

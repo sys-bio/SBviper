@@ -10,6 +10,7 @@ class Filter:
         represents the similarity of two time series in the model
         The function should take in two TimeSeries or array like
         objects, and returns (double, double, boolean)
+
         double: quantified value for the similarity
         double: tolerance used for this match
         boolean: indication of whether the ts pair has been filtered or not
