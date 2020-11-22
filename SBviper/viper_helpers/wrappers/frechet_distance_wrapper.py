@@ -1,5 +1,6 @@
 from SBviper.viper_helpers.matching.frechet_distance import frechet_distance
 
+
 def frechet_distance_wrapper(original, revised):
     """
     Wrapper function for frechet_distance
@@ -22,4 +23,4 @@ def frechet_distance_wrapper(original, revised):
         indication of whether the ts pair has been filtered or not
     """
     score = frechet_distance(original, revised)
-    return score, 5.0, score >= 5.0
+    return score, 5.0, score < 5.0

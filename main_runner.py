@@ -41,3 +41,5 @@ if __name__ == "__main__":
         else:
             print(filter_str + " does not exist!")
     filtered_collection, non_filtered_collection = matcher.run()
+    print(len(filtered_collection))
+    print(len(non_filtered_collection))
