@@ -2,7 +2,7 @@ import tellurium as te # Python-based modeling environment for kinetic models
 import matplotlib
 matplotlib.use('TkAgg')
 from viper_dynamic.time_series.collection_time_series import TimeSeriesCollection
-from SBviper.viper_helpers.derivative_dtw import DerivativeDTW
+from viper_helpers.matching.derivative_dtw import DerivativeDTW
 
 original_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_original.txt")
 revised_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_revised.txt")

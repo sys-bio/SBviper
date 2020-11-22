@@ -7,6 +7,7 @@ import sys
 import os.path
 import argparse
 from SBviper.viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher
+from SBviper.viper_dynamic.constants import str_to_function
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Detecting changes in models")
@@ -33,3 +34,10 @@ if __name__ == "__main__":
     filters = input("Filters to use, separate by space: ")
     filters = filters.split()
     matcher = TimeSeriesMatcher(original_tsc, revised_tsc)
+    # add filters to matcher
+    for filter_str in filters:
+        if filter_str in str_to_function:
+            matcher.add_filter(str_to_function[filter_str])
+        else:
+            print(filter_str + " does not exist!")
+    filtered_collection, non_filtered_collection = matcher.run()
