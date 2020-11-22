@@ -1,3 +1,6 @@
+from SBviper.viper_dynamic.Filter.collection_filter_result import FilterResultCollection
+
+
 class MatchResult:
     """
     Representation of a match result from time series matcher
@@ -31,6 +34,7 @@ class MatchResult:
         """
         self._original_ts = original_ts
         self._revised_ts = revised_ts
+        self._filter_results = FilterResultCollection()
 
     @property
     def original_ts(self):
@@ -57,3 +61,14 @@ class MatchResult:
             model
         """
         return self._revised_ts
+
+    @property
+    def filter_results(self):
+        """
+        Get the filter result for this pair of match
+
+        Returns
+        -------
+        FilterResultCollection
+        """
+        return self._filter_results

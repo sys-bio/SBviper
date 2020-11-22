@@ -9,7 +9,11 @@ class Filter:
         The function used to calculate a quantified value that
         represents the similarity of two time series in the model
         The function should take in two TimeSeries or array like
-        objects, and returns a value
+        objects, and returns (double, boolean)
+        where the double is for a quantified value for the similarity
+        and the boolean is for an indication of whether the ts pair
+        has been filtered or not. True stands for filtered, False stands
+        for not filtered.
 
     _tol : double
         The tolerance value for the filter
@@ -118,5 +122,4 @@ class Filter:
             true if and only if the time series is captured by
             the filter
         """
-        val = self._filter_function(ts_a, ts_b)
-        return val, val > self._tol
+        return self._filter_function(ts_a, ts_b)

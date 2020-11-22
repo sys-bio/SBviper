@@ -67,15 +67,17 @@ class TimeSeriesMatcher:
         """
         filtered = MatchResultCollection()
         non_filtered = MatchResultCollection()
-        visited = set()
-        # iterate through time series in original
-        for original_ts in self._tsc_original.time_series:
-            visited.add(original_ts.variable)
-            # check if this variable ts exists in revised
-            if original_ts not in self._tsc_revised:
-
-            # iterate through filters
-            for filter in self._filters:
+        '''
+        0: iterate through the original ts collection
+            0.0: add to a set of visited variables
+            0.1: if the variable does not exist in the revised ts collection
+                -> create MatchResult with None filter results
+            0.2: (variable exist in both tsc)
+                0.2.0: create MatchResult
+                0.2.0: iterate through filters
+                    0.2.0.0: 
+                    0.2.0.1: 
+        '''
 
     def run_filter(self, ts_filter):
         """
