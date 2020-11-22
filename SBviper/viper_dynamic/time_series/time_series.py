@@ -32,7 +32,8 @@ class TimeSeries:
     get_value_at_time(time_point)
         Get the value at the specified time_point
     replace_values_at_times(time_points, new_values)
-        Replace the value at time points in time_points with values in new_values
+        Replace the value at time points in time_points with values
+        in new_values
     __getitem__(time_point)
     __setitem__(time_point, new_value)
     __len__()
@@ -119,7 +120,8 @@ class TimeSeries:
         Returns
         -------
         numpy.ndarray:
-            a deep copy of the array of values for the simulation corresponding to time_points
+            a deep copy of the array of values for the simulation
+            corresponding to time_points
         """
         return copy.deepcopy(self._values)
 
@@ -151,7 +153,8 @@ class TimeSeries:
         """
         index = self._binary_search(self._time_points, time_point)
         if index == -1:
-            raise ValueError("Input time_point does not exist in the simulation data")
+            raise ValueError("Input time_point does not exist in the "
+                             "simulation data")
         return self._values[index]
 
     def replace_values_at_times(self, time_points, new_values):
@@ -174,12 +177,15 @@ class TimeSeries:
             raise ValueError("Input data cannot be empty")
         original_index = self._binary_search(self._time_points, time_points[0])
         if original_index == -1:
-            raise ValueError("Input time_point does not exist in the simulation data")
+            raise ValueError("Input time_point does not exist in the "
+                             "simulation data")
         for i in range(len(time_points)):
             # value is compared with an absolute tolerance
-            if original_index >= len(self._time_points) or not math.isclose(self._time_points[original_index],
-                                                                            time_points[i], abs_tol=0.00003):
-                raise ValueError("Input time_point does not exist in the simulation data")
+            if original_index >= len(self._time_points) or \
+                    not math.isclose(self._time_points[original_index],
+                                     time_points[i], abs_tol=0.00003):
+                raise ValueError("Input time_point does not exist in the "
+                                 "simulation data")
             self._values[original_index] = new_values[i]
             original_index += 1
 

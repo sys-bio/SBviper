@@ -42,7 +42,8 @@ class TimeSeriesCollection:
     @classmethod
     def from_nd_array(cls, simulation_result):
         """
-        Create a TimeSeriesCollection object from the roadrunner's simulation result
+        Create a TimeSeriesCollection object from the roadrunner's simulation
+        result
 
         Parameters
         ----------
@@ -54,7 +55,9 @@ class TimeSeriesCollection:
         ValueError:
             if the input is not a valid simulation result from roadrunner
         """
-        time_series_dict = cls._create_dict_from_array(simulation_result, simulation_result.colnames)
+        time_series_dict = \
+            cls._create_dict_from_array(simulation_result,
+                                        simulation_result.colnames)
         return cls(time_series_dict)
 
     @classmethod
@@ -77,14 +80,18 @@ class TimeSeriesCollection:
         try:
             simulation_result = np.genfromtxt(path, delimiter=',', names=True)
         except OSError:
-            raise FileNotFoundError("File not found, check the path to the CSV file")
-        time_series_dict = cls._create_dict_from_array(simulation_result, simulation_result.dtype.names)
+            raise FileNotFoundError(
+                "File not found, check the path to the CSV file")
+        time_series_dict = \
+            cls._create_dict_from_array(simulation_result,
+                                        simulation_result.dtype.names)
         return cls(time_series_dict)
 
     @classmethod
     def from_bio_model(cls, model):
         """
-        Create a TimeSeriesCollection object from a model in the BioModels repository
+        Create a TimeSeriesCollection object from a model in the BioModels
+        repository
 
         Parameters
         ----------
@@ -99,8 +106,8 @@ class TimeSeriesCollection:
     @staticmethod
     def _create_dict_from_array(simulation_result, col_names):
         """
-        Helper function for creating a dict of variables name (str) to the corresponding
-        TimeSeries object
+        Helper function for creating a dict of variables name (str) to the
+        corresponding TimeSeries object
 
         Parameters
         ----------
@@ -117,7 +124,8 @@ class TimeSeriesCollection:
         Returns
         -------
         dict:
-            a dict from variables name (str) to the corresponding TimeSeries object
+            a dict from variables name (str) to the
+            corresponding TimeSeries object
         """
         time_series_dict = {}
         for col in col_names:
@@ -126,10 +134,12 @@ class TimeSeriesCollection:
             col_name = col.strip("[]")
             try:
                 time_series_dict[col_name] = \
-                    TimeSeries(col_name, simulation_result["time"], simulation_result[col])
+                    TimeSeries(col_name, simulation_result["time"],
+                               simulation_result[col])
             # input simulation result must match expected format
             except IndexError:
-                raise ValueError("Input must be the simulation result from roadrunner")
+                raise ValueError(
+                    "Input must be the simulation result from roadrunner")
         return time_series_dict
 
     @property

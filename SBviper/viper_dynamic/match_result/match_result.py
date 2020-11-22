@@ -44,7 +44,8 @@ class MatchResult:
         Returns
         -------
         TimeSeries:
-            The TimeSeries object that represents the time series from the original
+            The TimeSeries object that represents the time series from
+            the original
             model
         """
         return self._original_ts
@@ -57,7 +58,8 @@ class MatchResult:
         Returns
         -------
         TimeSeries:
-            The TimeSeries object that represents the time series from the revised
+            The TimeSeries object that represents the time series from
+            the revised
             model
         """
         return self._revised_ts

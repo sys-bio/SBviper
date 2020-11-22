@@ -1,5 +1,6 @@
 import numpy as np
 from SBviper.viper_dynamic.Filter.filter import Filter
+from SBviper.viper_dynamic.Filter.filter_result import FilterResult
 
 
 class FilterResultCollection:
@@ -13,7 +14,8 @@ class FilterResultCollection:
     Methods
     -------
     filters() : numpy.ndarray
-        Return an array of instances to filters that generated the filter results
+        Return an array of instances to filters that generated the
+        filter results
     filter_results() : numpy.ndarray
         Return an array of filter results associated with this collection
     size() : int
@@ -83,7 +85,8 @@ class FilterResultCollection:
         ValueError:
         if the input is not a valid Filter/FilterResult object
         """
-        if isinstance(filter, Filter) and isinstance(filter_result, FilterResult):
+        if isinstance(filter, Filter) and \
+                isinstance(filter_result, FilterResult):
             self._filter_result_dict[filter] = filter_result
         else:
             raise ValueError("invalid input")
