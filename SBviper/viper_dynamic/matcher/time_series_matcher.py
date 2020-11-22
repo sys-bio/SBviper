@@ -154,7 +154,7 @@ class TimeSeriesMatcher:
                 non_filtered_collection.add_match_result(variable,
                                                          match_result)
         # iterate through the revised ts collection
-        for variable in self._tsc_revised.variables():
+        for variable in self._tsc_revised.variables:
             # if the variable does not exist in the set of visited variables
             if variable not in visited:
                 # create MatchResult with None filter results and None original
