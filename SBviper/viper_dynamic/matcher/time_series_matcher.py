@@ -70,6 +70,27 @@ class TimeSeriesMatcher:
         MatchResultCollection
             containing time series data that was filtered out by the filters
         """
+        return self.__run_helper(self._filters)
+
+    def run_filter(self, ts_filter):
+        """
+        Run a specific filter on both TimeSeriesCollection
+
+        Raises
+        ------
+        ValueError:
+            if an invalid function was added
+
+        Returns
+        -------
+        MatchResultCollection
+            containing time series data that wasn't filtered out by the filters
+        MatchResultCollection
+            containing time series data that was filtered out by the filters
+        """
+        return self.__run_helper(list(ts_filter))
+
+    def __run_helper(self, filters):
         filtered_collection = MatchResultCollection()
         non_filtered_collection = MatchResultCollection()
         '''
@@ -113,7 +134,7 @@ class TimeSeriesMatcher:
                                        self._tsc_revised[variable])
             # iterate through filters
             filtered = False
-            for filter in self._filters:
+            for filter in filters:
                 # create FilterResult based on the run result of the filter
                 score, tol, result = \
                     filter.run_filter(self._tsc_original[variable,
@@ -144,22 +165,3 @@ class TimeSeriesMatcher:
                                                              self._tsc_revised[
                                                                  variable]))
         return filtered_collection, non_filtered_collection
-
-    def run_filter(self, ts_filter):
-        """
-        Run a specific filter on both TimeSeriesCollection
-
-        Raises
-        ------
-        ValueError:
-            if an invalid function was added
-
-        Returns
-        -------
-        MatchResultCollection
-            containing time series data that wasn't filtered out by the filters
-        MatchResultCollection
-            containing time series data that was filtered out by the filters
-        """
-        # TODO: implement run_filter
-        pass
