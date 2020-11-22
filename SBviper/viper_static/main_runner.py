@@ -20,7 +20,8 @@ def check_valid_file(file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Static test for Kinetics Models in System Biology")
+    parser = argparse.ArgumentParser(description="Static test for Kinetics "
+                                                 "Models in System Biology")
     # argument for the filename of the model
     parser.add_argument("F", type=str,
                         help="Path to the XML file")
@@ -28,7 +29,8 @@ if __name__ == "__main__":
     # only implemented "Basics" for now
     list_choices = ["basics", "kinetics"]
     parser.add_argument("-m", "--mode", type=str, nargs="?", default="basics",
-                        help="Test mode for the model (default: basics)", choices=list_choices)
+                        help="Test mode for the model (default: basics)",
+                        choices=list_choices)
     args = parser.parse_args()
     filename = args.F  # the name of the XML file of the model
     # check if the file exists and if it is an XML file
