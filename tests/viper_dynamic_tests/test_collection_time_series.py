@@ -1,7 +1,8 @@
 import tellurium as te
 import unittest
 
-from viper_dynamic.time_series.collection_time_series import TimeSeriesCollection
+from viper_dynamic.time_series.collection_time_series import \
+    TimeSeriesCollection
 
 
 class TestTimeSeriesCollection(unittest.TestCase):
