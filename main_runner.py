@@ -8,6 +8,11 @@ import os.path
 import argparse
 from SBviper.viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher
 from SBviper.viper_dynamic.constants import str_to_function
+import matplotlib.pyplot as plt
+import matplotlib
+import numpy as np
+
+matplotlib.use('TkAgg')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Detecting changes in models")
@@ -23,14 +28,14 @@ if __name__ == "__main__":
     if path == "SBML":
         # TODO: Test this
         original_tsc, revised_tsc = get_tsc_from_SBML(original_path,
-                                                          revised_path)
+                                                      revised_path)
     elif path == "CSV":
         # TODO: Test this
         original_tsc, revised_tsc = get_tsc_from_CSV(original_path,
-                                                         revised_path)
+                                                     revised_path)
     else:  # Antimony
         original_tsc, revised_tsc = get_tsc_from_Ant(original_path,
-                                                         revised_path)
+                                                     revised_path)
     filters = input("Filters to use, separate by space: ")
     filters = filters.split()
     matcher = TimeSeriesMatcher(original_tsc, revised_tsc)
@@ -40,6 +45,27 @@ if __name__ == "__main__":
             matcher.add_filter(str_to_function[filter_str])
         else:
             print(filter_str + " does not exist!")
+    # run filters
     filtered_collection, non_filtered_collection = matcher.run()
-    print(len(filtered_collection))
-    print(len(non_filtered_collection))
+    # show result
+    fig, axs = plt.subplots(ncols=2, nrows=len(filtered_collection) +
+                                           len(non_filtered_collection))
+    index = 0
+    for match_results in filtered_collection.match_results:
+        axs[index, 0].plot(match_results.original_ts.time_points,
+                           match_results.original_ts.values, color="#0330fc")
+        axs[index, 0].set_title("Filtered: Original")
+        axs[index, 1].plot(match_results.revised_ts.time_points,
+                           match_results.revised_ts.values, color="#fc0303")
+        axs[index, 1].set_title("Filtered: Revised")
+        index += 1
+    for match_results in non_filtered_collection.match_results:
+        axs[index, 0].plot(match_results.original_ts.time_points,
+                           match_results.original_ts.values, color="#0330fc")
+        axs[index, 0].set_title("Non-Filtered: Original")
+        axs[index, 1].plot(match_results.revised_ts.time_points,
+                           match_results.revised_ts.values, color="#fc0303")
+        axs[index, 1].set_title("Non-Filtered: Revised")
+        index += 1
+    fig.tight_layout()
+    plt.show()
