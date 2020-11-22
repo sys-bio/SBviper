@@ -6,6 +6,7 @@ from SBviper.viper_dynamic.util import *
 import sys
 import os.path
 import argparse
+from SBviper.viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Detecting changes in models")
@@ -20,12 +21,15 @@ if __name__ == "__main__":
     revised_path = input("The absolute path to the revised model: ")
     if path == "SBML":
         # TODO: Test this
-        original_model, revised_model = get_tsc_from_SBML(original_path,
+        original_tsc, revised_tsc = get_tsc_from_SBML(original_path,
                                                           revised_path)
     elif path == "CSV":
         # TODO: Test this
-        original_model, revised_model = get_tsc_from_CSV(original_path,
+        original_tsc, revised_tsc = get_tsc_from_CSV(original_path,
                                                          revised_path)
-    else: #Antimony
-        original_model, revised_model = get_tsc_from_Ant(original_path,
+    else:  # Antimony
+        original_tsc, revised_tsc = get_tsc_from_Ant(original_path,
                                                          revised_path)
+    filters = input("Filters to use, separate by space: ")
+    filters = filters.split()
+    matcher = TimeSeriesMatcher(original_tsc, revised_tsc)
