@@ -23,4 +23,4 @@ def frechet_distance_wrapper(original, revised):
         indication of whether the ts pair has been filtered or not
     """
     score = frechet_distance(original, revised)
-    return score, 5.0, score < 5.0
+    return score, 0.5, score < 0.5

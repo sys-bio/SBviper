@@ -54,19 +54,24 @@ if __name__ == "__main__":
     index = 0
     for match_results in filtered_collection.match_results:
         axs[index, 0].plot(match_results.original_ts.time_points,
-                           match_results.original_ts.values, color="#0330fc")
-        axs[index, 0].set_title("Filtered: Original")
+                           match_results.original_ts.values, color="#257F5E")
+        axs[index, 0].set_title("Filtered: Original " +
+                                match_results.original_ts.variable)
         axs[index, 1].plot(match_results.revised_ts.time_points,
-                           match_results.revised_ts.values, color="#fc0303")
-        axs[index, 1].set_title("Filtered: Revised")
+                           match_results.revised_ts.values, color="#8F6C05")
+        axs[index, 1].set_title("Filtered: Revised " +
+                                match_results.revised_ts.variable)
         index += 1
     for match_results in non_filtered_collection.match_results:
+        print("A")
         axs[index, 0].plot(match_results.original_ts.time_points,
                            match_results.original_ts.values, color="#0330fc")
-        axs[index, 0].set_title("Non-Filtered: Original")
+        axs[index, 0].set_title("Non-Filtered: Original " +
+                                match_results.original_ts.variable)
         axs[index, 1].plot(match_results.revised_ts.time_points,
                            match_results.revised_ts.values, color="#fc0303")
-        axs[index, 1].set_title("Non-Filtered: Revised")
+        axs[index, 1].set_title("Non-Filtered: Revised " +
+                                match_results.revised_ts.variable)
         index += 1
     fig.tight_layout()
     plt.show()
