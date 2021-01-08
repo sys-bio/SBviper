@@ -4,6 +4,7 @@ Runner for time_series_matcher
 
 from SBviper.viper_dynamic.util import *
 import sys
+print(sys.path)
 import os.path
 import argparse
 from SBviper.viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher

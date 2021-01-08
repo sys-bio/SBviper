@@ -1,7 +1,7 @@
-from SBviper.viper_dynamic.match_result.collection_match_result import \
+from viper_dynamic.match_result.collection_match_result import \
     MatchResultCollection
-from SBviper.viper_dynamic.match_result.match_result import MatchResult
-from SBviper.viper_dynamic.Filter.filter_result import FilterResult
+from viper_dynamic.match_result.match_result import MatchResult
+from viper_dynamic.Filter.filter_result import FilterResult
 
 
 class TimeSeriesMatcher:

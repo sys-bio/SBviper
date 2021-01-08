@@ -1,6 +1,6 @@
 import numpy as np
-from SBviper.viper_dynamic.Filter.filter import Filter
-from SBviper.viper_dynamic.Filter.filter_result import FilterResult
+from viper_dynamic.Filter.filter import Filter
+from viper_dynamic.Filter.filter_result import FilterResult
 
 
 class FilterResultCollection:

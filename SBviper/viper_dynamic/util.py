@@ -1,7 +1,7 @@
 """Commonly used utilities."""
 
 import os
-from SBviper.viper_dynamic.time_series.collection_time_series import \
+from viper_dynamic.time_series.collection_time_series import \
     TimeSeriesCollection
 import tellurium as te
 

@@ -1,0 +1,64 @@
+/*
+  Frank Yu
+  Date: November 20, 2020
+  Section: CSE 154 AA Tal Wolman
+  This is the style.css page for my creative project4: A Restaurant online ordering system.
+  It is used by the page to give the site a consistent look and feel.
+  Most of its style is used to sperate parts to make it have a clean look.
+*/
+
+body {
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 3px #000;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: goldenrod;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25pt;
+}
+
+form {
+  margin: 30px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input:active {
+  box-shadow: 3px 3px 3px 3px #000;
+}
+
+textarea {
+  width: 100%;
+  font-size: 12pt;
+}
+
+button {
+  padding: 8px;
+  font-size: 14pt;
+  margin: 10px auto;
+  color: green;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
+
+#review-window, #menu-window {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

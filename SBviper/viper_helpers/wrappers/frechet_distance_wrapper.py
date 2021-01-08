@@ -1,4 +1,4 @@
-from SBviper.viper_helpers.matching.frechet_distance import frechet_distance
+from viper_helpers.matching.frechet_distance import frechet_distance
 
 
 def frechet_distance_wrapper(original, revised):

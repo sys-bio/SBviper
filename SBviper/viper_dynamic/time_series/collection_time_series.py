@@ -1,6 +1,6 @@
 import numpy as np
 
-from SBviper.viper_dynamic.time_series.time_series import TimeSeries
+from viper_dynamic.time_series.time_series import TimeSeries
 
 
 class TimeSeriesCollection:

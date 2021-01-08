@@ -9,8 +9,8 @@ from viper_dynamic.time_series.collection_time_series import TimeSeriesCollectio
 # model = te.loadSBMLModel("/Users/stevema/Desktop/Research/SBviper/examples/biomodels/BIOMD0000000090.xml")
 # model.exportToAntimony("model_ant_original.txt", current=True)
 
-original_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_original.txt")
-revised_model = te.loada("/Users/stevema/Desktop/Research/SBviper/tests/experiments/model_ant_revised.txt")
+original_model = te.loada("C:\Frank\research\SBviper\tests\experiments\model_ant_original.txt")
+revised_model = te.loada("C:\Frank\research\SBviper\tests\experiments\model_ant_revised.txt")
 
 # original import
 original_result = original_model.simulate(0, 100, 1000, ["time", "oxy"])

@@ -1,6 +1,6 @@
 import numpy as np
 
-from SBviper.viper_dynamic.match_result.match_result import MatchResult
+from viper_dynamic.match_result.match_result import MatchResult
 
 
 class MatchResultCollection:

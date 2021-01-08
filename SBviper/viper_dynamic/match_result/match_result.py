@@ -1,4 +1,4 @@
-from SBviper.viper_dynamic.Filter.collection_filter_result import FilterResultCollection
+from viper_dynamic.Filter.collection_filter_result import FilterResultCollection
 
 
 class MatchResult:

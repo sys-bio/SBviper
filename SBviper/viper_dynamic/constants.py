@@ -1,6 +1,6 @@
-from SBviper.viper_helpers.wrappers.frechet_distance_wrapper import \
+from viper_helpers.wrappers.frechet_distance_wrapper import \
     frechet_distance_wrapper
-from SBviper.viper_dynamic.Filter.filter import Filter
+from viper_dynamic.Filter.filter import Filter
 
 frechet_distance_filter = Filter(frechet_distance_wrapper, 0.5)
 
