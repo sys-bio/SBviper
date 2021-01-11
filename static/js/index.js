@@ -11,7 +11,7 @@
 "use strict";
 
 (function() {
-
+  let options = new Set();
   window.addEventListener("load", init);
 
   /**
@@ -31,6 +31,33 @@
       eve.preventDefault();
       runMatcher();
     });
+    id("display-variables").addEventListener("change", selectToDisplay);
+  }
+
+  function selectToDisplay() {
+    if (this.value === "all") {
+      showAllGraphs();
+    } else {
+      hideAllGraphs();
+      let targets = document.getElementsByClassName(this.value);
+      for (let i = 0; i < targets.length; i++) {
+        targets[i].style.display = "";
+      }
+    }
+  }
+
+  function hideAllGraphs() {
+    let allImg = qsa("img");
+    for (let i = 0; i < allImg.length; i++) {
+      allImg[i].style.display = "none";
+    }
+  }
+
+  function showAllGraphs() {
+    let allImg = qsa("img");
+    for (let i = 0; i < allImg.length; i++) {
+      allImg[i].style.display = "";
+    }
   }
 
   function openTab(tabId) {
@@ -66,21 +93,35 @@
   function showResponse(res) {
     let filtered = res.filtered;
     let non_filtered = res['non-filtered'];
-    console.log(filtered);
-    console.log(non_filtered);
     for (let i = 0; i < filtered.length; i++) {
-      let imgPath = filtered[i]
+      let imgPath = filtered[i][0];
       let img = gen("img");
       img.src = "images/filtered/" + imgPath;
       img.id = imgPath;
+      img.classList.add(filtered[i][1]);
       id("filtered-content").appendChild(img);
+      if (!options.has(filtered[i][1])) {
+        let option = gen("option");
+        option.value = filtered[i][1];
+        option.text = filtered[i][1];
+        options.add(filtered[i][1])
+        id("display-variables").appendChild(option);
+      }
     }
     for (let i = 0; i < non_filtered.length; i++) {
-      let imgPath = non_filtered[i]
+      let imgPath = non_filtered[i][0];
       let img = gen("img");
       img.src = "images/non_filtered/" + imgPath;
       img.id = imgPath;
+      img.classList.add(non_filtered[i][1]);
       id("non-filtered-content").appendChild(img);
+      if (!options.has(non_filtered[i][1])) {
+        let option = gen("option");
+        option.value = non_filtered[i][1];
+        option.text = non_filtered[i][1];
+        options.add(non_filtered[i][1])
+        id("display-variables").appendChild(option);
+      }
     }
     let imgPath = "all.png"
     let img = gen("img");
@@ -89,41 +130,6 @@
     id("all-content").appendChild(img);
   }
 
-  /**
-   * Display the orders that contained in the res.
-   * @param {object} res - Json object of the orders
-   */
-  function displayOrders(res) {
-    let response = gen("p");
-    let orders = 'You have ordered ';
-    for (let i = 0; i < res.length; i++) {
-      orders += res[i].dish + " ";
-    }
-    response.textContent += orders;
-    id("result-window").appendChild(response);
-  }
-
-  /**
-   * Clear out the old menu that already displayed on the page.
-   * Display the new menu that contained in the res.
-   * @param {object} res - Json object of the menu
-   */
-  function displayMenu(res) {
-    let food = res.MENU;
-    let oldMenu = qsa("#menu-window p");
-
-    // clean the old view of the menu
-    for (let i = 0; i < oldMenu.length; i++) {
-      oldMenu[i].remove();
-    }
-
-    // add the new view of the menu
-    for (let i = 0; i < food.length; i++) {
-      let foodName = gen("p");
-      foodName.textContent = food[i];
-      id("menu-window").appendChild(foodName);
-    }
-  }
 
   /**
    * This function is called when an error occurs when making request to restaurant server.

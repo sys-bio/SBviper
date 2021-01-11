@@ -135,7 +135,7 @@ def run():
         fig.suptitle("Filtered: Original " +
                                 match_results.original_ts.variable)
         fig.savefig('images/filtered/filtered_original_' + match_results.original_ts.variable + '.png', format="png")
-        filtered_result.append('filtered_original_' + match_results.original_ts.variable + '.png')
+        filtered_result.append(['filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
         plt.close(figureCount)
         figureCount += 1
         fig = plt.figure(figureCount)
@@ -144,7 +144,7 @@ def run():
         fig.suptitle("Filtered: Revised " +
                                 match_results.revised_ts.variable)
         fig.savefig('images/filtered/filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
-        filtered_result.append('filtered_revised_' + match_results.revised_ts.variable + '.png')
+        filtered_result.append(['filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
         plt.close(figureCount)
 
     non_filtered_result = []
@@ -156,7 +156,7 @@ def run():
         fig.suptitle("Non-Filtered: Original " +
                                 match_results.original_ts.variable)
         fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png', format="png")
-        non_filtered_result.append('non_filtered_original_' + match_results.original_ts.variable + '.png')
+        non_filtered_result.append(['non_filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
         plt.close(figureCount)
         figureCount += 1
         fig = plt.figure(figureCount)
@@ -165,7 +165,7 @@ def run():
         fig.suptitle("Non-Filtered: Revised " +
                                 match_results.revised_ts.variable)
         fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
-        non_filtered_result.append('non_filtered_revised_' + match_results.revised_ts.variable + '.png')
+        non_filtered_result.append(['non_filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
         plt.close(figureCount)
     combined_result = {"filtered": filtered_result, "non-filtered": non_filtered_result}
     return jsonify(combined_result)
