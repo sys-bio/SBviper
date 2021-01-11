@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 
 <!--
-  Yongzhe Yu
-  Date: November 20, 2020
-  Section: CSE 154 AA Tal Wolman
-  This is the index.html page for my creative project4: A Restaurant
-  online ordering system. It could let users to see the menu, order the dishes
-  listed on the menu, and review their orders based on the phone number.
+  Frank Yu
+  Date: Jan 10, 2021
 -->
 
 <html lang="en">
@@ -15,44 +11,38 @@
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="{{ url_for('static', filename= 'js/index.js') }}"></script>
-    <title>CP4-Restaurant-online-ordering-system</title>
+    <title>SBviper</title>
   </head>
   <body>
     <header>
-      <h1>Hungry? Try contactless ordering!</h1>
+      <h1>Iterative development & Simulation experimental verification</h1>
     </header>
     <main>
-      <section id="menu-window">
-        <button id="menu-btn">Check the menu!</button>
-      </section>
-      <section id="order-window">
-        <form id="input-form">
-          <div>
-            <label for="name-input">Name: </label>
-            <input id="name-input" name="name" type="text"
-            pattern="[A-Z][a-z]+ [A-Z][a-z]+" required>
-          </div>
-          <div>
-            <label for="phone-input">Phone Number: </label>
-            <input id="phone-input" name="phone" pattern="\d{10}" required>
-          </div>
-          <div>
-            <label for="dish-input">Dish Name: </label>
-            <input id="dish-input" name="dish" type="text" required>
-          </div>
-          <textarea name="notes" placeholder="Any notes for the restaurant"></textarea>
-          <button id="submit-btn">Order the dish!</button>
-        </form>
-      </section>
-      <section id="review-window">
-        <div>
-          <label for="phone-order-input">Phone Number of your order: </label>
-          <input id="phone-order-input" name="phone-order" pattern="\d{10}" required>
-        </div>
-        <button id="log-dishes">Review your order</button>
-      </section>
-      <section id="result-window">
-      </section>
+      <form id='input-form' action = "/run" enctype="multipart/form-data">
+        <input type="file" id="original-file" name="original-file">
+        <input type="file" id="revised-file" name="revised-file">
+        <label for="file-type">Select the type of the files:</label>
+        <select id="file-type" name="file-type">
+          <option value="Antimony" selected>Antimony</option>
+          <option value="SBML">SBML</option>
+          <option value="CSV">CSV</option>
+        </select>
+        <input type="submit">
+      </form>
+      <div class="tab">
+        <button id="filtered-btn" class="tablinks">Filtered</button>
+        <button id="non-filtered-btn" class="tablinks">Non-filtered</button>
+        <button id="all-btn" class="tablinks">ALL</button>
+      </div>
+
+      <div id="filtered-content" class="tabcontent">
+      </div>
+
+      <div id="non-filtered-content" class="tabcontent">
+      </div>
+
+      <div id="all-content" class="tabcontent">
+      </div>
     </main>
   </body>
 </html>

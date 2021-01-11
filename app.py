@@ -22,9 +22,8 @@ import sys
 import os.path
 import argparse
 
-sys.path.append('C:\\Frank\\research\\SBviper')
-sys.path.append('C:\\Frank\\research\\SBviper\\SBviper')
-print(sys.path)
+sys.path.append('E:\\Research\\sys-bio\\SBviper')
+sys.path.append('E:\\Research\\sys-bio\\SBviper\\SBviper')
 from viper_dynamic.util import *
 
 from viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher
@@ -36,7 +35,7 @@ import numpy as np
 import base64
 from io import BytesIO
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify, send_file
 from matplotlib.figure import Figure
 
 app = Flask(__name__)
@@ -61,13 +60,21 @@ def hello():
     return f"<img src='data:image/png;base64,{data}'/>"
 
 
-@app.route("/run")
+@app.route("/run",  methods=['POST'])
 def run():
-    path = request.args.get('type')
-    print(path)
-
-    original_path = "C:\\Frank\\research\SBviper\\tests\\experiments\\model_ant_original.txt"
-    revised_path = 'C:\\Frank\\research\SBviper\\tests\\experiments\\model_ant_original.txt'
+    APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+    UPLOAD_FOLDER = os.path.join(APP_ROOT, 'fileDB')
+    app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+    original_path_origin = request.files['original-file']
+    original_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], original_path_origin.filename))
+    revised_path_origin = request.files['revised-file']
+    revised_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], revised_path_origin.filename))
+    path = request.form.get("type")
+    original_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + original_path_origin.filename
+    revised_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + revised_path_origin.filename
+    #path = 'Antimony'
+    #original_path = "E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt"
+    #revised_path = 'E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt'
     if path == "SBML":
         # TODO: Test this
         original_tsc, revised_tsc = get_tsc_from_SBML(original_path,
@@ -77,8 +84,6 @@ def run():
         original_tsc, revised_tsc = get_tsc_from_CSV(original_path,
                                                      revised_path)
     else:  # Antimony
-        print(original_path)
-        print(revised_path)
         original_tsc, revised_tsc = get_tsc_from_Ant(original_path,
                                                      revised_path)
     filters = "frechet_distance"
@@ -92,6 +97,7 @@ def run():
             print(filter_str + " does not exist!")
     # run filters
     filtered_collection, non_filtered_collection = matcher.run()
+
     # show result
     fig, axs = plt.subplots(ncols=2, nrows=len(filtered_collection) +
                                            len(non_filtered_collection))
@@ -117,13 +123,58 @@ def run():
         axs[index, 1].set_title("Non-Filtered: Revised " +
                                 match_results.revised_ts.variable)
         index += 1
-    fig.tight_layout()
-    buf = BytesIO()
-    fig.savefig(buf, format="png")
-    # Embed the result in the html output.
-    data = base64.b64encode(buf.getbuffer()).decode("ascii")
-    return f"<img src='data:image/png;base64,{data}'/>"
+    fig.savefig('images/all/' + 'all.png', format="png")
 
+    filtered_result = []
+    figureCount = 1
+    for match_results in filtered_collection.match_results:
+        figureCount += 1
+        fig = plt.figure(figureCount)
+        plt.plot(match_results.original_ts.time_points,
+                           match_results.original_ts.values, color="#257F5E")
+        fig.suptitle("Filtered: Original " +
+                                match_results.original_ts.variable)
+        fig.savefig('images/filtered/filtered_original_' + match_results.original_ts.variable + '.png', format="png")
+        filtered_result.append('filtered_original_' + match_results.original_ts.variable + '.png')
+        plt.close(figureCount)
+        figureCount += 1
+        fig = plt.figure(figureCount)
+        plt.plot(match_results.revised_ts.time_points,
+                           match_results.revised_ts.values, color="#8F6C05")
+        fig.suptitle("Filtered: Revised " +
+                                match_results.revised_ts.variable)
+        fig.savefig('images/filtered/filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
+        filtered_result.append('filtered_revised_' + match_results.revised_ts.variable + '.png')
+        plt.close(figureCount)
+
+    non_filtered_result = []
+    for match_results in non_filtered_collection.match_results:
+        figureCount += 1
+        fig = plt.figure(figureCount)
+        plt.plot(match_results.original_ts.time_points,
+                           match_results.original_ts.values, color="#0330fc")
+        fig.suptitle("Non-Filtered: Original " +
+                                match_results.original_ts.variable)
+        fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png', format="png")
+        non_filtered_result.append('non_filtered_original_' + match_results.original_ts.variable + '.png')
+        plt.close(figureCount)
+        figureCount += 1
+        fig = plt.figure(figureCount)
+        plt.plot(match_results.revised_ts.time_points,
+                           match_results.revised_ts.values, color="#fc0303")
+        fig.suptitle("Non-Filtered: Revised " +
+                                match_results.revised_ts.variable)
+        fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
+        non_filtered_result.append('non_filtered_revised_' + match_results.revised_ts.variable + '.png')
+        plt.close(figureCount)
+    combined_result = {"filtered": filtered_result, "non-filtered": non_filtered_result}
+    return jsonify(combined_result)
+
+@app.route("/images/<section1>/<section2>",  methods=['GET'])
+def get_image(section1, section2):
+    filename = request.path[1:]
+    print(request.path)
+    return send_file(filename, mimetype='image/png')
 #############################################################################
 #
 # Since the above code is a Flask application, it should be run using the

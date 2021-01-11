@@ -1,7 +1,6 @@
 /**
  * Name: Frank Yu
  * Date: November 20 2020
- * Section: CSE 154 AA Tal Wolman
  *
  * This is the JS to implement the functions for web-based version of
  * restaurant online ordering system. It provides features that allow user to check the menu,
@@ -19,61 +18,75 @@
    * sets up button's functionality when page loads
    */
   function init() {
+    id("filtered-btn").addEventListener("click", function() {
+      openTab('filtered-content')
+    });
+    id("non-filtered-btn").addEventListener("click", function() {
+      openTab('non-filtered-content')
+    });
+    id("all-btn").addEventListener("click", function() {
+      openTab('all-content')
+    });
     id("input-form").addEventListener("submit", function(eve) {
       eve.preventDefault();
-      submitRequest();
+      runMatcher();
     });
-    id("menu-btn").addEventListener("click", checkMenu);
-    id("log-dishes").addEventListener("click", reviewOrder);
   }
 
-  /**
-   * Place an order based on the name, phone number, dish, and notes inputs
-   * Display messages whether the order is sucessfully placed.
-   */
-  function submitRequest() {
+  function openTab(tabId) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabId).style.display = "block";
+    event.currentTarget.className += " active";
+  }
+
+  function runMatcher() {
     let params = new FormData(id("input-form"));
-    fetch('/orderDish', {method: "POST", body: params})
+    fetch('/run', {method: "POST", body: params})
       .then(checkStatus)
-      .then(resp => resp.text())
+      .then(resp => resp.json())
       .then(showResponse)
       .catch(handleError);
   }
 
-  /**
-   * Review the orders have been placed based on the phone number input
-   * Display all the dishes ordered by the phone number
-   * Display error messages if failed.
-   */
-  function reviewOrder() {
-    let phoneNumber = id("phone-order-input").value;
-    fetch('/reviewOrder?phone=' + phoneNumber)
-      .then(checkStatus)
-      .then(resp => resp.json())
-      .then(displayOrders)
-      .catch(handleError);
-  }
-
-  /**
-   * Display the meanu on the page
-   * Display error messages if failed.
-   */
-  function checkMenu() {
-    fetch('/menu')
-      .then(checkStatus)
-      .then(resp => resp.json())
-      .then(displayMenu)
-      .catch(handleError);
-  }
-
-  /**
-   * Display the response message of whether the order is sucessfully placed.
-   * @param {string} res - String object of the response message
-   */
   function showResponse(res) {
-    let response = gen("p");
-    response.textContent += res;
-    id("result-window").appendChild(response);
+    let filtered = res.filtered;
+    let non_filtered = res['non-filtered'];
+    console.log(filtered);
+    console.log(non_filtered);
+    for (let i = 0; i < filtered.length; i++) {
+      let imgPath = filtered[i]
+      let img = gen("img");
+      img.src = "images/filtered/" + imgPath;
+      img.id = imgPath;
+      id("filtered-content").appendChild(img);
+    }
+    for (let i = 0; i < non_filtered.length; i++) {
+      let imgPath = non_filtered[i]
+      let img = gen("img");
+      img.src = "images/non_filtered/" + imgPath;
+      img.id = imgPath;
+      id("non-filtered-content").appendChild(img);
+    }
+    let imgPath = "all.png"
+    let img = gen("img");
+    img.src = "images/all/" + imgPath;
+    img.id = imgPath;
+    id("all-content").appendChild(img);
   }
 
   /**
@@ -118,6 +131,7 @@
    * @param {Error} err - the err details of the request.
    */
   function handleError(err) {
+    console.log(err);
     let response = gen("p");
     let msg = "There was an error contact the server." +
               "Please try again later.";
