@@ -69,7 +69,8 @@ def run():
     original_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], original_path_origin.filename))
     revised_path_origin = request.files['revised-file']
     revised_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], revised_path_origin.filename))
-    path = request.form.get("type")
+    path = request.form.get("file-type")
+    print(path)
     original_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + original_path_origin.filename
     revised_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + revised_path_origin.filename
     #path = 'Antimony'
