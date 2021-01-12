@@ -41,6 +41,7 @@ from matplotlib.figure import Figure
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -60,7 +61,7 @@ def hello():
     return f"<img src='data:image/png;base64,{data}'/>"
 
 
-@app.route("/run",  methods=['POST'])
+@app.route("/run", methods=['POST'])
 def run():
     APP_ROOT = os.path.dirname(os.path.abspath(__file__))
     UPLOAD_FOLDER = os.path.join(APP_ROOT, 'fileDB')
@@ -73,9 +74,9 @@ def run():
     print(path)
     original_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + original_path_origin.filename
     revised_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + revised_path_origin.filename
-    #path = 'Antimony'
-    #original_path = "E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt"
-    #revised_path = 'E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt'
+    # path = 'Antimony'
+    # original_path = "E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt"
+    # revised_path = 'E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt'
     if path == "SBML":
         # TODO: Test this
         original_tsc, revised_tsc = get_tsc_from_SBML(original_path,
@@ -87,22 +88,23 @@ def run():
     else:  # Antimony
         original_tsc, revised_tsc = get_tsc_from_Ant(original_path,
                                                      revised_path)
-    filters = "frechet_distance"
-    filters = filters.split()
+    filters = request.form.get("frechet-distance")
     matcher = TimeSeriesMatcher(original_tsc, revised_tsc)
     # add filters to matcher
-    for filter_str in filters:
-        if filter_str in str_to_function:
-            matcher.add_filter(str_to_function[filter_str])
-        else:
-            print(filter_str + " does not exist!")
+    if filters != None:
+        filters = filters.split()
+        for filter_str in filters:
+            if filter_str in str_to_function:
+                matcher.add_filter(str_to_function[filter_str])
+            else:
+                print(filter_str + " does not exist!")
     # run filters
     filtered_collection, non_filtered_collection = matcher.run()
 
     # show result
 
     fig, axs = plt.subplots(ncols=2, nrows=len(filtered_collection) +
-                                           len(non_filtered_collection), figsize=(15,15))
+                                           len(non_filtered_collection), figsize=(15, 15))
     plt.subplots_adjust(0.125, 0.1, 0.9, 0.9, 0.2, 1.5)
     index = 0
     for match_results in filtered_collection.match_results:
@@ -134,20 +136,22 @@ def run():
         figureCount += 1
         fig = plt.figure(figureCount)
         plt.plot(match_results.original_ts.time_points,
-                           match_results.original_ts.values, color="#257F5E")
+                 match_results.original_ts.values, color="#257F5E")
         fig.suptitle("Filtered: Original " +
-                                match_results.original_ts.variable)
+                     match_results.original_ts.variable)
         fig.savefig('images/filtered/filtered_original_' + match_results.original_ts.variable + '.png', format="png")
-        filtered_result.append(['filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
+        filtered_result.append(
+            ['filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
         plt.close(figureCount)
         figureCount += 1
         fig = plt.figure(figureCount)
         plt.plot(match_results.revised_ts.time_points,
-                           match_results.revised_ts.values, color="#8F6C05")
+                 match_results.revised_ts.values, color="#8F6C05")
         fig.suptitle("Filtered: Revised " +
-                                match_results.revised_ts.variable)
+                     match_results.revised_ts.variable)
         fig.savefig('images/filtered/filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
-        filtered_result.append(['filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
+        filtered_result.append(
+            ['filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
         plt.close(figureCount)
 
     non_filtered_result = []
@@ -155,28 +159,45 @@ def run():
         figureCount += 1
         fig = plt.figure(figureCount)
         plt.plot(match_results.original_ts.time_points,
-                           match_results.original_ts.values, color="#0330fc")
+                 match_results.original_ts.values, color="#0330fc")
         fig.suptitle("Non-Filtered: Original " +
-                                match_results.original_ts.variable)
-        fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png', format="png")
-        non_filtered_result.append(['non_filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
+                     match_results.original_ts.variable)
+        fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png',
+                    format="png")
+        non_filtered_result.append(['non_filtered_original_' + match_results.original_ts.variable + '.png',
+                                    match_results.original_ts.variable])
         plt.close(figureCount)
         figureCount += 1
         fig = plt.figure(figureCount)
         plt.plot(match_results.revised_ts.time_points,
-                           match_results.revised_ts.values, color="#fc0303")
+                 match_results.revised_ts.values, color="#fc0303")
         fig.suptitle("Non-Filtered: Revised " +
-                                match_results.revised_ts.variable)
-        fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
-        non_filtered_result.append(['non_filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
+                     match_results.revised_ts.variable)
+        fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png',
+                    format="png")
+        non_filtered_result.append(
+            ['non_filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
         plt.close(figureCount)
-    combined_result = {"filtered": filtered_result, "non-filtered": non_filtered_result}
+    all_result = ["all.png", 'all']
+    combined_result = {"filtered": filtered_result, "non-filtered": non_filtered_result, "all": all_result}
     return jsonify(combined_result)
 
-@app.route("/images/<section1>/<section2>",  methods=['GET'])
+
+@app.route("/images/<section1>/<section2>", methods=['GET'])
 def get_image(section1, section2):
     filename = request.path[1:]
     return send_file(filename, mimetype='image/png')
+
+@app.after_request
+def add_header(r):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate, public, max-age=0"
+    r.headers["Pragma"] = "no-cache"
+    r.headers["Expires"] = "0"
+    return r
 #############################################################################
 #
 # Since the above code is a Flask application, it should be run using the

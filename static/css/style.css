@@ -17,6 +17,8 @@ body {
   background-color: goldenrod;
 }
 
+
+
 h1 {
   text-align: center;
   font-size: 25pt;
@@ -63,4 +65,10 @@ form {
   width: 70%;
   display: flex;
   flex-direction: column;
+}
+
+form div input, form div label{
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }

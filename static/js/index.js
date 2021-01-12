@@ -60,6 +60,14 @@
     }
   }
 
+  function clearAllGraphs() {
+    let allImg = qsa("img");
+    let size = allImg.length;
+    for (let i = 0; i < size; i++) {
+      allImg[i].remove();
+    }
+  }
+
   function openTab(tabId) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -91,8 +99,10 @@
   }
 
   function showResponse(res) {
+    clearAllGraphs();
     let filtered = res.filtered;
     let non_filtered = res['non-filtered'];
+    let all = res['all'];
     for (let i = 0; i < filtered.length; i++) {
       let imgPath = filtered[i][0];
       let img = gen("img");
@@ -123,11 +133,16 @@
         id("display-variables").appendChild(option);
       }
     }
-    let imgPath = "all.png"
-    let img = gen("img");
-    img.src = "images/all/" + imgPath;
-    img.id = imgPath;
-    id("all-content").appendChild(img);
+    for (let i = 0; i < 1; i++) {
+      let imgPath = all[0];
+      console.log(imgPath);
+      let img = gen("img");
+      img.src = "http://127.0.0.1:5000/images/all/all.png"
+      img.id = imgPath;
+      img.classList.add(all[1]);
+      id("all-content").appendChild(img);
+    }
+    console.log("all imge added");
   }
 
 
