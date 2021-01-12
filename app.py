@@ -39,7 +39,7 @@ from flask import Flask, render_template, request, jsonify, send_file
 from matplotlib.figure import Figure
 
 app = Flask(__name__)
-
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 @app.route('/')
 def index():
@@ -100,8 +100,10 @@ def run():
     filtered_collection, non_filtered_collection = matcher.run()
 
     # show result
+
     fig, axs = plt.subplots(ncols=2, nrows=len(filtered_collection) +
-                                           len(non_filtered_collection))
+                                           len(non_filtered_collection), figsize=(15,15))
+    plt.subplots_adjust(0.125, 0.1, 0.9, 0.9, 0.2, 1.5)
     index = 0
     for match_results in filtered_collection.match_results:
         axs[index, 0].plot(match_results.original_ts.time_points,
@@ -125,9 +127,9 @@ def run():
                                 match_results.revised_ts.variable)
         index += 1
     fig.savefig('images/all/' + 'all.png', format="png")
-
+    plt.close(1)
     filtered_result = []
-    figureCount = 1
+    figureCount = 2
     for match_results in filtered_collection.match_results:
         figureCount += 1
         fig = plt.figure(figureCount)
@@ -174,7 +176,6 @@ def run():
 @app.route("/images/<section1>/<section2>",  methods=['GET'])
 def get_image(section1, section2):
     filename = request.path[1:]
-    print(request.path)
     return send_file(filename, mimetype='image/png')
 #############################################################################
 #
@@ -192,7 +193,7 @@ def get_image(section1, section2):
 #
 # .. code-block:: console
 #
-#  set FLASK_APP=web_application_server_sgskip
+#  set FLASK_APP=app
 #  flask run
 #
 #
