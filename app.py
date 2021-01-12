@@ -22,10 +22,12 @@ import sys
 import os.path
 import argparse
 
+
+
 sys.path.append('E:\\Research\\sys-bio\\SBviper')
 sys.path.append('E:\\Research\\sys-bio\\SBviper\\SBviper')
 from viper_dynamic.util import *
-
+from SBviper.SBviper.viper_dynamic.constants import get_filter
 from viper_dynamic.matcher.time_series_matcher import TimeSeriesMatcher
 from viper_dynamic.constants import str_to_function
 import matplotlib.pyplot as plt
@@ -70,32 +72,47 @@ def run():
     original_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], original_path_origin.filename))
     revised_path_origin = request.files['revised-file']
     revised_path_origin.save(os.path.join(app.config['UPLOAD_FOLDER'], revised_path_origin.filename))
-    path = request.form.get("file-type")
-    print(path)
+    path_1 = request.form.get("file-type-1")
+    path_2 = request.form.get("file-type-2")
+    print(path_1)
+    print(path_2)
     original_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + original_path_origin.filename
     revised_path = "E:\\Research\\sys-bio\\SBviper\\fileDB\\" + revised_path_origin.filename
     # path = 'Antimony'
     # original_path = "E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt"
     # revised_path = 'E:\\Research\\sys-bio\\SBviper\\tests\\experiments\\model_ant_original.txt'
-    if path == "SBML":
+    if path_1 == "SBML":
         # TODO: Test this
-        original_tsc, revised_tsc = get_tsc_from_SBML(original_path,
+        original_tsc, temp1 = get_tsc_from_SBML(original_path,
+                                                      original_path)
+    elif path_1 == "CSV":
+        # TODO: Test this
+        original_tsc, temp1 = get_tsc_from_CSV(original_path,
+                                                     original_path)
+    else:  # Antimony
+        original_tsc, temp1 = get_tsc_from_Ant(original_path,
+                                                     original_path)
+    if path_2 == "SBML":
+        # TODO: Test this
+        revised_tsc, temp2 = get_tsc_from_SBML(revised_path,
                                                       revised_path)
-    elif path == "CSV":
+    elif path_2 == "CSV":
         # TODO: Test this
-        original_tsc, revised_tsc = get_tsc_from_CSV(original_path,
+        revised_tsc, temp2 = get_tsc_from_CSV(revised_path,
                                                      revised_path)
     else:  # Antimony
-        original_tsc, revised_tsc = get_tsc_from_Ant(original_path,
+        revised_tsc, temp2 = get_tsc_from_Ant(revised_path,
                                                      revised_path)
+
     filters = request.form.get("frechet-distance")
+    tolerance_value = request.form.get("tolerance")
     matcher = TimeSeriesMatcher(original_tsc, revised_tsc)
     # add filters to matcher
     if filters != None:
         filters = filters.split()
         for filter_str in filters:
             if filter_str in str_to_function:
-                matcher.add_filter(str_to_function[filter_str])
+                matcher.add_filter(get_filter(filter_str, tolerance_value))
             else:
                 print(filter_str + " does not exist!")
     # run filters

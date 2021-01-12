@@ -19,17 +19,31 @@
     </header>
     <main>
       <form id='input-form' action = "/run" enctype="multipart/form-data">
-        <input type="file" id="original-file" name="original-file">
-        <input type="file" id="revised-file" name="revised-file">
-        <label for="file-type">Select the type of the files:</label>
-        <select id="file-type" name="file-type">
-          <option value="Antimony" selected>Antimony</option>
-          <option value="SBML">SBML</option>
-          <option value="CSV">CSV</option>
-        </select>
+        <div>
+          <input type="file" id="original-file" name="original-file">
+          <label for="file-type-1">Select the type of first files:</label>
+          <select id="file-type-1" name="file-type-1">
+            <option value="Antimony" selected>Antimony</option>
+            <option value="SBML">SBML</option>
+            <option value="CSV">CSV</option>
+          </select>
+        </div>
+        <div>
+          <input type="file" id="revised-file" name="revised-file">
+          <label for="file-type-2">Select the type of second files:</label>
+          <select id="file-type-2" name="file-type-2">
+            <option value="Antimony" selected>Antimony</option>
+            <option value="SBML">SBML</option>
+            <option value="CSV">CSV</option>
+          </select>
+        </div>
         <div>
           <input type="checkbox" id="frechet-distance" name="frechet-distance" value="frechet_distance">
           <label for="frechet-distance">frechet-distance-filter</label><br>
+        </div>
+        <div>
+          <label for="tolerance">Enter tolerance value: </label>
+          <input type="number" step=any id="tolerance" name="tolerance" value=0.5>
         </div>
         <input type="submit">
       </form>
