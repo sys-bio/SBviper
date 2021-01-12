@@ -125,76 +125,84 @@ def run():
     plt.subplots_adjust(0.125, 0.1, 0.9, 0.9, 0.2, 1.5)
     index = 0
     for match_results in filtered_collection.match_results:
-        axs[index, 0].plot(match_results.original_ts.time_points,
-                           match_results.original_ts.values, color="#257F5E")
-        axs[index, 0].set_title("Filtered: Original " +
-                                match_results.original_ts.variable)
-        axs[index, 1].plot(match_results.revised_ts.time_points,
-                           match_results.revised_ts.values, color="#8F6C05")
-        axs[index, 1].set_title("Filtered: Revised " +
-                                match_results.revised_ts.variable)
+        if match_results.original_ts is not None:
+            axs[index, 0].plot(match_results.original_ts.time_points,
+                               match_results.original_ts.values, color="#257F5E")
+            axs[index, 0].set_title("Filtered: Original " +
+                                    match_results.original_ts.variable)
+        if match_results.revised_ts is not None:
+            axs[index, 1].plot(match_results.revised_ts.time_points,
+                               match_results.revised_ts.values, color="#8F6C05")
+            axs[index, 1].set_title("Filtered: Revised " +
+                                    match_results.revised_ts.variable)
         index += 1
     for match_results in non_filtered_collection.match_results:
         print("A")
-        axs[index, 0].plot(match_results.original_ts.time_points,
-                           match_results.original_ts.values, color="#0330fc")
-        axs[index, 0].set_title("Non-Filtered: Original " +
-                                match_results.original_ts.variable)
-        axs[index, 1].plot(match_results.revised_ts.time_points,
-                           match_results.revised_ts.values, color="#fc0303")
-        axs[index, 1].set_title("Non-Filtered: Revised " +
-                                match_results.revised_ts.variable)
+        if match_results.original_ts is not None:
+            axs[index, 0].plot(match_results.original_ts.time_points,
+                               match_results.original_ts.values, color="#0330fc")
+            axs[index, 0].set_title("Non-Filtered: Original " +
+                                    match_results.original_ts.variable)
+        if match_results.revised_ts is not None:
+            axs[index, 1].plot(match_results.revised_ts.time_points,
+                               match_results.revised_ts.values, color="#fc0303")
+            axs[index, 1].set_title("Non-Filtered: Revised " +
+                                    match_results.revised_ts.variable)
         index += 1
     fig.savefig('images/all/' + 'all.png', format="png")
     plt.close(1)
     filtered_result = []
     figureCount = 2
     for match_results in filtered_collection.match_results:
-        figureCount += 1
-        fig = plt.figure(figureCount)
-        plt.plot(match_results.original_ts.time_points,
-                 match_results.original_ts.values, color="#257F5E")
-        fig.suptitle("Filtered: Original " +
-                     match_results.original_ts.variable)
-        fig.savefig('images/filtered/filtered_original_' + match_results.original_ts.variable + '.png', format="png")
-        filtered_result.append(
-            ['filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
-        plt.close(figureCount)
-        figureCount += 1
-        fig = plt.figure(figureCount)
-        plt.plot(match_results.revised_ts.time_points,
-                 match_results.revised_ts.values, color="#8F6C05")
-        fig.suptitle("Filtered: Revised " +
-                     match_results.revised_ts.variable)
-        fig.savefig('images/filtered/filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
-        filtered_result.append(
-            ['filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
-        plt.close(figureCount)
+        if match_results.original_ts is not None:
+            figureCount += 1
+            fig = plt.figure(figureCount)
+            plt.plot(match_results.original_ts.time_points,
+                     match_results.original_ts.values, color="#257F5E")
+            fig.suptitle("Filtered: Original " +
+                         match_results.original_ts.variable)
+            fig.savefig('images/filtered/filtered_original_' + match_results.original_ts.variable + '.png', format="png")
+            filtered_result.append(
+                ['filtered_original_' + match_results.original_ts.variable + '.png', match_results.original_ts.variable])
+            plt.close(figureCount)
+        if match_results.revised_ts is not None:
+            figureCount += 1
+            fig = plt.figure(figureCount)
+            plt.plot(match_results.revised_ts.time_points,
+                     match_results.revised_ts.values, color="#8F6C05")
+            fig.suptitle("Filtered: Revised " +
+                         match_results.revised_ts.variable)
+            fig.savefig('images/filtered/filtered_revised_' + match_results.revised_ts.variable + '.png', format="png")
+            filtered_result.append(
+                ['filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
+            plt.close(figureCount)
 
     non_filtered_result = []
     for match_results in non_filtered_collection.match_results:
-        figureCount += 1
-        fig = plt.figure(figureCount)
-        plt.plot(match_results.original_ts.time_points,
-                 match_results.original_ts.values, color="#0330fc")
-        fig.suptitle("Non-Filtered: Original " +
-                     match_results.original_ts.variable)
-        fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png',
-                    format="png")
-        non_filtered_result.append(['non_filtered_original_' + match_results.original_ts.variable + '.png',
-                                    match_results.original_ts.variable])
-        plt.close(figureCount)
-        figureCount += 1
-        fig = plt.figure(figureCount)
-        plt.plot(match_results.revised_ts.time_points,
-                 match_results.revised_ts.values, color="#fc0303")
-        fig.suptitle("Non-Filtered: Revised " +
-                     match_results.revised_ts.variable)
-        fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png',
-                    format="png")
-        non_filtered_result.append(
-            ['non_filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
-        plt.close(figureCount)
+        if match_results.original_ts is not None:
+            figureCount += 1
+            fig = plt.figure(figureCount)
+            plt.plot(match_results.original_ts.time_points,
+                     match_results.original_ts.values, color="#0330fc")
+            fig.suptitle("Non-Filtered: Original " +
+                         match_results.original_ts.variable)
+            fig.savefig('images/non_filtered/non_filtered_original_' + match_results.original_ts.variable + '.png',
+                        format="png")
+            non_filtered_result.append(['non_filtered_original_' + match_results.original_ts.variable + '.png',
+                                        match_results.original_ts.variable])
+            plt.close(figureCount)
+        if match_results.revised_ts is not None:
+            figureCount += 1
+            fig = plt.figure(figureCount)
+            plt.plot(match_results.revised_ts.time_points,
+                     match_results.revised_ts.values, color="#fc0303")
+            fig.suptitle("Non-Filtered: Revised " +
+                         match_results.revised_ts.variable)
+            fig.savefig('images/non_filtered/non_filtered_revised_' + match_results.revised_ts.variable + '.png',
+                        format="png")
+            non_filtered_result.append(
+                ['non_filtered_revised_' + match_results.revised_ts.variable + '.png', match_results.revised_ts.variable])
+            plt.close(figureCount)
     all_result = ["all.png", 'all']
     combined_result = {"filtered": filtered_result, "non-filtered": non_filtered_result, "all": all_result}
     return jsonify(combined_result)
